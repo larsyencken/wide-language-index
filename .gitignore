@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+*.bak
+*.ogg
+*.wav
+.ipynb_checkpoints

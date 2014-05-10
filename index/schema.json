@@ -1,0 +1,29 @@
+{
+	"type": "object",
+	"properties": {
+		"language": {"type": "string"},
+		"title": {"type": "string"},
+		"source_name": {"type": "string"},
+		"source_url": {"type": "string"},
+		"media_urls": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"minItems": 1,
+				"uniqueItems": true
+			}
+		},
+		"checksum": {"type": "string"},
+		"pregain": {"type": "string"},
+		"location": {"type": "string"},
+		"date": {"type": "string"}
+	},
+	"required": [
+		"language",
+		"title",
+		"source_name",
+		"source_url",
+		"media_urls",
+		"date"
+	]
+}
