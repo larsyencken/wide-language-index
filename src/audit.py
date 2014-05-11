@@ -31,7 +31,6 @@ VALID_LANGUAGES = set(
 
 def main():
     audit_index()
-    audit_annotations()
 
 
 def audit_index():
@@ -56,31 +55,6 @@ def audit_index():
         setattr(IndexTestCase, name, t)
 
     unittest.TextTestRunner().run(unittest.makeSuite(IndexTestCase))
-    print()
-
-
-def audit_annotations():
-    print(blue('Auditing annotations...'))
-    schema = json.load(open('annotations/schema.json'))
-
-    class AnnotationTestCase(unittest.TestCase):
-        pass
-
-    for i, f in enumerate(glob.glob('annotations/*/*.json')):
-        def t(self):
-            data = json.load(open(f))
-            jsonschema.validate(data, schema)
-
-            language = data.get('language')
-            assert language in VALID_LANGUAGES, language
-            parent_dir = os.path.basename(os.path.dirname(f))
-            assert parent_dir == language
-
-        name = 'test_doc_{0}'.format(i)
-        t.__name__ = name
-        setattr(AnnotationTestCase, name, t)
-
-    unittest.TextTestRunner().run(unittest.makeSuite(AnnotationTestCase))
     print()
 
 
