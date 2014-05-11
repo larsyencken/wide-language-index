@@ -4,3 +4,4 @@
 *.ogg
 *.wav
 .ipynb_checkpoints
+samples/
