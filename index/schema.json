@@ -24,6 +24,7 @@
 		"source_name",
 		"source_url",
 		"media_urls",
-		"date"
+		"date",
+		"checksum"
 	]
 }
