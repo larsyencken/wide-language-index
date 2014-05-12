@@ -12,9 +12,13 @@ help:
 	@echo '  make fetch    fetch all audio samples in the index'
 	@echo
 
-audit:
-	python src/audit.py
+env/: requirements.pip
+	virtualenv env
+	env/bin/pip install -r requirements.pip
 
-fetch:
+audit: env
+	env/bin/python src/audit.py
+
+fetch: env
 	mkdir -p samples
-	python src/fetch_index.py index samples
+	env/bin/python src/fetch_index.py index samples

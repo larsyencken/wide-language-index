@@ -5,3 +5,4 @@
 *.wav
 .ipynb_checkpoints
 samples/
+env

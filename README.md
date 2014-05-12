@@ -8,6 +8,17 @@ The Wide Language Index is an attempt to curate a set of examples of a wide vari
 
 If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make fetch`.
 
+## Dependencies
+
+To use the tools that accompany this dataset, your computer should have:
+
+- `python2.7`
+- `pip`
+- `virtualenv`
+- `make`
+
+Run `make audit` to check if the tools are working.
+
 ## Layout
 
 The `index/` folder contains references to publicly accessible audio samples for which the principal language has been pre-determined. Each sample is represented by a JSON file containing, at minimum:
@@ -36,7 +47,7 @@ Find an audio sample in a known language, and propose that it be added to the in
 - Of a few minutes in length, no more than an hour
 - In a language that doesn't yet have much coverage
 
-If you're tech-savvy, feel free to open a pull request with the proposed JSON entry for the sample. If you're not, just [open an issue](https://github.com/larsyencken/wide-language-index/issues) with a link to the page for the sample, making sure to identify its language.
+If you're tech-savvy, feel free to open a pull request with the proposed JSON entry for the sample. Be sure your contribution survives a `make audit`. If you're not, just [open an issue](https://github.com/larsyencken/wide-language-index/issues) with a link to the page for the sample, making sure to identify its language.
 
 
 Lars Yencken <lars@yencken.org>
