@@ -1,10 +1,10 @@
 # wide-language-index
 
-The Wide Language Index, a listing of publicly available samples of a large number of different languages.
+A listing of publicly available audio samples of a large number of different languages.
 
 ## Overview
 
-The Wide Language Index is an attempt to curate a set of examples of a wide variety of languages. For each sample. The index itself contains a listing of samples and information about them. The audio files themselves are not bundled in, but can be downloaded as needed.
+The Wide Language Index is an attempt to curate a set of examples of a wide variety of languages from public podcasts. The index itself contains a listing of samples and information about them. The audio files themselves are not bundled in, but can be downloaded as needed.
 
 If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make fetch`.
 
@@ -30,10 +30,13 @@ Each sample's file is named as `<language>/<language>-<checksum>.json`.
 
 ### To the index
 
-This is the easiest way to contribute. Find an audio sample of known language, and propose that it be added to the index. Good samples are:
+Find an audio sample in a known language, and propose that it be added to the index. Good samples are:
 
 - Primarily in one language
 - Of a few minutes in length, no more than an hour
+- In a language that doesn't yet have much coverage
+
+If you're tech-savvy, feel free to open a pull request with the proposed JSON entry for the sample. If you're not, just [open an issue](https://github.com/larsyencken/wide-language-index/issues) with a link to the page for the sample, making sure to identify its language.
 
 
 Lars Yencken <lars@yencken.org>
