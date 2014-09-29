@@ -2,6 +2,10 @@
 #  Makefile
 #
 
+ENV = /tmp/virtualenv/wide-language-index
+PIP = $(ENV)/bin/pip
+PY = $(ENV)/bin/python
+
 default: help
 
 help:
@@ -13,12 +17,12 @@ help:
 	@echo
 
 env/: requirements.pip
-	virtualenv env
-	env/bin/pip install -r requirements.pip
+	test -d $(ENV) || virtualenv $(ENV)
+	$(PIP) install -r requirements.pip
 
 audit: env
-	env/bin/python src/audit.py
+	$(PY) src/audit.py
 
 fetch: env
 	mkdir -p samples
-	env/bin/python src/fetch_index.py index samples
+	$(PY) src/fetch_index.py index samples
