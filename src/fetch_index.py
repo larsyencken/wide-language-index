@@ -22,17 +22,23 @@ import requests
 
 
 def fetch_index(index_dir, output_dir):
-    for f in glob.glob('{0}/*/*.json'.format(index_dir)):
-        rec = json.load(open(f))
+    for rec in _iter_records(index_dir):
         url = rec['media_urls'][-1]
-
         lang = rec['language']
         checksum = rec['checksum']
+
+        # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
         dest_file = os.path.join(output_dir, lang,
                                  '{0}-{1}.mp3'.format(lang, checksum))
 
         print(dest_file)
         download_and_validate(url, checksum, dest_file)
+
+
+def _iter_records(index_dir):
+    for f in glob.glob('{0}/*/*.json'.format(index_dir)):
+        rec = json.load(open(f))
+        yield rec
 
 
 def download_and_validate(url, checksum, dest_file):
@@ -44,10 +50,9 @@ def download_and_validate(url, checksum, dest_file):
                 url,
             ))
         data = resp.content
-
     else:
         # already downloaded
-        data = open(dest_file).read()
+        data = open(dest_file, 'rb').read()
 
     c = hashlib.md5(data).hexdigest()
     if c != checksum:
@@ -62,7 +67,7 @@ def download_and_validate(url, checksum, dest_file):
     if not os.path.isdir(parent_dir):
         os.mkdir(parent_dir)
 
-    with open(dest_file, 'w') as ostream:
+    with open(dest_file, 'wb') as ostream:
         ostream.write(data)
 
 
