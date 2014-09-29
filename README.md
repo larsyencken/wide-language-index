@@ -6,13 +6,13 @@ A listing of publicly available audio samples of a large number of different lan
 
 The Wide Language Index is an attempt to curate a set of examples of a wide variety of languages from public podcasts. The index itself contains a listing of samples and information about them. The audio files themselves are not bundled in, but can be downloaded as needed.
 
-If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make fetch`.
+The full dataset is meant to be downloaded from OS X or Linux. If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make fetch`.
 
 ## Dependencies
 
-To use the tools that accompany this dataset, your computer should have:
+To use the tools that accompany this dataset, your computer should have installed:
 
-- `python2.7`
+- `python3.4`
 - `pip`
 - `virtualenv`
 - `make`
@@ -43,15 +43,6 @@ This index is provided under the [Creative Commons Attribution-NonCommercial 4.0
 
 ## Contributing
 
-### To the index
-
-Find an audio sample in a known language, and propose that it be added to the index. Good samples are:
-
-- Primarily in one language
-- Of a few minutes in length, no more than an hour
-- In a language that doesn't yet have much coverage
-
-If you're tech-savvy, feel free to open a pull request with the proposed JSON entry for the sample. Be sure your contribution survives a `make audit`. If you're not, just [open an issue](https://github.com/larsyencken/wide-language-index/issues) with a link to the page for the sample, making sure to identify its language.
-
+See [Contributing](https://github.com/larsyencken/wide-language-index/blob/master/CONTRIBUTING.md).
 
 Lars Yencken <lars@yencken.org>
