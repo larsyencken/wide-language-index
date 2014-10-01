@@ -1,1 +1,13 @@
-{"source_name": "SBS Greek", "language": "ell", "title": "\u0397 \u0391\u03ba\u03c1\u03cc\u03c0\u03bf\u03bb\u03b7 \u03c4\u03c9\u03bd \u0391\u03b8\u03b7\u03bd\u03ce\u03bd \u03c3\u03c4\u03b7\u03bd \u039a\u03b1\u03bc\u03c0\u03ad\u03c1\u03b1", "checksum": "511bc240db8cd208f571b05040a4b480", "source_url": "http://www.sbs.com.au/yourlanguage/greek/highlight/page/id/282106/t/Acropolis-with-Lego", "filename": "greek_130811_282106.mp3", "location": "Australia", "date": "2013-08-11", "media_urls": ["http://media.sbs.com.au/audio/greek_130811_282106.mp3"]}
+{
+  "checksum": "511bc240db8cd208f571b05040a4b480",
+  "date": "2013-08-11",
+  "filename": "greek_130811_282106.mp3",
+  "language": "ell",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/greek_130811_282106.mp3"
+  ],
+  "source_name": "SBS Greek",
+  "source_url": "http://www.sbs.com.au/yourlanguage/greek/highlight/page/id/282106/t/Acropolis-with-Lego",
+  "title": "\u0397 \u0391\u03ba\u03c1\u03cc\u03c0\u03bf\u03bb\u03b7 \u03c4\u03c9\u03bd \u0391\u03b8\u03b7\u03bd\u03ce\u03bd \u03c3\u03c4\u03b7\u03bd \u039a\u03b1\u03bc\u03c0\u03ad\u03c1\u03b1"
+}

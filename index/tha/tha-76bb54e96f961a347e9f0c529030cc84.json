@@ -1,1 +1,13 @@
-{"source_name": "SBS Thai", "language": "tha", "title": "\u0e1c\u0e39\u0e49\u0e2a\u0e37\u0e48\u0e2d\u0e02\u0e48\u0e32\u0e27\u0e44\u0e17\u0e22\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e19\u0e42\u0e22\u0e1a\u0e32\u0e22\u0e1c\u0e39\u0e49\u0e02\u0e2d\u0e25\u0e35\u0e49\u0e20\u0e31\u0e22\u0e1e\u0e23\u0e23\u0e04\u0e15\u0e48\u0e32\u0e07\u0e46", "checksum": "76bb54e96f961a347e9f0c529030cc84", "source_url": "http://www.sbs.com.au/yourlanguage/thai/highlight/page/id/281249/t/Analysis-of-Asylum-Policies-by-Thai-Journalist-in-Australia", "filename": "thai_130806_281249.mp3", "location": "Australia", "date": "2013-08-06", "media_urls": ["http://media.sbs.com.au/audio/thai_130806_281249.mp3"]}
+{
+  "checksum": "76bb54e96f961a347e9f0c529030cc84",
+  "date": "2013-08-06",
+  "filename": "thai_130806_281249.mp3",
+  "language": "tha",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/thai_130806_281249.mp3"
+  ],
+  "source_name": "SBS Thai",
+  "source_url": "http://www.sbs.com.au/yourlanguage/thai/highlight/page/id/281249/t/Analysis-of-Asylum-Policies-by-Thai-Journalist-in-Australia",
+  "title": "\u0e1c\u0e39\u0e49\u0e2a\u0e37\u0e48\u0e2d\u0e02\u0e48\u0e32\u0e27\u0e44\u0e17\u0e22\u0e27\u0e34\u0e40\u0e04\u0e23\u0e32\u0e30\u0e2b\u0e4c\u0e19\u0e42\u0e22\u0e1a\u0e32\u0e22\u0e1c\u0e39\u0e49\u0e02\u0e2d\u0e25\u0e35\u0e49\u0e20\u0e31\u0e22\u0e1e\u0e23\u0e23\u0e04\u0e15\u0e48\u0e32\u0e07\u0e46"
+}

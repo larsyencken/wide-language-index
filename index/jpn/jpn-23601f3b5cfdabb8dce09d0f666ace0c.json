@@ -1,1 +1,13 @@
-{"source_name": "SBS Japanese", "language": "jpn", "title": "\u30ab\u30a6\u30e9\u306e\u65e5\u672c\u4eba\u6355\u865c", "checksum": "23601f3b5cfdabb8dce09d0f666ace0c", "source_url": "http://www.sbs.com.au/yourlanguage/japanese/highlight/page/id/279989/t/Japanese-POW-in-Cowra", "filename": "japanese_130730_279989.mp3", "location": "Australia", "date": "2013-07-30", "media_urls": ["http://media.sbs.com.au/audio/japanese_130730_279989.mp3"]}
+{
+  "checksum": "23601f3b5cfdabb8dce09d0f666ace0c",
+  "date": "2013-07-30",
+  "filename": "japanese_130730_279989.mp3",
+  "language": "jpn",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/japanese_130730_279989.mp3"
+  ],
+  "source_name": "SBS Japanese",
+  "source_url": "http://www.sbs.com.au/yourlanguage/japanese/highlight/page/id/279989/t/Japanese-POW-in-Cowra",
+  "title": "\u30ab\u30a6\u30e9\u306e\u65e5\u672c\u4eba\u6355\u865c"
+}

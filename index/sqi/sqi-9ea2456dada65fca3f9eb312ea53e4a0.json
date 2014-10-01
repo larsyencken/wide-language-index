@@ -1,1 +1,13 @@
-{"source_name": "SBS Albanian", "language": "sqi", "title": "Deklarate Ekonomike", "checksum": "9ea2456dada65fca3f9eb312ea53e4a0", "source_url": "http://www.sbs.com.au/yourlanguage/albanian/highlight/page/id/281908/t/Economic-Statement", "filename": "albanian_130809_281908.mp3", "location": "Australia", "date": "2013-08-09", "media_urls": ["http://media.sbs.com.au/audio/albanian_130809_281908.mp3"]}
+{
+  "checksum": "9ea2456dada65fca3f9eb312ea53e4a0",
+  "date": "2013-08-09",
+  "filename": "albanian_130809_281908.mp3",
+  "language": "sqi",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/albanian_130809_281908.mp3"
+  ],
+  "source_name": "SBS Albanian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/albanian/highlight/page/id/281908/t/Economic-Statement",
+  "title": "Deklarate Ekonomike"
+}

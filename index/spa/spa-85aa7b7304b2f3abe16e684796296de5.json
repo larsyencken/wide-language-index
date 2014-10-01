@@ -1,1 +1,13 @@
-{"source_name": "SBS Spanish", "language": "spa", "title": "Esta noche, el primer cara a cara entre Rudd y Abbott", "checksum": "85aa7b7304b2f3abe16e684796296de5", "source_url": "http://www.sbs.com.au/yourlanguage/spanish/highlight/page/id/282188/t/Tonight-Rudd-and-Abbott-will-be-face-to-face", "filename": "spanish_130811_282188.mp3", "location": "Australia", "date": "2013-08-11", "media_urls": ["http://media.sbs.com.au/audio/spanish_130811_282188.mp3"]}
+{
+  "checksum": "85aa7b7304b2f3abe16e684796296de5",
+  "date": "2013-08-11",
+  "filename": "spanish_130811_282188.mp3",
+  "language": "spa",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/spanish_130811_282188.mp3"
+  ],
+  "source_name": "SBS Spanish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/spanish/highlight/page/id/282188/t/Tonight-Rudd-and-Abbott-will-be-face-to-face",
+  "title": "Esta noche, el primer cara a cara entre Rudd y Abbott"
+}

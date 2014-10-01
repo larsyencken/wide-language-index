@@ -1,1 +1,13 @@
-{"source_name": "SBS Swedish", "language": "swe", "title": "Andante Andante Abba k\u00f6r", "checksum": "6e952bca33c50f013e11b0b7cbb54621", "source_url": "http://www.sbs.com.au/yourlanguage/swedish/highlight/page/id/280391/t/Andante-Andante-Abba-Choir", "filename": "swedish_130801_280391.mp3", "location": "Australia", "date": "2013-08-01", "media_urls": ["http://media.sbs.com.au/audio/swedish_130801_280391.mp3"]}
+{
+  "checksum": "6e952bca33c50f013e11b0b7cbb54621",
+  "date": "2013-08-01",
+  "filename": "swedish_130801_280391.mp3",
+  "language": "swe",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/swedish_130801_280391.mp3"
+  ],
+  "source_name": "SBS Swedish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/swedish/highlight/page/id/280391/t/Andante-Andante-Abba-Choir",
+  "title": "Andante Andante Abba k\u00f6r"
+}

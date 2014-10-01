@@ -1,1 +1,13 @@
-{"source_name": "SBS Yiddish", "language": "yid", "title": "\ufb2e\u05dc\u05e2\u05e7\u05e1 \u05d3\ufb2e\ufb4e\u05e0\u05e2\u05e8 \u05d2\u05e2\u05d6\u05e2\u05d2\u05e0\u05d8 \u05d6\u05d9\u05da \u05de\u05d9\u05d8 \u05e6\u05d5\u05d4\u05e2\u05e8\u05e2\u05e8 \ufb4e\u05d5\u05df \u05d9\ufb1d\u05d3\u05d9\u05e9 \u05d0\u05d5\u05df \u05e2\u05e0\u05d2\u05dc\u05d9\u05e9", "checksum": "aff71bf2639dc735b54e61885d299e75", "source_url": "http://www.sbs.com.au/yourlanguage/yiddish/highlight/page/id/264364/t/Alex-Dafner-s-farewell-to-listeners-of-Yiddish-English", "filename": "yiddish_130426_264364.mp3", "location": "Australia", "date": "2013-04-26", "media_urls": ["http://media.sbs.com.au/audio/yiddish_130426_264364.mp3"]}
+{
+  "checksum": "aff71bf2639dc735b54e61885d299e75",
+  "date": "2013-04-26",
+  "filename": "yiddish_130426_264364.mp3",
+  "language": "yid",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/yiddish_130426_264364.mp3"
+  ],
+  "source_name": "SBS Yiddish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/yiddish/highlight/page/id/264364/t/Alex-Dafner-s-farewell-to-listeners-of-Yiddish-English",
+  "title": "\ufb2e\u05dc\u05e2\u05e7\u05e1 \u05d3\ufb2e\ufb4e\u05e0\u05e2\u05e8 \u05d2\u05e2\u05d6\u05e2\u05d2\u05e0\u05d8 \u05d6\u05d9\u05da \u05de\u05d9\u05d8 \u05e6\u05d5\u05d4\u05e2\u05e8\u05e2\u05e8 \ufb4e\u05d5\u05df \u05d9\ufb1d\u05d3\u05d9\u05e9 \u05d0\u05d5\u05df \u05e2\u05e0\u05d2\u05dc\u05d9\u05e9"
+}

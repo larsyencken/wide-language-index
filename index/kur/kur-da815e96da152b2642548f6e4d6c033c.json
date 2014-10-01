@@ -1,1 +1,13 @@
-{"source_name": "SBS Kurdish", "language": "kur", "title": "Xetene Kirdin\u00ee Ki\u00e7an le Her\u00eam\u00ee Kurdistan\u00ee \u00caraq", "checksum": "da815e96da152b2642548f6e4d6c033c", "source_url": "http://www.sbs.com.au/yourlanguage/kurdish/highlight/page/id/281309/t/Female-Genital-Mutilation", "filename": "kurdish_130806_281309.mp3", "location": "Australia", "date": "2013-08-06", "media_urls": ["http://media.sbs.com.au/audio/kurdish_130806_281309.mp3"]}
+{
+  "checksum": "da815e96da152b2642548f6e4d6c033c",
+  "date": "2013-08-06",
+  "filename": "kurdish_130806_281309.mp3",
+  "language": "kur",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/kurdish_130806_281309.mp3"
+  ],
+  "source_name": "SBS Kurdish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/kurdish/highlight/page/id/281309/t/Female-Genital-Mutilation",
+  "title": "Xetene Kirdin\u00ee Ki\u00e7an le Her\u00eam\u00ee Kurdistan\u00ee \u00caraq"
+}

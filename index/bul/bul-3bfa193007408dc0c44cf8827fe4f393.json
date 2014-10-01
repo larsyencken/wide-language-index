@@ -1,1 +1,13 @@
-{"source_name": "SBS Bulgarian", "language": "bul", "title": "\u041a\u0430\u043a\u0432\u043e \u043e\u0442\u043a\u0440\u0438 \u043d\u0430\u0443\u043a\u0430\u0442\u0430 \u0432 \u043f\u044a\u0440\u0432\u0430\u0442\u0430 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u043d\u0430 2013 \u0433\u043e\u0434\u0438\u043d\u0430? - \u0427\u0430\u0441\u0442 2", "checksum": "3bfa193007408dc0c44cf8827fe4f393", "source_url": "http://www.sbs.com.au/yourlanguage/bulgarian/highlight/page/id/280949/t/The-science-discoveries-of-the-first-half-of-2013-Part-2", "filename": "bulgarian_130805_280949.mp3", "location": "Australia", "date": "2013-08-05", "media_urls": ["http://media.sbs.com.au/audio/bulgarian_130805_280949.mp3"]}
+{
+  "checksum": "3bfa193007408dc0c44cf8827fe4f393",
+  "date": "2013-08-05",
+  "filename": "bulgarian_130805_280949.mp3",
+  "language": "bul",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/bulgarian_130805_280949.mp3"
+  ],
+  "source_name": "SBS Bulgarian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/bulgarian/highlight/page/id/280949/t/The-science-discoveries-of-the-first-half-of-2013-Part-2",
+  "title": "\u041a\u0430\u043a\u0432\u043e \u043e\u0442\u043a\u0440\u0438 \u043d\u0430\u0443\u043a\u0430\u0442\u0430 \u0432 \u043f\u044a\u0440\u0432\u0430\u0442\u0430 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u043d\u0430 2013 \u0433\u043e\u0434\u0438\u043d\u0430? - \u0427\u0430\u0441\u0442 2"
+}

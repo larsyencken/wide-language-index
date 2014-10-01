@@ -1,1 +1,13 @@
-{"source_name": "SBS Danish", "language": "dan", "title": "Kunsten at slappe af", "checksum": "0412c980ba7188d30a0e575d4a84b006", "source_url": "http://www.sbs.com.au/yourlanguage/danish/highlight/page/id/277802/t/The-art-of-relaxation", "filename": "danish_130717_277802.mp3", "location": "Australia", "date": "2013-07-17", "media_urls": ["http://media.sbs.com.au/audio/danish_130717_277802.mp3"]}
+{
+  "checksum": "0412c980ba7188d30a0e575d4a84b006",
+  "date": "2013-07-17",
+  "filename": "danish_130717_277802.mp3",
+  "language": "dan",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/danish_130717_277802.mp3"
+  ],
+  "source_name": "SBS Danish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/danish/highlight/page/id/277802/t/The-art-of-relaxation",
+  "title": "Kunsten at slappe af"
+}

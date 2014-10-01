@@ -1,1 +1,13 @@
-{"source_name": "SBS Korean", "language": "kor", "title": "K-Pop\uc774 \uc88b\uc544 \ud55c\uad6d\uc5b4\ub97c \ubc30\uc6e0\uc5b4\uc694!", "checksum": "2fb4e1b6432546c132790cda5d98387a", "source_url": "http://www.sbs.com.au/yourlanguage/korean/highlight/page/id/281693/t/-K-Pop-made-me-to-learn-Korean", "filename": "korean_130808_281693.mp3", "location": "Australia", "date": "2013-08-08", "media_urls": ["http://media.sbs.com.au/audio/korean_130808_281693.mp3"]}
+{
+  "checksum": "2fb4e1b6432546c132790cda5d98387a",
+  "date": "2013-08-08",
+  "filename": "korean_130808_281693.mp3",
+  "language": "kor",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/korean_130808_281693.mp3"
+  ],
+  "source_name": "SBS Korean",
+  "source_url": "http://www.sbs.com.au/yourlanguage/korean/highlight/page/id/281693/t/-K-Pop-made-me-to-learn-Korean",
+  "title": "K-Pop\uc774 \uc88b\uc544 \ud55c\uad6d\uc5b4\ub97c \ubc30\uc6e0\uc5b4\uc694!"
+}

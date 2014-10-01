@@ -1,1 +1,13 @@
-{"source_name": "SBS Vietnamese", "language": "vie", "title": "N\u1ea5u g\u00ec \u0103n g\u00ec 15", "checksum": "bb3e56cf7a66179edaf29a85d66a99c5", "source_url": "http://www.sbs.com.au/yourlanguage/vietnamese/highlight/page/id/282088/t/Vietnamese-cooking-episode-15", "filename": "vietnamese_130810_282088.mp3", "location": "Australia", "date": "2013-08-10", "media_urls": ["http://media.sbs.com.au/audio/vietnamese_130810_282088.mp3"]}
+{
+  "checksum": "bb3e56cf7a66179edaf29a85d66a99c5",
+  "date": "2013-08-10",
+  "filename": "vietnamese_130810_282088.mp3",
+  "language": "vie",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/vietnamese_130810_282088.mp3"
+  ],
+  "source_name": "SBS Vietnamese",
+  "source_url": "http://www.sbs.com.au/yourlanguage/vietnamese/highlight/page/id/282088/t/Vietnamese-cooking-episode-15",
+  "title": "N\u1ea5u g\u00ec \u0103n g\u00ec 15"
+}

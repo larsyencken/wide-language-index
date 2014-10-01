@@ -1,1 +1,13 @@
-{"source_name": "SBS Swahili", "language": "swh", "title": "Mgogoro ndani ya Serikali ya Sudan ya Kusini", "checksum": "b9526b43957fd7ffed172c4a08bcfd70", "source_url": "http://www.sbs.com.au/yourlanguage/swahili/highlight/page/id/280051/t/South-Sudan-Government-Crisis", "filename": "swahili_130730_280051.mp3", "location": "Australia", "date": "2013-07-30", "media_urls": ["http://media.sbs.com.au/audio/swahili_130730_280051.mp3"]}
+{
+  "checksum": "b9526b43957fd7ffed172c4a08bcfd70",
+  "date": "2013-07-30",
+  "filename": "swahili_130730_280051.mp3",
+  "language": "swh",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/swahili_130730_280051.mp3"
+  ],
+  "source_name": "SBS Swahili",
+  "source_url": "http://www.sbs.com.au/yourlanguage/swahili/highlight/page/id/280051/t/South-Sudan-Government-Crisis",
+  "title": "Mgogoro ndani ya Serikali ya Sudan ya Kusini"
+}

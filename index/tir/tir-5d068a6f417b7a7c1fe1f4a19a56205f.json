@@ -1,1 +1,13 @@
-{"source_name": "SBS Tigrinya", "language": "tir", "title": "Zimbabwe", "checksum": "5d068a6f417b7a7c1fe1f4a19a56205f", "source_url": "http://www.sbs.com.au/yourlanguage/tigrinya/highlight/page/id/281852/t/Zimbabwe", "filename": "tigrinya_130809_281852.mp3", "location": "Australia", "date": "2013-08-09", "media_urls": ["http://media.sbs.com.au/audio/tigrinya_130809_281852.mp3"]}
+{
+  "checksum": "5d068a6f417b7a7c1fe1f4a19a56205f",
+  "date": "2013-08-09",
+  "filename": "tigrinya_130809_281852.mp3",
+  "language": "tir",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/tigrinya_130809_281852.mp3"
+  ],
+  "source_name": "SBS Tigrinya",
+  "source_url": "http://www.sbs.com.au/yourlanguage/tigrinya/highlight/page/id/281852/t/Zimbabwe",
+  "title": "Zimbabwe"
+}

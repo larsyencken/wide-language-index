@@ -1,1 +1,13 @@
-{"source_name": "SBS Ukrainian", "language": "ukr", "title": "\u0421\u0412\u0406\u0422\u041e\u0412\u0415 \u0423\u041a\u0420\u0410\u0407\u041d\u0421\u0422\u0412\u041e \u0406 80\u2013\u0422\u0410 \u0420\u0406\u0427\u041d\u0418\u0426\u042f \u0490\u0415\u041d\u041e\u0426\u0418\u0414\u0423 \u0412 \u0423\u041a\u0420\u0410\u0407\u041d\u0406", "checksum": "b7210cc739a4372dfea5b783b46b0fbc", "source_url": "http://www.sbs.com.au/yourlanguage/ukrainian/highlight/page/id/280099/t/UKRAINIANS-AROUND-THE-WORLD-AND-THE-80TH-ANNIVERSARY-OF-THE-UKRAINIAN-FAMINE-GENOCIDE", "filename": "ukrainian_130731_280099.mp3", "location": "Australia", "date": "2013-07-31", "media_urls": ["http://media.sbs.com.au/audio/ukrainian_130731_280099.mp3"]}
+{
+  "checksum": "b7210cc739a4372dfea5b783b46b0fbc",
+  "date": "2013-07-31",
+  "filename": "ukrainian_130731_280099.mp3",
+  "language": "ukr",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/ukrainian_130731_280099.mp3"
+  ],
+  "source_name": "SBS Ukrainian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/ukrainian/highlight/page/id/280099/t/UKRAINIANS-AROUND-THE-WORLD-AND-THE-80TH-ANNIVERSARY-OF-THE-UKRAINIAN-FAMINE-GENOCIDE",
+  "title": "\u0421\u0412\u0406\u0422\u041e\u0412\u0415 \u0423\u041a\u0420\u0410\u0407\u041d\u0421\u0422\u0412\u041e \u0406 80\u2013\u0422\u0410 \u0420\u0406\u0427\u041d\u0418\u0426\u042f \u0490\u0415\u041d\u041e\u0426\u0418\u0414\u0423 \u0412 \u0423\u041a\u0420\u0410\u0407\u041d\u0406"
+}

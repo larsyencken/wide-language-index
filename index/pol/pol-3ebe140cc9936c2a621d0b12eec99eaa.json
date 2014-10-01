@@ -1,1 +1,13 @@
-{"source_name": "SBS Polish", "language": "pol", "title": "WYBORY 2013:  SYEWETKA CHRISTINE MILNE", "checksum": "3ebe140cc9936c2a621d0b12eec99eaa", "source_url": "http://www.sbs.com.au/yourlanguage/polish/highlight/page/id/281938/t/ELECTION-2013-CHRISTINE-MILNE-PROFILE", "filename": "polish_130809_281938.mp3", "location": "Australia", "date": "2013-08-09", "media_urls": ["http://media.sbs.com.au/audio/polish_130809_281938.mp3"]}
+{
+  "checksum": "3ebe140cc9936c2a621d0b12eec99eaa",
+  "date": "2013-08-09",
+  "filename": "polish_130809_281938.mp3",
+  "language": "pol",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/polish_130809_281938.mp3"
+  ],
+  "source_name": "SBS Polish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/polish/highlight/page/id/281938/t/ELECTION-2013-CHRISTINE-MILNE-PROFILE",
+  "title": "WYBORY 2013:  SYEWETKA CHRISTINE MILNE"
+}

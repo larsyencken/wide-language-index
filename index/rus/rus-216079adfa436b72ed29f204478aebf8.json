@@ -1,1 +1,13 @@
-{"source_name": "SBS Russian", "language": "rus", "title": "\u041f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0434\u043e\u0441\u044c\u0435 - \u0422\u043e\u043d\u0438 \u0410\u0431\u0431\u043e\u0442", "checksum": "216079adfa436b72ed29f204478aebf8", "source_url": "http://www.sbs.com.au/yourlanguage/russian/highlight/page/id/282028/t/Profile-of-a-leader-Tony-Abbott", "filename": "russian_130810_282028.mp3", "location": "Australia", "date": "2013-08-10", "media_urls": ["http://media.sbs.com.au/audio/russian_130810_282028.mp3"]}
+{
+  "checksum": "216079adfa436b72ed29f204478aebf8",
+  "date": "2013-08-10",
+  "filename": "russian_130810_282028.mp3",
+  "language": "rus",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/russian_130810_282028.mp3"
+  ],
+  "source_name": "SBS Russian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/russian/highlight/page/id/282028/t/Profile-of-a-leader-Tony-Abbott",
+  "title": "\u041f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0434\u043e\u0441\u044c\u0435 - \u0422\u043e\u043d\u0438 \u0410\u0431\u0431\u043e\u0442"
+}

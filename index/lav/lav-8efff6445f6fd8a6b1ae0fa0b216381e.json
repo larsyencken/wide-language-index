@@ -1,1 +1,13 @@
-{"source_name": "SBS Latvian", "language": "lav", "title": "Latvian", "checksum": "8efff6445f6fd8a6b1ae0fa0b216381e", "source_url": "http://www.sbs.com.au/yourlanguage/latvian/highlight/page/id/281573/t/3X3-Camp-Part-B", "filename": "latvian_130807_281573.mp3", "location": "Australia", "date": "2013-08-07", "media_urls": ["http://media.sbs.com.au/audio/latvian_130807_281573.mp3"]}
+{
+  "checksum": "8efff6445f6fd8a6b1ae0fa0b216381e",
+  "date": "2013-08-07",
+  "filename": "latvian_130807_281573.mp3",
+  "language": "lav",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/latvian_130807_281573.mp3"
+  ],
+  "source_name": "SBS Latvian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/latvian/highlight/page/id/281573/t/3X3-Camp-Part-B",
+  "title": "Latvian"
+}

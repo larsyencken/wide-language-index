@@ -1,1 +1,13 @@
-{"source_name": "SBS Norwegian", "language": "nor", "title": "Intervju med Michael Hirst, skaperen av VIKINGS", "checksum": "0c8a50ce57e1e23c936fed25ef4f0245", "source_url": "http://www.sbs.com.au/yourlanguage/norwegian/highlight/page/id/281699/t/Interview-with-Michael-Hirst-creator-of-VIKINGS", "filename": "norwegian_130808_281699.mp3", "location": "Australia", "date": "2013-08-08", "media_urls": ["http://media.sbs.com.au/audio/norwegian_130808_281699.mp3"]}
+{
+  "checksum": "0c8a50ce57e1e23c936fed25ef4f0245",
+  "date": "2013-08-08",
+  "filename": "norwegian_130808_281699.mp3",
+  "language": "nor",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/norwegian_130808_281699.mp3"
+  ],
+  "source_name": "SBS Norwegian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/norwegian/highlight/page/id/281699/t/Interview-with-Michael-Hirst-creator-of-VIKINGS",
+  "title": "Intervju med Michael Hirst, skaperen av VIKINGS"
+}

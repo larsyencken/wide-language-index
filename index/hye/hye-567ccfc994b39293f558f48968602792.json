@@ -1,1 +1,13 @@
-{"source_name": "SBS Armenian", "language": "hye", "title": "\u0534\u0561\u0577\u0576\u0561\u0575\u056b\u0576 \u0538\u0576\u057f\u0580\u0578\u0582\u0569\u056b\u0582\u0576\u0576\u0565\u0580", "checksum": "567ccfc994b39293f558f48968602792", "source_url": "http://www.sbs.com.au/yourlanguage/armenian/highlight/page/id/281339/t/Federal-Elections", "filename": "armenian_130806_281339.mp3", "location": "Australia", "date": "2013-08-06", "media_urls": ["http://media.sbs.com.au/audio/armenian_130806_281339.mp3"]}
+{
+  "checksum": "567ccfc994b39293f558f48968602792",
+  "date": "2013-08-06",
+  "filename": "armenian_130806_281339.mp3",
+  "language": "hye",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/armenian_130806_281339.mp3"
+  ],
+  "source_name": "SBS Armenian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/armenian/highlight/page/id/281339/t/Federal-Elections",
+  "title": "\u0534\u0561\u0577\u0576\u0561\u0575\u056b\u0576 \u0538\u0576\u057f\u0580\u0578\u0582\u0569\u056b\u0582\u0576\u0576\u0565\u0580"
+}

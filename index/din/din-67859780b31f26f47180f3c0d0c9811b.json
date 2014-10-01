@@ -1,1 +1,13 @@
-{"source_name": "SBS Dinka", "language": "din", "title": "Michael Makuei Lueth", "checksum": "67859780b31f26f47180f3c0d0c9811b", "source_url": "http://www.sbs.com.au/yourlanguage/dinka/highlight/page/id/282118/t/Michael-Makuei-Lueth", "filename": "dinka_130811_282118.mp3", "location": "Australia", "date": "2013-08-11", "media_urls": ["http://media.sbs.com.au/audio/dinka_130811_282118.mp3"]}
+{
+  "checksum": "67859780b31f26f47180f3c0d0c9811b",
+  "date": "2013-08-11",
+  "filename": "dinka_130811_282118.mp3",
+  "language": "din",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/dinka_130811_282118.mp3"
+  ],
+  "source_name": "SBS Dinka",
+  "source_url": "http://www.sbs.com.au/yourlanguage/dinka/highlight/page/id/282118/t/Michael-Makuei-Lueth",
+  "title": "Michael Makuei Lueth"
+}

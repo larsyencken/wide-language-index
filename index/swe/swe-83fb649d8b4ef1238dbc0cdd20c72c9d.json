@@ -1,1 +1,13 @@
-{"source_name": "SBS Swedish", "language": "swe", "title": "Dom senaste nyheterna fr\u00e5n Sverige", "checksum": "83fb649d8b4ef1238dbc0cdd20c72c9d", "source_url": "http://www.sbs.com.au/yourlanguage/swedish/highlight/page/id/279148/t/The-latest-news-from-Sweden", "filename": "swedish_130725_279148.mp3", "location": "Australia", "date": "2013-07-25", "media_urls": ["http://media.sbs.com.au/audio/swedish_130725_279148.mp3"]}
+{
+  "checksum": "83fb649d8b4ef1238dbc0cdd20c72c9d",
+  "date": "2013-07-25",
+  "filename": "swedish_130725_279148.mp3",
+  "language": "swe",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/swedish_130725_279148.mp3"
+  ],
+  "source_name": "SBS Swedish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/swedish/highlight/page/id/279148/t/The-latest-news-from-Sweden",
+  "title": "Dom senaste nyheterna fr\u00e5n Sverige"
+}

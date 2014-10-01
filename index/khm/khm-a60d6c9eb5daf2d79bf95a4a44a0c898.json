@@ -1,1 +1,13 @@
-{"source_name": "SBS Khmer", "language": "khm", "title": "Meng Phalla - Report on Sam Rainsy  fights on", "checksum": "a60d6c9eb5daf2d79bf95a4a44a0c898", "source_url": "http://www.sbs.com.au/yourlanguage/khmer/highlight/page/id/281519/t/Meng-Phalla-Report-on-Sam-Rainsy-fights-on", "filename": "khmer_130807_281519.mp3", "location": "Australia", "date": "2013-08-07", "media_urls": ["http://media.sbs.com.au/audio/khmer_130807_281519.mp3"]}
+{
+  "checksum": "a60d6c9eb5daf2d79bf95a4a44a0c898",
+  "date": "2013-08-07",
+  "filename": "khmer_130807_281519.mp3",
+  "language": "khm",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/khmer_130807_281519.mp3"
+  ],
+  "source_name": "SBS Khmer",
+  "source_url": "http://www.sbs.com.au/yourlanguage/khmer/highlight/page/id/281519/t/Meng-Phalla-Report-on-Sam-Rainsy-fights-on",
+  "title": "Meng Phalla - Report on Sam Rainsy  fights on"
+}

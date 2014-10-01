@@ -1,1 +1,13 @@
-{"source_name": "SBS Samoan", "language": "smo", "title": "E le faasaina le gagana Samoa e le lotu Mamona", "checksum": "9f0ada384d34db06373e0a6fb7f38ea8", "source_url": "http://www.sbs.com.au/yourlanguage/samoan/highlight/page/id/281874/t/Samoan-not-banned-by-Morman-Church", "filename": "samoan_130809_281874.mp3", "location": "Australia", "date": "2013-08-09", "media_urls": ["http://media.sbs.com.au/audio/samoan_130809_281874.mp3"]}
+{
+  "checksum": "9f0ada384d34db06373e0a6fb7f38ea8",
+  "date": "2013-08-09",
+  "filename": "samoan_130809_281874.mp3",
+  "language": "smo",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/samoan_130809_281874.mp3"
+  ],
+  "source_name": "SBS Samoan",
+  "source_url": "http://www.sbs.com.au/yourlanguage/samoan/highlight/page/id/281874/t/Samoan-not-banned-by-Morman-Church",
+  "title": "E le faasaina le gagana Samoa e le lotu Mamona"
+}

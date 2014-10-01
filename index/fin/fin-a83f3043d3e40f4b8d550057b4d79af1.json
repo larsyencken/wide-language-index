@@ -1,1 +1,13 @@
-{"source_name": "SBS Finnish", "language": "fin", "title": "Jari Perki\u00f6m\u00e4en haastattelu", "checksum": "a83f3043d3e40f4b8d550057b4d79af1", "source_url": "http://www.sbs.com.au/yourlanguage/finnish/highlight/page/id/281679/t/Interview-with-Jari-Perki-m-ki", "filename": "finnish_130808_281679.mp3", "location": "Australia", "date": "2013-08-08", "media_urls": ["http://media.sbs.com.au/audio/finnish_130808_281679.mp3"]}
+{
+  "checksum": "a83f3043d3e40f4b8d550057b4d79af1",
+  "date": "2013-08-08",
+  "filename": "finnish_130808_281679.mp3",
+  "language": "fin",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/finnish_130808_281679.mp3"
+  ],
+  "source_name": "SBS Finnish",
+  "source_url": "http://www.sbs.com.au/yourlanguage/finnish/highlight/page/id/281679/t/Interview-with-Jari-Perki-m-ki",
+  "title": "Jari Perki\u00f6m\u00e4en haastattelu"
+}

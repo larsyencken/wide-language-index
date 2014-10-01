@@ -1,1 +1,13 @@
-{"source_name": "SBS French", "language": "fra", "title": "Un diner au MCG ce vendredi pour soutenir Team Africa", "checksum": "5a16242a7da07760de3f3488e1d5e77b", "source_url": "http://www.sbs.com.au/yourlanguage/french/highlight/page/id/281345/t/Team-Africa-function-at-the-MCG", "filename": "french_130806_281345.mp3", "location": "Australia", "date": "2013-08-06", "media_urls": ["http://media.sbs.com.au/audio/french_130806_281345.mp3"]}
+{
+  "checksum": "5a16242a7da07760de3f3488e1d5e77b",
+  "date": "2013-08-06",
+  "filename": "french_130806_281345.mp3",
+  "language": "fra",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/french_130806_281345.mp3"
+  ],
+  "source_name": "SBS French",
+  "source_url": "http://www.sbs.com.au/yourlanguage/french/highlight/page/id/281345/t/Team-Africa-function-at-the-MCG",
+  "title": "Un diner au MCG ce vendredi pour soutenir Team Africa"
+}

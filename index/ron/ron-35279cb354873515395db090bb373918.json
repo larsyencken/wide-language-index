@@ -1,1 +1,13 @@
-{"source_name": "SBS Romanian", "language": "ron", "title": "Inscrierea la vot", "checksum": "35279cb354873515395db090bb373918", "source_url": "http://www.sbs.com.au/yourlanguage/romanian/highlight/page/id/281201/t/Enrolling-to-vote", "filename": "romanian_130806_281201.mp3", "location": "Australia", "date": "2013-08-06", "media_urls": ["http://media.sbs.com.au/audio/romanian_130806_281201.mp3"]}
+{
+  "checksum": "35279cb354873515395db090bb373918",
+  "date": "2013-08-06",
+  "filename": "romanian_130806_281201.mp3",
+  "language": "ron",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/romanian_130806_281201.mp3"
+  ],
+  "source_name": "SBS Romanian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/romanian/highlight/page/id/281201/t/Enrolling-to-vote",
+  "title": "Inscrierea la vot"
+}

@@ -1,1 +1,13 @@
-{"source_name": "SBS Croatian", "language": "hrv", "title": "Tjedni pregled tiska Klare Kova\u010di\u0107", "checksum": "c1a03091f97a797346fcd7121793c3b7", "source_url": "http://www.sbs.com.au/yourlanguage/croatian/highlight/page/id/281802/t/Media-roundup-with-Klara-Kova-i", "filename": "croatian_130809_281802.mp3", "location": "Australia", "date": "2013-08-09", "media_urls": ["http://media.sbs.com.au/audio/croatian_130809_281802.mp3"]}
+{
+  "checksum": "c1a03091f97a797346fcd7121793c3b7",
+  "date": "2013-08-09",
+  "filename": "croatian_130809_281802.mp3",
+  "language": "hrv",
+  "location": "Australia",
+  "media_urls": [
+    "http://media.sbs.com.au/audio/croatian_130809_281802.mp3"
+  ],
+  "source_name": "SBS Croatian",
+  "source_url": "http://www.sbs.com.au/yourlanguage/croatian/highlight/page/id/281802/t/Media-roundup-with-Klara-Kova-i",
+  "title": "Tjedni pregled tiska Klare Kova\u010di\u0107"
+}
