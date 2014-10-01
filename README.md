@@ -7,7 +7,7 @@ A listing of publicly available audio samples of a large number of different lan
 
 The Wide Language Index is an attempt to curate a set of examples of a wide variety of languages from public podcasts. The index itself contains a listing of samples and information about them. The audio files themselves are not bundled in, but can be downloaded as needed.
 
-The full dataset is meant to be downloaded from OS X or Linux. If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make fetch`.
+The full dataset is meant to be downloaded from OS X or Linux. If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make env && make fetch`.
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ To use the tools that accompany this dataset, your computer should have installe
 - `virtualenv`
 - `make`
 
-Run `make audit` to check if the tools are working.
+Run `make env && make audit` to check if the tools are working.
 
 ## Layout
 

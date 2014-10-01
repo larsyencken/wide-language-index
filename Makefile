@@ -12,6 +12,7 @@ help:
 	@echo
 	@echo 'Commands for working with the index'
 	@echo
+	@echo '  make env      build the sandbox required for other commands'
 	@echo '  make audit    check that annotations are all valid'
 	@echo '  make fetch    fetch all audio samples in the index'
 	@echo
@@ -20,9 +21,9 @@ env/: requirements.pip
 	test -d $(ENV) || virtualenv $(ENV)
 	$(PIP) install -r requirements.pip
 
-audit: env
+audit:
 	$(PY) src/audit.py
 
-fetch: env
+fetch:
 	mkdir -p samples
 	$(PY) src/fetch_index.py index samples
