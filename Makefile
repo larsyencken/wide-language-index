@@ -12,9 +12,10 @@ help:
 	@echo
 	@echo 'Commands for working with the index'
 	@echo
-	@echo '  make env      build the sandbox required for other commands'
-	@echo '  make audit    check that annotations are all valid'
-	@echo '  make fetch    fetch all audio samples in the index'
+	@echo '  make env        build the sandbox required for other commands'
+	@echo '  make audit      check that annotations are all valid'
+	@echo '  make fetch      fetch all audio samples in the index'
+	@echo '  make normalize  reformat all json records to a standard form'
 	@echo
 
 env/: requirements.pip
@@ -27,3 +28,6 @@ audit:
 fetch:
 	mkdir -p samples
 	$(PY) src/fetch_index.py index samples
+
+normalize:
+	$(PY) src/normalize.py
