@@ -1,4 +1,6 @@
 # wide-language-index
+
+[![TravisCI](https://travis-ci.org/larsyencken/wide-language-demo.png)](https://travis-ci.org/larsyencken/wide-language-index)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/larsyencken/wide-language-index?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A listing of publicly available audio samples of a large number of different languages.
