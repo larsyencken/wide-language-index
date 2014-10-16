@@ -41,21 +41,35 @@ def audit_index():
         pass
 
     for i, f in enumerate(glob.glob('index/*/*.json')):
-        def t(self):
-            data = json.load(open(f))
-            jsonschema.validate(data, schema)
-
-            language = data.get('language')
-            assert language in VALID_LANGUAGES, language
-            parent_dir = os.path.basename(os.path.dirname(f))
-            assert parent_dir == language
-
-        name = 'test_doc_{0}'.format(i)
-        t.__name__ = name
-        setattr(IndexTestCase, name, t)
+        t = make_test(f, i, schema)
+        assert not hasattr(IndexTestCase, t.__name__)
+        setattr(IndexTestCase, t.__name__, t)
 
     unittest.TextTestRunner().run(unittest.makeSuite(IndexTestCase))
     print()
+
+
+def make_test(f, i, schema):
+    def t(self):
+        blob = open(f).read()
+        data = json.loads(blob)
+        jsonschema.validate(data, schema)
+
+        # the language code is a valid ISO 693-3 code
+        language = data.get('language')
+        assert language in VALID_LANGUAGES, language
+
+        # the record is in the correct directory
+        parent_dir = os.path.basename(os.path.dirname(f))
+        self.assertEqual(parent_dir, language)
+
+        # it is pretty-printed
+        pretty_blob = json.dumps(data, indent=2, sort_keys=True)
+        assert blob == pretty_blob
+
+    name = 'test_doc_{0}'.format(i)
+    t.__name__ = name
+    return t
 
 
 if __name__ == '__main__':
