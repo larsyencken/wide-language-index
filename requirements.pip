@@ -1,4 +1,7 @@
-requests
-jsonschema
-clint
-sh
+args==0.1.0
+click==3.3
+clint==0.4.1
+jsonschema==2.4.0
+pydub==0.9.5
+requests==2.5.1
+sh==1.11
