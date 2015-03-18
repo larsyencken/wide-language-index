@@ -16,11 +16,15 @@ import sh
 @click.argument('path', type=click.Path(exists=True))
 @click.argument('offset', type=int)
 @click.argument('duration', type=int)
-def play_offset(path, offset, duration):
+def play_offset_cmd(path, offset, duration):
     """
     Play the given audio file at the given offset, for the specified duration.
     Offset and duration are in whole seconds.
     """
+    play_offset(path, offset, duration)
+
+
+def play_offset(path, offset, duration):
     sample = get_sample(path, offset, duration)
     play_sample(sample)
 
@@ -36,7 +40,11 @@ def get_sample(path, offset, duration):
 def play_sample(sample):
     with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
         sample.export(t, format='mp3')
-        sh.afplay(t.name)
+        p = sh.afplay(t.name, _bg=True)
+        try:
+            p.wait()
+        except KeyboardInterrupt:
+            p.terminate()
 
 
 if __name__ == '__main__':
