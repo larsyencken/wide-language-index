@@ -16,7 +16,43 @@
 		"checksum": {"type": "string"},
 		"pregain": {"type": "string"},
 		"location": {"type": "string"},
-		"date": {"type": "string"}
+		"date": {"type": "string"},
+		"annotations": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"annotator": {"type": "string"},
+					"offset": {"type": "number"},
+					"duration": {"type": "number"},
+					"label": {
+						"type": "string",
+						"pattern": "^(good|bad)$"
+					},
+					"problems": {
+						"type": "array",
+						"items": {
+							"type": "string",
+							"pattern": "^(noise|multiple languages|wrong language|excess loan words)$"
+						}
+					},
+					"genders": {
+						"type": "string",
+						"pattern": "^(male|female|mixed|unclear)$"
+					},
+					"speakers": {"type": "number"},
+					"date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+				},
+				"required": [
+					"annotator",
+					"offset",
+					"duration",
+					"label",
+					"speakers",
+					"genders"
+				]
+			}
+		}
 	},
 	"required": [
 		"language",

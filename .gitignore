@@ -6,3 +6,6 @@
 .ipynb_checkpoints
 samples/
 env
+__pycache__
+*.pyc
+*.pyo
