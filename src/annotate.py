@@ -23,9 +23,9 @@ import ui
 
 Segment = namedtuple('Segment', 'sample offset duration')
 
-GUIDELINE_VERSION = 1
+GUIDELINE_VERSION = 2
 GUIDELINES = """
-ANNOTATION GUIDELINES v1
+ANNOTATION GUIDELINES v2
 
 You are about to listen to a number of audio clips in different languages.
 For each clip, we want to work out if it's suitable to use as a sample of
@@ -49,6 +49,14 @@ excess loan words?
         Mark with a "y" if many of the words are borrowed from English, making
         the sample not a good representation of the language. Use your own
         judgement here.
+
+language or place reference?
+        Samples that mention the name of their language or a distinctive place
+        that the language is from may be inappropriate in the use of language
+        guessing games. If an obvious reference is there, mark "y".
+
+pauses?
+        Are there long pauses which eat up much of the clip? If so, mark "y".
 
 speakers
         Count the number of different people you hear speaking in the clip.
@@ -313,7 +321,8 @@ class AnnotateCmd(cmd.Cmd):
             problems = ui.input_multi_options(
                 'Problems with the sample',
                 ['noise', 'wrong language',
-                 'multiple languages', 'excess loan words'],
+                 'multiple languages', 'excess loan words',
+                 'language or place reference', 'pauses'],
             )
             speakers = ui.input_number('speakers', minimum=1, maximum=10)
             genders = ui.input_single_option(
