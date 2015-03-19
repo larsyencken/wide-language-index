@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 400,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "3ee4592f9813b3dea8c63e275e3892bf",
   "date": "2013-08-10",
   "filename": "tigrinya_130810_281992.mp3",

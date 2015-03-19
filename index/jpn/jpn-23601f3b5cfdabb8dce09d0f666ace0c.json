@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 540,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "23601f3b5cfdabb8dce09d0f666ace0c",
   "date": "2013-07-30",
   "filename": "japanese_130730_279989.mp3",

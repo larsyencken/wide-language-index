@@ -1,4 +1,55 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 20,
+      "problems": [
+        "noise",
+        "wrong language"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 340,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 280,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 2
+    }
+  ],
   "checksum": "4647f5bb744426048ba5206e9318d3f0",
   "date": "2013-08-11",
   "filename": "filipino_130811_282160.mp3",

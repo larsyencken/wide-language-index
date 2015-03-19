@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 480,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "adda2ced1eac1707fe1fdd1a18d553b8",
   "date": "2009-08-01",
   "language": "fao",

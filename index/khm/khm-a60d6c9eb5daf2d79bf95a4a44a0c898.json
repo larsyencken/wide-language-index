@@ -1,4 +1,18 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 2
+    }
+  ],
   "checksum": "a60d6c9eb5daf2d79bf95a4a44a0c898",
   "date": "2013-08-07",
   "filename": "khmer_130807_281519.mp3",

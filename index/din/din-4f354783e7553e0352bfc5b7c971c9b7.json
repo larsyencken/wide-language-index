@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 120,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "4f354783e7553e0352bfc5b7c971c9b7",
   "date": "2013-08-11",
   "filename": "dinka_130811_282124.mp3",

@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 320,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "786314fecd9b3088d46eb4620638f850",
   "date": "2013-07-25",
   "filename": "czech_130725_279240.mp3",

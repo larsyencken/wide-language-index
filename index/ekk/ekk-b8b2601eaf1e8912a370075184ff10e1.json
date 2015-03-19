@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 720,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "b8b2601eaf1e8912a370075184ff10e1",
   "date": "2013-08-02",
   "filename": "estonian_130802_280573.mp3",

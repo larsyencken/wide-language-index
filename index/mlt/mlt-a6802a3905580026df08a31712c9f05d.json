@@ -1,4 +1,40 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 280,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 560,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 80,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "a6802a3905580026df08a31712c9f05d",
   "date": "2013-08-10",
   "filename": "maltese_130810_282014.mp3",

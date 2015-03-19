@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "unclear",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "5a16242a7da07760de3f3488e1d5e77b",
   "date": "2013-08-06",
   "filename": "french_130806_281345.mp3",

@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 160,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "8a428c7a97302cdc9ab95d47b7b3c03f",
   "date": "2013-08-06",
   "filename": "romanian_130806_281199.mp3",

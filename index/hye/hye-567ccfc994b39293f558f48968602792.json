@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 480,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "567ccfc994b39293f558f48968602792",
   "date": "2013-08-06",
   "filename": "armenian_130806_281339.mp3",

@@ -1,4 +1,19 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 220,
+      "problems": [
+        "language or place reference",
+        "wrong language"
+      ],
+      "speakers": 1
+    }
+  ],
   "checksum": "5e5253ad6516ffd097047da560522d9a",
   "date": "2013-07-08",
   "filename": "world-news_130708_276204.mp3",

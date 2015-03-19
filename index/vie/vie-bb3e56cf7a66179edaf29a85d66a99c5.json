@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 160,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "bb3e56cf7a66179edaf29a85d66a99c5",
   "date": "2013-08-10",
   "filename": "vietnamese_130810_282088.mp3",

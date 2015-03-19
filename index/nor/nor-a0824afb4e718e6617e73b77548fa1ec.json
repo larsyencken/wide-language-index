@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 120,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "a0824afb4e718e6617e73b77548fa1ec",
   "date": "2013-07-25",
   "filename": "norwegian_130725_279218.mp3",

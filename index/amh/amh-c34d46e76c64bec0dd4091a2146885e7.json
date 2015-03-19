@@ -1,4 +1,18 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 260,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
+    }
+  ],
   "checksum": "c34d46e76c64bec0dd4091a2146885e7",
   "date": "2013-08-09",
   "filename": "amharic_130809_281898.mp3",

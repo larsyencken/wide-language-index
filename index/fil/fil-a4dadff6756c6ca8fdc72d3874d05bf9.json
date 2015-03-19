@@ -1,4 +1,18 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 240,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
+    }
+  ],
   "checksum": "a4dadff6756c6ca8fdc72d3874d05bf9",
   "date": "2013-08-11",
   "filename": "filipino_130811_282172.mp3",
