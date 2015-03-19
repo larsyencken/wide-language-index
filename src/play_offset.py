@@ -25,8 +25,12 @@ def play_offset_cmd(path, offset, duration):
 
 
 def play_offset(path, offset, duration):
+    """
+    Play only part of the given mp3 file. Return True if the whole clip
+    played.
+    """
     sample = get_sample(path, offset, duration)
-    play_sample(sample)
+    return play_sample(sample)
 
 
 def get_sample(path, offset, duration):
@@ -45,6 +49,9 @@ def play_sample(sample):
             p.wait()
         except KeyboardInterrupt:
             p.terminate()
+            return False
+
+    return True
 
 
 if __name__ == '__main__':

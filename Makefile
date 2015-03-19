@@ -16,6 +16,7 @@ help:
 	@echo '  make audit      check that annotations are all valid'
 	@echo '  make fetch      fetch all audio samples in the index'
 	@echo '  make normalize  reformat all json records to a standard form'
+	@echo '  make annotate   start an annotation session'
 	@echo
 
 env/: requirements.pip
@@ -31,3 +32,6 @@ fetch:
 
 normalize:
 	$(PY) src/normalize.py
+
+annotate:
+	$(PY) src/annotate.py

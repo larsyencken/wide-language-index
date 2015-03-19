@@ -8,6 +8,8 @@
 Helpers for writing interactive console scripts.
 """
 
+import re
+import os
 
 def input_bool(query):
     bool_query = query + '? (y/n)> '
@@ -63,3 +65,31 @@ def input_single_option(title, options):
             return options[v - 1]
 
         print('ERROR: you must pick one of the options')
+
+
+EMAIL_REGEX = '^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,6}$'
+
+def input_email():
+    while True:
+        v = input('email address> ')
+        if re.match(EMAIL_REGEX, v, re.IGNORECASE):
+            return v
+
+        print('ERROR: please enter a valid email address')
+
+
+def input_string(query, allow_empty=False):
+    while True:
+        v = input(query + '> ').strip()
+        if allow_empty or v:
+            return v
+
+        print('ERROR: cannot be left empty')
+
+
+def pause(message='Press ENTER to continue...'):
+    input(message)
+
+
+def clear_screen():
+    os.system('clear')

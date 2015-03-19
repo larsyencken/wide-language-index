@@ -13,6 +13,8 @@ import random
 import cmd
 import copy
 from datetime import date
+import subprocess
+import sys
 
 import pydub
 
@@ -21,6 +23,49 @@ import ui
 
 Segment = namedtuple('Segment', 'sample offset duration')
 
+GUIDELINE_VERSION = 1
+GUIDELINES = """
+ANNOTATION GUIDELINES v1
+
+You are about to listen to a number of audio clips in different languages.
+For each clip, we want to work out if it's suitable to use as a sample of
+that language. Here's the guidelines:
+
+noise?
+        Mark with a "y" if the sample has loud noise interrupting it,
+        someone talking over the back, or music playing.
+
+wrong language?
+        Mark with a "y" if you know that the sample is in the wrong language.
+        For example, it might be all English, when the language is supposed to
+        be Swahili. It is not expected that you can decide all these cases,
+        leave it blank if unsure.
+
+multiple languages?
+        Mark with a "y" if you can tell that part of the clip is in a
+        different language.
+
+excess loan words?
+        Mark with a "y" if many of the words are borrowed from English, making
+        the sample not a good representation of the language. Use your own
+        judgement here.
+
+speakers
+        Count the number of different people you hear speaking in the clip.
+        Normally it will just be one or two.
+
+genders
+        Also keep track of each speaker's gender, if it's clear to you. If
+        every speaker in the clip is male, pick "male". Likewise for female.
+        Pick "mixed" if there's at least one speaker of each gender, and
+        "unknown" if there's at least one speaker for which you can't tell.
+
+You can exit the annotation at any time by pressing CTRL-C. You can also see
+these instructions again by typing "help" at the menu.
+
+Press "q" to continue.
+"""
+
 
 DEFAULT_DURATION_S = 20
 SAMPLE_DIR = 'samples'
@@ -28,9 +73,10 @@ INDEX_DIR = 'index'
 
 
 class User(object):
-    def __init__(self, name, email):
+    def __init__(self, name, email, seen_guidelines=None):
         self.name = name
         self.email = email
+        self.seen_guidelines = seen_guidelines
 
     @classmethod
     def load_default(cls):
@@ -46,7 +92,8 @@ class User(object):
     def save(self):
         with open(self.settings_path(), 'w') as ostream:
             json.dump({'name': self.name,
-                       'email': self.email}, ostream)
+                       'email': self.email,
+                       'seen_guidelines': self.seen_guidelines}, ostream)
 
     def __str__(self):
         return '{0} <{1}>'.format(self.name, self.email)
@@ -54,12 +101,30 @@ class User(object):
 
 def identify_user():
     user = User.load_default()
-    if user is not None:
-        return user
+    if user is None:
+        user = identify_user_interactive()
 
-    user = identify_user_interactive()
-    if user.save:
+    if user.seen_guidelines != GUIDELINE_VERSION:
+        if user.seen_guidelines is None:
+            print(
+                'Please read the guidelines below before you start.'
+            )
+        else:
+            print(
+                'The annotation guidelines have changed, please read the '
+                'new guidelines \n'
+                'before continuing.'
+            )
+        ui.pause()
+
+        show_guidelines()
+
+        user.seen_guidelines = GUIDELINE_VERSION
         user.save()
+
+    return user
+
+    user.save()
 
 
 def load_metadata():
@@ -151,18 +216,14 @@ def annotation_count(lang_records):
 
 
 def identify_user_interactive():
-    import npyscreen as nps
-
-    class UserApp(nps.NPSApp):
-        def main(self):
-            f = nps.Form(name='Annotator details')
-            self.name = f.add(nps.TitleText, name='Name: ')
-            self.email = f.add(nps.TitleText, name='Email: ')
-            f.edit()
-
-    app = UserApp()
-    app.run()
-    return User(app.name.value, app.email.value)
+    print()
+    print(
+        "This is your first time annotating. We ask for your name and\n"
+        "email in order to contact you about any of your annotations.\n"
+    )
+    name = ui.input_string('name')
+    email = ui.input_email()
+    return User(name, email)
 
 
 def sample_filename(sample):
@@ -197,9 +258,12 @@ def main():
     user = identify_user()
     metadata = load_metadata()
 
+    ui.clear_screen()
+    ui.pause('Beginning annotation, press ENTER to hear the first clip...')
+
     while True:
         segment = random_sample(metadata, DEFAULT_DURATION_S)
-        c = AnnotateCmd(segment)
+        c = AnnotateCmd(segment, user)
         c.cmdloop()
         if c.annotation is not None:
             ann = copy.deepcopy(c.annotation)
@@ -210,8 +274,8 @@ def main():
             print('Skipping...')
             skipped += 1
 
-            if c.quit_flag:
-                break
+        if c.quit_flag:
+            break
 
     print('listened: {0}'.format(annotated + skipped))
     print('annotated: {0}'.format(annotated))
@@ -219,31 +283,36 @@ def main():
 
 
 class AnnotateCmd(cmd.Cmd):
-    def __init__(self, segment):
+    def __init__(self, segment, user):
         super(AnnotateCmd, self).__init__()
         self.segment = segment
+        self.user = user
         self.annotation = None
         self.quit_flag = False
+        self.language_names = load_language_names()
 
-        self._play()
-        self._edit()
+        listened = self._play()
+        if listened:
+            self._edit()
 
     def _play(self):
         s = self.segment
         filename = sample_filename(s.sample)
         basename = path.basename(filename)
-        print('Playing {0} at ({1} -> {2})'.format(
+        print('{0} ({1} at {2} -> {3})'.format(
+            self.language_names[s.sample['language']],
             basename,
             s.offset,
             s.offset + s.duration,
         ))
-        play_offset.play_offset(filename, s.offset, s.duration)
+        return play_offset.play_offset(filename, s.offset, s.duration)
 
     def _edit(self):
         try:
             problems = ui.input_multi_options(
                 'Problems with the sample',
-                ['noise', 'multiple languages', 'excess loan words'],
+                ['noise', 'wrong language',
+                 'multiple languages', 'excess loan words'],
             )
             speakers = ui.input_number('speakers', minimum=1, maximum=10)
             gender = ui.input_single_option(
@@ -259,6 +328,7 @@ class AnnotateCmd(cmd.Cmd):
                 'date': str(date.today()),
                 'offset': self.segment.offset,
                 'duration': self.segment.duration,
+                'annotator': str(self.user)
             }
 
         except KeyboardInterrupt:
@@ -320,6 +390,38 @@ class AnnotateCmd(cmd.Cmd):
     def do_v(self, line):
         return self.do_view(line)
 
+    def do_guidelines(self, line):
+        page(GUIDELINES)
+
+
+def page(content):
+    "Print the string through less."
+    try:
+        # args stolen fron git source, see `man less`
+        pager = subprocess.Popen(['less', '-F', '-R', '-S', '-X', '-K'],
+                                 stdin=subprocess.PIPE,
+                                 stdout=sys.stdout)
+        pager.stdin.write(content.encode('utf8'))
+        pager.stdin.close()
+        pager.wait()
+    except KeyboardInterrupt:
+        # let less handle this, -K will exit cleanly
+        pass
+
+
+def show_guidelines():
+    page(GUIDELINES)
+
+
+def load_language_names():
+    name_index = json.load(open('ext/name_index_20140320.json'))
+    return {r['id']: r['print_name']
+            for r in name_index}
+
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        # exit silently without complaint
+        pass
