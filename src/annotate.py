@@ -239,8 +239,9 @@ def update_metadata(sample, annotation):
     sample.setdefault('annotations', []).append(annotation)
 
     metadata_file = metadata_filename(sample)
+    s_norm = json.dumps(sample, indent=2, sort_keys=True)
     with open(metadata_file, 'w') as ostream:
-        json.dump(sample, ostream, indent=2, sort_keys=True)
+        ostream.write(s_norm)
 
 
 def metadata_filename(sample):
@@ -315,7 +316,7 @@ class AnnotateCmd(cmd.Cmd):
                  'multiple languages', 'excess loan words'],
             )
             speakers = ui.input_number('speakers', minimum=1, maximum=10)
-            gender = ui.input_single_option(
+            genders = ui.input_single_option(
                 'Gender of speakers',
                 ['male', 'female', 'mixed', 'unclear'],
             )
@@ -323,7 +324,7 @@ class AnnotateCmd(cmd.Cmd):
             self.annotation = {
                 'problems': sorted(problems),
                 'speakers': speakers,
-                'gender': gender,
+                'genders': genders,
                 'label': 'good' if not problems else 'bad',
                 'date': str(date.today()),
                 'offset': self.segment.offset,

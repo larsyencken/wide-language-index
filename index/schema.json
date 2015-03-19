@@ -38,7 +38,7 @@
 					},
 					"genders": {
 						"type": "string",
-						"pattern": "^(male|female|mixed)$"
+						"pattern": "^(male|female|mixed|unclear)$"
 					},
 					"speakers": {"type": "number"},
 					"date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
