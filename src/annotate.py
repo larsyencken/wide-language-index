@@ -55,6 +55,9 @@ language or place reference?
         that the language is from may be inappropriate in the use of language
         guessing games. If an obvious reference is there, mark "y".
 
+pauses?
+        Are there long pauses which eat up much of the clip? If so, mark "y".
+
 speakers
         Count the number of different people you hear speaking in the clip.
         Normally it will just be one or two.
@@ -319,7 +322,7 @@ class AnnotateCmd(cmd.Cmd):
                 'Problems with the sample',
                 ['noise', 'wrong language',
                  'multiple languages', 'excess loan words',
-                 'language or country reference'],
+                 'language or place reference', 'pauses'],
             )
             speakers = ui.input_number('speakers', minimum=1, maximum=10)
             genders = ui.input_single_option(
