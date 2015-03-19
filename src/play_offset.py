@@ -44,6 +44,10 @@ def get_sample(path, offset, duration):
 def play_sample(sample):
     with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
         sample.export(t, format='mp3')
+
+        # normalize the sample's volume
+        sh.mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
+
         p = sh.afplay(t.name, _bg=True)
         try:
             p.wait()
