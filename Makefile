@@ -17,6 +17,7 @@ help:
 	@echo '  make fetch      fetch all audio samples in the index'
 	@echo '  make normalize  reformat all json records to a standard form'
 	@echo '  make annotate   start an annotation session'
+	@echo '  make mirror     mirror samples to s3'
 	@echo
 
 env/: requirements.pip
@@ -35,3 +36,6 @@ normalize:
 
 annotate:
 	$(PY) src/annotate.py
+
+mirror:
+	$(PY) src/mirror.py

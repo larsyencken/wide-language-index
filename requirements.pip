@@ -1,4 +1,5 @@
 args==0.1.0
+boto==2.36.0
 click==3.3
 clint==0.4.1
 jsonschema==2.4.0
