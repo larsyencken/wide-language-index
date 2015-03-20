@@ -17,7 +17,8 @@
   "language": "swh",
   "location": "Australia",
   "media_urls": [
-    "http://media.sbs.com.au/audio/swahili_130809_281930.mp3"
+    "http://media.sbs.com.au/audio/swahili_130809_281930.mp3",
+    "http://mirror.widelanguageindex.org/swh/swh-e077c9ce6808a93ea4f70b055112898d.mp3"
   ],
   "source_name": "SBS Swahili",
   "source_url": "http://www.sbs.com.au/yourlanguage/swahili/highlight/page/id/281930/t/Dr-s-Corner-OCD",

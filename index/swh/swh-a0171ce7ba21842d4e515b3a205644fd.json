@@ -5,7 +5,8 @@
   "language": "swh",
   "location": "Australia",
   "media_urls": [
-    "http://media.sbs.com.au/audio/swahili_130809_281888.mp3"
+    "http://media.sbs.com.au/audio/swahili_130809_281888.mp3",
+    "http://mirror.widelanguageindex.org/swh/swh-a0171ce7ba21842d4e515b3a205644fd.mp3"
   ],
   "source_name": "SBS Swahili",
   "source_url": "http://www.sbs.com.au/yourlanguage/swahili/highlight/page/id/281888/t/Australian-Election-Isaac-Kisimba-Herbert-Gatamah",

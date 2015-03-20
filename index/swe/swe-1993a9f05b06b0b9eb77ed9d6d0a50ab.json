@@ -53,7 +53,8 @@
   "language": "swe",
   "location": "Australia",
   "media_urls": [
-    "http://media.sbs.com.au/audio/swedish_130801_280393.mp3"
+    "http://media.sbs.com.au/audio/swedish_130801_280393.mp3",
+    "http://mirror.widelanguageindex.org/swe/swe-1993a9f05b06b0b9eb77ed9d6d0a50ab.mp3"
   ],
   "source_name": "SBS Swedish",
   "source_url": "http://www.sbs.com.au/yourlanguage/swedish/highlight/page/id/280393/t/The-latest-news-from-Sweden",
