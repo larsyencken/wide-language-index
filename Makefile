@@ -18,6 +18,7 @@ help:
 	@echo '  make normalize  reformat all json records to a standard form'
 	@echo '  make annotate   start an annotation session'
 	@echo '  make mirror     mirror samples to s3'
+	@echo '  make rss        scrape rss feeds for new audio samples'
 	@echo
 
 env/: requirements.pip
@@ -39,3 +40,6 @@ annotate:
 
 mirror:
 	$(PY) src/mirror.py
+
+rss:
+	$(PY) src/fetch_rss_feed.py

@@ -1,0 +1,19 @@
+[
+	{
+		"language": "cmn",
+		"rss_url": "http://www.voachinese.com/podcast/?count=20&zoneId=1738",
+		"source_name": "Voice of America Chinese"
+	},
+	{
+		"language": "cmn",
+		"rss_url": "http://www.bbc.co.uk/zhongwen/simp/topics/audio/index.xml",
+		"source_name": "BBC Chinese",
+		"a_content": " 高清 "
+	},
+	{
+		"language": "cmn",
+		"rss_url": "http://feeds.feedburner.com/radiomandarin",
+		"source_name": "SBS Australia",
+		"source_url": "http://www.sbs.com.au/yourlanguage/mandarin"
+	}
+]
