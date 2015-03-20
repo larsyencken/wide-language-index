@@ -5,6 +5,7 @@
 #  wide-language-index
 #
 
+import sys
 import tempfile
 
 import click
@@ -48,11 +49,15 @@ def play_sample(sample):
         # normalize the sample's volume
         sh.mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
 
+        sys.stdout.write('<playing...')
+        sys.stdout.flush()
         p = sh.afplay(t.name, _bg=True)
         try:
             p.wait()
+            print('done>')
         except KeyboardInterrupt:
             p.terminate()
+            print('cancelled>')
             return False
 
     return True
