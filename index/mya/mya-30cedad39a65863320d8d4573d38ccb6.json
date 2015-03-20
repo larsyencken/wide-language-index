@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 420,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "30cedad39a65863320d8d4573d38ccb6",
   "date": "2013-07-31",
   "filename": "burmese_130731_280057.mp3",

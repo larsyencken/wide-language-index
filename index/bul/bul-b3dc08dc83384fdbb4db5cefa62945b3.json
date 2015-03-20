@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 160,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "b3dc08dc83384fdbb4db5cefa62945b3",
   "date": "2013-08-05",
   "filename": "bulgarian_130805_280943.mp3",

@@ -1,4 +1,18 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    }
+  ],
   "checksum": "3ea120b079f4d0249a865b6bbe299128",
   "date": "2013-08-10",
   "filename": "assyrian_130810_282100.mp3",

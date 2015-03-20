@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 320,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "3b52b7811bdbef9dc7d22234180b7046",
   "date": "2013-07-20",
   "filename": "malay_130720_278376.mp3",

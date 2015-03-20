@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 420,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "59f650cd182b49172363333c7085840f",
   "date": "2013-08-10",
   "filename": "russian_130810_282034.mp3",

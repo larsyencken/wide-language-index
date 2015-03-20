@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "8efff6445f6fd8a6b1ae0fa0b216381e",
   "date": "2013-08-07",
   "filename": "latvian_130807_281573.mp3",

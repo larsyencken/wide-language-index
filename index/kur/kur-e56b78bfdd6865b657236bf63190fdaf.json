@@ -1,4 +1,18 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
+    }
+  ],
   "checksum": "e56b78bfdd6865b657236bf63190fdaf",
   "date": "2013-08-11",
   "filename": "kurdish_130811_282214.mp3",

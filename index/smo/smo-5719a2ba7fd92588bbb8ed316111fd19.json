@@ -2,11 +2,23 @@
   "annotations": [
     {
       "annotator": "Lars Yencken <lars@yencken.org>",
-      "date": "2015-03-19",
+      "date": "2015-03-20",
       "duration": 20,
-      "genders": "female",
+      "genders": "mixed",
       "label": "bad",
-      "offset": 260,
+      "offset": 160,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 200,
       "problems": [
         "multiple languages"
       ],
@@ -16,34 +28,20 @@
       "annotator": "Lars Yencken <lars@yencken.org>",
       "date": "2015-03-20",
       "duration": 20,
-      "genders": "female",
-      "label": "bad",
-      "offset": 240,
-      "problems": [
-        "multiple languages"
-      ],
-      "speakers": 2
-    },
-    {
-      "annotator": "Lars Yencken <lars@yencken.org>",
-      "date": "2015-03-20",
-      "duration": 20,
-      "genders": "female",
+      "genders": "male",
       "label": "good",
-      "offset": 360,
+      "offset": 60,
       "problems": [],
       "speakers": 1
     }
   ],
-  "checksum": "d1c8d4407cc64c46e18b7d33cde53bc0",
-  "date": "2013-07-31",
-  "filename": "albanian_130731_280275.mp3",
-  "language": "sqi",
-  "location": "Australia",
+  "checksum": "5719a2ba7fd92588bbb8ed316111fd19",
+  "date": "2015-03-20",
+  "language": "smo",
   "media_urls": [
-    "http://media.sbs.com.au/audio/albanian_130731_280275.mp3"
+    "http://media.sbs.com.au/audio/samoan_150320_399512.mp3"
   ],
-  "source_name": "SBS Albanian",
-  "source_url": "http://www.sbs.com.au/yourlanguage/albanian/highlight/page/id/280275/t/Asylum-Forum",
-  "title": "Asylum Forum"
+  "source_name": "SBS Australia",
+  "source_url": "http://www.sbs.com.au/yourlanguage/samoan/en/content/more-aid-vanuatu",
+  "title": "More aid for Vanuatu"
 }

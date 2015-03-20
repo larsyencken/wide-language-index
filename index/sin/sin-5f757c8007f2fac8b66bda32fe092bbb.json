@@ -1,4 +1,28 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 480,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 680,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "5f757c8007f2fac8b66bda32fe092bbb",
   "date": "2013-08-05",
   "filename": "sinhalese_130805_281035.mp3",

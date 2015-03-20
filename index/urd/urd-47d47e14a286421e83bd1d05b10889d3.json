@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "47d47e14a286421e83bd1d05b10889d3",
   "date": "2013-08-07",
   "filename": "urdu_130807_281583.mp3",

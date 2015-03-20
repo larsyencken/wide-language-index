@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-19",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 180,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "79d274b70374b4d6f5da676ce82046c9",
   "date": "2013-08-06",
   "filename": "thai_130806_281253.mp3",

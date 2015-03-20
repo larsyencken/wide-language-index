@@ -1,4 +1,41 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 580,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "excess loan words",
+        "language or place reference"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-20",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 120,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "83165f555f1eaf502c0a2b7a85c7c2d9",
   "date": "2013-08-10",
   "filename": "assyrian_130810_282102.mp3",
