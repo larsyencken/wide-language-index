@@ -22,9 +22,11 @@ RSS_FEEDS = 'data/rss_feeds.json'
 
 
 @click.command()
-@click.option('--max-posts', type=int, default=10,
+@click.option('--max-posts', type=int, default=5,
               help='How many posts to fetch from each feed')
-def main(max_posts=10):
+@click.option('--language', default=None,
+              help='Only scrape the given language code.')
+def main(max_posts=5, language=None):
     """
     Fetch new audio podcasts from rss feeds and add them to the index.
     """
@@ -32,7 +34,8 @@ def main(max_posts=10):
     schema = load_schema()
     seen_urls = scan_index()
     for feed in feeds:
-        fetch_posts(feed, max_posts, schema, seen_urls)
+        if language in (feed['language'], None):
+            fetch_posts(feed, max_posts, schema, seen_urls)
 
 
 def load_schema():
