@@ -18,7 +18,7 @@ import sh
 from pyquery import PyQuery as pq
 
 
-RSS_FEEDS = 'ext/rss_feeds.json'
+RSS_FEEDS = 'data/rss_feeds.json'
 
 
 @click.command()
