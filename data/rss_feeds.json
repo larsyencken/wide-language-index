@@ -48,5 +48,10 @@
     "language": "eng",
     "rss_url": "http://www.npr.org/rss/rss.php?id=3",
     "source_name": "NPR: Morning Edition"
-  }
+  },
+	{
+		"language": "hin",
+		"rss_url": "http://feeds.feedburner.com/sbshindi",
+		"source_name": "SBS Hindi"
+	}
 ]
