@@ -10,6 +10,7 @@ import hashlib
 import tempfile
 import shutil
 import glob
+from urllib.parse import urlparse
 
 import click
 import feedparser
@@ -54,6 +55,8 @@ def fetch_posts(feed, max_posts, schema, seen_urls):
         save_record(sample)
         jsonschema.validate(sample, schema)
 
+        seen_urls.add(sample['source_url'])
+
     print()
 
 
@@ -97,14 +100,14 @@ def iter_feed(feed, max_posts, seen_urls):
     feed = feedparser.parse(rss_url)
     for i, e in enumerate(feed.entries[:max_posts]):
         title = e['title']
-        source_url = e['link']
+        media_url = detect_media_url(e, feed)
+        source_url = e.get('link', media_url)
 
         if source_url in seen_urls:
             print('{0}. {1} (skipped)'.format(i + 1, title))
             continue
 
         print('{0}. {1}'.format(i + 1, title))
-        media_url = detect_media_url(e, feed)
         t = e['published_parsed']
         d = dt.date(year=t.tm_year, month=t.tm_mon, day=t.tm_mday)
         yield {
@@ -116,25 +119,38 @@ def iter_feed(feed, max_posts, seen_urls):
 
 
 def detect_media_url(e, feed):
-    url = e['link']
-    if url.endswith('.mp3'):
-        return url
+    # firstly, try the link element
+    if 'link' in e and e['link'].endswith('.mp3'):
+        return e['link']
 
-    audio_links = [l['href'] for l in e['links']
-                   if l['href'].endswith('.mp3')]
-    if len(audio_links) > 1:
-        raise Exception('too many audio files to choose from')
-    elif len(audio_links) == 1:
-        return audio_links[0]
+    # next try an audio enclosure
+    if 'links' in e:
+        audio_links = [l['href'] for l in e['links']
+                       if is_mp3_url(l['href'])]
+        if audio_links:
+            if len(audio_links) > 1:
+                raise Exception('too many audio files to choose from')
 
-    d = pq(url=url)
-    files = set([a.attrib['href'] for a in d('a')
-                 if 'href' in a.attrib
-                 and a.attrib['href'].endswith('.mp3')])
-    if len(files) > 1:
-        raise Exception('too many audio files to choose from')
+            return audio_links[0]
 
-    return list(files)[0]
+    # try following the link, and see if there's an audio file on that page
+    if 'link' in e:
+        print('Following link ' + e['link'])
+        d = pq(url=e['link'])
+        files = set([a.attrib['href'] for a in d('a')
+                     if 'href' in a.attrib
+                     and is_mp3_url(a.attrib['href'])])
+        if files:
+            if len(files) > 1:
+                raise Exception('too many audio files to choose from')
+
+            return list(files)[0]
+
+    raise Exception('no audio found for this podcast')
+
+
+def is_mp3_url(url):
+    return urlparse(url).path.endswith('.mp3')
 
 
 def load_config():

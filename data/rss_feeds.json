@@ -28,5 +28,25 @@
     "language": "spa",
     "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
     "source_name": "24 horas"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
+    "source_name": "BCC World Service: Global News"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.cbc.ca/podcasting/includes/twtw.xml",
+    "source_name": "CBC News: The World This Weekend"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.abc.net.au/newsradio/podcast/THEWEEKLYPOST.xml",
+    "source_name": "ABC News Radio"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.npr.org/rss/rss.php?id=3",
+    "source_name": "NPR: Morning Edition"
   }
 ]
