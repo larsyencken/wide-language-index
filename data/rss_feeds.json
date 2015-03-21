@@ -53,5 +53,25 @@
 		"language": "hin",
 		"rss_url": "http://feeds.feedburner.com/sbshindi",
 		"source_name": "SBS Hindi"
+	},
+	{
+		"language": "arb",
+		"rss_url": "http://feeds.feedburner.com/arabic",
+		"source_name": "SBS Arabic"
+	},
+	{
+		"language": "arb",
+		"rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/xtra/rss.xml",
+		"source_name": "BBC Xtra"
+	},
+	{
+		"language": "arb",
+		"rss_url": "http://api.sr.se/api/rss/pod/4004",
+		"source_name": "Radio Sweden Arabic"
+	},
+	{
+		"language": "arb",
+		"rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/arabic.xml",
+		"source_name": "NHK World Radio Japan (Arabic)"
 	}
 ]
