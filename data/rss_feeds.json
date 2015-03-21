@@ -7,13 +7,26 @@
 	{
 		"language": "cmn",
 		"rss_url": "http://www.bbc.co.uk/zhongwen/simp/topics/audio/index.xml",
-		"source_name": "BBC Chinese",
-		"a_content": " 高清 "
+		"source_name": "BBC Chinese"
 	},
 	{
 		"language": "cmn",
 		"rss_url": "http://feeds.feedburner.com/radiomandarin",
-		"source_name": "SBS Australia",
-		"source_url": "http://www.sbs.com.au/yourlanguage/mandarin"
-	}
+		"source_name": "SBS Australia"
+	},
+	{
+		"language": "spa",
+		"rss_url": "http://feeds.feedburner.com/spanish",
+		"source_name": "SBS Australia"
+	},
+  {
+    "language": "spa",
+    "rss_url": "http://www.voanoticias.com/podcast/?count=20&zoneId=454",
+    "source_name": "Voice of America Spanish"
+  },
+  {
+    "language": "spa",
+    "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
+    "source_name": "24 horas"
+  }
 ]
