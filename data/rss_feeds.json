@@ -105,6 +105,11 @@
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/indonesian.xml",
     "source_name": "Indonesian News - NHK WORLD RADIO JAPAN"
   },
+	{
+	  "language": "jav",
+	  "rss_url": "http://feeds.feedburner.com/JAVBN_VOH",
+	  "source_name": "AWR: Javanese / Basa Jawa"
+	},
   {
     "language": "jpn",
     "rss_url": "http://feeds.feedburner.com/sbsjapanese",
