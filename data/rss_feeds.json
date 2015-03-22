@@ -155,6 +155,16 @@
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/korean.xml",
     "source_name": "Korean News - NHK WORLD RADIO JAPAN"
   },
+	{
+	  "language": "kor",
+	  "rss_url": "http://feeds.feedburner.com/sbskorean",
+	  "source_name": "SBS Korean"
+	},
+	{
+	  "language": "kor",
+	  "rss_url": "http://www.voakorea.com/podcast/?count=20&zoneId=2721",
+	  "source_name": "VOA 뉴스 투데이 - Voice of America"
+	},
   {
     "language": "mya",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/burmese.xml",
