@@ -73,5 +73,25 @@
 		"language": "arb",
 		"rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/arabic.xml",
 		"source_name": "NHK World Radio Japan (Arabic)"
+	},
+	{
+		"language": "por",
+		"rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/portuguese.xml",
+		"source_name": "NHK World Radio Japan (Portuguese)"
+	},
+	{
+		"language": "por",
+		"rss_url": "http://feeds.feedburner.com/portuguese",
+		"source_name": "SBS Portuguese"
+	},
+	{
+		"language": "por",
+		"rss_url": "http://www.rtp.pt/play/podcast/1801",
+		"source_name": "RTP: O Mundo ao Ouvido"
+	},
+	{
+		"language": "por",
+		"rss_url": "http://www.voaportugues.com/podcast/?count=20&zoneId=3066",
+		"source_name": "Emissão Vespertina - Voz da América"
 	}
 ]
