@@ -175,7 +175,7 @@ def detect_media_url(e, feed):
 
 
 def is_mp3_url(url):
-    return urlparse(url).path.endswith('.mp3')
+    return urlparse(url).path.lower().endswith('.mp3')
 
 
 def load_config():
