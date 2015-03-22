@@ -4,6 +4,7 @@
 #  wide-language-index
 #
 
+import os
 import json
 import datetime as dt
 import hashlib
@@ -75,11 +76,15 @@ def fetch_sample(sample):
         filename = 'samples/{language}/{language}-{checksum}.mp3'.format(
             **sample
         )
+        directory = os.path.dirname(filename)
+        sh.mkdir('-p', directory)
         shutil.copy(t.name, filename)
 
 
 def save_record(sample):
     filename = 'index/{language}/{language}-{checksum}.json'.format(**sample)
+    directory = os.path.dirname(filename)
+    sh.mkdir('-p', directory)
     s = json.dumps(sample, indent=2, sort_keys=True)
     with open(filename, 'w') as ostream:
         ostream.write(s)
