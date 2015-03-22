@@ -110,6 +110,16 @@
     "rss_url": "http://feeds.feedburner.com/sbsjapanese",
     "source_name": "SBS Japanese"
   },
+	{
+	  "language": "jpn",
+	  "rss_url": "http://www.nhk.or.jp/r-asa/podcast/business.xml",
+	  "source_name": "ラジオあさいちばん「ビジネス展望」"
+	},
+	{
+	  "language": "jpn",
+	  "rss_url": "http://www.nhk.or.jp/r-asa/podcast/life.xml",
+	  "source_name": "ラジオあさいちばん「健康ライフ」"
+	},
   {
     "language": "kor",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/korean.xml",
