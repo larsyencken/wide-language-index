@@ -33,10 +33,10 @@ def main(max_posts=5, language=None):
     """
     feeds = load_config()
     schema = load_schema()
-    seen_urls = scan_index()
+    seen = scan_index()
     for feed in feeds:
         if language in (feed['language'], None):
-            fetch_posts(feed, max_posts, schema, seen_urls)
+            fetch_posts(feed, max_posts, schema, seen)
 
 
 def load_schema():
@@ -44,18 +44,24 @@ def load_schema():
         return json.load(istream)
 
 
-def fetch_posts(feed, max_posts, schema, seen_urls):
+def fetch_posts(feed, max_posts, schema, seen):
     print('[{0}] {1}'.format(feed['language'], feed['source_name']))
 
-    for post in iter_feed(feed, max_posts, seen_urls):
+    for post in iter_feed(feed, max_posts, seen):
         sample = post.copy()
         sample['language'] = feed['language']
         sample['source_name'] = feed['source_name']
         fetch_sample(sample)
+
+        if sample['checksum'] in seen:
+            print('checksum already in index -- skipping')
+            continue
+
         save_record(sample)
         jsonschema.validate(sample, schema)
 
-        seen_urls.add(sample['source_url'])
+        seen.add(sample['source_url'])
+        seen.add(sample['checksum'])
 
     print()
 
@@ -85,20 +91,20 @@ def md5_checksum(filename):
 
 
 def scan_index():
-    seen_urls = set()
+    seen = set()
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
             r = json.load(istream)
-            url = r['source_url']
-            seen_urls.add(url)
+            seen.add(r['source_url'])
+            seen.add(r['checksum'])
 
-    return seen_urls
+    return seen
 
 
 def iter_feed(feed, max_posts, seen_urls):
     rss_url = feed['rss_url']
-    feed = feedparser.parse(rss_url)
-    for i, e in enumerate(feed.entries[:max_posts]):
+    rss = feedparser.parse(rss_url)
+    for i, e in enumerate(rss.entries[:max_posts]):
         title = e['title']
         media_url = detect_media_url(e, feed)
         source_url = e.get('link', media_url)
@@ -128,21 +134,22 @@ def detect_media_url(e, feed):
         audio_links = [l['href'] for l in e['links']
                        if is_mp3_url(l['href'])]
         if audio_links:
-            if len(audio_links) > 1:
-                raise Exception('too many audio files to choose from')
+            if len(audio_links) > 1 and 'multiple_audio' not in feed:
+                raise Exception('too many audio files to choose from: '
+                                '{0}'.format(e))
 
             return audio_links[0]
 
     # try following the link, and see if there's an audio file on that page
     if 'link' in e:
-        print('Following link ' + e['link'])
         d = pq(url=e['link'])
-        files = set([a.attrib['href'] for a in d('a')
-                     if 'href' in a.attrib
-                     and is_mp3_url(a.attrib['href'])])
+        files = [a.attrib['href'] for a in d('a')
+                 if 'href' in a.attrib
+                 and is_mp3_url(a.attrib['href'])]
         if files:
-            if len(files) > 1:
-                raise Exception('too many audio files to choose from')
+            if len(set(files)) > 1 and 'multiple_audio' not in feed:
+                raise Exception('too many audio files to choose from: '
+                                '{0}'.format(e['link']))
 
             return list(files)[0]
 

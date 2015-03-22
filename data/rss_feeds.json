@@ -93,5 +93,21 @@
 		"language": "por",
 		"rss_url": "http://www.voaportugues.com/podcast/?count=20&zoneId=3066",
 		"source_name": "Emissão Vespertina - Voz da América"
+	},
+	{
+		"language": "ben",
+		"rss_url": "http://feeds.feedburner.com/sbsbangla",
+		"source_name": "SBS Bangla"
+	},
+	{
+		"language": "ben",
+		"rss_url": "http://www.bbc.co.uk/bengali/topics/audio/index.xml",
+		"source_name": "BBC Bangla",
+		"multiple_audio": true
+	},
+	{
+		"language": "ben",
+		"rss_url": "http://www.voabangla.com/podcast/?count=20&zoneId=2950",
+		"source_name": "অনুষ্ঠান প্রতিদিন - ভয়েস অব আমেরিকা"
 	}
 ]
