@@ -60,6 +60,31 @@
     "rss_url": "http://www.voachinese.com/podcast/?count=20&zoneId=1738",
     "source_name": "Voice of America Chinese"
   },
+	{
+	  "language": "deu",
+	  "rss_url": "http://feeds.feedburner.com/german",
+	  "source_name": "SBS German"
+	},
+	{
+	  "language": "deu",
+	  "rss_url": "http://www.deutschlandradio.de/podcast-sport.411.de.podcast",
+	  "source_name": "Sport - Deutschlandradio"
+	},
+	{
+	  "language": "deu",
+	  "rss_url": "http://api.sr.se/api/rss/pod/4006",
+	  "source_name": "SRI Deutsch"
+	},
+	{
+	  "language": "deu",
+	  "rss_url": "http://static.orf.at/podcast/oe1/oe1_journale.xml",
+	  "source_name": "Ö1 Journale"
+	},
+	{
+	  "language": "deu",
+	  "rss_url": "http://static.orf.at/podcast/oe1/oe1_kultur.xml",
+	  "source_name": "Ö1 Kultur aktuell"
+	},
   {
     "language": "eng",
     "rss_url": "http://www.abc.net.au/newsradio/podcast/THEWEEKLYPOST.xml",
