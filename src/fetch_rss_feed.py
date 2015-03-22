@@ -23,6 +23,10 @@ from pyquery import PyQuery as pq
 RSS_FEEDS = 'data/rss_feeds.json'
 
 
+class DownloadError(Exception):
+    pass
+
+
 @click.command()
 @click.option('--max-posts', type=int, default=5,
               help='How many posts to fetch from each feed')
@@ -52,7 +56,12 @@ def fetch_posts(feed, max_posts, schema, seen):
         sample = post.copy()
         sample['language'] = feed['language']
         sample['source_name'] = feed['source_name']
-        fetch_sample(sample)
+        try:
+            fetch_sample(sample)
+
+        except DownloadError:
+            print('got 404 when downloading -- skipping')
+            continue
 
         if sample['checksum'] in seen:
             print('checksum already in index -- skipping')
@@ -70,7 +79,11 @@ def fetch_posts(feed, max_posts, schema, seen):
 def fetch_sample(sample):
     url, = sample['media_urls']
     with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
-        sh.wget('-O', t.name, url)
+        try:
+            sh.wget('-O', t.name, url)
+        except sh.ErrorReturnCode_8:
+            raise DownloadError(url)
+
         checksum = md5_checksum(t.name)
         sample['checksum'] = checksum
         filename = 'samples/{language}/{language}-{checksum}.mp3'.format(
