@@ -109,5 +109,25 @@
 		"language": "ben",
 		"rss_url": "http://www.voabangla.com/podcast/?count=20&zoneId=2950",
 		"source_name": "অনুষ্ঠান প্রতিদিন - ভয়েস অব আমেরিকা"
+	},
+	{
+		"language": "rus",
+		"rss_url": "http://feeds.feedburner.com/russian",
+		"source_name": "SBS Russian"
+	},
+	{
+		"language": "rus",
+		"rss_url": "http://www.golos-ameriki.ru/podcast/?count=20&zoneId=1874",
+		"source_name": "ГОЛОС АМЕРИКИ"
+	},
+	{
+		"language": "rus",
+		"rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/rss.xml",
+		"source_name": "BBSeva from BBCRussian"
+	},
+	{
+		"language": "rus",
+		"rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/russian.xml",
+		"source_name": "NHK World Radio (Russian)"
 	}
 ]
