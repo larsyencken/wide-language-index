@@ -14,7 +14,7 @@ import glob
 
 def normalize_json():
     n = 0
-    for f in glob.glob('index/*/*.json'):
+    for f in glob.glob('index/*/*.json') + ["data/rss_feeds.json"]:
         s = open(f).read()
         data = json.loads(s)
         s_norm = json.dumps(data, indent=2, sort_keys=True)
