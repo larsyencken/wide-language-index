@@ -4,32 +4,19 @@
 #  wide-language-index
 #
 
-import os
-from os import path
 import json
 import datetime as dt
-import hashlib
-import tempfile
-import shutil
-import glob
 from urllib.parse import urlparse
 
 import click
 import feedparser
-import jsonschema
-import sh
 from pyquery import PyQuery as pq
+
+import index
 
 
 RSS_FEEDS = 'data/rss_feeds.json'
 DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36'  # noqa
-HERE = path.abspath(path.dirname(__file__))
-INDEX_DIR = path.join(HERE, '../index')
-SAMPLE_DIR = path.join(HERE, '../samples')
-
-
-class DownloadError(Exception):
-    pass
 
 
 @click.command()
@@ -42,17 +29,11 @@ def main(max_posts=5, language=None):
     Fetch new audio podcasts from rss feeds and add them to the index.
     """
     feeds = load_config()
-    schema = load_schema()
-    seen = scan_index()
+    schema = index.load_schema()
+    seen = index.scan()
     for feed in feeds:
         if language in (feed['language'], None):
             fetch_posts(feed, max_posts, schema, seen)
-
-
-def load_schema():
-    filename = path.join(INDEX_DIR, 'schema.json')
-    with open(filename) as istream:
-        return json.load(istream)
 
 
 def fetch_posts(feed, max_posts, schema, seen):
@@ -60,76 +41,31 @@ def fetch_posts(feed, max_posts, schema, seen):
 
     for post in iter_feed(feed, max_posts, seen):
         sample = post.copy()
-        sample['language'] = feed['language']
-        sample['source_name'] = feed['source_name']
+        sample.update({
+            'language': feed['language'],
+            'source_name': feed['source_name'],
+        })
+
+        media_url = sample['media_urls'][0]
         try:
-            fetch_sample(sample)
-
-        except DownloadError:
-            print('got 404 when downloading -- skipping')
+            _, checksum = index.stage_audio(media_url,
+                                            feed['language'])
+        except index.DownloadError:
+            print('SKIPPING: got 404 when downloading')
             continue
 
-        if sample['checksum'] in seen:
-            print('checksum already in index -- skipping')
+        sample['checksum'] = checksum
+        if checksum in seen:
+            print('SKIPPING: checksum already in index')
             continue
 
-        save_record(sample)
-        jsonschema.validate(sample, schema)
-
-        seen.add(sample['source_url'])
-        seen.add(sample['checksum'])
+        index.save(sample, schema=schema)
+        index.mark_as_seen(sample, seen)
 
     print()
 
 
-def fetch_sample(sample, user_agent=DEFAULT_USER_AGENT):
-    url, = sample['media_urls']
-    with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
-        try:
-            sh.wget('-e', 'robots=off', '-U', user_agent, '-O', t.name, url)
-        except sh.ErrorReturnCode_8:
-            raise DownloadError(url)
-
-        checksum = md5_checksum(t.name)
-        sample['checksum'] = checksum
-        filename = path.join(
-            SAMPLE_DIR,
-            '{language}/{language}-{checksum}.mp3'.format(**sample)
-        )
-        directory = os.path.dirname(filename)
-        sh.mkdir('-p', directory)
-        shutil.copy(t.name, filename)
-
-
-def save_record(sample):
-    filename = path.join(
-        INDEX_DIR,
-        '{language}/{language}-{checksum}.json'.format(**sample)
-    )
-    directory = os.path.dirname(filename)
-    sh.mkdir('-p', directory)
-    s = json.dumps(sample, indent=2, sort_keys=True)
-    with open(filename, 'w') as ostream:
-        ostream.write(s)
-
-
-def md5_checksum(filename):
-    with open(filename, 'rb') as istream:
-        return hashlib.md5(istream.read()).hexdigest()
-
-
-def scan_index():
-    seen = set()
-    for f in glob.glob(path.join(INDEX_DIR, '*/*.json')):
-        with open(f) as istream:
-            r = json.load(istream)
-            seen.add(r['source_url'])
-            seen.add(r['checksum'])
-
-    return seen
-
-
-def iter_feed(feed, max_posts, seen_urls):
+def iter_feed(feed, max_posts, seen):
     rss_url = feed['rss_url']
     rss = feedparser.parse(rss_url)
     for i, e in enumerate(rss.entries[:max_posts]):
@@ -137,7 +73,7 @@ def iter_feed(feed, max_posts, seen_urls):
         media_url = detect_media_url(e, feed)
         source_url = e.get('link', media_url)
 
-        if source_url in seen_urls:
+        if source_url in seen or media_url in seen:
             print('{0}. {1} (skipped)'.format(i + 1, title))
             continue
 
@@ -152,12 +88,23 @@ def iter_feed(feed, max_posts, seen_urls):
         }
 
 
-def detect_media_url(e, feed):
-    # firstly, try the link element
+def detect_media_url(episode, feed):
+    for strategy in [use_episode_link,
+                     use_audio_enclosure,
+                     follow_episode_link]:
+        media_url = strategy(episode, feed)
+        if media_url is not None:
+            return media_url
+
+    raise Exception('no audio found for this podcast')
+
+
+def use_episode_link(e, feed):
     if 'link' in e and e['link'].endswith('.mp3'):
         return e['link']
 
-    # next try an audio enclosure
+
+def use_audio_enclosure(e, feed):
     if 'links' in e:
         audio_links = [l['href'] for l in e['links']
                        if is_mp3_url(l['href'])]
@@ -168,20 +115,26 @@ def detect_media_url(e, feed):
 
             return audio_links[0]
 
-    # try following the link, and see if there's an audio file on that page
-    if 'link' in e:
-        d = pq(url=e['link'])
-        files = [a.attrib['href'] for a in d('a')
-                 if 'href' in a.attrib
-                 and is_mp3_url(a.attrib['href'])]
-        if files:
-            if len(set(files)) > 1 and 'multiple_audio' not in feed:
-                raise Exception('too many audio files to choose from: '
-                                '{0}'.format(e['link']))
 
-            return list(files)[0]
+def follow_episode_link(e, feed):
+    if 'link' not in e:
+        return
 
-    raise Exception('no audio found for this podcast')
+    allow_multiple = ('multiple_audio' in feed)
+    return get_audio_link(e['link'], allow_multiple=allow_multiple)
+
+
+def get_audio_link(url, allow_multiple=False):
+    d = pq(url=url)
+    files = [a.attrib['href'] for a in d('a')
+             if 'href' in a.attrib
+             and is_mp3_url(a.attrib['href'])]
+    if files:
+        if len(set(files)) > 1 and not allow_multiple:
+            raise Exception('too many audio files to choose from: '
+                            '{0}'.format(url))
+
+        return list(files)[0]
 
 
 def is_mp3_url(url):
