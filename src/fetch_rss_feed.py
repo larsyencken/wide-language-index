@@ -5,6 +5,7 @@
 #
 
 import os
+from os import path
 import json
 import datetime as dt
 import hashlib
@@ -21,6 +22,10 @@ from pyquery import PyQuery as pq
 
 
 RSS_FEEDS = 'data/rss_feeds.json'
+DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36'  # noqa
+HERE = path.abspath(path.dirname(__file__))
+INDEX_DIR = path.join(HERE, '../index')
+SAMPLE_DIR = path.join(HERE, '../samples')
 
 
 class DownloadError(Exception):
@@ -45,7 +50,8 @@ def main(max_posts=5, language=None):
 
 
 def load_schema():
-    with open('index/schema.json') as istream:
+    filename = path.join(INDEX_DIR, 'schema.json')
+    with open(filename) as istream:
         return json.load(istream)
 
 
@@ -76,18 +82,19 @@ def fetch_posts(feed, max_posts, schema, seen):
     print()
 
 
-def fetch_sample(sample):
+def fetch_sample(sample, user_agent=DEFAULT_USER_AGENT):
     url, = sample['media_urls']
     with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
         try:
-            sh.wget('-O', t.name, url)
+            sh.wget('-e', 'robots=off', '-U', user_agent, '-O', t.name, url)
         except sh.ErrorReturnCode_8:
             raise DownloadError(url)
 
         checksum = md5_checksum(t.name)
         sample['checksum'] = checksum
-        filename = 'samples/{language}/{language}-{checksum}.mp3'.format(
-            **sample
+        filename = path.join(
+            SAMPLE_DIR,
+            '{language}/{language}-{checksum}.mp3'.format(**sample)
         )
         directory = os.path.dirname(filename)
         sh.mkdir('-p', directory)
@@ -95,7 +102,10 @@ def fetch_sample(sample):
 
 
 def save_record(sample):
-    filename = 'index/{language}/{language}-{checksum}.json'.format(**sample)
+    filename = path.join(
+        INDEX_DIR,
+        '{language}/{language}-{checksum}.json'.format(**sample)
+    )
     directory = os.path.dirname(filename)
     sh.mkdir('-p', directory)
     s = json.dumps(sample, indent=2, sort_keys=True)
@@ -110,7 +120,7 @@ def md5_checksum(filename):
 
 def scan_index():
     seen = set()
-    for f in glob.glob('index/*/*.json'):
+    for f in glob.glob(path.join(INDEX_DIR, '*/*.json')):
         with open(f) as istream:
             r = json.load(istream)
             seen.add(r['source_url'])
