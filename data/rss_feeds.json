@@ -130,6 +130,11 @@
     "rss_url": "http://partner.dw.de/syndication/feeds/podcast_afrique-7-jours.1854-mrss.xml",
     "source_name": "Afrique 7 jours | Deutsche Welle"
   },
+	{
+		"language": "fra",
+		"rss_url": "http://rss.radio-canada.ca/balado/radio/hobjets.xml",
+		"source_name": "Histoires d'objets"
+	},
   {
     "language": "hin",
     "rss_url": "http://feeds.feedburner.com/sbshindi",
