@@ -261,6 +261,11 @@
     "source_name": "Thai News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "tur",
+    "rss_url": "http://feeds.feedburner.com/sbsturkish",
+    "source_name": "SBS Turkish"
+  },
+  {
     "language": "urd",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/urdu.xml",
     "source_name": "Urdu News - NHK WORLD RADIO JAPAN"
