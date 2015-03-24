@@ -279,5 +279,20 @@
     "language": "vie",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/vietnamese.xml",
     "source_name": "Vietnamese News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://feeds.feedburner.com/vietnamese",
+    "source_name": "SBS Vietnamese"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://www1.rfi.fr/radiofr/podcast/Podcast_vi_journal_10.xml",
+    "source_name": "nghe chương trình 17 phút - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://www.voatiengviet.com/podcast/?count=20&zoneId=1813",
+    "source_name": "Vi\u1ec7t Nam - VOA"
   }
 ]
