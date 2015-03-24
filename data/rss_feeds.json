@@ -186,6 +186,11 @@
     "source_name": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 - Voice of America"
   },
   {
+    "language": "mar",
+    "rss_url": "http://feeds.feedburner.com/MARPU_VOH?format=xml",
+    "source_name": "AWR Marathi / Maharashtra / \u092e\u0930\u093e\u0920\u0940 / Mar\u0101\u1e6dh\u012b"
+  },
+  {
     "language": "mya",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/burmese.xml",
     "source_name": "Burmese News - NHK WORLD RADIO JAPAN"
