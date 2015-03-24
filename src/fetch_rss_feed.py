@@ -112,7 +112,7 @@ def use_episode_link(e, feed):
 def use_audio_enclosure(e, feed):
     if 'links' in e:
         audio_links = [l['href'] for l in e['links']
-                       if is_audio_url(l['href'])]
+                       if 'href' in l and is_audio_url(l['href'])]
         if audio_links:
             if len(audio_links) > 1 and 'multiple_audio' not in feed:
                 raise Exception('too many audio files to choose from: '
