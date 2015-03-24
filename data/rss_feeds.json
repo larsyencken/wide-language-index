@@ -266,6 +266,11 @@
     "source_name": "SBS Turkish"
   },
   {
+    "language": "tur",
+    "rss_url": "http://kayitbasladi.com/rss/",
+    "source_name": "Kayıt Başladı"
+  },
+  {
     "language": "urd",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/urdu.xml",
     "source_name": "Urdu News - NHK WORLD RADIO JAPAN"
