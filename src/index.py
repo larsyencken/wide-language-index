@@ -74,7 +74,7 @@ def _staged_file(source_file, language, orig_checksum=None):
 
 @contextmanager
 def downloaded(url, suffix):
-    print('   downloading audio...')
+    print('   downloading {0}'.format(url))
     with tempfile.NamedTemporaryFile(suffix=suffix) as t:
         try:
             sh.wget('-e', 'robots=off',
