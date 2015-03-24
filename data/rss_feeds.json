@@ -261,6 +261,16 @@
     "source_name": "Swahili News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "tam",
+    "rss_url": "http://feeds.feedburner.com/sbstamil",
+    "source_name": "SBS Tamil"
+  },
+  {
+    "language": "tam",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/rss.xml",
+    "source_name": "Tamil Nadu Muslims"
+  },
+  {
     "language": "tha",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/thai.xml",
     "source_name": "Thai News - NHK WORLD RADIO JAPAN"
