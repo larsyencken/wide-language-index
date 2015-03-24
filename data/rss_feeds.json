@@ -136,6 +136,16 @@
     "source_name": "Histoires d'objets"
   },
   {
+    "language": "hau",
+    "rss_url": "http://www.voahausa.com/podcast/?count=20&zoneId=3142",
+    "source_name": "Shirin Safe - Voice of America"
+  },
+  {
+    "language": "hau",
+    "rss_url": "http://www.voahausa.com/podcast/?count=20&zoneId=3143",
+    "source_name": "Shirin Hantsi - Voice of America"
+  },
+  {
     "language": "hin",
     "rss_url": "http://feeds.feedburner.com/sbshindi",
     "source_name": "SBS Hindi"
