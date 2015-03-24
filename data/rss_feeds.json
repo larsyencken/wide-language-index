@@ -291,6 +291,16 @@
     "source_name": "Urdu News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "urd",
+    "rss_url": "http://feeds.feedburner.com/sbsurdu",
+    "source_name": "SBS Urdu"
+  },
+  {
+    "language": "urd",
+    "rss_url": "http://www.urduvoa.com/podcast/?count=20&zoneId=2475",
+    "source_name": "10:00PM - \u0631\u0627\u0624\u0646\u0688 \u0679\u06cc\u0628\u0644 - \u0648\u0627\u0626\u0633 \u0622\u0641 \u0627\u0645\u0631\u06cc\u06a9\u06c1"
+  },
+  {
     "language": "vie",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/vietnamese.xml",
     "source_name": "Vietnamese News - NHK WORLD RADIO JAPAN"
