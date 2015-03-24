@@ -296,6 +296,11 @@
     "source_name": "Thai News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "ton",
+    "rss_url": "http://feeds.feedburner.com/tongan",
+    "source_name": "SBS Tongan"
+  },
+  {
     "language": "tur",
     "rss_url": "http://feeds.feedburner.com/sbsturkish",
     "source_name": "SBS Turkish"
