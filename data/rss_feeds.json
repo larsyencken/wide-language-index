@@ -236,6 +236,11 @@
     "source_name": "NHK World Radio (Russian)"
   },
   {
+    "language": "smo",
+    "rss_url": "http://feeds.feedburner.com/samoan",
+    "source_name": "SBS Samoan"
+  },
+  {
     "language": "spa",
     "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
     "source_name": "24 horas"
