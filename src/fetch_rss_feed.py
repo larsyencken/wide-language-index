@@ -48,16 +48,21 @@ def fetch_posts(feed, max_posts, schema, seen):
 
         media_url = sample['media_urls'][0]
         try:
-            _, checksum = index.stage_audio(media_url,
-                                            feed['language'])
+            staged = index.stage_audio(media_url, feed['language'])
         except index.DownloadError:
             print('SKIPPING: got 404 when downloading')
             continue
 
-        sample['checksum'] = checksum
-        if checksum in seen:
+        sample['checksum'] = staged.checksum
+        if staged.checksum in seen:
             print('SKIPPING: checksum already in index')
             continue
+
+        if staged.orig_checksum:
+            sample['origin_checksum'] = staged.orig_checksum
+            if staged.orig_checksum in seen:
+                print('SKIPPING: checksum already in index')
+                continue
 
         index.save(sample, schema=schema)
         index.mark_as_seen(sample, seen)
@@ -107,7 +112,7 @@ def use_episode_link(e, feed):
 def use_audio_enclosure(e, feed):
     if 'links' in e:
         audio_links = [l['href'] for l in e['links']
-                       if is_mp3_url(l['href'])]
+                       if is_audio_url(l['href'])]
         if audio_links:
             if len(audio_links) > 1 and 'multiple_audio' not in feed:
                 raise Exception('too many audio files to choose from: '
@@ -128,7 +133,7 @@ def get_audio_link(url, allow_multiple=False):
     d = pq(url=url)
     files = [a.attrib['href'] for a in d('a')
              if 'href' in a.attrib
-             and is_mp3_url(a.attrib['href'])]
+             and is_audio_url(a.attrib['href'])]
     if files:
         if len(set(files)) > 1 and not allow_multiple:
             raise Exception('too many audio files to choose from: '
@@ -137,8 +142,8 @@ def get_audio_link(url, allow_multiple=False):
         return list(files)[0]
 
 
-def is_mp3_url(url):
-    return urlparse(url).path.lower().endswith('.mp3')
+def is_audio_url(url):
+    return urlparse(url).path.lower()[-4:] in ('.mp3', '.m4a')
 
 
 def load_config():
