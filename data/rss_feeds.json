@@ -1,24 +1,250 @@
 [
-	{
-		"language": "cmn",
-		"rss_url": "http://www.voachinese.com/podcast/?count=20&zoneId=1738",
-		"source_name": "Voice of America Chinese"
-	},
-	{
-		"language": "cmn",
-		"rss_url": "http://www.bbc.co.uk/zhongwen/simp/topics/audio/index.xml",
-		"source_name": "BBC Chinese"
-	},
-	{
-		"language": "cmn",
-		"rss_url": "http://feeds.feedburner.com/radiomandarin",
-		"source_name": "SBS Australia"
-	},
-	{
-		"language": "spa",
-		"rss_url": "http://feeds.feedburner.com/spanish",
-		"source_name": "SBS Australia"
-	},
+  {
+    "language": "arb",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/xtra/rss.xml",
+    "source_name": "BBC Xtra"
+  },
+  {
+    "language": "arb",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/arabic.xml",
+    "source_name": "NHK World Radio Japan (Arabic)"
+  },
+  {
+    "language": "arb",
+    "rss_url": "http://api.sr.se/api/rss/pod/4004",
+    "source_name": "Radio Sweden Arabic"
+  },
+  {
+    "language": "arb",
+    "rss_url": "http://feeds.feedburner.com/arabic",
+    "source_name": "SBS Arabic"
+  },
+  {
+    "language": "ben",
+    "multiple_audio": true,
+    "rss_url": "http://www.bbc.co.uk/bengali/topics/audio/index.xml",
+    "source_name": "BBC Bangla"
+  },
+  {
+    "language": "ben",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/bengali.xml",
+    "source_name": "Bengali News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "ben",
+    "rss_url": "http://feeds.feedburner.com/sbsbangla",
+    "source_name": "SBS Bangla"
+  },
+  {
+    "language": "ben",
+    "rss_url": "http://www.voabangla.com/podcast/?count=20&zoneId=2950",
+    "source_name": "\u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09be\u09a8 \u09aa\u09cd\u09b0\u09a4\u09bf\u09a6\u09bf\u09a8 - \u09ad\u09df\u09c7\u09b8 \u0985\u09ac \u0986\u09ae\u09c7\u09b0\u09bf\u0995\u09be"
+  },
+  {
+    "language": "cmn",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/chinese.xml",
+    "source_name": "Chinese News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "cmn",
+    "rss_url": "http://www.bbc.co.uk/zhongwen/simp/topics/audio/index.xml",
+    "source_name": "BBC Chinese"
+  },
+  {
+    "language": "cmn",
+    "rss_url": "http://feeds.feedburner.com/radiomandarin",
+    "source_name": "SBS Australia"
+  },
+  {
+    "language": "cmn",
+    "rss_url": "http://www.voachinese.com/podcast/?count=20&zoneId=1738",
+    "source_name": "Voice of America Chinese"
+  },
+  {
+    "language": "deu",
+    "rss_url": "http://feeds.feedburner.com/german",
+    "source_name": "SBS German"
+  },
+  {
+    "language": "deu",
+    "rss_url": "http://www.deutschlandradio.de/podcast-sport.411.de.podcast",
+    "source_name": "Sport - Deutschlandradio"
+  },
+  {
+    "language": "deu",
+    "rss_url": "http://api.sr.se/api/rss/pod/4006",
+    "source_name": "SRI Deutsch"
+  },
+  {
+    "language": "deu",
+    "rss_url": "http://static.orf.at/podcast/oe1/oe1_journale.xml",
+    "source_name": "\u00d61 Journale"
+  },
+  {
+    "language": "deu",
+    "rss_url": "http://static.orf.at/podcast/oe1/oe1_kultur.xml",
+    "source_name": "\u00d61 Kultur aktuell"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.abc.net.au/newsradio/podcast/THEWEEKLYPOST.xml",
+    "source_name": "ABC News Radio"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml",
+    "source_name": "BCC World Service: Global News"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.cbc.ca/podcasting/includes/twtw.xml",
+    "source_name": "CBC News: The World This Weekend"
+  },
+  {
+    "language": "eng",
+    "rss_url": "http://www.npr.org/rss/rss.php?id=3",
+    "source_name": "NPR: Morning Edition"
+  },
+  {
+    "language": "fas",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/persian.xml",
+    "source_name": "Persian News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/french.xml",
+    "source_name": "French News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://feeds.feedburner.com/french",
+    "source_name": "SBS French"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://www1.rfi.fr/radiofr/podcast/Podcast_REPOR.xml",
+    "source_name": "RFI - Grand reportage"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://partner.dw.de/syndication/feeds/podcast_afrique-7-jours.1854-mrss.xml",
+    "source_name": "Afrique 7 jours | Deutsche Welle"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://rss.radio-canada.ca/balado/radio/hobjets.xml",
+    "source_name": "Histoires d'objets"
+  },
+  {
+    "language": "hin",
+    "rss_url": "http://feeds.feedburner.com/sbshindi",
+    "source_name": "SBS Hindi"
+  },
+  {
+    "language": "hin",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/hindi.xml",
+    "source_name": "Hindi News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "ind",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/indonesian.xml",
+    "source_name": "Indonesian News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "jav",
+    "rss_url": "http://feeds.feedburner.com/JAVBN_VOH",
+    "source_name": "AWR: Javanese / Basa Jawa"
+  },
+  {
+    "language": "jpn",
+    "rss_url": "http://feeds.feedburner.com/sbsjapanese",
+    "source_name": "SBS Japanese"
+  },
+  {
+    "language": "jpn",
+    "rss_url": "http://www.nhk.or.jp/r-asa/podcast/business.xml",
+    "source_name": "\u30e9\u30b8\u30aa\u3042\u3055\u3044\u3061\u3070\u3093\u300c\u30d3\u30b8\u30cd\u30b9\u5c55\u671b\u300d"
+  },
+  {
+    "language": "jpn",
+    "rss_url": "http://www.nhk.or.jp/r-asa/podcast/life.xml",
+    "source_name": "\u30e9\u30b8\u30aa\u3042\u3055\u3044\u3061\u3070\u3093\u300c\u5065\u5eb7\u30e9\u30a4\u30d5\u300d"
+  },
+  {
+    "language": "kor",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/korean.xml",
+    "source_name": "Korean News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "kor",
+    "rss_url": "http://feeds.feedburner.com/sbskorean",
+    "source_name": "SBS Korean"
+  },
+  {
+    "language": "kor",
+    "rss_url": "http://www.voakorea.com/podcast/?count=20&zoneId=2721",
+    "source_name": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 - Voice of America"
+  },
+  {
+    "language": "mar",
+    "rss_url": "http://feeds.feedburner.com/MARPU_VOH?format=xml",
+    "source_name": "AWR Marathi / Maharashtra / \u092e\u0930\u093e\u0920\u0940 / Mar\u0101\u1e6dh\u012b"
+  },
+  {
+    "language": "mya",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/burmese.xml",
+    "source_name": "Burmese News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "por",
+    "rss_url": "http://www.voaportugues.com/podcast/?count=20&zoneId=3066",
+    "source_name": "Emiss\u00e3o Vespertina - Voz da Am\u00e9rica"
+  },
+  {
+    "language": "por",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/portuguese.xml",
+    "source_name": "NHK World Radio Japan (Portuguese)"
+  },
+  {
+    "language": "por",
+    "rss_url": "http://www.rtp.pt/play/podcast/1801",
+    "source_name": "RTP: O Mundo ao Ouvido"
+  },
+  {
+    "language": "por",
+    "rss_url": "http://feeds.feedburner.com/portuguese",
+    "source_name": "SBS Portuguese"
+  },
+  {
+    "language": "rus",
+    "rss_url": "http://feeds.feedburner.com/russian",
+    "source_name": "SBS Russian"
+  },
+  {
+    "language": "rus",
+    "rss_url": "http://www.golos-ameriki.ru/podcast/?count=20&zoneId=1874",
+    "source_name": "\u0413\u041e\u041b\u041e\u0421 \u0410\u041c\u0415\u0420\u0418\u041a\u0418"
+  },
+  {
+    "language": "rus",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/rss.xml",
+    "source_name": "BBSeva from BBCRussian"
+  },
+  {
+    "language": "rus",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/russian.xml",
+    "source_name": "NHK World Radio (Russian)"
+  },
+  {
+    "language": "spa",
+    "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
+    "source_name": "24 horas"
+  },
+  {
+    "language": "spa",
+    "rss_url": "http://feeds.feedburner.com/spanish",
+    "source_name": "SBS Australia"
+  },
   {
     "language": "spa",
     "rss_url": "http://www.voanoticias.com/podcast/?count=20&zoneId=454",
@@ -26,7 +252,72 @@
   },
   {
     "language": "spa",
-    "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
-    "source_name": "24 horas"
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/spanish.xml",
+    "source_name": "Spanish News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "swh",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/swahili.xml",
+    "source_name": "Swahili News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "tam",
+    "rss_url": "http://feeds.feedburner.com/sbstamil",
+    "source_name": "SBS Tamil"
+  },
+  {
+    "language": "tam",
+    "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/rss.xml",
+    "source_name": "Tamil Nadu Muslims"
+  },
+  {
+    "language": "tha",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/thai.xml",
+    "source_name": "Thai News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "tur",
+    "rss_url": "http://feeds.feedburner.com/sbsturkish",
+    "source_name": "SBS Turkish"
+  },
+  {
+    "language": "tur",
+    "rss_url": "http://kayitbasladi.com/rss/",
+    "source_name": "Kay\u0131t Ba\u015flad\u0131"
+  },
+  {
+    "language": "urd",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/urdu.xml",
+    "source_name": "Urdu News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "urd",
+    "rss_url": "http://feeds.feedburner.com/sbsurdu",
+    "source_name": "SBS Urdu"
+  },
+  {
+    "language": "urd",
+    "rss_url": "http://www.urduvoa.com/podcast/?count=20&zoneId=2475",
+    "source_name": "10:00PM - \u0631\u0627\u0624\u0646\u0688 \u0679\u06cc\u0628\u0644 - \u0648\u0627\u0626\u0633 \u0622\u0641 \u0627\u0645\u0631\u06cc\u06a9\u06c1"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/vietnamese.xml",
+    "source_name": "Vietnamese News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://feeds.feedburner.com/vietnamese",
+    "source_name": "SBS Vietnamese"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://www1.rfi.fr/radiofr/podcast/Podcast_vi_journal_10.xml",
+    "source_name": "nghe ch\u01b0\u01a1ng tr\u00ecnh 17 ph\u00fat - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI"
+  },
+  {
+    "language": "vie",
+    "rss_url": "http://www.voatiengviet.com/podcast/?count=20&zoneId=1813",
+    "source_name": "Vi\u1ec7t Nam - VOA"
   }
 ]

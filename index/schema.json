@@ -14,6 +14,7 @@
 			}
 		},
 		"checksum": {"type": "string"},
+		"origin_checksum": {"type": "string"},
 		"pregain": {"type": "string"},
 		"location": {"type": "string"},
 		"date": {"type": "string"},
