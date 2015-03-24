@@ -111,6 +111,11 @@
     "source_name": "Persian News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "fij",
+    "rss_url": "http://feeds.feedburner.com/fijian",
+    "source_name": "SBS Fijian"
+  },
+  {
     "language": "fra",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/french.xml",
     "source_name": "French News - NHK WORLD RADIO JAPAN"
