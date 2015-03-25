@@ -53,7 +53,7 @@ def _iter_records(index_dir, language=None):
     else:
         pattern = '{0}/{1}/*.json'.format(index_dir, language)
 
-    for f in glob.glob(pattern):
+    for f in sorted(glob.glob(pattern)):
         rec = json.load(open(f))
         yield rec
 
