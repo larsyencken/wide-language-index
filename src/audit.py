@@ -15,12 +15,13 @@ TODO
 
 from __future__ import absolute_import, print_function, division
 
-import os
-import json
 import glob
+import hashlib
+import json
+import os
 import unittest
-from clint.textui.colored import blue
 
+from clint.textui.colored import blue
 import jsonschema
 
 
@@ -31,6 +32,7 @@ VALID_LANGUAGES = set(
 
 def main():
     audit_index()
+    audit_samples()
 
 
 def audit_index():
@@ -46,6 +48,22 @@ def audit_index():
         setattr(IndexTestCase, t.__name__, t)
 
     unittest.TextTestRunner().run(unittest.makeSuite(IndexTestCase))
+    print()
+
+
+def audit_samples():
+    print(blue('Auditing samples...'))
+
+    class SampleTestCase(unittest.TestCase):
+        pass
+
+    samples = sorted(glob.glob('samples/*/*.mp3'))
+    for i, sample in enumerate(samples):
+        t = make_sample_test(sample, i)
+        assert not hasattr(SampleTestCase, t.__name__)
+        setattr(SampleTestCase, t.__name__, t)
+
+    unittest.TextTestRunner().run(unittest.makeSuite(SampleTestCase))
     print()
 
 
@@ -68,6 +86,18 @@ def make_test(f, i, schema):
         assert blob == pretty_blob
 
     name = 'test_doc_{0}'.format(i)
+    t.__name__ = name
+    return t
+
+
+def make_sample_test(sample_file, i):
+    def t(self):
+        with open(sample_file, 'rb') as istream:
+            checksum = hashlib.md5(istream.read()).hexdigest()
+
+        assert checksum in sample_file
+
+    name = 'test_sample_{0}'.format(i)
     t.__name__ = name
     return t
 
