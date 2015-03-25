@@ -50,7 +50,7 @@ def fetch_index(index_dir, output_dir, language=None):
             except DownloadError as e:
                 pass
         else:
-            raise e
+            print('ERROR: {0} -- skipping'.format(e.args[0]))
 
 
 def get_record_files(index_dir, language=None):
