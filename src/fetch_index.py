@@ -47,7 +47,7 @@ def fetch_index(index_dir, output_dir, language=None):
             try:
                 download_and_validate(media_url, checksum, dest_file)
                 break
-            except ValueError as e:
+            except DownloadError as e:
                 pass
         else:
             raise e
@@ -62,11 +62,15 @@ def get_record_files(index_dir, language=None):
     return sorted(glob.glob(pattern))
 
 
+class DownloadError(Exception):
+    pass
+
+
 def download_and_validate(url, checksum, dest_file):
     if not os.path.exists(dest_file):
         resp = requests.get(url)
         if resp.status_code != 200:
-            raise Exception('got HTTP {0} downloading {1}'.format(
+            raise DownloadError('got HTTP {0} downloading {1}'.format(
                 resp.status_code,
                 url,
             ))
@@ -77,7 +81,7 @@ def download_and_validate(url, checksum, dest_file):
 
     c = hashlib.md5(data).hexdigest()
     if c != checksum:
-        raise ValueError(
+        raise DownloadError(
             'checksum mismatch downloading {0} -- got {1}'.format(
                 url,
                 c,
