@@ -28,14 +28,20 @@ def fetch_index(index_dir, output_dir, language=None):
     """
     Fetch a copy of every sample in the index, placing them in output_dir.
     """
-    for rec in _iter_records(index_dir, language=language):
+    record_files = get_record_files(index_dir, language=language)
+    for i, f in enumerate(record_files):
+        rec = json.load(open(f))
         lang = rec['language']
         checksum = rec['checksum']
 
         # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
         dest_file = os.path.join(output_dir, lang,
                                  '{0}-{1}.mp3'.format(lang, checksum))
-        print(dest_file)
+        print('[{0}/{1}] {2}'.format(
+            i + 1,
+            len(record_files),
+            dest_file
+        ))
 
         for media_url in rec['media_urls']:
             try:
@@ -47,15 +53,13 @@ def fetch_index(index_dir, output_dir, language=None):
             raise e
 
 
-def _iter_records(index_dir, language=None):
+def get_record_files(index_dir, language=None):
     if language is None:
         pattern = '{0}/*/*.json'.format(index_dir)
     else:
         pattern = '{0}/{1}/*.json'.format(index_dir, language)
 
-    for f in sorted(glob.glob(pattern)):
-        rec = json.load(open(f))
-        yield rec
+    return sorted(glob.glob(pattern))
 
 
 def download_and_validate(url, checksum, dest_file):
