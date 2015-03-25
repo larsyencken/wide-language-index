@@ -12,17 +12,23 @@ Download the actual sample files for the language game index.
 from __future__ import absolute_import, print_function, division
 
 import os
-import sys
-import optparse
 import hashlib
 import glob
 import json
 
 import requests
+import click
 
 
-def fetch_index(index_dir, output_dir):
-    for rec in _iter_records(index_dir):
+@click.command()
+@click.argument('index_dir')
+@click.argument('output_dir')
+@click.option('--language', help='Only fetch the given language.')
+def fetch_index(index_dir, output_dir, language=None):
+    """
+    Fetch a copy of every sample in the index, placing them in output_dir.
+    """
+    for rec in _iter_records(index_dir, language=language):
         lang = rec['language']
         checksum = rec['checksum']
 
@@ -41,8 +47,13 @@ def fetch_index(index_dir, output_dir):
             raise e
 
 
-def _iter_records(index_dir):
-    for f in glob.glob('{0}/*/*.json'.format(index_dir)):
+def _iter_records(index_dir, language=None):
+    if language is None:
+        pattern = '{0}/*/*.json'.format(index_dir)
+    else:
+        pattern = '{0}/{1}/*.json'.format(index_dir, language)
+
+    for f in glob.glob(pattern):
         rec = json.load(open(f))
         yield rec
 
@@ -77,27 +88,5 @@ def download_and_validate(url, checksum, dest_file):
         ostream.write(data)
 
 
-def _create_option_parser():
-    usage = \
-"""%prog [options] index_dir output_dir
-
-Fetch a copy of every sample in the index, placing them in output_dir."""  # nopep8
-
-    parser = optparse.OptionParser(usage)
-
-    return parser
-
-
-def main(argv):
-    parser = _create_option_parser()
-    (options, args) = parser.parse_args(argv)
-
-    if len(args) != 2:
-        parser.print_help()
-        sys.exit(1)
-
-    fetch_index(*args)
-
-
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    fetch_index()
