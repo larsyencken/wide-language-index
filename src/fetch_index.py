@@ -23,16 +23,22 @@ import requests
 
 def fetch_index(index_dir, output_dir):
     for rec in _iter_records(index_dir):
-        url = rec['media_urls'][-1]
         lang = rec['language']
         checksum = rec['checksum']
 
         # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
         dest_file = os.path.join(output_dir, lang,
                                  '{0}-{1}.mp3'.format(lang, checksum))
-
         print(dest_file)
-        download_and_validate(url, checksum, dest_file)
+
+        for media_url in rec['media_urls']:
+            try:
+                download_and_validate(media_url, checksum, dest_file)
+                break
+            except ValueError as e:
+                pass
+        else:
+            raise e
 
 
 def _iter_records(index_dir):
