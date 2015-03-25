@@ -36,7 +36,8 @@ def main(language=None):
             queue.append(record)
 
     print('{0} samples to be mirrored'.format(len(queue)))
-    for record in queue:
+    for i, record in enumerate(queue):
+        print('[{0}/{1}] '.format(i + 1, len(queue)), end='')
         mirror_sample(record, bucket)
         save_record(record)
 
