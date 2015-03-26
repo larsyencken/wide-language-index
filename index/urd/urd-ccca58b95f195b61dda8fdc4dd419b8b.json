@@ -1,11 +1,12 @@
 {
-  "checksum": "ccca58b95f195b61dda8fdc4dd419b8b",
-  "date": "2015-03-23",
-  "language": "urd",
+  "checksum": "ccca58b95f195b61dda8fdc4dd419b8b", 
+  "date": "2015-03-23", 
+  "language": "urd", 
   "media_urls": [
-    "http://av.voanews.com/clips/VUR/2015/03/23/20150323-170000-VUR-program.mp3"
-  ],
-  "source_name": "10:00PM - \u0631\u0627\u0624\u0646\u0688 \u0679\u06cc\u0628\u0644 - \u0648\u0627\u0626\u0633 \u0622\u0641 \u0627\u0645\u0631\u06cc\u06a9\u06c1",
-  "source_url": "http://www.urduvoa.com/audio/2672612.html",
+    "http://av.voanews.com/clips/VUR/2015/03/23/20150323-170000-VUR-program.mp3", 
+    "http://mirror.widelanguageindex.org/urd/urd-ccca58b95f195b61dda8fdc4dd419b8b.mp3"
+  ], 
+  "source_name": "10:00PM - \u0631\u0627\u0624\u0646\u0688 \u0679\u06cc\u0628\u0644 - \u0648\u0627\u0626\u0633 \u0622\u0641 \u0627\u0645\u0631\u06cc\u06a9\u06c1", 
+  "source_url": "http://www.urduvoa.com/audio/2672612.html", 
   "title": "\u0631\u0627\u0624\u0646\u0688 \u0679\u06cc\u0628\u0644 - \u0645\u0627\u0631\u0686 23, 2015"
 }

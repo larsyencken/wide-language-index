@@ -1,11 +1,12 @@
 {
-  "checksum": "3849265e19b50c56f2ee7db06de84316",
-  "date": "2015-03-23",
-  "language": "rus",
+  "checksum": "3849265e19b50c56f2ee7db06de84316", 
+  "date": "2015-03-23", 
+  "language": "rus", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/wrMOFnc-4gw/russian_150323_400086.mp3"
-  ],
-  "source_name": "SBS Russian",
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/wrMOFnc-4gw/russian_150323_400086.mp3",
+    "http://feedproxy.google.com/~r/russian/~3/wrMOFnc-4gw/russian_150323_400086.mp3", 
+    "http://mirror.widelanguageindex.org/rus/rus-3849265e19b50c56f2ee7db06de84316.mp3"
+  ], 
+  "source_name": "SBS Russian", 
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/wrMOFnc-4gw/russian_150323_400086.mp3", 
   "title": "Clock ticks on time zone change in SA"
 }

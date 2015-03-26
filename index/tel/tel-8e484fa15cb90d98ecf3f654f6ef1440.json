@@ -1,11 +1,12 @@
 {
-  "checksum": "8e484fa15cb90d98ecf3f654f6ef1440",
-  "date": "2012-07-19",
-  "language": "tel",
+  "checksum": "8e484fa15cb90d98ecf3f654f6ef1440", 
+  "date": "2012-07-19", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01149/TeluguRteEdit_1149087a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3658509.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01149/TeluguRteEdit_1149087a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-8e484fa15cb90d98ecf3f654f6ef1440.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3658509.ece?ref=audio", 
   "title": "Strengthening the melting pot [Telugu: Bhinna samskrutula aikyatanu patishtaparachandi] Editorial, July 19, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

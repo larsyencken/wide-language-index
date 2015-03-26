@@ -1,11 +1,12 @@
 {
-  "checksum": "d9f20beb23c0875b642cb1c0c8456ed8",
-  "date": "2015-03-16",
-  "language": "fra",
+  "checksum": "d9f20beb23c0875b642cb1c0c8456ed8", 
+  "date": "2015-03-16", 
+  "language": "fra", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/french/~3/ky6otaVZhWk/french_150316_398544.mp3"
-  ],
-  "source_name": "SBS French",
-  "source_url": "http://feedproxy.google.com/~r/french/~3/ky6otaVZhWk/french_150316_398544.mp3",
+    "http://feedproxy.google.com/~r/french/~3/ky6otaVZhWk/french_150316_398544.mp3", 
+    "http://mirror.widelanguageindex.org/fra/fra-d9f20beb23c0875b642cb1c0c8456ed8.mp3"
+  ], 
+  "source_name": "SBS French", 
+  "source_url": "http://feedproxy.google.com/~r/french/~3/ky6otaVZhWk/french_150316_398544.mp3", 
   "title": "Les \u00eeles du Vanuatu d\u00e9vast\u00e9es par le cyclone Pam"
 }

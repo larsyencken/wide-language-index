@@ -1,11 +1,12 @@
 {
-  "checksum": "68dc6324e94cf2478ce9b72ba7489727",
-  "date": "2015-03-24",
-  "language": "vie",
+  "checksum": "68dc6324e94cf2478ce9b72ba7489727", 
+  "date": "2015-03-24", 
+  "language": "vie", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/vietnamese/~3/bsV0waImLu4/vietnamese_150324_400476.mp3"
-  ],
-  "source_name": "SBS Vietnamese",
-  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/bsV0waImLu4/vietnamese_150324_400476.mp3",
+    "http://feedproxy.google.com/~r/vietnamese/~3/bsV0waImLu4/vietnamese_150324_400476.mp3", 
+    "http://mirror.widelanguageindex.org/vie/vie-68dc6324e94cf2478ce9b72ba7489727.mp3"
+  ], 
+  "source_name": "SBS Vietnamese", 
+  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/bsV0waImLu4/vietnamese_150324_400476.mp3", 
   "title": "Study in Australia (Episode 38)"
 }

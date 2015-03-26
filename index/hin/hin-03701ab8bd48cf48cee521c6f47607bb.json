@@ -1,11 +1,12 @@
 {
-  "checksum": "03701ab8bd48cf48cee521c6f47607bb",
-  "date": "2015-03-23",
-  "language": "hin",
+  "checksum": "03701ab8bd48cf48cee521c6f47607bb", 
+  "date": "2015-03-23", 
+  "language": "hin", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbshindi/~3/5uQ_0L8Y5HU/hindi_150323_400142.mp3"
-  ],
-  "source_name": "SBS Hindi",
-  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/5uQ_0L8Y5HU/hindi_150323_400142.mp3",
+    "http://feedproxy.google.com/~r/sbshindi/~3/5uQ_0L8Y5HU/hindi_150323_400142.mp3", 
+    "http://mirror.widelanguageindex.org/hin/hin-03701ab8bd48cf48cee521c6f47607bb.mp3"
+  ], 
+  "source_name": "SBS Hindi", 
+  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/5uQ_0L8Y5HU/hindi_150323_400142.mp3", 
   "title": "Education, Cheeting and Modern India !"
 }

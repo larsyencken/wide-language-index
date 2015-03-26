@@ -1,11 +1,12 @@
 {
-  "checksum": "8196d264c86b8e05e7a029a4694645d4",
-  "date": "2015-03-24",
-  "language": "jpn",
+  "checksum": "8196d264c86b8e05e7a029a4694645d4", 
+  "date": "2015-03-24", 
+  "language": "jpn", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsjapanese/~3/uyQDdL8E_EI/japanese_150324_400364.mp3"
-  ],
-  "source_name": "SBS Japanese",
-  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/uyQDdL8E_EI/japanese_150324_400364.mp3",
+    "http://feedproxy.google.com/~r/sbsjapanese/~3/uyQDdL8E_EI/japanese_150324_400364.mp3", 
+    "http://mirror.widelanguageindex.org/jpn/jpn-8196d264c86b8e05e7a029a4694645d4.mp3"
+  ], 
+  "source_name": "SBS Japanese", 
+  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/uyQDdL8E_EI/japanese_150324_400364.mp3", 
   "title": "Taste of Sydney"
 }

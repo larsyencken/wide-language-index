@@ -1,11 +1,12 @@
 {
-  "checksum": "ee24cfbaaaeb5e496517544a59afece0",
-  "date": "2015-03-24",
-  "language": "hin",
+  "checksum": "ee24cfbaaaeb5e496517544a59afece0", 
+  "date": "2015-03-24", 
+  "language": "hin", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbshindi/~3/0p6cpr6jOgc/hindi_150324_400470.mp3"
-  ],
-  "source_name": "SBS Hindi",
-  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/0p6cpr6jOgc/hindi_150324_400470.mp3",
+    "http://feedproxy.google.com/~r/sbshindi/~3/0p6cpr6jOgc/hindi_150324_400470.mp3", 
+    "http://mirror.widelanguageindex.org/hin/hin-ee24cfbaaaeb5e496517544a59afece0.mp3"
+  ], 
+  "source_name": "SBS Hindi", 
+  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/0p6cpr6jOgc/hindi_150324_400470.mp3", 
   "title": "CHANGES IN 457 VISA SCHEME"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "30c05c940dd57a3bb9d95ab217441c85",
-  "date": "2015-03-18",
-  "language": "jpn",
+  "checksum": "30c05c940dd57a3bb9d95ab217441c85", 
+  "date": "2015-03-18", 
+  "language": "jpn", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsjapanese/~3/UfUOsHCTdeQ/japanese_150318_399078.mp3"
-  ],
-  "source_name": "SBS Japanese",
-  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/UfUOsHCTdeQ/japanese_150318_399078.mp3",
+    "http://feedproxy.google.com/~r/sbsjapanese/~3/UfUOsHCTdeQ/japanese_150318_399078.mp3", 
+    "http://mirror.widelanguageindex.org/jpn/jpn-30c05c940dd57a3bb9d95ab217441c85.mp3"
+  ], 
+  "source_name": "SBS Japanese", 
+  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/UfUOsHCTdeQ/japanese_150318_399078.mp3", 
   "title": "Japanese Summer Festival"
 }

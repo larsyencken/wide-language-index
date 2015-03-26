@@ -1,11 +1,12 @@
 {
-  "checksum": "313f847bc8a5aa3c9df9fe1aaf5aeca7",
-  "date": "2015-03-24",
-  "language": "vie",
+  "checksum": "313f847bc8a5aa3c9df9fe1aaf5aeca7", 
+  "date": "2015-03-24", 
+  "language": "vie", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/vietnamese/~3/dihTxTgWqH8/vietnamese_150324_400434.mp3"
-  ],
-  "source_name": "SBS Vietnamese",
-  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/dihTxTgWqH8/vietnamese_150324_400434.mp3",
+    "http://feedproxy.google.com/~r/vietnamese/~3/dihTxTgWqH8/vietnamese_150324_400434.mp3", 
+    "http://mirror.widelanguageindex.org/vie/vie-313f847bc8a5aa3c9df9fe1aaf5aeca7.mp3"
+  ], 
+  "source_name": "SBS Vietnamese", 
+  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/dihTxTgWqH8/vietnamese_150324_400434.mp3", 
   "title": "AIIB to undermine the work of Asian finance?"
 }

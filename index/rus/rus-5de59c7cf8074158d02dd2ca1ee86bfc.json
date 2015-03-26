@@ -1,11 +1,12 @@
 {
-  "checksum": "5de59c7cf8074158d02dd2ca1ee86bfc",
-  "date": "2015-03-21",
-  "language": "rus",
+  "checksum": "5de59c7cf8074158d02dd2ca1ee86bfc", 
+  "date": "2015-03-21", 
+  "language": "rus", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/CuzqoH0dBl0/russian_150321_399758.mp3"
-  ],
-  "source_name": "SBS Russian",
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/CuzqoH0dBl0/russian_150321_399758.mp3",
+    "http://feedproxy.google.com/~r/russian/~3/CuzqoH0dBl0/russian_150321_399758.mp3", 
+    "http://mirror.widelanguageindex.org/rus/rus-5de59c7cf8074158d02dd2ca1ee86bfc.mp3"
+  ], 
+  "source_name": "SBS Russian", 
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/CuzqoH0dBl0/russian_150321_399758.mp3", 
   "title": "Malcolm Fraser dead at age of 84"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "2ad11a91b5c2cdeddcda9a5f8c924966",
-  "date": "2013-05-31",
-  "language": "tel",
+  "checksum": "2ad11a91b5c2cdeddcda9a5f8c924966", 
+  "date": "2013-05-31", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.teluguoneradio.com/prgramdetails/20130531_subhashini_mmm.mp3"
-  ],
-  "source_name": "Telugu One Radio: Subhashini",
-  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=6263&host_id=62",
+    "http://www.teluguoneradio.com/prgramdetails/20130531_subhashini_mmm.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-2ad11a91b5c2cdeddcda9a5f8c924966.mp3"
+  ], 
+  "source_name": "Telugu One Radio: Subhashini", 
+  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=6263&host_id=62", 
   "title": "Manalo Mana Mata"
 }

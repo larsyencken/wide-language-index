@@ -1,11 +1,12 @@
 {
-  "checksum": "36fdf59ecaa5cc046ef9c146d109356f",
-  "date": "2012-11-21",
-  "language": "tam",
+  "checksum": "36fdf59ecaa5cc046ef9c146d109356f", 
+  "date": "2012-11-21", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01276/Facebook_Arrest_1276605a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4123637.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01276/Facebook_Arrest_1276605a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-36fdf59ecaa5cc046ef9c146d109356f.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4123637.ece?ref=audio", 
   "title": "Unfriend the thought police [Tamil: Sinthanaiyaik kaavalarodu inakkam vendaam] Editorial, November 21, 2012. Translated by A. Kumaresan, presented by V.B. Ganesan"
 }

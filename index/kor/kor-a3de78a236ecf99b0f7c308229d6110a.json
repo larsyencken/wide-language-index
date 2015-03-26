@@ -1,11 +1,12 @@
 {
-  "checksum": "a3de78a236ecf99b0f7c308229d6110a",
-  "date": "2015-03-24",
-  "language": "kor",
+  "checksum": "a3de78a236ecf99b0f7c308229d6110a", 
+  "date": "2015-03-24", 
+  "language": "kor", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbskorean/~3/uX1RgaiEz9I/korean_150324_400374.mp3"
-  ],
-  "source_name": "SBS Korean",
-  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/uX1RgaiEz9I/korean_150324_400374.mp3",
+    "http://feedproxy.google.com/~r/sbskorean/~3/uX1RgaiEz9I/korean_150324_400374.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-a3de78a236ecf99b0f7c308229d6110a.mp3"
+  ], 
+  "source_name": "SBS Korean", 
+  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/uX1RgaiEz9I/korean_150324_400374.mp3", 
   "title": "Korean's Australian story - Airport bus driver Jae Ho Lee"
 }

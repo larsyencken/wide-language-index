@@ -1,11 +1,12 @@
 {
-  "checksum": "f704ddcc250ea657fdae7efec3ad0dbd",
-  "date": "2015-03-21",
-  "language": "hin",
+  "checksum": "f704ddcc250ea657fdae7efec3ad0dbd", 
+  "date": "2015-03-21", 
+  "language": "hin", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbshindi/~3/Y8006OsRi4k/hindi_150321_399822.mp3"
-  ],
-  "source_name": "SBS Hindi",
-  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/Y8006OsRi4k/hindi_150321_399822.mp3",
+    "http://feedproxy.google.com/~r/sbshindi/~3/Y8006OsRi4k/hindi_150321_399822.mp3", 
+    "http://mirror.widelanguageindex.org/hin/hin-f704ddcc250ea657fdae7efec3ad0dbd.mp3"
+  ], 
+  "source_name": "SBS Hindi", 
+  "source_url": "http://feedproxy.google.com/~r/sbshindi/~3/Y8006OsRi4k/hindi_150321_399822.mp3", 
   "title": "DK Ravi's death - Was it a suicide or was he murdered?"
 }

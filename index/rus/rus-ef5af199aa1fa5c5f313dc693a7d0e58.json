@@ -1,11 +1,12 @@
 {
-  "checksum": "ef5af199aa1fa5c5f313dc693a7d0e58",
-  "date": "2015-02-27",
-  "language": "rus",
+  "checksum": "ef5af199aa1fa5c5f313dc693a7d0e58", 
+  "date": "2015-02-27", 
+  "language": "rus", 
   "media_urls": [
-    "http://av.voanews.com/clips/VRU/2015/02/27/4de1a07d-d495-4844-aac4-2eb0d10be201.mp3"
-  ],
-  "source_name": "\u0413\u041e\u041b\u041e\u0421 \u0410\u041c\u0415\u0420\u0418\u041a\u0418",
-  "source_url": "http://www.golos-ameriki.ru/audio/2662311.html",
+    "http://av.voanews.com/clips/VRU/2015/02/27/4de1a07d-d495-4844-aac4-2eb0d10be201.mp3", 
+    "http://mirror.widelanguageindex.org/rus/rus-ef5af199aa1fa5c5f313dc693a7d0e58.mp3"
+  ], 
+  "source_name": "\u0413\u041e\u041b\u041e\u0421 \u0410\u041c\u0415\u0420\u0418\u041a\u0418", 
+  "source_url": "http://www.golos-ameriki.ru/audio/2662311.html", 
   "title": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u0430\u0434\u0432\u043e\u043a\u0430\u0442\u0430 \u0411\u043e\u0440\u0438\u0441\u0430 \u041d\u0435\u043c\u0446\u043e\u0432\u0430 \u0412\u0430\u0434\u0438\u043c\u0430 \u041f\u0440\u043e\u0445\u043e\u0440\u043e\u0432\u0430 - \u0444\u0435\u0432\u0440\u0430\u043b\u044f 27, 2015"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "dd36ad8d44d417b49d786a3bd95e2e9a",
-  "date": "2015-03-19",
-  "language": "vie",
+  "checksum": "dd36ad8d44d417b49d786a3bd95e2e9a", 
+  "date": "2015-03-19", 
+  "language": "vie", 
   "media_urls": [
-    "http://telechargement.rfi.fr/rfi/vietnamien/audio/magazines/r001/14h00_-_14h17_tu_20150319.mp3"
-  ],
-  "source_name": "nghe ch\u01b0\u01a1ng tr\u00ecnh 17 ph\u00fat - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI",
-  "source_url": "http://vi.rfi.fr/20150319-ban-tin-03192015-14h00-gmt",
+    "http://telechargement.rfi.fr/rfi/vietnamien/audio/magazines/r001/14h00_-_14h17_tu_20150319.mp3", 
+    "http://mirror.widelanguageindex.org/vie/vie-dd36ad8d44d417b49d786a3bd95e2e9a.mp3"
+  ], 
+  "source_name": "nghe ch\u01b0\u01a1ng tr\u00ecnh 17 ph\u00fat - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI", 
+  "source_url": "http://vi.rfi.fr/20150319-ban-tin-03192015-14h00-gmt", 
   "title": "B\u1ea3n tin 03/19/2015 14g00, GMT"
 }

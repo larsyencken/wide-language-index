@@ -1,11 +1,12 @@
 {
-  "checksum": "71f3b077193ea4ac0628b136f305db41",
-  "date": "2012-11-17",
-  "language": "tel",
+  "checksum": "71f3b077193ea4ac0628b136f305db41", 
+  "date": "2012-11-17", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01274/17TeluguNecessity_1274338a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4115841.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01274/17TeluguNecessity_1274338a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-71f3b077193ea4ac0628b136f305db41.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4115841.ece?ref=audio", 
   "title": "Necessary catharsis [Telugu: Kshaalana prakriya avashyakata] Editorial, November 17, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

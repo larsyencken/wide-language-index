@@ -1,11 +1,12 @@
 {
-  "checksum": "bdbdc8152afb20832aecea560522fa29",
-  "date": "2012-08-15",
-  "language": "tel",
+  "checksum": "bdbdc8152afb20832aecea560522fa29", 
+  "date": "2012-08-15", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01178/TeluguVoteEdit_1178761a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3775737.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01178/TeluguVoteEdit_1178761a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-bdbdc8152afb20832aecea560522fa29.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3775737.ece?ref=audio", 
   "title": "Outsourcing vote-catching [Telugu: Votla vetuku outsourcing] Editorial, August 15, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

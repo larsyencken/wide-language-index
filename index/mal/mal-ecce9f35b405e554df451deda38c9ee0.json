@@ -1,11 +1,12 @@
 {
-  "checksum": "ecce9f35b405e554df451deda38c9ee0",
-  "date": "2012-09-15",
-  "language": "mal",
+  "checksum": "ecce9f35b405e554df451deda38c9ee0", 
+  "date": "2012-09-15", 
+  "language": "mal", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01211/MalayalamDieselEdi_1211773a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Malayam",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3907339.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01211/MalayalamDieselEdi_1211773a.mp3", 
+    "http://mirror.widelanguageindex.org/mal/mal-ecce9f35b405e554df451deda38c9ee0.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Malayam", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3907339.ece?ref=audio", 
   "title": "Inflation gets diesel power [Malayalam: Panapperuppathinoru diesel kuthippu]. Editorial, September 15, 2012. Translated by Rasmi Binoy, presented by A Correspondent"
 }

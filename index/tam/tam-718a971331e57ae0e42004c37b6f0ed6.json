@@ -1,11 +1,12 @@
 {
-  "checksum": "718a971331e57ae0e42004c37b6f0ed6",
-  "date": "2012-10-30",
-  "language": "tam",
+  "checksum": "718a971331e57ae0e42004c37b6f0ed6", 
+  "date": "2012-10-30", 
+  "language": "tam", 
   "media_urls": [
-    "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/tnmuslims_20121030-1645a.mp3"
-  ],
-  "source_name": "Tamil Nadu Muslims",
-  "source_url": "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/tnmuslims_20121030-1645a.mp3",
+    "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/tnmuslims_20121030-1645a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-718a971331e57ae0e42004c37b6f0ed6.mp3"
+  ], 
+  "source_name": "Tamil Nadu Muslims", 
+  "source_url": "http://downloads.bbc.co.uk/podcasts/worldservice/tnmuslims/tnmuslims_20121030-1645a.mp3", 
   "title": "\u0b95\u0bcb\u0bb5\u0bc8 \u0ba8\u0bbf\u0bb2\u0bc8"
 }

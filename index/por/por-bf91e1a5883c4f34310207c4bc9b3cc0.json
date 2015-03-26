@@ -1,11 +1,12 @@
 {
-  "checksum": "bf91e1a5883c4f34310207c4bc9b3cc0",
-  "date": "2015-03-22",
-  "language": "por",
+  "checksum": "bf91e1a5883c4f34310207c4bc9b3cc0", 
+  "date": "2015-03-22", 
+  "language": "por", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/portuguese/~3/qa1rSuB2048/portuguese_150322_399936.mp3"
-  ],
-  "source_name": "SBS Portuguese",
-  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/qa1rSuB2048/portuguese_150322_399936.mp3",
+    "http://feedproxy.google.com/~r/portuguese/~3/qa1rSuB2048/portuguese_150322_399936.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-bf91e1a5883c4f34310207c4bc9b3cc0.mp3"
+  ], 
+  "source_name": "SBS Portuguese", 
+  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/qa1rSuB2048/portuguese_150322_399936.mp3", 
   "title": "Governo portugu\u00eas surpreende ao dizer  \"que tem os cofres cheios\""
 }

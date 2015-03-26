@@ -1,11 +1,12 @@
 {
-  "checksum": "965fe1f8bfe4e2388bf26f0808ca5c00",
-  "date": "2015-03-24",
-  "language": "fra",
+  "checksum": "965fe1f8bfe4e2388bf26f0808ca5c00", 
+  "date": "2015-03-24", 
+  "language": "fra", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/french/~3/CbNC-rmc5J8/french_150324_400354.mp3"
-  ],
-  "source_name": "SBS French",
-  "source_url": "http://feedproxy.google.com/~r/french/~3/CbNC-rmc5J8/french_150324_400354.mp3",
+    "http://feedproxy.google.com/~r/french/~3/CbNC-rmc5J8/french_150324_400354.mp3", 
+    "http://mirror.widelanguageindex.org/fra/fra-965fe1f8bfe4e2388bf26f0808ca5c00.mp3"
+  ], 
+  "source_name": "SBS French", 
+  "source_url": "http://feedproxy.google.com/~r/french/~3/CbNC-rmc5J8/french_150324_400354.mp3", 
   "title": "The Gallipoli Games 2015"
 }

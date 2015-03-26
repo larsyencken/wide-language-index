@@ -1,11 +1,12 @@
 {
-  "checksum": "8dd22179490bebf9d77a46a955d2416c",
-  "date": "2015-03-15",
-  "language": "por",
+  "checksum": "8dd22179490bebf9d77a46a955d2416c", 
+  "date": "2015-03-15", 
+  "language": "por", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/portuguese/~3/hvLOSRGvhMg/portuguese_150311_397552.mp3"
-  ],
-  "source_name": "SBS Portuguese",
-  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/hvLOSRGvhMg/portuguese_150311_397552.mp3",
+    "http://feedproxy.google.com/~r/portuguese/~3/hvLOSRGvhMg/portuguese_150311_397552.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-8dd22179490bebf9d77a46a955d2416c.mp3"
+  ], 
+  "source_name": "SBS Portuguese", 
+  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/hvLOSRGvhMg/portuguese_150311_397552.mp3", 
   "title": "Brasileiros em Sydney se unem aos protestos contra Dilma no Brasil"
 }

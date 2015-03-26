@@ -1,11 +1,12 @@
 {
-  "checksum": "e6420797febbf093215caecc4ace1a13",
-  "date": "2015-03-17",
-  "language": "fra",
+  "checksum": "e6420797febbf093215caecc4ace1a13", 
+  "date": "2015-03-17", 
+  "language": "fra", 
   "media_urls": [
-    "http://telechargement.rfi.fr/rfi/francais/audio/magazines/r182/grand_reportage_20150317.mp3"
-  ],
-  "source_name": "RFI - Grand reportage",
-  "source_url": "http://www.rfi.fr/emission/20150317-israel-pauvrete-economie-elections-netanyahu",
+    "http://telechargement.rfi.fr/rfi/francais/audio/magazines/r182/grand_reportage_20150317.mp3", 
+    "http://mirror.widelanguageindex.org/fra/fra-e6420797febbf093215caecc4ace1a13.mp3"
+  ], 
+  "source_name": "RFI - Grand reportage", 
+  "source_url": "http://www.rfi.fr/emission/20150317-israel-pauvrete-economie-elections-netanyahu", 
   "title": "Isra\u00ebl : la pauvret\u00e9 au pays des start-up - 17/03/2015"
 }

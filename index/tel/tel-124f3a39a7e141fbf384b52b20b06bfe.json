@@ -1,11 +1,12 @@
 {
-  "checksum": "124f3a39a7e141fbf384b52b20b06bfe",
-  "date": "2012-08-14",
-  "language": "tel",
+  "checksum": "124f3a39a7e141fbf384b52b20b06bfe", 
+  "date": "2012-08-14", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01181/TeluguOlympicEdit_1181286a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3785687.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01181/TeluguOlympicEdit_1181286a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-124f3a39a7e141fbf384b52b20b06bfe.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3785687.ece?ref=audio", 
   "title": "Time to celebrate, and introspect [Telugu: Samvaralaku aatmavalokalaku samayam] Editorial, August 14, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

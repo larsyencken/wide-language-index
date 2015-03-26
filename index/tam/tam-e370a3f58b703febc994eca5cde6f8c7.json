@@ -1,11 +1,12 @@
 {
-  "checksum": "e370a3f58b703febc994eca5cde6f8c7",
-  "date": "2012-11-22",
-  "language": "tam",
+  "checksum": "e370a3f58b703febc994eca5cde6f8c7", 
+  "date": "2012-11-22", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01276/Ajmal_Kasab_1276604a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4123638.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01276/Ajmal_Kasab_1276604a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-e370a3f58b703febc994eca5cde6f8c7.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4123638.ece?ref=audio", 
   "title": "The hangman's justice [Tamil: Thookkumedaiyin needhi] Editorial, November 22, 2012. Translated and presented by V.B. Ganesan"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "4d29b9a9d718b01bb2b317ad823f4a1c",
-  "date": "2014-10-31",
-  "language": "tel",
+  "checksum": "4d29b9a9d718b01bb2b317ad823f4a1c", 
+  "date": "2014-10-31", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.teluguoneradio.com/prgramdetails/20141031_subhashini_mmm.mp3"
-  ],
-  "source_name": "Telugu One Radio: Subhashini",
-  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=15280&host_id=62",
+    "http://www.teluguoneradio.com/prgramdetails/20141031_subhashini_mmm.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-4d29b9a9d718b01bb2b317ad823f4a1c.mp3"
+  ], 
+  "source_name": "Telugu One Radio: Subhashini", 
+  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=15280&host_id=62", 
   "title": "Manalomanamata"
 }

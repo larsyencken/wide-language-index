@@ -1,11 +1,12 @@
 {
-  "checksum": "35be71d73d3d9fb17dc137508077a306",
-  "date": "2015-03-22",
-  "language": "kor",
+  "checksum": "35be71d73d3d9fb17dc137508077a306", 
+  "date": "2015-03-22", 
+  "language": "kor", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbskorean/~3/6E-_nVPLltI/korean_150322_400008.mp3"
-  ],
-  "source_name": "SBS Korean",
-  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/6E-_nVPLltI/korean_150322_400008.mp3",
+    "http://feedproxy.google.com/~r/sbskorean/~3/6E-_nVPLltI/korean_150322_400008.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-35be71d73d3d9fb17dc137508077a306.mp3"
+  ], 
+  "source_name": "SBS Korean", 
+  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/6E-_nVPLltI/korean_150322_400008.mp3", 
   "title": "Brisbane Roar shares spoils with Bluewings in a thriller"
 }

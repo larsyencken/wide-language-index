@@ -1,11 +1,12 @@
 {
-  "checksum": "f785da6aad834f3b8c9a21e56c3931e9",
-  "date": "2012-09-03",
-  "language": "tel",
+  "checksum": "f785da6aad834f3b8c9a21e56c3931e9", 
+  "date": "2012-09-03", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01199/TeluguScavengEdit_1199055a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3855047.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01199/TeluguScavengEdit_1199055a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-f785da6aad834f3b8c9a21e56c3931e9.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3855047.ece?ref=audio", 
   "title": "Let the machines take over [Telugu: Yantraalanu pravesa pettandi] Editorial, September 3, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

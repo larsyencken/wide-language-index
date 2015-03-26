@@ -1,11 +1,12 @@
 {
-  "checksum": "a26129e9253206d578e6099e3d67ee3f",
-  "date": "2012-06-14",
-  "language": "tel",
+  "checksum": "a26129e9253206d578e6099e3d67ee3f", 
+  "date": "2012-06-14", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01113/TeluguMyanmarEdit_1113800a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3529078.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01113/TeluguMyanmarEdit_1113800a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-a26129e9253206d578e6099e3d67ee3f.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3529078.ece?ref=audio", 
   "title": "First test for new Myanmar [Telugu: Nava myanmarku toli pareeksha] Editorial, June 14, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

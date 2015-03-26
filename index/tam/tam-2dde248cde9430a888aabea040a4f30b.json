@@ -1,11 +1,12 @@
 {
-  "checksum": "2dde248cde9430a888aabea040a4f30b",
-  "date": "2012-11-17",
-  "language": "tam",
+  "checksum": "2dde248cde9430a888aabea040a4f30b", 
+  "date": "2012-11-17", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01274/17TamilSrilanka_1274344a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4115857.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01274/17TamilSrilanka_1274344a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-2dde248cde9430a888aabea040a4f30b.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4115857.ece?ref=audio", 
   "title": "A necessary catharsis [Tamil: Avasiyamaana suththikarippu] Editorial, November 17, 2012. Translated and presented by V.B. Ganesan"
 }

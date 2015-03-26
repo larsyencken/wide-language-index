@@ -1,11 +1,12 @@
 {
-  "checksum": "790dd913dccfeb2728c5b5df69115539",
-  "date": "2015-03-19",
-  "language": "kor",
+  "checksum": "790dd913dccfeb2728c5b5df69115539", 
+  "date": "2015-03-19", 
+  "language": "kor", 
   "media_urls": [
-    "http://av.voanews.com/clips/VKO/2015/03/19/20150319-120000-VKO-program.mp3"
-  ],
-  "source_name": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 - Voice of America",
-  "source_url": "http://www.voakorea.com/audio/2668192.html",
+    "http://av.voanews.com/clips/VKO/2015/03/19/20150319-120000-VKO-program.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-790dd913dccfeb2728c5b5df69115539.mp3"
+  ], 
+  "source_name": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 - Voice of America", 
+  "source_url": "http://www.voakorea.com/audio/2668192.html", 
   "title": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 2\ubd80 - 3\uc6d4 19, 2015"
 }

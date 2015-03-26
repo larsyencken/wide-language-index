@@ -1,11 +1,12 @@
 {
-  "checksum": "05d8be7ddb27cfb15752ec5d65f023ae",
-  "date": "2015-03-24",
-  "language": "kor",
+  "checksum": "05d8be7ddb27cfb15752ec5d65f023ae", 
+  "date": "2015-03-24", 
+  "language": "kor", 
   "media_urls": [
-    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324203100_1_korean.mp3"
-  ],
-  "source_name": "Korean News - NHK WORLD RADIO JAPAN",
-  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324203100_1_korean.mp3",
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324203100_1_korean.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-05d8be7ddb27cfb15752ec5d65f023ae.mp3"
+  ], 
+  "source_name": "Korean News - NHK WORLD RADIO JAPAN", 
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324203100_1_korean.mp3", 
   "title": "NHK WORLD RADIO JAPAN - Korean News at 20:31 (JST), March 24"
 }

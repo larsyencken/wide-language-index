@@ -1,11 +1,12 @@
 {
-  "checksum": "f506dbbd28269ef24c216e240beff769",
-  "date": "2012-11-26",
-  "language": "tam",
+  "checksum": "f506dbbd28269ef24c216e240beff769", 
+  "date": "2012-11-26", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01280/thevayatra_churcha_1280383a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4137174.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01280/thevayatra_churcha_1280383a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-f506dbbd28269ef24c216e240beff769.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4137174.ece?ref=audio", 
   "title": "Needless controversy [Tamil: Thevaiyatra charchchai] Editorial, November 26, 2012. Translated by D.I. Aravindan, presented by V.B. Ganesan"
 }

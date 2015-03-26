@@ -1,11 +1,12 @@
 {
-  "checksum": "b8ccde762627236b64094ca4381d65f9",
-  "date": "2015-03-23",
-  "language": "vie",
+  "checksum": "b8ccde762627236b64094ca4381d65f9", 
+  "date": "2015-03-23", 
+  "language": "vie", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/vietnamese/~3/L80IoRQ41lQ/vietnamese_150323_400218.mp3"
-  ],
-  "source_name": "SBS Vietnamese",
-  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/L80IoRQ41lQ/vietnamese_150323_400218.mp3",
+    "http://feedproxy.google.com/~r/vietnamese/~3/L80IoRQ41lQ/vietnamese_150323_400218.mp3", 
+    "http://mirror.widelanguageindex.org/vie/vie-b8ccde762627236b64094ca4381d65f9.mp3"
+  ], 
+  "source_name": "SBS Vietnamese", 
+  "source_url": "http://feedproxy.google.com/~r/vietnamese/~3/L80IoRQ41lQ/vietnamese_150323_400218.mp3", 
   "title": "TOBACO PACKAGING"
 }

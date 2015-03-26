@@ -1,11 +1,12 @@
 {
-  "checksum": "e0131524ce181531bec890131a619744",
-  "date": "2015-03-12",
-  "language": "jpn",
+  "checksum": "e0131524ce181531bec890131a619744", 
+  "date": "2015-03-12", 
+  "language": "jpn", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsjapanese/~3/GcfTD0NO05c/japanese_150313_397962.mp3"
-  ],
-  "source_name": "SBS Japanese",
-  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/GcfTD0NO05c/japanese_150313_397962.mp3",
+    "http://feedproxy.google.com/~r/sbsjapanese/~3/GcfTD0NO05c/japanese_150313_397962.mp3", 
+    "http://mirror.widelanguageindex.org/jpn/jpn-e0131524ce181531bec890131a619744.mp3"
+  ], 
+  "source_name": "SBS Japanese", 
+  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/GcfTD0NO05c/japanese_150313_397962.mp3", 
   "title": "Sydney Kimono Enjoyment Club"
 }

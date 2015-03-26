@@ -1,11 +1,12 @@
 {
-  "checksum": "7c41ab8327d6ab08d71fe9891ddbe011",
-  "date": "2012-07-12",
-  "language": "tel",
+  "checksum": "7c41ab8327d6ab08d71fe9891ddbe011", 
+  "date": "2012-07-12", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01142/TeluguEducationEdi_1142957a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3636102.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01142/TeluguEducationEdi_1142957a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-7c41ab8327d6ab08d71fe9891ddbe011.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3636102.ece?ref=audio", 
   "title": "Redeeming Higher Education[Telugu: Vunnatha vidyaku vimukthi] Editorial, July 12, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

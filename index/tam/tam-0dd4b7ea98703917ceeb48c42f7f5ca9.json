@@ -1,11 +1,12 @@
 {
-  "checksum": "0dd4b7ea98703917ceeb48c42f7f5ca9",
-  "date": "2012-11-15",
-  "language": "tam",
+  "checksum": "0dd4b7ea98703917ceeb48c42f7f5ca9", 
+  "date": "2012-11-15", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01274/15TamilEconomy_1274341a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4115821.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01274/15TamilEconomy_1274341a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-0dd4b7ea98703917ceeb48c42f7f5ca9.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4115821.ece?ref=audio", 
   "title": "A triple whammy [Tamil: Mummunaiyaai velivarum saabam] Editorial, November 15, 2012. Translated and presented by V.B. Ganesan"
 }

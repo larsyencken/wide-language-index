@@ -1,11 +1,12 @@
 {
-  "checksum": "3caac4b6635869d5f44cebeee24ac90b",
-  "date": "2015-03-20",
-  "language": "jpn",
+  "checksum": "3caac4b6635869d5f44cebeee24ac90b", 
+  "date": "2015-03-20", 
+  "language": "jpn", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsjapanese/~3/5yl9FSrojS4/japanese_150320_399548.mp3"
-  ],
-  "source_name": "SBS Japanese",
-  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/5yl9FSrojS4/japanese_150320_399548.mp3",
+    "http://feedproxy.google.com/~r/sbsjapanese/~3/5yl9FSrojS4/japanese_150320_399548.mp3", 
+    "http://mirror.widelanguageindex.org/jpn/jpn-3caac4b6635869d5f44cebeee24ac90b.mp3"
+  ], 
+  "source_name": "SBS Japanese", 
+  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/5yl9FSrojS4/japanese_150320_399548.mp3", 
   "title": "Tokyo Bombing"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "5258a072c37521286f47a2dda5ceb806",
-  "date": "2015-03-19",
-  "language": "por",
+  "checksum": "5258a072c37521286f47a2dda5ceb806", 
+  "date": "2015-03-19", 
+  "language": "por", 
   "media_urls": [
-    "http://rsspod.rtp.pt/podcasts/at1/1503/3463555_177031-1503161137.mp3"
-  ],
-  "source_name": "RTP: O Mundo ao Ouvido",
-  "source_url": "http://rsspod.rtp.pt/podcasts/at1/1503/3463555_177031-1503161137.mp3",
+    "http://rsspod.rtp.pt/podcasts/at1/1503/3463555_177031-1503161137.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-5258a072c37521286f47a2dda5ceb806.mp3"
+  ], 
+  "source_name": "RTP: O Mundo ao Ouvido", 
+  "source_url": "http://rsspod.rtp.pt/podcasts/at1/1503/3463555_177031-1503161137.mp3", 
   "title": "2015-03-19 07:45:00O som do tempo"
 }

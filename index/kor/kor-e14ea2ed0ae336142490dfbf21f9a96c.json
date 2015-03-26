@@ -1,11 +1,12 @@
 {
-  "checksum": "e14ea2ed0ae336142490dfbf21f9a96c",
-  "date": "2015-03-23",
-  "language": "kor",
+  "checksum": "e14ea2ed0ae336142490dfbf21f9a96c", 
+  "date": "2015-03-23", 
+  "language": "kor", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbskorean/~3/fYTktxCLDL0/korean_150323_400240.mp3"
-  ],
-  "source_name": "SBS Korean",
-  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/fYTktxCLDL0/korean_150323_400240.mp3",
+    "http://feedproxy.google.com/~r/sbskorean/~3/fYTktxCLDL0/korean_150323_400240.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-e14ea2ed0ae336142490dfbf21f9a96c.mp3"
+  ], 
+  "source_name": "SBS Korean", 
+  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/fYTktxCLDL0/korean_150323_400240.mp3", 
   "title": "Asylum seeker advocates call for open processing centre on Nauru"
 }

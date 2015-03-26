@@ -1,11 +1,12 @@
 {
-  "checksum": "ef7607c61c127781652590b38f5e7794",
-  "date": "2012-07-05",
-  "language": "tel",
+  "checksum": "ef7607c61c127781652590b38f5e7794", 
+  "date": "2012-07-05", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01139/TeluguPledgeEdit_1139444a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3624445.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01139/TeluguPledgeEdit_1139444a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-ef7607c61c127781652590b38f5e7794.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3624445.ece?ref=audio", 
   "title": "Pledging the gift of life [Telugu: Jeevana daaana pratigna] Editorial, July 5, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

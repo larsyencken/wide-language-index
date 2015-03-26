@@ -1,11 +1,12 @@
 {
-  "checksum": "7041ad2347f9bd66959b4e532605ef1f",
-  "date": "2015-03-20",
-  "language": "por",
+  "checksum": "7041ad2347f9bd66959b4e532605ef1f", 
+  "date": "2015-03-20", 
+  "language": "por", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/portuguese/~3/x-QpRSfFJ04/portuguese_150320_399630.mp3"
-  ],
-  "source_name": "SBS Portuguese",
-  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/x-QpRSfFJ04/portuguese_150320_399630.mp3",
+    "http://feedproxy.google.com/~r/portuguese/~3/x-QpRSfFJ04/portuguese_150320_399630.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-7041ad2347f9bd66959b4e532605ef1f.mp3"
+  ], 
+  "source_name": "SBS Portuguese", 
+  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/x-QpRSfFJ04/portuguese_150320_399630.mp3", 
   "title": "Brazilian EMBRAER showcases its new E-Jet E2 cabins in Sydney"
 }

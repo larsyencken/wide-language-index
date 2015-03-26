@@ -1,11 +1,12 @@
 {
-  "checksum": "c97d3f8203cec900e65cb946ba3d8b7e",
-  "date": "2012-07-23",
-  "language": "tel",
+  "checksum": "c97d3f8203cec900e65cb946ba3d8b7e", 
+  "date": "2012-07-23", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01156/TeluguPranabEdit_1156264a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3687637.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01156/TeluguPranabEdit_1156264a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-c97d3f8203cec900e65cb946ba3d8b7e.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3687637.ece?ref=audio", 
   "title": "Pranab as President [Telugu: Rashtrapathiga Pranab] Editorial, July 23, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

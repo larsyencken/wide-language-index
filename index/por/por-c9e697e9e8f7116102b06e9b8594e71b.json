@@ -1,11 +1,12 @@
 {
-  "checksum": "c9e697e9e8f7116102b06e9b8594e71b",
-  "date": "2015-03-24",
-  "language": "por",
+  "checksum": "c9e697e9e8f7116102b06e9b8594e71b", 
+  "date": "2015-03-24", 
+  "language": "por", 
   "media_urls": [
-    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324180100_1_portuguese.mp3"
-  ],
-  "source_name": "NHK World Radio Japan (Portuguese)",
-  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324180100_1_portuguese.mp3",
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324180100_1_portuguese.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-c9e697e9e8f7116102b06e9b8594e71b.mp3"
+  ], 
+  "source_name": "NHK World Radio Japan (Portuguese)", 
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324180100_1_portuguese.mp3", 
   "title": "NHK WORLD RADIO JAPAN - Portuguese News at 18:01 (JST), March 24"
 }

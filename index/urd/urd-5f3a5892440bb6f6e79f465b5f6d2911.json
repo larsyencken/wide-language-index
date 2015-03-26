@@ -1,11 +1,12 @@
 {
-  "checksum": "5f3a5892440bb6f6e79f465b5f6d2911",
-  "date": "2015-03-23",
-  "language": "urd",
+  "checksum": "5f3a5892440bb6f6e79f465b5f6d2911", 
+  "date": "2015-03-23", 
+  "language": "urd", 
   "media_urls": [
-    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324001600_1_urdu.mp3"
-  ],
-  "source_name": "Urdu News - NHK WORLD RADIO JAPAN",
-  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324001600_1_urdu.mp3",
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324001600_1_urdu.mp3", 
+    "http://mirror.widelanguageindex.org/urd/urd-5f3a5892440bb6f6e79f465b5f6d2911.mp3"
+  ], 
+  "source_name": "Urdu News - NHK WORLD RADIO JAPAN", 
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324001600_1_urdu.mp3", 
   "title": "NHK WORLD RADIO JAPAN - Urdu News at 00:16 (JST), March 24"
 }

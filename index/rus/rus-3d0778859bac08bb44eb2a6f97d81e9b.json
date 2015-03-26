@@ -1,11 +1,12 @@
 {
-  "checksum": "3d0778859bac08bb44eb2a6f97d81e9b",
-  "date": "2015-03-21",
-  "language": "rus",
+  "checksum": "3d0778859bac08bb44eb2a6f97d81e9b", 
+  "date": "2015-03-21", 
+  "language": "rus", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/L4Ko_tI2fgI/russian_150321_399764.mp3"
-  ],
-  "source_name": "SBS Russian",
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/L4Ko_tI2fgI/russian_150321_399764.mp3",
+    "http://feedproxy.google.com/~r/russian/~3/L4Ko_tI2fgI/russian_150321_399764.mp3", 
+    "http://mirror.widelanguageindex.org/rus/rus-3d0778859bac08bb44eb2a6f97d81e9b.mp3"
+  ], 
+  "source_name": "SBS Russian", 
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/L4Ko_tI2fgI/russian_150321_399764.mp3", 
   "title": "Las Vegas show ABSINTHE opens in Melbourne"
 }

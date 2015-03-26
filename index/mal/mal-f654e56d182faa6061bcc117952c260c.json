@@ -1,11 +1,12 @@
 {
-  "checksum": "f654e56d182faa6061bcc117952c260c",
-  "date": "2012-09-10",
-  "language": "mal",
+  "checksum": "f654e56d182faa6061bcc117952c260c", 
+  "date": "2012-09-10", 
+  "language": "mal", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01204/MalayalamIsroEdit_1204720a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Malayam",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3881918.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01204/MalayalamIsroEdit_1204720a.mp3", 
+    "http://mirror.widelanguageindex.org/mal/mal-f654e56d182faa6061bcc117952c260c.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Malayam", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3881918.ece?ref=audio", 
   "title": "A magnificent 100 (Malayalam: Noorinte nettam). Editorial, September 10, 2012. Translated by Rasmi Binoy, presented by A Correspondent"
 }

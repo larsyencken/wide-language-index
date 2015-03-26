@@ -1,11 +1,12 @@
 {
-  "checksum": "82dfd11e8274ea1fc6a6e4be4f1ec15c",
-  "date": "2015-03-24",
-  "language": "rus",
+  "checksum": "82dfd11e8274ea1fc6a6e4be4f1ec15c", 
+  "date": "2015-03-24", 
+  "language": "rus", 
   "media_urls": [
-    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324200100_1_russian.mp3"
-  ],
-  "source_name": "NHK World Radio (Russian)",
-  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324200100_1_russian.mp3",
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20150324200100_1_russian.mp3", 
+    "http://mirror.widelanguageindex.org/rus/rus-82dfd11e8274ea1fc6a6e4be4f1ec15c.mp3"
+  ], 
+  "source_name": "NHK World Radio (Russian)", 
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150324200100_1_russian.mp3", 
   "title": "NHK WORLD RADIO JAPAN - Russian News at 20:01 (JST), March 24"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "f6a44ab33b3503830d9947ad6e260735",
-  "date": "2015-03-20",
-  "language": "kor",
+  "checksum": "f6a44ab33b3503830d9947ad6e260735", 
+  "date": "2015-03-20", 
+  "language": "kor", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbskorean/~3/O1zEuXIS8vI/korean_150320_399486.mp3"
-  ],
-  "source_name": "SBS Korean",
-  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/O1zEuXIS8vI/korean_150320_399486.mp3",
+    "http://feedproxy.google.com/~r/sbskorean/~3/O1zEuXIS8vI/korean_150320_399486.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-f6a44ab33b3503830d9947ad6e260735.mp3"
+  ], 
+  "source_name": "SBS Korean", 
+  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/O1zEuXIS8vI/korean_150320_399486.mp3", 
   "title": "ONGALS, the Korean Babbling Comedy Team Returns to Melbourne Comedy Festival"
 }

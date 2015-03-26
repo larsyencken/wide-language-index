@@ -1,11 +1,12 @@
 {
-  "checksum": "8a711995cfc7b27c8655b9d721471fd6",
-  "date": "2015-03-24",
-  "language": "kor",
+  "checksum": "8a711995cfc7b27c8655b9d721471fd6", 
+  "date": "2015-03-24", 
+  "language": "kor", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbskorean/~3/4APLmMJxyi4/korean_150324_400268.mp3"
-  ],
-  "source_name": "SBS Korean",
-  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/4APLmMJxyi4/korean_150324_400268.mp3",
+    "http://feedproxy.google.com/~r/sbskorean/~3/4APLmMJxyi4/korean_150324_400268.mp3", 
+    "http://mirror.widelanguageindex.org/kor/kor-8a711995cfc7b27c8655b9d721471fd6.mp3"
+  ], 
+  "source_name": "SBS Korean", 
+  "source_url": "http://feedproxy.google.com/~r/sbskorean/~3/4APLmMJxyi4/korean_150324_400268.mp3", 
   "title": "Father of Australian Parliament shares his thoughts on  the North Korean human rights bill"
 }

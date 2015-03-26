@@ -1,11 +1,12 @@
 {
-  "checksum": "cc76c0945dec85d51ecbfdcc777e2072",
-  "date": "2012-11-30",
-  "language": "tam",
+  "checksum": "cc76c0945dec85d51ecbfdcc777e2072", 
+  "date": "2012-11-30", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01287/Ricky_Ponting_30th_1287006a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4160675.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01287/Ricky_Ponting_30th_1287006a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-cc76c0945dec85d51ecbfdcc777e2072.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4160675.ece?ref=audio", 
   "title": "Ponting's unique legacy [Tamil: Pontingin thaniththuvamaana parampariyam] Editorial, November 30, 2012. Translated and presented by V.B. Ganesan"
 }

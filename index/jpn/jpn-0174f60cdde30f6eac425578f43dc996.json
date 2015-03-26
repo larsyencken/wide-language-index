@@ -1,11 +1,12 @@
 {
-  "checksum": "0174f60cdde30f6eac425578f43dc996",
-  "date": "2015-03-20",
-  "language": "jpn",
+  "checksum": "0174f60cdde30f6eac425578f43dc996", 
+  "date": "2015-03-20", 
+  "language": "jpn", 
   "media_urls": [
-    "http://www.nhk.or.jp/r-asa/podcast/bmp303/150320.mp3"
-  ],
-  "source_name": "\u30e9\u30b8\u30aa\u3042\u3055\u3044\u3061\u3070\u3093\u300c\u30d3\u30b8\u30cd\u30b9\u5c55\u671b\u300d",
-  "source_url": "http://www.nhk.or.jp/r-asa/podcast/bmp303/150320.mp3",
+    "http://www.nhk.or.jp/r-asa/podcast/bmp303/150320.mp3", 
+    "http://mirror.widelanguageindex.org/jpn/jpn-0174f60cdde30f6eac425578f43dc996.mp3"
+  ], 
+  "source_name": "\u30e9\u30b8\u30aa\u3042\u3055\u3044\u3061\u3070\u3093\u300c\u30d3\u30b8\u30cd\u30b9\u5c55\u671b\u300d", 
+  "source_url": "http://www.nhk.or.jp/r-asa/podcast/bmp303/150320.mp3", 
   "title": "15\u5e7403\u670820\u65e5\u300c\u5bfa\u5cf6\u5b9f\u90ce\u304c\u8a9e\u308b\u653e\u9001\u306e\u672a\u6765\u300d(\u8ca1)\u65e5\u672c\u7dcf\u5408\u7814\u7a76\u6240\u7406\u4e8b\u9577\u3000\u5bfa\u5cf6\u5b9f\u90ce"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "2d310a9dba16c0124a892f76cab7d5b6",
-  "date": "2015-03-23",
-  "language": "por",
+  "checksum": "2d310a9dba16c0124a892f76cab7d5b6", 
+  "date": "2015-03-23", 
+  "language": "por", 
   "media_urls": [
-    "http://av.voanews.com/clips/VPO/2015/03/23/20150323-170000-VPO-program.mp3"
-  ],
-  "source_name": "Emiss\u00e3o Vespertina - Voz da Am\u00e9rica",
-  "source_url": "http://www.voaportugues.com/audio/2672532.html",
+    "http://av.voanews.com/clips/VPO/2015/03/23/20150323-170000-VPO-program.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-2d310a9dba16c0124a892f76cab7d5b6.mp3"
+  ], 
+  "source_name": "Emiss\u00e3o Vespertina - Voz da Am\u00e9rica", 
+  "source_url": "http://www.voaportugues.com/audio/2672532.html", 
   "title": "Emiss\u00e3o Vespertina Seg - mar\u00e7o 23, 2015"
 }

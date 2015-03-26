@@ -1,11 +1,12 @@
 {
-  "checksum": "82ab10fa8dc3547b0788e7b9291a7bf4",
-  "date": "2012-07-26",
-  "language": "tel",
+  "checksum": "82ab10fa8dc3547b0788e7b9291a7bf4", 
+  "date": "2012-07-26", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01158/TeluguAssamEdit_1158868a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3696843.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01158/TeluguAssamEdit_1158868a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-82ab10fa8dc3547b0788e7b9291a7bf4.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3696843.ece?ref=audio", 
   "title": "Assam's sorrow [Telugu: Assam vipaththu] Editorial, July 26, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

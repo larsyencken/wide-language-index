@@ -1,11 +1,12 @@
 {
-  "checksum": "ae01d03f572279fa68912406152df07e",
-  "date": "2012-07-31",
-  "language": "tel",
+  "checksum": "ae01d03f572279fa68912406152df07e", 
+  "date": "2012-07-31", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01161/TelugutrainEdit_1161790a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3708074.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01161/TelugutrainEdit_1161790a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-ae01d03f572279fa68912406152df07e.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3708074.ece?ref=audio", 
   "title": "Waitlisting safety [Telugu: Waitlistlo bhadrata] Editorial, July 31, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

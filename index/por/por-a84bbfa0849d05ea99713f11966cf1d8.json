@@ -1,11 +1,12 @@
 {
-  "checksum": "a84bbfa0849d05ea99713f11966cf1d8",
-  "date": "2015-03-15",
-  "language": "por",
+  "checksum": "a84bbfa0849d05ea99713f11966cf1d8", 
+  "date": "2015-03-15", 
+  "language": "por", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/portuguese/~3/ot9DdZ3LyO0/portuguese_150315_398390.mp3"
-  ],
-  "source_name": "SBS Portuguese",
-  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/ot9DdZ3LyO0/portuguese_150315_398390.mp3",
+    "http://feedproxy.google.com/~r/portuguese/~3/ot9DdZ3LyO0/portuguese_150315_398390.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-a84bbfa0849d05ea99713f11966cf1d8.mp3"
+  ], 
+  "source_name": "SBS Portuguese", 
+  "source_url": "http://feedproxy.google.com/~r/portuguese/~3/ot9DdZ3LyO0/portuguese_150315_398390.mp3", 
   "title": "Protestos contra Dilma: \"Achar que este \u00e9 o momento para se fazer um impeachment \u00e9 muito perigoso\", diz Luiz Bernardo Peric\u00e1s, professor da USP"
 }

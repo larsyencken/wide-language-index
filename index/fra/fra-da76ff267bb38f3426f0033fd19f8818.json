@@ -1,11 +1,12 @@
 {
-  "checksum": "da76ff267bb38f3426f0033fd19f8818",
-  "date": "2014-10-10",
-  "language": "fra",
+  "checksum": "da76ff267bb38f3426f0033fd19f8818", 
+  "date": "2014-10-10", 
+  "language": "fra", 
   "media_urls": [
-    "http://radio-download.dw.de/Events/podcasts/fra/1854_podcast_afrique-7-jours/4CA5FBD2_2-podcast-1854-17987522.mp3"
-  ],
-  "source_name": "Afrique 7 jours | Deutsche Welle",
-  "source_url": "http://www.dw.de/non-aux-pirogues-en-polyester/av-17987522?maca=fra-podcast_afrique-7-jours-1854-xml-mrss",
+    "http://radio-download.dw.de/Events/podcasts/fra/1854_podcast_afrique-7-jours/4CA5FBD2_2-podcast-1854-17987522.mp3", 
+    "http://mirror.widelanguageindex.org/fra/fra-da76ff267bb38f3426f0033fd19f8818.mp3"
+  ], 
+  "source_name": "Afrique 7 jours | Deutsche Welle", 
+  "source_url": "http://www.dw.de/non-aux-pirogues-en-polyester/av-17987522?maca=fra-podcast_afrique-7-jours-1854-xml-mrss", 
   "title": "Non aux pirogues en polyester"
 }

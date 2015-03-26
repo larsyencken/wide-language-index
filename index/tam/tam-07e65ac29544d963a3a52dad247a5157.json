@@ -1,11 +1,12 @@
 {
-  "checksum": "07e65ac29544d963a3a52dad247a5157",
-  "date": "2012-11-24",
-  "language": "tam",
+  "checksum": "07e65ac29544d963a3a52dad247a5157", 
+  "date": "2012-11-24", 
+  "language": "tam", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01280/Kurainthapathcha_a_1280378a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Tamil",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4137160.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01280/Kurainthapathcha_a_1280378a.mp3", 
+    "http://mirror.widelanguageindex.org/tam/tam-07e65ac29544d963a3a52dad247a5157.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Tamil", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4137160.ece?ref=audio", 
   "title": "Minimum proof, maximum sentence [Tamil: Kuraindhapatcha aadharam adhigapatcha dhandanai] Editorial, November 24, 2012. Translated and presented by V.B. Ganesan"
 }

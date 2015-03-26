@@ -1,11 +1,12 @@
 {
-  "checksum": "275ef0d4874b9e82fe46dc3723a79c51",
-  "date": "2012-10-15",
-  "language": "mal",
+  "checksum": "275ef0d4874b9e82fe46dc3723a79c51", 
+  "date": "2012-10-15", 
+  "language": "mal", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01239/Malayalam_Rape_1239476a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Malayam",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4002917.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01239/Malayalam_Rape_1239476a.mp3", 
+    "http://mirror.widelanguageindex.org/mal/mal-275ef0d4874b9e82fe46dc3723a79c51.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Malayam", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4002917.ece?ref=audio", 
   "title": "The rape of reason [Malayalam: Yukthiye manabhangam cheyyumpol] Editorial, October 15, 2012. Translated by Rasmi Binoy, presented by A Correspondent"
 }

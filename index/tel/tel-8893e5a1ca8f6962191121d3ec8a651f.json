@@ -1,11 +1,12 @@
 {
-  "checksum": "8893e5a1ca8f6962191121d3ec8a651f",
-  "date": "2014-06-20",
-  "language": "tel",
+  "checksum": "8893e5a1ca8f6962191121d3ec8a651f", 
+  "date": "2014-06-20", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.teluguoneradio.com/prgramdetails/20140620_subhashini_mm.mp3"
-  ],
-  "source_name": "Telugu One Radio: Subhashini",
-  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=13070&host_id=62",
+    "http://www.teluguoneradio.com/prgramdetails/20140620_subhashini_mm.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-8893e5a1ca8f6962191121d3ec8a651f.mp3"
+  ], 
+  "source_name": "Telugu One Radio: Subhashini", 
+  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=13070&host_id=62", 
   "title": "Manalo Manamata"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "ee1f8249b0bfffd265d39aaf886f347d",
-  "date": "2012-07-09",
-  "language": "tel",
+  "checksum": "ee1f8249b0bfffd265d39aaf886f347d", 
+  "date": "2012-07-09", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01139/TeluguCycleEdit_1139457a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3624476.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01139/TeluguCycleEdit_1139457a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-ee1f8249b0bfffd265d39aaf886f347d.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3624476.ece?ref=audio", 
   "title": "Cycling cities [Telugu: cykilla nagaraalu] Editorial, July 9, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

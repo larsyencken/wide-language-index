@@ -1,11 +1,12 @@
 {
-  "checksum": "52bb897175db6f5bd71f89098c56550b",
-  "date": "2012-08-20",
-  "language": "tel",
+  "checksum": "52bb897175db6f5bd71f89098c56550b", 
+  "date": "2012-08-20", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01188/TeluguWatchEdit_1188320a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3812574.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01188/TeluguWatchEdit_1188320a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-52bb897175db6f5bd71f89098c56550b.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3812574.ece?ref=audio", 
   "title": "A watchdog that bites [Telugu: Samrakshakudi nigha netram] Editorial, August 20, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

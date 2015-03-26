@@ -1,11 +1,12 @@
 {
-  "checksum": "e2227ddd75438b45f7161de365d05fb2",
-  "date": "2012-11-06",
-  "language": "tel",
+  "checksum": "e2227ddd75438b45f7161de365d05fb2", 
+  "date": "2012-11-06", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01269/Send_the_mango_peo_1269441a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article4097921.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01269/Send_the_mango_peo_1269441a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-e2227ddd75438b45f7161de365d05fb2.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article4097921.ece?ref=audio", 
   "title": "Farewell to the mango people [Telugu: Aam aadmiki veedkolu] Editorial, November 6, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

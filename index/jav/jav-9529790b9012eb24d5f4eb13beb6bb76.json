@@ -1,11 +1,12 @@
 {
-  "checksum": "9529790b9012eb24d5f4eb13beb6bb76",
-  "date": "2015-03-16",
-  "language": "jav",
+  "checksum": "9529790b9012eb24d5f4eb13beb6bb76", 
+  "date": "2015-03-16", 
+  "language": "jav", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/JAVBN_VOH/~3/TTkyppHDbDQ/JAVSL_VOHX_20150316_2.mp3"
-  ],
-  "source_name": "AWR: Javanese / Basa Jawa",
-  "source_url": "http://feedproxy.google.com/~r/JAVBN_VOH/~3/TTkyppHDbDQ/JAVSL_VOHX_20150316_2.mp3",
+    "http://feedproxy.google.com/~r/JAVBN_VOH/~3/TTkyppHDbDQ/JAVSL_VOHX_20150316_2.mp3", 
+    "http://mirror.widelanguageindex.org/jav/jav-9529790b9012eb24d5f4eb13beb6bb76.mp3"
+  ], 
+  "source_name": "AWR: Javanese / Basa Jawa", 
+  "source_url": "http://feedproxy.google.com/~r/JAVBN_VOH/~3/TTkyppHDbDQ/JAVSL_VOHX_20150316_2.mp3", 
   "title": "JAVSL_VOHX_20150316_2"
 }

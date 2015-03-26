@@ -1,11 +1,12 @@
 {
-  "checksum": "3a8d073c4fe48cb44df50c790356aa2d",
-  "date": "2012-08-01",
-  "language": "tel",
+  "checksum": "3a8d073c4fe48cb44df50c790356aa2d", 
+  "date": "2012-08-01", 
+  "language": "tel", 
   "media_urls": [
-    "http://www.thehindu.com/multimedia/archive/01164/TeluguPowerEdit_1164098a.mp3"
-  ],
-  "source_name": "The Hindu: Podcasts in Telugu",
-  "source_url": "http://www.thehindu.com/opinion/editorial/article3718024.ece?ref=audio",
+    "http://www.thehindu.com/multimedia/archive/01164/TeluguPowerEdit_1164098a.mp3", 
+    "http://mirror.widelanguageindex.org/tel/tel-3a8d073c4fe48cb44df50c790356aa2d.mp3"
+  ], 
+  "source_name": "The Hindu: Podcasts in Telugu", 
+  "source_url": "http://www.thehindu.com/opinion/editorial/article3718024.ece?ref=audio", 
   "title": "Delhi is powerless [Telugu: Vidyut gridla vaiphalyamtho sthambinchipoyina janajeevanam] Editorial, August 1, 2012. Translated by V.R. Subrahmanyam, presented by Srinivas Ghantasala"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "d477c2713bf75bbe027b7f3625206539",
-  "date": "2015-03-16",
-  "language": "por",
+  "checksum": "d477c2713bf75bbe027b7f3625206539", 
+  "date": "2015-03-16", 
+  "language": "por", 
   "media_urls": [
-    "http://rsspod.rtp.pt/podcasts/at1/1503/3463551_177028-1503161133.mp3"
-  ],
-  "source_name": "RTP: O Mundo ao Ouvido",
-  "source_url": "http://rsspod.rtp.pt/podcasts/at1/1503/3463551_177028-1503161133.mp3",
+    "http://rsspod.rtp.pt/podcasts/at1/1503/3463551_177028-1503161133.mp3", 
+    "http://mirror.widelanguageindex.org/por/por-d477c2713bf75bbe027b7f3625206539.mp3"
+  ], 
+  "source_name": "RTP: O Mundo ao Ouvido", 
+  "source_url": "http://rsspod.rtp.pt/podcasts/at1/1503/3463551_177028-1503161133.mp3", 
   "title": "2015-03-16 07:45:00H\u00e1 horas felizes"
 }
