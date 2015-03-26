@@ -23,7 +23,9 @@ BUCKET = 'mirror.widelanguageindex.org'
 @click.command()
 @click.option('--language',
               help='Only mirror the given language.')
-def main(language=None):
+@click.option('--only',
+              help='Only mirror the specified record file.')
+def main(language=None, only=None):
     """
     Mirror samples to Amazon S3, in case the original publisher takes them
     down. Add the mirror URL as a secondary mirror in the index record.
@@ -32,10 +34,7 @@ def main(language=None):
     bucket = s3.get_bucket(BUCKET)
 
     print('Scanning records...')
-    queue = []
-    for record in iter_samples(language=language):
-        if not sample_is_mirrored(record):
-            queue.append(record)
+    queue = queue_records(language=language, only=only)
 
     print('{0} samples to be mirrored'.format(len(queue)))
     for i, record in enumerate(queue):
@@ -44,15 +43,29 @@ def main(language=None):
         save_record(record)
 
 
-def iter_samples(language=None):
+def queue_records(language=None, only=None):
+    if only:
+        queue = [load_record(only)]
+    else:
+        queue = all_samples(language=language)
+
+    return [s for s in queue
+            if not sample_is_mirrored(s)]
+
+
+def all_samples(language=None):
     if language is not None:
         pattern = 'index/{0}/*.json'.format(language)
     else:
         pattern = 'index/*/*.json'
 
-    for f in sorted(glob.glob(pattern)):
-        with open(f) as istream:
-            yield json.load(istream)
+    return [load_record(f)
+            for f in sorted(glob.glob(pattern))]
+
+
+def load_record(f):
+    with open(f) as istream:
+        return json.load(istream)
 
 
 def sample_is_mirrored(record):
