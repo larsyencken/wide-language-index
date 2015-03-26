@@ -30,7 +30,7 @@ audit:
 
 fetch:
 	mkdir -p samples
-	$(PY) src/fetch_index.py index samples
+	$(PY) src/fetch_index.py
 
 normalize:
 	$(PY) src/normalize.py

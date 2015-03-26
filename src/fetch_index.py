@@ -11,20 +11,29 @@ Download the actual sample files for the language game index.
 
 from __future__ import absolute_import, print_function, division
 
-import os
-import hashlib
+from os import path
 import glob
+import hashlib
 import json
+import os
 
 import requests
 import click
 
 
+INDEX_DIR = path.normpath(path.join(path.dirname(__file__),
+                                    '..', 'index'))
+SAMPLE_DIR = path.normpath(path.join(path.dirname(__file__),
+                                     '..', 'samples'))
+
+
 @click.command()
-@click.argument('index_dir')
-@click.argument('output_dir')
+@click.option('--index-dir', default=INDEX_DIR,
+              help='Use a different index folder.')
+@click.option('--output-dir', default=SAMPLE_DIR,
+              help='Use a different output folder.')
 @click.option('--language', help='Only fetch the given language.')
-def fetch_index(index_dir, output_dir, language=None):
+def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None):
     """
     Fetch a copy of every sample in the index, placing them in output_dir.
     """
@@ -38,10 +47,11 @@ def fetch_index(index_dir, output_dir, language=None):
         # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
         dest_file = os.path.join(output_dir, lang,
                                  '{0}-{1}.mp3'.format(lang, checksum))
-        print('[{0}/{1}] {2}'.format(
+        print('[{0}/{1}] {2}/{2}-{3}.mp3'.format(
             i + 1,
             len(record_files),
-            dest_file
+            lang,
+            checksum
         ))
 
         for media_url in rec['media_urls']:
