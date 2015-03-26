@@ -28,6 +28,7 @@ def fetch_index(index_dir, output_dir, language=None):
     """
     Fetch a copy of every sample in the index, placing them in output_dir.
     """
+    n_errors = 0
     record_files = get_record_files(index_dir, language=language)
     for i, f in enumerate(record_files):
         rec = json.load(open(f))
@@ -51,6 +52,10 @@ def fetch_index(index_dir, output_dir, language=None):
                 pass
         else:
             print('ERROR: {0} -- skipping'.format(e.args[0]))
+            n_errors += 1
+
+    print('\n{0} records, {1} errors'.format(len(record_files),
+                                             n_errors))
 
 
 def get_record_files(index_dir, language=None):
