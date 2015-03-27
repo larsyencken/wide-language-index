@@ -159,7 +159,7 @@ def load_metadata(language_set=None):
     if language_set is None:
         include_language = lambda l: True
     else:
-        include_language = SETS[language_set]
+        include_language = SETS[language_set].__contains__
 
     metadata = defaultdict(dict)
     for f in glob.glob('index/*/*.json'):
