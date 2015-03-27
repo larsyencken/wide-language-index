@@ -83,7 +83,7 @@ def make_test(f, i, schema):
 
         # it is pretty-printed
         pretty_blob = json.dumps(data, indent=2, sort_keys=True)
-        assert blob == pretty_blob
+        assert blob == pretty_blob, f
 
     name = 'test_doc_{0}'.format(i)
     t.__name__ = name
