@@ -364,7 +364,7 @@ class AnnotateCmd(cmd.Cmd):
                  'multiple languages', 'excess loan words',
                  'language or place reference', 'pauses'],
             )
-            speakers = ui.input_number('speakers', minimum=1, maximum=10)
+            speakers = ui.input_number('speakers', minimum=0, maximum=10)
             genders = ui.input_single_option(
                 'Gender of speakers',
                 ['male', 'female', 'mixed', 'unclear'],
