@@ -1,12 +1,12 @@
 {
-  "checksum": "d7d7e283f2e7bb54565b107de023c97b", 
-  "date": "2015-03-19", 
-  "language": "rus", 
+  "checksum": "d7d7e283f2e7bb54565b107de023c97b",
+  "date": "2015-03-19",
+  "language": "rus",
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/E_RQeCuGSp0/russian_150319_399288.mp3", 
+    "http://feedproxy.google.com/~r/russian/~3/E_RQeCuGSp0/russian_150319_399288.mp3",
     "http://mirror.widelanguageindex.org/rus/rus-d7d7e283f2e7bb54565b107de023c97b.mp3"
-  ], 
-  "source_name": "SBS Russian", 
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/E_RQeCuGSp0/russian_150319_399288.mp3", 
+  ],
+  "source_name": "SBS Russian",
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/E_RQeCuGSp0/russian_150319_399288.mp3",
   "title": "Prosecution wants seven years in Couchsurfing case"
 }

@@ -1,12 +1,12 @@
 {
-  "checksum": "d8088b3f20fe0a85897cf54f09813954", 
-  "date": "2013-08-11", 
-  "language": "fra", 
+  "checksum": "d8088b3f20fe0a85897cf54f09813954",
+  "date": "2013-08-11",
+  "language": "fra",
   "media_urls": [
-    "http://medias-balado.radio-canada.ca/diffusion/2013/balado/src/CBF/hobjets-20130726-1712.mp3", 
+    "http://medias-balado.radio-canada.ca/diffusion/2013/balado/src/CBF/hobjets-20130726-1712.mp3",
     "http://mirror.widelanguageindex.org/fra/fra-d8088b3f20fe0a85897cf54f09813954.mp3"
-  ], 
-  "source_name": "Histoires d'objets", 
-  "source_url": "http://medias-balado.radio-canada.ca/diffusion/2013/balado/src/CBF/hobjets-20130726-1712.mp3", 
+  ],
+  "source_name": "Histoires d'objets",
+  "source_url": "http://medias-balado.radio-canada.ca/diffusion/2013/balado/src/CBF/hobjets-20130726-1712.mp3",
   "title": "No 67 : La planche"
 }

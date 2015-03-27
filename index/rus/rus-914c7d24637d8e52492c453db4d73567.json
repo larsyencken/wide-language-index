@@ -1,12 +1,12 @@
 {
-  "checksum": "914c7d24637d8e52492c453db4d73567", 
-  "date": "2015-03-23", 
-  "language": "rus", 
+  "checksum": "914c7d24637d8e52492c453db4d73567",
+  "date": "2015-03-23",
+  "language": "rus",
   "media_urls": [
-    "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/bbseva_20150323-1600a.mp3", 
+    "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/bbseva_20150323-1600a.mp3",
     "http://mirror.widelanguageindex.org/rus/rus-914c7d24637d8e52492c453db4d73567.mp3"
-  ], 
-  "source_name": "BBSeva from BBCRussian", 
-  "source_url": "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/bbseva_20150323-1600a.mp3", 
+  ],
+  "source_name": "BBSeva from BBCRussian",
+  "source_url": "http://downloads.bbc.co.uk/podcasts/worldservice/bbseva/bbseva_20150323-1600a.mp3",
   "title": "bbseva: 23 March 2015"
 }

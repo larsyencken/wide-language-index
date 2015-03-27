@@ -1,12 +1,12 @@
 {
-  "checksum": "028930aa678988f53a1c90ac6aabb730", 
-  "date": "2015-03-15", 
-  "language": "urd", 
+  "checksum": "028930aa678988f53a1c90ac6aabb730",
+  "date": "2015-03-15",
+  "language": "urd",
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsurdu/~3/HVax70Cryec/urdu_150315_398464.mp3", 
+    "http://feedproxy.google.com/~r/sbsurdu/~3/HVax70Cryec/urdu_150315_398464.mp3",
     "http://mirror.widelanguageindex.org/urd/urd-028930aa678988f53a1c90ac6aabb730.mp3"
-  ], 
-  "source_name": "SBS Urdu", 
-  "source_url": "http://feedproxy.google.com/~r/sbsurdu/~3/HVax70Cryec/urdu_150315_398464.mp3", 
+  ],
+  "source_name": "SBS Urdu",
+  "source_url": "http://feedproxy.google.com/~r/sbsurdu/~3/HVax70Cryec/urdu_150315_398464.mp3",
   "title": "Clean Up Australia Day"
 }

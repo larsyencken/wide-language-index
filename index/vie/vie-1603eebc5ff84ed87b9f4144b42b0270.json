@@ -1,12 +1,12 @@
 {
-  "checksum": "1603eebc5ff84ed87b9f4144b42b0270", 
-  "date": "2015-03-24", 
-  "language": "vie", 
+  "checksum": "1603eebc5ff84ed87b9f4144b42b0270",
+  "date": "2015-03-24",
+  "language": "vie",
   "media_urls": [
-    "http://telechargement.rfi.fr/rfi/vietnamien/audio/magazines/r001/14h00_-_14h17_tu_20150324.mp3", 
+    "http://telechargement.rfi.fr/rfi/vietnamien/audio/magazines/r001/14h00_-_14h17_tu_20150324.mp3",
     "http://mirror.widelanguageindex.org/vie/vie-1603eebc5ff84ed87b9f4144b42b0270.mp3"
-  ], 
-  "source_name": "nghe ch\u01b0\u01a1ng tr\u00ecnh 17 ph\u00fat - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI", 
-  "source_url": "http://vi.rfi.fr/20150324-ban-tin-03242015-14h00-gmt", 
+  ],
+  "source_name": "nghe ch\u01b0\u01a1ng tr\u00ecnh 17 ph\u00fat - \u0110\u00e0i ph\u00e1t thanh qu\u1ed1c t\u1ebf Ph\u00e1p - RFI",
+  "source_url": "http://vi.rfi.fr/20150324-ban-tin-03242015-14h00-gmt",
   "title": "B\u1ea3n tin 03/24/2015 14g00, GMT"
 }

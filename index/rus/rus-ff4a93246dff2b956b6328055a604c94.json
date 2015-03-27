@@ -1,12 +1,12 @@
 {
-  "checksum": "ff4a93246dff2b956b6328055a604c94", 
-  "date": "2015-03-23", 
-  "language": "rus", 
+  "checksum": "ff4a93246dff2b956b6328055a604c94",
+  "date": "2015-03-23",
+  "language": "rus",
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/bt5AmsBIQOE/russian_150323_400150.mp3", 
+    "http://feedproxy.google.com/~r/russian/~3/bt5AmsBIQOE/russian_150323_400150.mp3",
     "http://mirror.widelanguageindex.org/rus/rus-ff4a93246dff2b956b6328055a604c94.mp3"
-  ], 
-  "source_name": "SBS Russian", 
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/bt5AmsBIQOE/russian_150323_400150.mp3", 
+  ],
+  "source_name": "SBS Russian",
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/bt5AmsBIQOE/russian_150323_400150.mp3",
   "title": "Arkadi Arkanov \"Wait for reply\""
 }

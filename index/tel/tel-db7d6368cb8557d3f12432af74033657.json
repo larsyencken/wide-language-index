@@ -1,12 +1,12 @@
 {
-  "checksum": "db7d6368cb8557d3f12432af74033657", 
-  "date": "2014-01-17", 
-  "language": "tel", 
+  "checksum": "db7d6368cb8557d3f12432af74033657",
+  "date": "2014-01-17",
+  "language": "tel",
   "media_urls": [
-    "http://www.teluguoneradio.com/prgramdetails/20140117_subhashini_mmm.mp3", 
+    "http://www.teluguoneradio.com/prgramdetails/20140117_subhashini_mmm.mp3",
     "http://mirror.widelanguageindex.org/tel/tel-db7d6368cb8557d3f12432af74033657.mp3"
-  ], 
-  "source_name": "Telugu One Radio: Subhashini", 
-  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=10389&host_id=62", 
+  ],
+  "source_name": "Telugu One Radio: Subhashini",
+  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=10389&host_id=62",
   "title": "Manalo Mana Maata"
 }

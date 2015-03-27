@@ -1,12 +1,12 @@
 {
-  "checksum": "976034c1996c54bcd06365909c9ab34f", 
-  "date": "2015-03-21", 
-  "language": "rus", 
+  "checksum": "976034c1996c54bcd06365909c9ab34f",
+  "date": "2015-03-21",
+  "language": "rus",
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/TndTuNa5Y4U/russian_150321_399760.mp3", 
+    "http://feedproxy.google.com/~r/russian/~3/TndTuNa5Y4U/russian_150321_399760.mp3",
     "http://mirror.widelanguageindex.org/rus/rus-976034c1996c54bcd06365909c9ab34f.mp3"
-  ], 
-  "source_name": "SBS Russian", 
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/TndTuNa5Y4U/russian_150321_399760.mp3", 
+  ],
+  "source_name": "SBS Russian",
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/TndTuNa5Y4U/russian_150321_399760.mp3",
   "title": "This week in Russia"
 }

@@ -1,12 +1,12 @@
 {
-  "checksum": "5c7f1930942e0e1094c801f164079f33", 
-  "date": "2013-02-28", 
-  "language": "tel", 
+  "checksum": "5c7f1930942e0e1094c801f164079f33",
+  "date": "2013-02-28",
+  "language": "tel",
   "media_urls": [
-    "http://www.teluguoneradio.com/prgramdetails/20130228_subhashini_news.mp3", 
+    "http://www.teluguoneradio.com/prgramdetails/20130228_subhashini_news.mp3",
     "http://mirror.widelanguageindex.org/tel/tel-5c7f1930942e0e1094c801f164079f33.mp3"
-  ], 
-  "source_name": "Telugu One Radio: Subhashini", 
-  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=4658&host_id=62", 
+  ],
+  "source_name": "Telugu One Radio: Subhashini",
+  "source_url": "http://www.teluguoneradio.com/archivesplayer.php?q=4658&host_id=62",
   "title": "Tori News"
 }

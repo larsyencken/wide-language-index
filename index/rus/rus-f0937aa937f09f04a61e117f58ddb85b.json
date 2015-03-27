@@ -1,12 +1,12 @@
 {
-  "checksum": "f0937aa937f09f04a61e117f58ddb85b", 
-  "date": "2015-03-23", 
-  "language": "rus", 
+  "checksum": "f0937aa937f09f04a61e117f58ddb85b",
+  "date": "2015-03-23",
+  "language": "rus",
   "media_urls": [
-    "http://feedproxy.google.com/~r/russian/~3/wbEeQPT3lh0/russian_150323_400096.mp3", 
+    "http://feedproxy.google.com/~r/russian/~3/wbEeQPT3lh0/russian_150323_400096.mp3",
     "http://mirror.widelanguageindex.org/rus/rus-f0937aa937f09f04a61e117f58ddb85b.mp3"
-  ], 
-  "source_name": "SBS Russian", 
-  "source_url": "http://feedproxy.google.com/~r/russian/~3/wbEeQPT3lh0/russian_150323_400096.mp3", 
+  ],
+  "source_name": "SBS Russian",
+  "source_url": "http://feedproxy.google.com/~r/russian/~3/wbEeQPT3lh0/russian_150323_400096.mp3",
   "title": "Australian notebook. Cold war memories"
 }

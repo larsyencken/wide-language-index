@@ -1,12 +1,12 @@
 {
-  "checksum": "01b1e1990cc14361e0664bc3b5eb1422", 
-  "date": "2015-03-21", 
-  "language": "por", 
+  "checksum": "01b1e1990cc14361e0664bc3b5eb1422",
+  "date": "2015-03-21",
+  "language": "por",
   "media_urls": [
-    "http://www3.nhk.or.jp/rj/podcast/mp3/20150322053100_1_portuguese.mp3", 
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20150322053100_1_portuguese.mp3",
     "http://mirror.widelanguageindex.org/por/por-01b1e1990cc14361e0664bc3b5eb1422.mp3"
-  ], 
-  "source_name": "NHK World Radio Japan (Portuguese)", 
-  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150322053100_1_portuguese.mp3", 
+  ],
+  "source_name": "NHK World Radio Japan (Portuguese)",
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20150322053100_1_portuguese.mp3",
   "title": "NHK WORLD RADIO JAPAN - Portuguese News at 05:31 (JST), March 22"
 }

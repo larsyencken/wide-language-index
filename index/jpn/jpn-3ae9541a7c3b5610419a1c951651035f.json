@@ -1,12 +1,12 @@
 {
-  "checksum": "3ae9541a7c3b5610419a1c951651035f", 
-  "date": "2015-02-25", 
-  "language": "jpn", 
+  "checksum": "3ae9541a7c3b5610419a1c951651035f",
+  "date": "2015-02-25",
+  "language": "jpn",
   "media_urls": [
-    "http://feedproxy.google.com/~r/sbsjapanese/~3/ev-HTa0jeD4/japanese_150225_394517.mp3", 
+    "http://feedproxy.google.com/~r/sbsjapanese/~3/ev-HTa0jeD4/japanese_150225_394517.mp3",
     "http://mirror.widelanguageindex.org/jpn/jpn-3ae9541a7c3b5610419a1c951651035f.mp3"
-  ], 
-  "source_name": "SBS Japanese", 
-  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/ev-HTa0jeD4/japanese_150225_394517.mp3", 
+  ],
+  "source_name": "SBS Japanese",
+  "source_url": "http://feedproxy.google.com/~r/sbsjapanese/~3/ev-HTa0jeD4/japanese_150225_394517.mp3",
   "title": "Project Cricket"
 }

@@ -1,12 +1,12 @@
 {
-  "checksum": "9cc499bc8180021e8654c3a97ed6cbef", 
-  "date": "2015-03-18", 
-  "language": "fra", 
+  "checksum": "9cc499bc8180021e8654c3a97ed6cbef",
+  "date": "2015-03-18",
+  "language": "fra",
   "media_urls": [
-    "http://telechargement.rfi.fr/rfi/francais/audio/magazines/r182/grand_reportage_20150318.mp3", 
+    "http://telechargement.rfi.fr/rfi/francais/audio/magazines/r182/grand_reportage_20150318.mp3",
     "http://mirror.widelanguageindex.org/fra/fra-9cc499bc8180021e8654c3a97ed6cbef.mp3"
-  ], 
-  "source_name": "RFI - Grand reportage", 
-  "source_url": "http://www.rfi.fr/emission/20150318-syrie-torture-temoignages-refugies-liban-assad", 
+  ],
+  "source_name": "RFI - Grand reportage",
+  "source_url": "http://www.rfi.fr/emission/20150318-syrie-torture-temoignages-refugies-liban-assad",
   "title": "La torture en Syrie : t\u00e9moignages de r\u00e9fugi\u00e9s au Liban - 18/03/2015"
 }

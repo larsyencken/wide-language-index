@@ -1,12 +1,12 @@
 {
-  "checksum": "0730c55c75440a8c1a7a8ce2778d0c89", 
-  "date": "2013-07-04", 
-  "language": "wuu", 
+  "checksum": "0730c55c75440a8c1a7a8ce2778d0c89",
+  "date": "2013-07-04",
+  "language": "wuu",
   "media_urls": [
-    "http://phonemica.net/files/543746312bd553930782ab49/0.mp3", 
+    "http://phonemica.net/files/543746312bd553930782ab49/0.mp3",
     "http://mirror.widelanguageindex.org/wuu/wuu-0730c55c75440a8c1a7a8ce2778d0c89.mp3"
-  ], 
-  "source_name": "Phonemica", 
-  "source_url": "http://phonemica.net/storyteller?mid=543746312bd553930782ab49", 
+  ],
+  "source_name": "Phonemica",
+  "source_url": "http://phonemica.net/storyteller?mid=543746312bd553930782ab49",
   "title": "\u53f0\u5dde\u79bb\u5bb6\u51fa\u8d70"
 }
