@@ -16,10 +16,29 @@ from datetime import date
 import subprocess
 import sys
 
+import click
 import pydub
 
 import play_offset
 import ui
+
+SETS = {
+    'global-top-20': set([
+        'cmn', 'spa', 'eng', 'hin', 'arb', 'por', 'ben', 'rus', 'jpn', 'jav',
+        'deu', 'wuu', 'kor', 'fra', 'tel', 'mar', 'tur', 'tam', 'vie', 'urd',
+    ]),
+    'global-top-40': set([
+        'cmn', 'spa', 'eng', 'hin', 'arb', 'por', 'ben', 'rus', 'jpn', 'jav',
+        'deu', 'wuu', 'kor', 'fra', 'tel', 'mar', 'tur', 'tam', 'vie', 'urd',
+        'ita', 'pnb', 'yue', 'arz', 'pes', 'guj', 'nan', 'cjy', 'bho', 'pol',
+        'kan', 'ukr', 'hsn', 'sun', 'mai', 'mal', 'ory', 'hak', 'pan', 'arq',
+    ]),
+    'region-top-5': set([
+        'arz', 'arq', 'hau', 'amh', 'ary', 'hat', 'hrx', 'gug', 'lou', 'jam',
+        'cmn', 'hin', 'arb', 'ben', 'jpy', 'spa', 'eng', 'por', 'rus', 'deu',
+        'smo', 'fij', 'ton', 'mri', 'med',
+    ]),
+}
 
 Segment = namedtuple('Segment', 'sample offset duration')
 
@@ -135,14 +154,21 @@ def identify_user():
     user.save()
 
 
-def load_metadata():
+def load_metadata(language_set=None):
+    # we might be looking at only a subset of languages
+    if language_set is None:
+        include_language = lambda l: True
+    else:
+        include_language = SETS[language_set]
+
     metadata = defaultdict(dict)
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
             rec = json.load(istream)
             lang = rec['language']
-            checksum = rec['checksum']
-            metadata[lang][checksum] = rec
+            if include_language(lang):
+                checksum = rec['checksum']
+                metadata[lang][checksum] = rec
 
     return metadata
 
@@ -260,12 +286,26 @@ def metadata_filename(sample):
     )
 
 
-def main():
+@click.command()
+@click.option('--language-set',
+              help='Only annotate a particular set of langauges.')
+def main(language_set=None):
+    """
+    Begin an interactive annotation session, where you are played snippets of
+    audio in different languages and you have to mark whether or not they are
+    representative samples.
+    """
+    if language_set is not None and language_set not in SETS:
+        print('ERROR: language set "{0}" not one of: {1}'.format(
+            language_set, ', '.join(sorted(SETS.keys()))
+        ), file=sys.stderr)
+        sys.exit(1)
+
     annotated = 0
     skipped = 0
 
     user = identify_user()
-    metadata = load_metadata()
+    metadata = load_metadata(language_set=language_set)
 
     ui.clear_screen()
     ui.pause('Beginning annotation, press ENTER to hear the first clip...')
