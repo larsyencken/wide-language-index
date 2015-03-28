@@ -5,13 +5,14 @@
 #  wide-language-index
 #
 
-from os import path
-import json
-import glob
-import collections
-import random
-import cmd
 from datetime import date
+from os import path
+import cmd
+import collections
+import glob
+import heapq
+import json
+import random
 import subprocess
 import sys
 
@@ -115,8 +116,7 @@ def main(language_set=None):
     ui.clear_screen()
     ui.pause('Beginning annotation, press ENTER to hear the first clip...')
 
-    while True:
-        segment = random_sample(metadata, DEFAULT_DURATION_S)
+    for segment in RandomSampler(metadata, DEFAULT_DURATION_S):
         ann, quit = annotate(segment, session.user, metadata)
 
         if ann is not None:
@@ -242,45 +242,86 @@ def load_metadata(language_set=None):
     return metadata
 
 
-def random_sample(metadata, duration):
-    languages = list(metadata.keys())
-    random.shuffle(languages)
-    languages.sort(key=lambda l: annotation_count(l, metadata))
-
-    for sample in iter_samples(languages, metadata):
-        for segment in iter_segments(sample, duration):
-            return segment
-
-
-def iter_samples(languages, metadata):
+class RandomSampler(object):
     """
-    Go through unlabelled samples in order. Firstly order by language, by
-    number of annotations ascending. Then prefer samples which haven't been
-    annotated yet.
+    Provides an ordering over unannotated segments which prefers: languages
+    with fewer samples, samples with fewer annotations, and segments which
+    haven't been annotated before.
     """
-    # order languages by number of annotations, least to most
-    l_by_annotations = [(num_lang_annotations(metadata[l]), l)
-                        for l in languages]
-    l_by_annotations.sort(key=lambda kv: kv[0])
+    def __init__(self, metadata, duration):
+        self.metadata = metadata
+        self.duration = duration
+        self.queue = self.build_queue()
 
-    for _, l in l_by_annotations:
-        samples = metadata[l]
-        s_by_annotations = [(num_sample_annotations(s), s)
-                            for s in samples.values()]
-        s_by_annotations.sort(key=lambda kv: kv[0])
-        for _, s in s_by_annotations:
+    def build_queue(self):
+        queue = [
+            (lang_annotation_count(l, self.metadata),
+             random.random(),  # don't sort by name
+             l)
+            for l in self.metadata.keys()
+        ]
+        heapq.heapify(queue)
+        return queue
+
+    def pop(self):
+        _, _, l = heapq.heappop(self.queue)
+        return l
+
+    def push(self, l):
+        heapq.heappush(self.queue, self.gen_key(l))
+
+    def gen_key(self, l):
+        return (lang_annotation_count(l, self.metadata),
+                random.random(),  # randomly break ties
+                l)
+
+    def __iter__(self):
+        while True:
+            l = self.pop()
+            yield self.find_segment(l)
+            self.push(l)
+
+    def find_segment(self, l):
+        for sample in self.iter_samples(l):
+            for segment in self.iter_segments(sample):
+                return segment
+
+    def iter_samples(self, l):
+        "Favour samples with fewer annotations."
+        samples = self.metadata[l]
+
+        s_by_annotations = [
+            (sample_annotation_count(s),
+             sample_annotation_count(s, include_all=True),
+             random.random(),
+             s)
+            for s in samples.values()
+        ]
+        s_by_annotations.sort()
+
+        for _, _, _, s in s_by_annotations:
             yield s
 
+    def iter_segments(self, sample):
+        "Pick random segments that haven't been annotated yet."
+        sample_len = sample_duration(sample)
 
-def num_lang_annotations(l):
-    "Count the number of good annotations for a language."
-    return sum(num_sample_annotations(s)
-               for s in l.values())
+        n_segments = int(sample_len / self.duration)
+        segment_ids = list(range(n_segments))
+        random.shuffle(segment_ids)
 
+        seen = set([a['offset']
+                    for a in sample.get('annotations', ())
+                    if int(a['duration']) == self.duration])
 
-def num_sample_annotations(s):
-    return sum(1 for a in s.get('annotations', ())
-               if a['label'] == 'good')
+        for segment_id in segment_ids:
+            offset = segment_id * self.duration
+
+            # skip if annotated already
+            if offset in seen:
+                continue
+
+            yield Segment(sample, offset, self.duration)
 
 
 def sample_duration(sample):
@@ -322,7 +363,7 @@ def sample_filename(sample):
 
 def save_annotation(sample, annotation, metadata):
     lang = sample['language']
-    c_before = annotation_count(lang, metadata)
+    c_before = lang_annotation_count(lang, metadata)
 
     # add this annotation
     sample.setdefault('annotations', []).append(annotation)
@@ -333,17 +374,24 @@ def save_annotation(sample, annotation, metadata):
         ostream.write(s_norm)
 
     # give a status update for this language
-    c_after = annotation_count(lang, metadata)
+    c_after = lang_annotation_count(lang, metadata)
 
     print('{0}: {1} -> {2}'.format(lang, c_before, c_after))
 
 
-def annotation_count(language, metadata):
+def lang_annotation_count(language, metadata):
     return sum(
-        sum(a['label'] == 'good'
-            for a in record.get('annotations', ()))
-        for record in metadata[language].values()
+        sample_annotation_count(s)
+        for s in metadata[language].values()
     )
+
+
+def sample_annotation_count(sample, include_all=False):
+    if include_all:
+        return len(sample.get('annotations', ()))
+
+    return sum(a['label'] == 'good'
+               for a in sample.get('annotations', ()))
 
 
 def metadata_filename(sample):
@@ -388,12 +436,17 @@ class AnnotateCmd(cmd.Cmd):
 
     def _edit(self):
         try:
-            problems = ui.input_multi_options(
-                'Problems with the sample',
-                ['noise', 'wrong language',
-                 'multiple languages', 'excess loan words',
-                 'language or place reference', 'pauses'],
-            )
+            ok = ui.input_bool('Is the sample ok')
+            if not ok:
+                problems = ui.input_multi_options(
+                    'Problems with the sample',
+                    ['noise', 'wrong language',
+                     'multiple languages', 'excess loan words',
+                     'language or place reference', 'pauses'],
+                )
+            else:
+                problems = []
+
             speakers = ui.input_number('speakers', minimum=0, maximum=10)
             genders = ui.input_single_option(
                 'Gender of speakers',
@@ -404,7 +457,7 @@ class AnnotateCmd(cmd.Cmd):
                 'problems': sorted(problems),
                 'speakers': speakers,
                 'genders': genders,
-                'label': 'good' if not problems else 'bad',
+                'label': 'good' if ok else 'bad',
                 'date': str(date.today()),
                 'offset': self.segment.offset,
                 'duration': self.segment.duration,
@@ -475,13 +528,16 @@ class AnnotateCmd(cmd.Cmd):
 
     def do_stats(self, line):
         per_lang = collections.Counter(
-            {lang: annotation_count(lang, self.metadata)
+            {lang: lang_annotation_count(lang, self.metadata)
              for lang in self.metadata.keys()}
         )
 
         content = '\n'.join('{0} {1}'.format(l, c)
                             for (l, c) in per_lang.most_common())
         page(content)
+
+    def do_s(self, line):
+        return self.do_stats(line)
 
 
 def page(content):

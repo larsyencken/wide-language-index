@@ -1,4 +1,20 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-27",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 460,
+      "problems": [
+        "excess loan words",
+        "language or place reference",
+        "multiple languages"
+      ],
+      "speakers": 2
+    }
+  ],
   "checksum": "984be54976d96ff38bccd7c6e2dfc1b9",
   "date": "2013-07-24",
   "filename": "bangla_130724_278972.mp3",

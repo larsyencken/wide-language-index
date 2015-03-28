@@ -1,4 +1,65 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 1260,
+      "problems": [
+        "excess loan words",
+        "multiple languages"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 2840,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "unclear",
+      "label": "bad",
+      "offset": 1900,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 0
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "unclear",
+      "label": "bad",
+      "offset": 2920,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 0
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 620,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "761c24702fb5e519d73efa976dd702e9",
   "date": "2015-01-23",
   "language": "tel",

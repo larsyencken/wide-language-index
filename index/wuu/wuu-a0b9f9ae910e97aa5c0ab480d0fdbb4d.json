@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-27",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 140,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "a0b9f9ae910e97aa5c0ab480d0fdbb4d",
   "date": "2013-03-18",
   "language": "wuu",

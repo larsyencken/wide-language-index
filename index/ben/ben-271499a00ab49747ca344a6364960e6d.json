@@ -1,4 +1,40 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 240,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 460,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "271499a00ab49747ca344a6364960e6d",
   "date": "2015-03-14",
   "language": "ben",
