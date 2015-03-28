@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "85aa7b7304b2f3abe16e684796296de5",
   "date": "2013-08-11",
   "filename": "spanish_130811_282188.mp3",

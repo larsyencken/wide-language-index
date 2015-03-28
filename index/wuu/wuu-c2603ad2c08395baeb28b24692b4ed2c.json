@@ -1,4 +1,40 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 40,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 60,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "c2603ad2c08395baeb28b24692b4ed2c",
   "date": "2013-04-20",
   "language": "wuu",

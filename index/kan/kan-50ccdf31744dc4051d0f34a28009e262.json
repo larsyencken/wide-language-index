@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-03-28",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 220,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "50ccdf31744dc4051d0f34a28009e262",
   "date": "2013-07-30",
   "filename": "kannada_130730_280039.mp3",
