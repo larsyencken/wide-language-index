@@ -19,7 +19,7 @@ import sys
 import click
 import pydub
 
-import play_offset
+import audio
 import ui
 
 SETS = {
@@ -432,7 +432,9 @@ class AnnotateCmd(cmd.Cmd):
             s.offset,
             s.offset + s.duration,
         ))
-        return play_offset.play_offset(filename, s.offset, s.duration)
+
+        with audio.cropped(filename, s.offset, s.duration) as clip:
+            return audio.play_mp3(clip)
 
     def _edit(self):
         try:

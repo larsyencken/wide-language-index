@@ -5,12 +5,9 @@
 #  wide-language-index
 #
 
-import sys
-import tempfile
-
 import click
-import pydub
-import sh
+
+import audio
 
 
 @click.command()
@@ -30,38 +27,9 @@ def play_offset(path, offset, duration):
     Play only part of the given mp3 file. Return True if the whole clip
     played.
     """
-    sample = get_sample(path, offset, duration)
-    return play_sample(sample)
-
-
-def get_sample(path, offset, duration):
-    entire_segment = pydub.AudioSegment.from_mp3(path)
-    offset_ms = offset * 1000
-    duration_ms = duration * 1000
-    selected = entire_segment[offset_ms:offset_ms + duration_ms]
-    return selected
-
-
-def play_sample(sample):
-    with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
-        sample.export(t, format='mp3')
-
-        # normalize the sample's volume
-        sh.mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
-
-        sys.stdout.write('<playing...')
-        sys.stdout.flush()
-        p = sh.afplay(t.name, _bg=True)
-        try:
-            p.wait()
-            print('done>')
-        except KeyboardInterrupt:
-            p.terminate()
-            print('cancelled>')
-            return False
-
-    return True
+    with audio.cropped(path, offset, duration) as clip:
+        return audio.play_mp3(clip)
 
 
 if __name__ == '__main__':
-    play_offset()
+    play_offset_cmd()
