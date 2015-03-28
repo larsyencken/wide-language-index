@@ -388,12 +388,17 @@ class AnnotateCmd(cmd.Cmd):
 
     def _edit(self):
         try:
-            problems = ui.input_multi_options(
-                'Problems with the sample',
-                ['noise', 'wrong language',
-                 'multiple languages', 'excess loan words',
-                 'language or place reference', 'pauses'],
-            )
+            ok = ui.input_bool('Is the sample ok')
+            if not ok:
+                problems = ui.input_multi_options(
+                    'Problems with the sample',
+                    ['noise', 'wrong language',
+                     'multiple languages', 'excess loan words',
+                     'language or place reference', 'pauses'],
+                )
+            else:
+                problems = []
+
             speakers = ui.input_number('speakers', minimum=0, maximum=10)
             genders = ui.input_single_option(
                 'Gender of speakers',
@@ -404,7 +409,7 @@ class AnnotateCmd(cmd.Cmd):
                 'problems': sorted(problems),
                 'speakers': speakers,
                 'genders': genders,
-                'label': 'good' if not problems else 'bad',
+                'label': 'good' if ok else 'bad',
                 'date': str(date.today()),
                 'offset': self.segment.offset,
                 'duration': self.segment.duration,
