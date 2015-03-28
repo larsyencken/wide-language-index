@@ -22,6 +22,7 @@ import os
 import unittest
 
 from clint.textui.colored import blue
+import click
 import jsonschema
 
 
@@ -30,9 +31,19 @@ VALID_LANGUAGES = set(
 )
 
 
-def main():
+@click.command()
+@click.option('--skip-audio/--no-skip-audio',
+              help='Skip audit of audio samples.')
+def main(skip_audio=False):
+    """
+    Check the integrity of the index, making sure all records are in the right
+    format and containing the right fields. If audio is present, also audit
+    the audio against checksums in the index.
+    """
     audit_index()
-    audit_samples()
+
+    if not skip_audio:
+        audit_samples()
 
 
 def audit_index():
