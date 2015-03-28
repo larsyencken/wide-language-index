@@ -488,6 +488,9 @@ class AnnotateCmd(cmd.Cmd):
                             for (l, c) in per_lang.most_common())
         page(content)
 
+    def do_s(self, line):
+        return self.do_stats(line)
+
 
 def page(content):
     "Print the string through less."
