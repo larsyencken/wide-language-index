@@ -290,11 +290,16 @@ class RandomSampler(object):
         "Favour samples with fewer annotations."
         samples = self.metadata[l]
 
-        s_by_annotations = [(sample_annotation_count(s), random.random(), s)
-                            for s in samples.values()]
-        s_by_annotations.sort(key=lambda kv: kv[0])
+        s_by_annotations = [
+            (sample_annotation_count(s),
+             sample_annotation_count(s, include_all=True),
+             random.random(),
+             s)
+            for s in samples.values()
+        ]
+        s_by_annotations.sort()
 
-        for _, _, s in s_by_annotations:
+        for _, _, _, s in s_by_annotations:
             yield s
 
     def iter_segments(self, sample):
@@ -381,7 +386,10 @@ def lang_annotation_count(language, metadata):
     )
 
 
-def sample_annotation_count(sample):
+def sample_annotation_count(sample, include_all=False):
+    if include_all:
+        return len(sample.get('annotations', ()))
+
     return sum(a['label'] == 'good'
                for a in sample.get('annotations', ()))
 
