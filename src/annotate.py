@@ -8,10 +8,9 @@
 from os import path
 import json
 import glob
-from collections import defaultdict, namedtuple
+import collections
 import random
 import cmd
-import copy
 from datetime import date
 import subprocess
 import sys
@@ -40,7 +39,7 @@ SETS = {
     ]),
 }
 
-Segment = namedtuple('Segment', 'sample offset duration')
+Segment = collections.namedtuple('Segment', 'sample offset duration')
 
 GUIDELINE_VERSION = 2
 GUIDELINES = """
@@ -99,7 +98,69 @@ SAMPLE_DIR = 'samples'
 INDEX_DIR = 'index'
 
 
+@click.command()
+@click.option('--language-set',
+              help='Only annotate a particular set of langauges.')
+def main(language_set=None):
+    """
+    Begin an interactive annotation session, where you are played snippets of
+    audio in different languages and you have to mark whether or not they are
+    representative samples.
+    """
+    _validate_language_set(language_set)
+
+    metadata = load_metadata(language_set=language_set)
+    session = Session()
+
+    ui.clear_screen()
+    ui.pause('Beginning annotation, press ENTER to hear the first clip...')
+
+    while True:
+        segment = random_sample(metadata, DEFAULT_DURATION_S)
+        ann, quit = annotate(segment, session.user, metadata)
+
+        if ann is not None:
+            save_annotation(segment.sample, ann, metadata)
+            session.annotated += 1
+
+        else:
+            print('Skipping...')
+            session.skipped += 1
+
+        print()
+
+        if quit:
+            break
+
+    session.summarize()
+
+
+def _validate_language_set(language_set):
+    if language_set is not None and language_set not in SETS:
+        print('ERROR: language set "{0}" not one of: {1}'.format(
+            language_set, ', '.join(sorted(SETS.keys()))
+        ), file=sys.stderr)
+        sys.exit(1)
+
+
+class Session(object):
+    "Statistics for an annotation session."
+    def __init__(self):
+        self.annotated = 0
+        self.skipped = 0
+        self.user = User.identify()
+
+    def summarize(self):
+        print('listened: {0}'.format(self.annotated + self.skipped))
+        print('annotated: {0}'.format(self.annotated))
+        print('skipped: {0}'.format(self.skipped))
+
+
 class User(object):
+    """
+    Keep track of a user's name, email address and the last version of the
+    annotation guidelines that they've seen.
+    """
     def __init__(self, name, email, seen_guidelines=None):
         self.name = name
         self.email = email
@@ -125,33 +186,41 @@ class User(object):
     def __str__(self):
         return '{0} <{1}>'.format(self.name, self.email)
 
+    @classmethod
+    def identify(cls):
+        user = cls.load_default()
+        if user is None:
+            user = cls.identify_interactive()
 
-def identify_user():
-    user = User.load_default()
-    if user is None:
-        user = identify_user_interactive()
-
-    if user.seen_guidelines != GUIDELINE_VERSION:
         if user.seen_guidelines is None:
-            print(
+            user.show_guidelines(
                 'Please read the guidelines below before you start.'
             )
-        else:
-            print(
+        elif user.seen_guidelines != GUIDELINE_VERSION:
+            user.show_guidelines(
                 'The annotation guidelines have changed, please read the '
-                'new guidelines \n'
-                'before continuing.'
+                'new guidelines \nbefore continuing.'
             )
+
+        return user
+
+    def show_guidelines(self, message):
+        print(message)
         ui.pause()
+        page(GUIDELINES)
+        self.seen_guidelines = GUIDELINE_VERSION
+        self.save()
 
-        show_guidelines()
-
-        user.seen_guidelines = GUIDELINE_VERSION
-        user.save()
-
-    return user
-
-    user.save()
+    @classmethod
+    def identify_interactive(cls):
+        print()
+        print(
+            "This is your first time annotating. We ask for your name and\n"
+            "email in order to contact you about any of your annotations.\n"
+        )
+        name = ui.input_string('name')
+        email = ui.input_email()
+        return cls(name, email)
 
 
 def load_metadata(language_set=None):
@@ -161,7 +230,7 @@ def load_metadata(language_set=None):
     else:
         include_language = SETS[language_set].__contains__
 
-    metadata = defaultdict(dict)
+    metadata = collections.defaultdict(dict)
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
             rec = json.load(istream)
@@ -176,7 +245,7 @@ def load_metadata(language_set=None):
 def random_sample(metadata, duration):
     languages = list(metadata.keys())
     random.shuffle(languages)
-    languages.sort(key=lambda l: annotation_count(metadata[l]))
+    languages.sort(key=lambda l: annotation_count(l, metadata))
 
     for sample in iter_samples(languages, metadata):
         for segment in iter_segments(sample, duration):
@@ -243,23 +312,6 @@ def iter_segments(sample, segment_duration):
         yield Segment(sample, offset, duration)
 
 
-def annotation_count(lang_records):
-    empty = []
-    return sum(len(r.get('annotations', empty))
-               for r in lang_records.values())
-
-
-def identify_user_interactive():
-    print()
-    print(
-        "This is your first time annotating. We ask for your name and\n"
-        "email in order to contact you about any of your annotations.\n"
-    )
-    name = ui.input_string('name')
-    email = ui.input_email()
-    return User(name, email)
-
-
 def sample_filename(sample):
     return '{sample_dir}/{language}/{language}-{checksum}.mp3'.format(
         sample_dir=SAMPLE_DIR,
@@ -268,7 +320,10 @@ def sample_filename(sample):
     )
 
 
-def update_metadata(sample, annotation):
+def save_annotation(sample, annotation, metadata):
+    lang = sample['language']
+    c_before = annotation_count(lang, metadata)
+
     # add this annotation
     sample.setdefault('annotations', []).append(annotation)
 
@@ -276,6 +331,19 @@ def update_metadata(sample, annotation):
     s_norm = json.dumps(sample, indent=2, sort_keys=True)
     with open(metadata_file, 'w') as ostream:
         ostream.write(s_norm)
+
+    # give a status update for this language
+    c_after = annotation_count(lang, metadata)
+
+    print('{0}: {1} -> {2}'.format(lang, c_before, c_after))
+
+
+def annotation_count(language, metadata):
+    return sum(
+        sum(a['label'] == 'good'
+            for a in record.get('annotations', ()))
+        for record in metadata[language].values()
+    )
 
 
 def metadata_filename(sample):
@@ -286,59 +354,21 @@ def metadata_filename(sample):
     )
 
 
-@click.command()
-@click.option('--language-set',
-              help='Only annotate a particular set of langauges.')
-def main(language_set=None):
-    """
-    Begin an interactive annotation session, where you are played snippets of
-    audio in different languages and you have to mark whether or not they are
-    representative samples.
-    """
-    if language_set is not None and language_set not in SETS:
-        print('ERROR: language set "{0}" not one of: {1}'.format(
-            language_set, ', '.join(sorted(SETS.keys()))
-        ), file=sys.stderr)
-        sys.exit(1)
-
-    annotated = 0
-    skipped = 0
-
-    user = identify_user()
-    metadata = load_metadata(language_set=language_set)
-
-    ui.clear_screen()
-    ui.pause('Beginning annotation, press ENTER to hear the first clip...')
-
-    while True:
-        segment = random_sample(metadata, DEFAULT_DURATION_S)
-        c = AnnotateCmd(segment, user)
-        c.cmdloop()
-        if c.annotation is not None:
-            ann = copy.deepcopy(c.annotation)
-            ann['annotation'] = str(user)
-            update_metadata(segment.sample, c.annotation)
-            annotated += 1
-        else:
-            print('Skipping...')
-            skipped += 1
-
-        if c.quit_flag:
-            break
-
-    print('listened: {0}'.format(annotated + skipped))
-    print('annotated: {0}'.format(annotated))
-    print('Skipped: {0}'.format(skipped))
+def annotate(segment, user, metadata):
+    c = AnnotateCmd(segment, user, metadata)
+    c.cmdloop()
+    return c.annotation, c.quit_flag
 
 
 class AnnotateCmd(cmd.Cmd):
-    def __init__(self, segment, user):
+    def __init__(self, segment, user, metadata):
         super(AnnotateCmd, self).__init__()
         self.segment = segment
         self.user = user
         self.annotation = None
         self.quit_flag = False
         self.language_names = load_language_names()
+        self.metadata = metadata
 
         listened = self._play()
         if listened:
@@ -443,6 +473,16 @@ class AnnotateCmd(cmd.Cmd):
     def do_guidelines(self, line):
         page(GUIDELINES)
 
+    def do_stats(self, line):
+        per_lang = collections.Counter(
+            {lang: annotation_count(lang, self.metadata)
+             for lang in self.metadata.keys()}
+        )
+
+        content = '\n'.join('{0} {1}'.format(l, c)
+                            for (l, c) in per_lang.most_common())
+        page(content)
+
 
 def page(content):
     "Print the string through less."
@@ -457,10 +497,6 @@ def page(content):
     except KeyboardInterrupt:
         # let less handle this, -K will exit cleanly
         pass
-
-
-def show_guidelines():
-    page(GUIDELINES)
 
 
 def load_language_names():
