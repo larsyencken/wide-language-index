@@ -20,6 +20,7 @@ import pathlib
 import shutil
 
 import click
+import dateutil
 import pandas as pd
 import sh
 
@@ -36,9 +37,19 @@ def main(dest_dir, validate=False):
     Export a snapshot of the index and accompanying audio for use in the Great
     Lanugage Game.
     """
+    dest_dir = pathlib.Path(dest_dir) / get_revision_name()
     dataset = load_dataset()
     save_contents(dataset, dest_dir)
     save_audio(dataset, dest_dir)
+
+
+def get_revision_name():
+    sha1 = sh.git('--no-pager', 'rev-parse',
+                  'HEAD').stdout.strip().decode('utf8')
+    date_s = sh.git('--no-pager', 'show', '-s', '--format=%ci',
+                    'HEAD').stdout.strip()
+    date = dateutil.parser.parse(date_s).date()
+    return '{0}-{1}'.format(date, sha1[:8])
 
 
 def load_dataset():
