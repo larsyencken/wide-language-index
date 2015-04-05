@@ -1,5 +1,15 @@
 [
   {
+    "language": "amh",
+    "rss_url": "http://feeds.feedburner.com/amharic",
+    "source_name": "SBS Amharic"
+  },
+  {
+    "language": "amh",
+    "rss_url": "http://amharic.voanews.com/podcast/?count=20&zoneId=3303",
+    "source_name": "\u12a8\u121d\u123d\u1271 \u1226\u1235\u1275 \u1230\u12d3\u1275 \u12e8\u12a0\u121b\u122d\u129b \u12dc\u1293 - \u12e8\u12a0\u121c\u122a\u12ab \u12f5\u121d\u1345"
+  },
+  {
     "language": "arb",
     "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/xtra/rss.xml",
     "source_name": "BBC Xtra"
@@ -111,6 +121,11 @@
     "source_name": "Persian News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "fij",
+    "rss_url": "http://feeds.feedburner.com/fijian",
+    "source_name": "SBS Fijian"
+  },
+  {
     "language": "fra",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/french.xml",
     "source_name": "French News - NHK WORLD RADIO JAPAN"
@@ -134,6 +149,26 @@
     "language": "fra",
     "rss_url": "http://rss.radio-canada.ca/balado/radio/hobjets.xml",
     "source_name": "Histoires d'objets"
+  },
+  {
+    "language": "hat",
+    "rss_url": "http://www.voanouvel.com/podcast/?count=20&zoneId=429",
+    "source_name": "Pwogram maten an - Lavwadlamerik"
+  },
+  {
+    "language": "hat",
+    "rss_url": "http://www.voanouvel.com/podcast/?count=20&zoneId=430",
+    "source_name": "Pwogram mitan jounen an - Lavwadlamerik"
+  },
+  {
+    "language": "hau",
+    "rss_url": "http://www.voahausa.com/podcast/?count=20&zoneId=3142",
+    "source_name": "Shirin Safe - Voice of America"
+  },
+  {
+    "language": "hau",
+    "rss_url": "http://www.voahausa.com/podcast/?count=20&zoneId=3143",
+    "source_name": "Shirin Hantsi - Voice of America"
   },
   {
     "language": "hin",
@@ -236,6 +271,11 @@
     "source_name": "NHK World Radio (Russian)"
   },
   {
+    "language": "smo",
+    "rss_url": "http://feeds.feedburner.com/samoan",
+    "source_name": "SBS Samoan"
+  },
+  {
     "language": "spa",
     "rss_url": "http://api.rtve.es/api/programas/1871/audios.rss",
     "source_name": "24 horas"
@@ -274,6 +314,11 @@
     "language": "tha",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/thai.xml",
     "source_name": "Thai News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "ton",
+    "rss_url": "http://feeds.feedburner.com/tongan",
+    "source_name": "SBS Tongan"
   },
   {
     "language": "tur",

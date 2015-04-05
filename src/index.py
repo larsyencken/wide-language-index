@@ -20,6 +20,7 @@ import tempfile
 
 import jsonschema
 import sh
+import requests
 
 DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36'  # noqa
 HERE = path.abspath(path.dirname(__file__))
@@ -40,8 +41,9 @@ class CodecError(Exception):
     pass
 
 
-def stage_audio(url, language, user_agent=DEFAULT_USER_AGENT):
+def stage_audio(url, language, user_agent=DEFAULT_USER_AGENT, method='wget'):
     "Fetch audio and stage it in the samples/ directory."
+
     audio_type = _detect_audio_type(url)
     if audio_type not in SUPPORTED_FORMATS:
         raise CodecError('{0} not a supported codec, from url {1}'.format(
@@ -49,7 +51,7 @@ def stage_audio(url, language, user_agent=DEFAULT_USER_AGENT):
             url
         ))
 
-    with downloaded(url, '.' + audio_type) as filename:
+    with downloaded(url, '.' + audio_type, method=method) as filename:
         if audio_type == 'mp3':
             return _staged_file(filename, language)
 
@@ -73,16 +75,28 @@ def _staged_file(source_file, language, orig_checksum=None):
 
 
 @contextmanager
-def downloaded(url, suffix):
+def downloaded(url, suffix, method='wget'):
     print('   downloading {0}'.format(url))
     with tempfile.NamedTemporaryFile(suffix=suffix) as t:
-        try:
-            sh.wget('-e', 'robots=off',
-                    '-U', DEFAULT_USER_AGENT,
-                    '-O', t.name,
-                    url)
-        except sh.ErrorReturnCode_8:
-            raise DownloadError(url)
+        if method == 'wget':
+            try:
+                sh.wget('-e', 'robots=off',
+                        '-U', DEFAULT_USER_AGENT,
+                        '-O', t.name,
+                        url)
+            except sh.ErrorReturnCode_8:
+                raise DownloadError(url)
+
+        elif method == 'requests':
+            resp = requests.get(url)
+            if not resp.status_code == 200:
+                raise DownloadError(url)
+
+            with open(t.name, 'wb') as ostream:
+                ostream.write(resp.content)
+
+        else:
+            raise ValueError('unsupported method {0}'.format(method))
 
         yield t.name
 
