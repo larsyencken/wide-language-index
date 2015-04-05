@@ -1,11 +1,12 @@
 {
-  "checksum": "109a8b185e110702270def44cfe68c7b",
-  "date": "2015-01-19",
-  "language": "fij",
+  "checksum": "109a8b185e110702270def44cfe68c7b", 
+  "date": "2015-01-19", 
+  "language": "fij", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/fijian/~3/uNYIsgQmxk0/fijian_150120_386718.mp3"
-  ],
-  "source_name": "SBS Fijian",
-  "source_url": "http://feedproxy.google.com/~r/fijian/~3/uNYIsgQmxk0/fijian_150120_386718.mp3",
+    "http://feedproxy.google.com/~r/fijian/~3/uNYIsgQmxk0/fijian_150120_386718.mp3", 
+    "http://mirror.widelanguageindex.org/fij/fij-109a8b185e110702270def44cfe68c7b.mp3"
+  ], 
+  "source_name": "SBS Fijian", 
+  "source_url": "http://feedproxy.google.com/~r/fijian/~3/uNYIsgQmxk0/fijian_150120_386718.mp3", 
   "title": "Visa changes"
 }

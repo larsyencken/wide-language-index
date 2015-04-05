@@ -1,11 +1,12 @@
 {
-  "checksum": "3e08b1a100350cf24fd6905442bd4b3a",
-  "date": "2006-04-28",
-  "language": "arz",
+  "checksum": "3e08b1a100350cf24fd6905442bd4b3a", 
+  "date": "2006-04-28", 
+  "language": "arz", 
   "media_urls": [
-    "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2002%20Lesson%2007-08%20side%20b.mp3"
-  ],
-  "source_name": "The Joint Language University",
-  "source_url": "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2002%20Lesson%2007-08%20side%20b.mp3",
+    "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2002%20Lesson%2007-08%20side%20b.mp3", 
+    "http://mirror.widelanguageindex.org/arz/arz-3e08b1a100350cf24fd6905442bd4b3a.mp3"
+  ], 
+  "source_name": "The Joint Language University", 
+  "source_url": "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2002%20Lesson%2007-08%20side%20b.mp3", 
   "title": "Module 02 Lesson 07-08 side b"
 }

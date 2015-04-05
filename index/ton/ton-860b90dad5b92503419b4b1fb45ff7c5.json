@@ -1,11 +1,12 @@
 {
-  "checksum": "860b90dad5b92503419b4b1fb45ff7c5",
-  "date": "2015-03-18",
-  "language": "ton",
+  "checksum": "860b90dad5b92503419b4b1fb45ff7c5", 
+  "date": "2015-03-18", 
+  "language": "ton", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/tongan/~3/Z7hijb6BL4A/tongan_150318_399028.mp3"
-  ],
-  "source_name": "SBS Tongan",
-  "source_url": "http://feedproxy.google.com/~r/tongan/~3/Z7hijb6BL4A/tongan_150318_399028.mp3",
+    "http://feedproxy.google.com/~r/tongan/~3/Z7hijb6BL4A/tongan_150318_399028.mp3", 
+    "http://mirror.widelanguageindex.org/ton/ton-860b90dad5b92503419b4b1fb45ff7c5.mp3"
+  ], 
+  "source_name": "SBS Tongan", 
+  "source_url": "http://feedproxy.google.com/~r/tongan/~3/Z7hijb6BL4A/tongan_150318_399028.mp3", 
   "title": "Sydney news - Laisa Fungalei"
 }

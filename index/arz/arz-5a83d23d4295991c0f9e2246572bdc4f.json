@@ -1,11 +1,12 @@
 {
-  "checksum": "5a83d23d4295991c0f9e2246572bdc4f",
-  "date": "2006-04-28",
-  "language": "arz",
+  "checksum": "5a83d23d4295991c0f9e2246572bdc4f", 
+  "date": "2006-04-28", 
+  "language": "arz", 
   "media_urls": [
-    "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2007%20Lesson%2025-26%20side%20a.mp3"
-  ],
-  "source_name": "The Joint Language University",
-  "source_url": "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2007%20Lesson%2025-26%20side%20a.mp3",
+    "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2007%20Lesson%2025-26%20side%20a.mp3", 
+    "http://mirror.widelanguageindex.org/arz/arz-5a83d23d4295991c0f9e2246572bdc4f.mp3"
+  ], 
+  "source_name": "The Joint Language University", 
+  "source_url": "https://jlu.wbtrain.com/sumtotal/language/DLI%20basic%20courses/Egyptian%20Arabic/Audio/Module%2007%20Lesson%2025-26%20side%20a.mp3", 
   "title": "Module 07 Lesson 25-26 side a"
 }

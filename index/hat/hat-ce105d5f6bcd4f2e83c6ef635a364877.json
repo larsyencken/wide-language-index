@@ -1,11 +1,12 @@
 {
-  "checksum": "ce105d5f6bcd4f2e83c6ef635a364877",
-  "date": "2015-03-24",
-  "language": "hat",
+  "checksum": "ce105d5f6bcd4f2e83c6ef635a364877", 
+  "date": "2015-03-24", 
+  "language": "hat", 
   "media_urls": [
-    "http://av.voanews.com/clips/VCR/2015/03/24/20150324-123000-VCR-program.mp3"
-  ],
-  "source_name": "Pwogram maten an - Lavwadlamerik",
-  "source_url": "http://www.voanouvel.com/audio/2673769.html",
+    "http://av.voanews.com/clips/VCR/2015/03/24/20150324-123000-VCR-program.mp3", 
+    "http://mirror.widelanguageindex.org/hat/hat-ce105d5f6bcd4f2e83c6ef635a364877.mp3"
+  ], 
+  "source_name": "Pwogram maten an - Lavwadlamerik", 
+  "source_url": "http://www.voanouvel.com/audio/2673769.html", 
   "title": "Pwogram maten an - mas 24, 2015"
 }

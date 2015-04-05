@@ -1,11 +1,12 @@
 {
-  "checksum": "fcf0cd8ddb2ce38007400a03de34fdcb",
-  "date": "2015-03-11",
-  "language": "ton",
+  "checksum": "fcf0cd8ddb2ce38007400a03de34fdcb", 
+  "date": "2015-03-11", 
+  "language": "ton", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/tongan/~3/oGcKmDAWAcY/tongan_150311_397500.mp3"
-  ],
-  "source_name": "SBS Tongan",
-  "source_url": "http://feedproxy.google.com/~r/tongan/~3/oGcKmDAWAcY/tongan_150311_397500.mp3",
+    "http://feedproxy.google.com/~r/tongan/~3/oGcKmDAWAcY/tongan_150311_397500.mp3", 
+    "http://mirror.widelanguageindex.org/ton/ton-fcf0cd8ddb2ce38007400a03de34fdcb.mp3"
+  ], 
+  "source_name": "SBS Tongan", 
+  "source_url": "http://feedproxy.google.com/~r/tongan/~3/oGcKmDAWAcY/tongan_150311_397500.mp3", 
   "title": "Community Announcement"
 }

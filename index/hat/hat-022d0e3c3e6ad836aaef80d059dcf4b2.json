@@ -1,11 +1,12 @@
 {
-  "checksum": "022d0e3c3e6ad836aaef80d059dcf4b2",
-  "date": "2015-03-24",
-  "language": "hat",
+  "checksum": "022d0e3c3e6ad836aaef80d059dcf4b2", 
+  "date": "2015-03-24", 
+  "language": "hat", 
   "media_urls": [
-    "http://av.voanews.com/clips/VCR/2015/03/24/20150324-173000-VCR-program.mp3"
-  ],
-  "source_name": "Pwogram mitan jounen an - Lavwadlamerik",
-  "source_url": "http://www.voanouvel.com/audio/2673770.html",
+    "http://av.voanews.com/clips/VCR/2015/03/24/20150324-173000-VCR-program.mp3", 
+    "http://mirror.widelanguageindex.org/hat/hat-022d0e3c3e6ad836aaef80d059dcf4b2.mp3"
+  ], 
+  "source_name": "Pwogram mitan jounen an - Lavwadlamerik", 
+  "source_url": "http://www.voanouvel.com/audio/2673770.html", 
   "title": "Pwogram mitan jounen an - mas 24, 2015"
 }

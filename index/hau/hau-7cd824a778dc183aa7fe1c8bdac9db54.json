@@ -1,11 +1,12 @@
 {
-  "checksum": "7cd824a778dc183aa7fe1c8bdac9db54",
-  "date": "2015-03-24",
-  "language": "hau",
+  "checksum": "7cd824a778dc183aa7fe1c8bdac9db54", 
+  "date": "2015-03-24", 
+  "language": "hau", 
   "media_urls": [
-    "http://av.voanews.com/clips/VHA/2015/03/24/20150324-050000-VHA-program.mp3"
-  ],
-  "source_name": "Shirin Safe - Voice of America",
-  "source_url": "http://www.voahausa.com/audio/2673829.html",
+    "http://av.voanews.com/clips/VHA/2015/03/24/20150324-050000-VHA-program.mp3", 
+    "http://mirror.widelanguageindex.org/hau/hau-7cd824a778dc183aa7fe1c8bdac9db54.mp3"
+  ], 
+  "source_name": "Shirin Safe - Voice of America", 
+  "source_url": "http://www.voahausa.com/audio/2673829.html", 
   "title": "Shirin Safe - Maris 24, 2015"
 }

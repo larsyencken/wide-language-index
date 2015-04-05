@@ -1,11 +1,12 @@
 {
-  "checksum": "977ce91db98d1ca37203cf4fed75e547",
-  "date": "2015-03-04",
-  "language": "smo",
+  "checksum": "977ce91db98d1ca37203cf4fed75e547", 
+  "date": "2015-03-04", 
+  "language": "smo", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/samoan/~3/qUakrDzjlfE/samoan_150304_396108.mp3"
-  ],
-  "source_name": "SBS Samoan",
-  "source_url": "http://feedproxy.google.com/~r/samoan/~3/qUakrDzjlfE/samoan_150304_396108.mp3",
+    "http://feedproxy.google.com/~r/samoan/~3/qUakrDzjlfE/samoan_150304_396108.mp3", 
+    "http://mirror.widelanguageindex.org/smo/smo-977ce91db98d1ca37203cf4fed75e547.mp3"
+  ], 
+  "source_name": "SBS Samoan", 
+  "source_url": "http://feedproxy.google.com/~r/samoan/~3/qUakrDzjlfE/samoan_150304_396108.mp3", 
   "title": "Calls to boycott Bali as tourist destination"
 }

@@ -1,11 +1,12 @@
 {
-  "checksum": "906679cfb18ac77e6794baf3e19d3d8b",
-  "date": "2015-03-21",
-  "language": "hau",
+  "checksum": "906679cfb18ac77e6794baf3e19d3d8b", 
+  "date": "2015-03-21", 
+  "language": "hau", 
   "media_urls": [
-    "http://av.voanews.com/clips/VHA/2015/03/21/20150321-070000-VHA-program.mp3"
-  ],
-  "source_name": "Shirin Hantsi - Voice of America",
-  "source_url": "http://www.voahausa.com/audio/2670987.html",
+    "http://av.voanews.com/clips/VHA/2015/03/21/20150321-070000-VHA-program.mp3", 
+    "http://mirror.widelanguageindex.org/hau/hau-906679cfb18ac77e6794baf3e19d3d8b.mp3"
+  ], 
+  "source_name": "Shirin Hantsi - Voice of America", 
+  "source_url": "http://www.voahausa.com/audio/2670987.html", 
   "title": "Shirin Hantsi - Maris 21, 2015"
 }

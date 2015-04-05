@@ -1,11 +1,12 @@
 {
-  "checksum": "fc7cc1685b54d35584c20398712ca986",
-  "date": "2015-03-22",
-  "language": "hau",
+  "checksum": "fc7cc1685b54d35584c20398712ca986", 
+  "date": "2015-03-22", 
+  "language": "hau", 
   "media_urls": [
-    "http://av.voanews.com/clips/VHA/2015/03/22/f33fb6b2-7521-45ad-be23-360fdac39363.mp3"
-  ],
-  "source_name": "Shirin Safe - Voice of America",
-  "source_url": "http://www.voahausa.com/audio/2690161.html",
+    "http://av.voanews.com/clips/VHA/2015/03/22/f33fb6b2-7521-45ad-be23-360fdac39363.mp3", 
+    "http://mirror.widelanguageindex.org/hau/hau-fc7cc1685b54d35584c20398712ca986.mp3"
+  ], 
+  "source_name": "Shirin Safe - Voice of America", 
+  "source_url": "http://www.voahausa.com/audio/2690161.html", 
   "title": "Matan Da Suka Kubuta Daga Hannun Boko Haram-2:50 - Maris 22, 2015"
 }

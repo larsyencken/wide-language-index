@@ -1,11 +1,12 @@
 {
-  "checksum": "a47b73129b7503b7b5e6266bb218f397",
-  "date": "2015-03-11",
-  "language": "ton",
+  "checksum": "a47b73129b7503b7b5e6266bb218f397", 
+  "date": "2015-03-11", 
+  "language": "ton", 
   "media_urls": [
-    "http://feedproxy.google.com/~r/tongan/~3/n_Hb2-GrJj0/tongan_150311_397494.mp3"
-  ],
-  "source_name": "SBS Tongan",
-  "source_url": "http://feedproxy.google.com/~r/tongan/~3/n_Hb2-GrJj0/tongan_150311_397494.mp3",
+    "http://feedproxy.google.com/~r/tongan/~3/n_Hb2-GrJj0/tongan_150311_397494.mp3", 
+    "http://mirror.widelanguageindex.org/ton/ton-a47b73129b7503b7b5e6266bb218f397.mp3"
+  ], 
+  "source_name": "SBS Tongan", 
+  "source_url": "http://feedproxy.google.com/~r/tongan/~3/n_Hb2-GrJj0/tongan_150311_397494.mp3", 
   "title": "Sugar Intake"
 }

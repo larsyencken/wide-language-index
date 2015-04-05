@@ -1,11 +1,12 @@
 {
-  "checksum": "f7c27d969b28ffb4c201005d817bb5ee",
-  "date": "2015-03-22",
-  "language": "hau",
+  "checksum": "f7c27d969b28ffb4c201005d817bb5ee", 
+  "date": "2015-03-22", 
+  "language": "hau", 
   "media_urls": [
-    "http://av.voanews.com/clips/VHA/2015/03/22/61dfd6da-268a-45f7-93e4-d285a6026967.mp3"
-  ],
-  "source_name": "Shirin Safe - Voice of America",
-  "source_url": "http://www.voahausa.com/audio/2690592.html",
+    "http://av.voanews.com/clips/VHA/2015/03/22/61dfd6da-268a-45f7-93e4-d285a6026967.mp3", 
+    "http://mirror.widelanguageindex.org/hau/hau-f7c27d969b28ffb4c201005d817bb5ee.mp3"
+  ], 
+  "source_name": "Shirin Safe - Voice of America", 
+  "source_url": "http://www.voahausa.com/audio/2690592.html", 
   "title": "JUMMAI ALI: Health Magazine, March 20, 2015 - Maris 23, 2015"
 }
