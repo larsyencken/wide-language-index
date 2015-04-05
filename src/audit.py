@@ -32,7 +32,7 @@ VALID_LANGUAGES = set(
 
 
 @click.command()
-@click.option('--skip-audio/--no-skip-audio',
+@click.option('--skip-audio', is_flag=True,
               help='Skip audit of audio samples.')
 def main(skip_audio=False):
     """
