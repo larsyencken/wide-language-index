@@ -33,7 +33,10 @@ SAMPLE_DIR = path.normpath(path.join(path.dirname(__file__),
 @click.option('--output-dir', default=SAMPLE_DIR,
               help='Use a different output folder.')
 @click.option('--language', help='Only fetch the given language.')
-def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None):
+@click.option('--prefer-mirrors', is_flag=True,
+              help='Try mirrors before the original source.')
+def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None,
+                prefer_mirrors=False):
     """
     Fetch a copy of every sample in the index, placing them in output_dir.
     """
@@ -54,7 +57,11 @@ def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None):
             checksum
         ))
 
-        for media_url in rec['media_urls']:
+        media_urls = rec['media_urls'][:]
+        if prefer_mirrors:
+            media_urls.reverse()
+
+        for media_url in media_urls:
             try:
                 download_and_validate(media_url, checksum, dest_file)
                 break
