@@ -450,10 +450,13 @@ class AnnotateCmd(cmd.Cmd):
                 problems = []
 
             speakers = ui.input_number('speakers', minimum=0, maximum=10)
-            genders = ui.input_single_option(
-                'Gender of speakers',
-                ['male', 'female', 'mixed', 'unclear'],
-            )
+            if speakers > 0:
+                genders = ui.input_single_option(
+                    'Gender of speakers',
+                    ['male', 'female', 'mixed', 'unclear'],
+                )
+            else:
+                genders = 'unclear'
 
             self.annotation = {
                 'problems': sorted(problems),
