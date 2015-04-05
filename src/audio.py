@@ -42,3 +42,5 @@ def play_mp3(mp3_file):
         p.terminate()
         print('cancelled>')
         return False
+
+    return True
