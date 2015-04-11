@@ -15,6 +15,7 @@ TODO
 
 from __future__ import absolute_import, print_function, division
 
+import csv
 import glob
 import hashlib
 import json
@@ -28,6 +29,11 @@ import jsonschema
 
 VALID_LANGUAGES = set(
     r['id'] for r in json.load(open('ext/name_index_20140320.json'))
+)
+
+MACRO_LANGUAGES = set(
+    r['Id'] for r in csv.DictReader(open('ext/iso-639-3.tab'), delimiter='\t')
+    if r['Scope'] == 'M'
 )
 
 
@@ -87,6 +93,9 @@ def make_test(f, i, schema):
         # the language code is a valid ISO 693-3 code
         language = data.get('language')
         assert language in VALID_LANGUAGES, language
+
+        # the language is not a macrolanguage
+        assert language not in MACRO_LANGUAGES, language
 
         # the record is in the correct directory
         parent_dir = os.path.basename(os.path.dirname(f))
