@@ -36,6 +36,10 @@ MACRO_LANGUAGES = set(
     if r['Scope'] == 'M'
 )
 
+OK_MACRO_LANGUAGES = set([
+    'nor',
+])
+
 
 @click.command()
 @click.option('--skip-audio', is_flag=True,
@@ -95,7 +99,8 @@ def make_test(f, i, schema):
         assert language in VALID_LANGUAGES, language
 
         # the language is not a macrolanguage
-        assert language not in MACRO_LANGUAGES, language
+        assert (language in OK_MACRO_LANGUAGES
+                or language not in MACRO_LANGUAGES), language
 
         # the record is in the correct directory
         parent_dir = os.path.basename(os.path.dirname(f))
