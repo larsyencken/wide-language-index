@@ -30,11 +30,28 @@ def main(language=None, only=None):
     Mirror samples to Amazon S3, in case the original publisher takes them
     down. Add the mirror URL as a secondary mirror in the index record.
     """
+    mirror(language=language, only=only)
+
+
+def mirror(language=None, only=None):
     s3 = boto.connect_s3()
     bucket = s3.get_bucket(BUCKET)
 
     print('Scanning records...')
     queue = queue_records(language=language, only=only)
+
+    print('{0} samples to be mirrored'.format(len(queue)))
+    for i, record in enumerate(queue):
+        print('[{0}/{1}] '.format(i + 1, len(queue)), end='')
+        mirror_sample(record, bucket)
+        save_record(record)
+
+
+def mirror_records(filenames):
+    s3 = boto.connect_s3()
+    bucket = s3.get_bucket(BUCKET)
+
+    queue = list(map(load_record, filenames))
 
     print('{0} samples to be mirrored'.format(len(queue)))
     for i, record in enumerate(queue):
