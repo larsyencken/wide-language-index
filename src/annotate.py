@@ -35,7 +35,7 @@ SETS = {
     ]),
     'region-top-5': set([
         'arz', 'arq', 'hau', 'amh', 'ary', 'hat', 'hrx', 'gug', 'lou', 'jam',
-        'cmn', 'hin', 'arb', 'ben', 'jpy', 'spa', 'eng', 'por', 'rus', 'deu',
+        'cmn', 'hin', 'arb', 'ben', 'jpn', 'spa', 'eng', 'por', 'rus', 'deu',
         'smo', 'fij', 'ton', 'mri', 'med',
     ]),
 }
