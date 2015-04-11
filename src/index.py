@@ -8,7 +8,7 @@
 Tools for managing the index.
 """
 
-from collections import namedtuple
+from collections import namedtuple, Counter
 from contextlib import contextmanager
 from os import path
 from urllib.parse import urlparse
@@ -76,7 +76,7 @@ def _staged_file(source_file, language, orig_checksum=None):
 
 @contextmanager
 def downloaded(url, suffix, method='wget'):
-    print('   downloading {0}'.format(url))
+    print('      downloading {0}'.format(url))
     with tempfile.NamedTemporaryFile(suffix=suffix) as t:
         if method == 'wget':
             try:
@@ -128,6 +128,17 @@ def scan():
             mark_as_seen(r, seen)
 
     return seen
+
+
+def count():
+    "Return the number of samples by language."
+    dist = Counter()
+    for f in glob.glob(path.join(INDEX_DIR, '*/*.json')):
+        with open(f) as istream:
+            r = json.load(istream)
+            dist[r['language']] += 1
+
+    return dist
 
 
 def mark_as_seen(sample, seen):
