@@ -4,13 +4,16 @@
 #  wide-language-index
 #
 
-import json
-import datetime as dt
+from collections import defaultdict
 from urllib.parse import urlparse
+import datetime as dt
+import itertools
+import json
+import random
 
+from pyquery import PyQuery as pq
 import click
 import feedparser
-from pyquery import PyQuery as pq
 
 import index
 
@@ -20,69 +23,68 @@ DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKi
 
 
 @click.command()
-@click.option('--max-posts', type=int, default=5,
+@click.option('--max-per-feed', type=int, default=5,
               help='How many posts to fetch from each feed')
+@click.option('--language-cap', type=int, default=50,
+              help='How many entries per language before we stop '
+              'fetching new ones.')
 @click.option('--language', default=None,
               help='Only scrape the given language code.')
-def main(max_posts=5, language=None):
+def main(max_per_feed=5, language_cap=50, language=None):
     """
     Fetch new audio podcasts from rss feeds and add them to the index.
     """
-    feeds = load_config()
-    schema = index.load_schema()
+    feeds = load_feeds()
+    count = index.count()
     seen = index.scan()
-    for feed in feeds:
-        if language in (feed['language'], None):
-            fetch_posts(feed, max_posts, schema, seen)
+
+    languages = sorted([l for l in feeds if count[l] < language_cap])
+
+    for l in languages:
+        for p in iter_language_posts(l, feeds[l], max_per_feed):
+            if is_good_post(p, seen):
+                ok = save_post(p, seen)
+                count[l] += ok
+
+                if count[l] >= language_cap:
+                    break
 
 
-def fetch_posts(feed, max_posts, schema, seen):
-    print('[{0}] {1}'.format(feed['language'], feed['source_name']))
+def load_feeds():
+    "Return a randomized list of feeds by language."
+    with open(RSS_FEEDS) as istream:
+        data = json.load(istream)
 
-    for post in iter_feed(feed, max_posts, seen):
-        sample = post.copy()
-        sample.update({
-            'language': feed['language'],
-            'source_name': feed['source_name'],
-        })
+    by_lang = defaultdict(list)
+    for feed in data:
+        by_lang[feed['language']].append(feed)
 
-        media_url = sample['media_urls'][0]
-        try:
-            staged = index.stage_audio(media_url, feed['language'])
-        except index.DownloadError:
-            print('SKIPPING: got 404 when downloading')
-            continue
+    for v in by_lang.values():
+        random.shuffle(v)
 
-        sample['checksum'] = staged.checksum
-        if staged.checksum in seen:
-            print('SKIPPING: checksum already in index')
-            continue
-
-        if staged.orig_checksum:
-            sample['origin_checksum'] = staged.orig_checksum
-            if staged.orig_checksum in seen:
-                print('SKIPPING: checksum already in index')
-                continue
-
-        index.save(sample, schema=schema)
-        index.mark_as_seen(sample, seen)
-
-    print()
+    return by_lang
 
 
-def iter_feed(feed, max_posts, seen):
+def iter_language_posts(language, feeds, max_per_post):
+    yield from itertools.chain(*(
+        itertools.islice(iter_feed_posts(f), max_per_post)
+        for f in feeds
+    ))
+
+
+def iter_feed_posts(feed):
     rss_url = feed['rss_url']
     rss = feedparser.parse(rss_url)
-    for i, e in enumerate(rss.entries[:max_posts]):
+    for i, e in enumerate(rss.entries):
         title = e['title']
+        print('[{0}] {1}: {2}'.format(
+            feed['language'],
+            feed['source_name'],
+            title,
+        ))
         media_url = detect_media_url(e, feed)
         source_url = e.get('link', media_url)
 
-        if source_url in seen or media_url in seen:
-            print('{0}. {1} (skipped)'.format(i + 1, title))
-            continue
-
-        print('{0}. {1}'.format(i + 1, title))
         t = e['published_parsed']
         d = dt.date(year=t.tm_year, month=t.tm_mon, day=t.tm_mday)
         yield {
@@ -90,6 +92,8 @@ def iter_feed(feed, max_posts, seen):
             'media_urls': [media_url],
             'source_url': source_url,
             'date': str(d),
+            'language': feed['language'],
+            'source_name': feed['source_name'],
         }
 
 
@@ -146,9 +150,33 @@ def is_audio_url(url):
     return urlparse(url).path.lower()[-4:] in ('.mp3', '.m4a')
 
 
-def load_config():
-    with open(RSS_FEEDS) as istream:
-        return json.load(istream)
+def is_good_post(p, seen):
+    return p['source_url'] not in seen and p['media_urls'][0] not in seen
+
+
+def save_post(sample, seen):
+    media_url, = sample['media_urls']
+
+    try:
+        staged = index.stage_audio(media_url, sample['language'])
+    except index.DownloadError:
+        print('      SKIPPING: got 404 when downloading')
+        return False
+
+    sample['checksum'] = staged.checksum
+    if staged.checksum in seen:
+        print('      SKIPPING: checksum already in index')
+        return False
+
+    if staged.orig_checksum:
+        sample['origin_checksum'] = staged.orig_checksum
+        if staged.orig_checksum in seen:
+            print('      SKIPPING: checksum already in index')
+            return False
+
+    index.save(sample)
+    index.mark_as_seen(sample, seen)
+    return True
 
 
 if __name__ == '__main__':
