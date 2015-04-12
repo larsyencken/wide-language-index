@@ -42,9 +42,9 @@ SETS = {
 
 Segment = collections.namedtuple('Segment', 'sample offset duration')
 
-GUIDELINE_VERSION = 2
+GUIDELINE_VERSION = 3
 GUIDELINES = """
-ANNOTATION GUIDELINES v2
+ANNOTATION GUIDELINES v3
 
 You are about to listen to a number of audio clips in different languages.
 For each clip, we want to work out if it's suitable to use as a sample of
@@ -76,6 +76,9 @@ language or place reference?
 
 pauses?
         Are there long pauses which eat up much of the clip? If so, mark "y".
+
+volume?
+        Is part of the clip too quiet to hear?
 
 speakers
         Count the number of different people you hear speaking in the clip.
@@ -444,7 +447,8 @@ class AnnotateCmd(cmd.Cmd):
                     'Problems with the sample',
                     ['noise', 'wrong language',
                      'multiple languages', 'excess loan words',
-                     'language or place reference', 'pauses'],
+                     'language or place reference', 'pauses',
+                     'volume'],
                 )
             else:
                 problems = []

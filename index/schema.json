@@ -33,7 +33,7 @@
 						"type": "array",
 						"items": {
 							"type": "string",
-							"pattern": "^(noise|multiple languages|wrong language|excess loan words|language or place reference|pauses)$"
+							"pattern": "^(noise|multiple languages|wrong language|excess loan words|language or place reference|pauses|volume)$"
 						}
 					},
 					"genders": {
