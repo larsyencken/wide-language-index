@@ -11,20 +11,24 @@ Download the actual sample files for the language game index.
 
 from __future__ import absolute_import, print_function, division
 
+import asyncio
 from os import path
 import glob
 import hashlib
 import json
 import os
 
-import requests
+import aiohttp
+import aiofiles
 import click
+import queue
 
 
 INDEX_DIR = path.normpath(path.join(path.dirname(__file__),
                                     '..', 'index'))
 SAMPLE_DIR = path.normpath(path.join(path.dirname(__file__),
                                      '..', 'samples'))
+TOMBSTONE = None
 
 
 @click.command()
@@ -40,67 +44,124 @@ def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None,
     """
     Fetch a copy of every sample in the index, placing them in output_dir.
     """
-    n_errors = 0
-    record_files = get_record_files(index_dir, language=language)
-    for i, f in enumerate(record_files):
-        rec = json.load(open(f))
-        lang = rec['language']
-        checksum = rec['checksum']
+    records = iter_records(index_dir, output_dir, language=language)
 
-        # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
-        dest_file = os.path.join(output_dir, lang,
-                                 '{0}-{1}.mp3'.format(lang, checksum))
-        print('[{0}/{1}] {2}/{2}-{3}.mp3'.format(
-            i + 1,
-            len(record_files),
-            lang,
-            checksum
-        ))
+    to_fetch = queue.Queue()
 
-        media_urls = rec['media_urls'][:]
-        if prefer_mirrors:
-            media_urls.reverse()
-
-        for media_url in media_urls:
-            try:
-                download_and_validate(media_url, checksum, dest_file)
-                break
-            except DownloadError as e:
-                pass
-        else:
-            print('ERROR: {0} -- skipping'.format(e.args[0]))
-            n_errors += 1
-
-    print('\n{0} records, {1} errors'.format(len(record_files),
-                                             n_errors))
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(enqueue_missing(records, to_fetch))
+    loop.run_until_complete(fetch_missing(to_fetch,
+                                          prefer_mirrors=prefer_mirrors))
+    loop.close()
 
 
-def get_record_files(index_dir, language=None):
+async def enqueue_missing(records, q):
+    to_checksum = []
+
+    for r in records:
+        lang = r['language']
+        checksum = r['checksum']
+        dest_file = r['dest_file']
+
+        if not os.path.exists(dest_file):
+            #print('{:5s} {}'.format('QUEUE', r['dest_file']))
+            q.put(r)
+            continue
+
+        while len(to_checksum) > 10:
+            await asyncio.sleep(0.1)
+
+        to_checksum.append(r)
+        f = asyncio.ensure_future(
+            file_has_checksum(r['dest_file'], checksum)
+        )
+        f.add_done_callback(
+            lambda f: on_checksum_complete(f, r, q, to_checksum)
+        )
+
+
+def on_checksum_complete(f, r, q, pending):
+    if f.result():
+        print('{:5s} {}'.format('OK', r['dest_file']))
+    else:
+        print('{:5s} {}'.format('QUEUE', r['dest_file']))
+        q.put(r)
+
+    pending.pop()
+
+
+async def fetch_missing(q, prefer_mirrors=False):
+    pending = asyncio.Semaphore(20)
+    while not q.empty():
+        r = q.get()
+
+        print('{:5s} {}'.format('FETCH', r['dest_file']))
+        await pending.acquire()
+        f = asyncio.ensure_future(
+            fetch_with_retry(r, prefer_mirrors=prefer_mirrors)
+        )
+        f.add_done_callback(lambda f: pending.release())
+
+
+async def fetch_with_retry(r, prefer_mirrors=False):
+    checksum = r['checksum']
+    dest_file = r['dest_file']
+    media_urls = r['media_urls'][:]
+
+    if prefer_mirrors:
+        media_urls.reverse()
+
+    for media_url in media_urls:
+        try:
+            await download_and_validate(media_url, checksum, dest_file)
+            print('{:5s} {}'.format('OK', r['dest_file']))
+            return
+
+        except DownloadError as e:
+            pass
+
+    print('{:5s} {}'.format('FAIL', dest_file))
+
+
+def iter_records(index_dir, output_dir, language=None):
     if language is None:
         pattern = '{0}/*/*.json'.format(index_dir)
     else:
         pattern = '{0}/{1}/*.json'.format(index_dir, language)
 
-    return sorted(glob.glob(pattern))
+    filenames = sorted(glob.glob(pattern))
+
+    for f in filenames:
+        with open(f) as istream:
+            r = json.load(istream)
+            lang = r['language']
+            checksum = r['checksum']
+
+            # e.g. samples/fra/fra-8da6ee6728fa1f38c99e16585752ccaa.mp3
+            r['dest_file'] = os.path.join(output_dir, lang,
+                                          '{0}-{1}.mp3'.format(lang, checksum))
+
+            yield r
 
 
 class DownloadError(Exception):
     pass
 
 
-def download_and_validate(url, checksum, dest_file):
-    if not os.path.exists(dest_file):
-        resp = requests.get(url)
-        if resp.status_code != 200:
-            raise DownloadError('got HTTP {0} downloading {1}'.format(
-                resp.status_code,
-                url,
-            ))
-        data = resp.content
-    else:
-        # already downloaded
-        data = open(dest_file, 'rb').read()
+async def file_has_checksum(filename, checksum):
+    if not os.path.exists(filename):
+        return False
 
+    istream = await aiofiles.open(filename, 'rb')
+    try:
+        data = await istream.read()
+        return hashlib.md5(data).hexdigest() == checksum
+    finally:
+        await istream.close()
+
+
+async def download_and_validate(url, checksum, dest_file):
+    data = await download(url)
     c = hashlib.md5(data).hexdigest()
     if c != checksum:
         raise DownloadError(
@@ -114,8 +175,30 @@ def download_and_validate(url, checksum, dest_file):
     if not os.path.isdir(parent_dir):
         os.mkdir(parent_dir)
 
-    with open(dest_file, 'wb') as ostream:
-        ostream.write(data)
+    ostream = await aiofiles.open(dest_file, 'wb')
+    try:
+        await ostream.write(data)
+    finally:
+        await ostream.close()
+
+
+async def download(url):
+    try:
+        resp = await aiohttp.request('GET', url)
+    except aiohttp.errors.ClientOSError:
+        raise DownloadError('could not connect downloading {}'.format(
+            url,
+        ))
+
+    status = resp.status
+    if status != 200:
+        resp.close()
+        raise DownloadError('got HTTP {0} downloading {1}'.format(
+            status,
+            url,
+        ))
+    data = await resp.read()
+    return data
 
 
 if __name__ == '__main__':
