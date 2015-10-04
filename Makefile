@@ -2,7 +2,7 @@
 #  Makefile
 #
 
-ENV = /tmp/virtualenv/wide-language-index
+ENV = env
 PIP = $(ENV)/bin/pip
 PY = $(ENV)/bin/python
 
