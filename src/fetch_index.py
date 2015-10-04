@@ -56,7 +56,8 @@ def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None,
 
 
 async def enqueue_missing(records, q):
-    to_checksum = []
+    print('Checking for missing samples...')
+    pending = []
 
     for r in records:
         lang = r['language']
@@ -64,33 +65,33 @@ async def enqueue_missing(records, q):
         dest_file = r['dest_file']
 
         if not os.path.exists(dest_file):
-            #print('{:5s} {}'.format('QUEUE', r['dest_file']))
             q.put(r)
             continue
 
-        while len(to_checksum) > 10:
+        while len(pending) > 10:
             await asyncio.sleep(0.1)
 
-        to_checksum.append(r)
+        pending.append(r)
         f = asyncio.ensure_future(
             file_has_checksum(r['dest_file'], checksum)
         )
         f.add_done_callback(
-            lambda f: on_checksum_complete(f, r, q, to_checksum)
+            lambda x: on_checksum_complete(x, dest_file, q, pending)
         )
 
+    while pending:
+        await asyncio.sleep(0.1)
 
-def on_checksum_complete(f, r, q, pending):
-    if f.result():
-        print('{:5s} {}'.format('OK', r['dest_file']))
-    else:
-        print('{:5s} {}'.format('QUEUE', r['dest_file']))
+
+def on_checksum_complete(f, dest_file, q, pending):
+    if not f.result():
         q.put(r)
 
     pending.pop()
 
 
 async def fetch_missing(q, prefer_mirrors=False):
+    print('Fetching missing samples...')
     pending = asyncio.Semaphore(20)
     while not q.empty():
         r = q.get()
@@ -101,6 +102,9 @@ async def fetch_missing(q, prefer_mirrors=False):
             fetch_with_retry(r, prefer_mirrors=prefer_mirrors)
         )
         f.add_done_callback(lambda f: pending.release())
+
+    while pending._value < 20:
+        await asyncio.sleep(0.1)
 
 
 async def fetch_with_retry(r, prefer_mirrors=False):
@@ -114,7 +118,7 @@ async def fetch_with_retry(r, prefer_mirrors=False):
     for media_url in media_urls:
         try:
             await download_and_validate(media_url, checksum, dest_file)
-            print('{:5s} {}'.format('OK', r['dest_file']))
+            print('{:5s} {}'.format('DONE', r['dest_file']))
             return
 
         except DownloadError as e:
