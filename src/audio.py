@@ -13,7 +13,7 @@ import tempfile
 
 import numpy as np
 import pydub
-import sh
+from sh import afplay, mp3gain
 
 MS_PER_S = 1000
 
@@ -31,7 +31,7 @@ def cropped(mp3_file, offset, duration, adjust_volume=True):
 
         # normalize the sample's volume
         if adjust_volume:
-            sh.mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
+            mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
 
         yield t.name
 
@@ -57,7 +57,7 @@ def is_bad_mono(segment):
 
 def play_mp3(mp3_file):
     print('<playing...', end='', flush=True)
-    p = sh.afplay(mp3_file, _bg=True)
+    p = afplay(mp3_file, _bg=True)
     try:
         p.wait()
         print('done>')
