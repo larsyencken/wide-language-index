@@ -365,14 +365,24 @@
     "rss_url": "http://www.voatiengviet.com/podcast/?count=20&zoneId=1813",
     "source_name": "Vi\u1ec7t Nam - VOA"
   },
-	{
-		"language": "ita",
-		"rss_url": "http://feeds.feedburner.com/italian",
-		"source_name": "SBS Italian"
-	},
-	{
-		"language": "ita",
-		"rss_url": "http://www.radio24.ilsole24ore.com/podcast/24mattino.xml",
-		"source_name": "24 Mattino"
-	}
+  {
+    "language": "ita",
+    "rss_url": "http://feeds.feedburner.com/italian",
+    "source_name": "SBS Italian"
+  },
+  {
+    "language": "ita",
+    "rss_url": "http://www.radio24.ilsole24ore.com/podcast/24mattino.xml",
+    "source_name": "24 Mattino"
+  },
+  {
+    "language": "yue",
+    "rss_url": "http://feeds.feedburner.com/cantonese",
+    "source_name": "SBS Cantonese"
+  },
+  {
+    "language": "yue",
+    "rss_url": "http://www.voacantonese.com/podcast/?count=20&zoneId=2067",
+    "source_name": "\u7cb5\u8a9e\u5ee3\u64ad - \u7f8e\u570b\u4e4b\u97f3"
+  }
 ]
