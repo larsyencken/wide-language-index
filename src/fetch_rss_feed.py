@@ -38,7 +38,9 @@ def main(max_per_feed=5, language_cap=50, language=None):
     count = index.count()
     seen = index.scan()
 
-    languages = sorted([l for l in feeds if count[l] < language_cap])
+    languages = (sorted([l for l in feeds if count[l] < language_cap])
+                 if language is None
+                 else [language])
 
     for l in languages:
         for p in iter_language_posts(l, feeds[l], max_per_feed):
