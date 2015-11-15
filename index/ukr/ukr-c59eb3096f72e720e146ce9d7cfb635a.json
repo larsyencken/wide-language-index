@@ -1,0 +1,26 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 820,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "c59eb3096f72e720e146ce9d7cfb635a",
+  "date": "1100-11-03",
+  "language": "ukr",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/sbsukraine/~3/OgfAYWZC8e0/ukrainian_151103_450733.mp3",
+    "http://mirror.widelanguageindex.org/ukr/ukr-c59eb3096f72e720e146ce9d7cfb635a.mp3"
+  ],
+  "source_name": "SBS Ukranian",
+  "source_url": "http://feedproxy.google.com/~r/sbsukraine/~3/OgfAYWZC8e0/ukrainian_151103_450733.mp3",
+  "title": "VISION 2020: FROM IVANO-FRANKIVSK TO AUSTRALIA AND AROUND THE WORLD"
+}

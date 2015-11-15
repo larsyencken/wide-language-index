@@ -426,6 +426,11 @@
     "source_name": "24 Mattino"
   },
   {
+    "language": "ukr",
+    "rss_url": "http://feeds.feedburner.com/sbsukraine",
+    "source_name": "SBS Ukranian"
+  },
+  {
     "language": "yue",
     "rss_url": "http://feeds.feedburner.com/cantonese",
     "source_name": "SBS Cantonese"

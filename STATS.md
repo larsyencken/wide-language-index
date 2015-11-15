@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 351 good + 266 bad = 617 total
+- Annotations: 359 good + 271 bad = 630 total
 - Time annotated: 3 hours
 - Languages:
     - 91 with >=1 annotations
-    - 24 with >=5 annotations
-    - 24 with >=10 annotations
+    - 25 with >=5 annotations
+    - 25 with >=10 annotations
 
 ## By language
 
@@ -33,6 +33,7 @@ spa **********
 tam **********
 tel **********
 tur **********
+ukr **********
 urd **********
 vie **********
 wuu **********
@@ -75,7 +76,6 @@ sun **
 swe **
 tha **
 ton **
-ukr **
 wln **
 ydd **
 yue **

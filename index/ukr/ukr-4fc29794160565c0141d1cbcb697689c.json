@@ -1,0 +1,26 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 400,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "4fc29794160565c0141d1cbcb697689c",
+  "date": "1100-11-10",
+  "language": "ukr",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/sbsukraine/~3/xXlk_RNa3eY/ukrainian_151110_452393.mp3",
+    "http://mirror.widelanguageindex.org/ukr/ukr-4fc29794160565c0141d1cbcb697689c.mp3"
+  ],
+  "source_name": "SBS Ukranian",
+  "source_url": "http://feedproxy.google.com/~r/sbsukraine/~3/xXlk_RNa3eY/ukrainian_151110_452393.mp3",
+  "title": "SBS: 40 YEARS OF RADIO"
+}

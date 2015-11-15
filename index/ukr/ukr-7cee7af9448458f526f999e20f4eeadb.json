@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 460,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "7cee7af9448458f526f999e20f4eeadb",
+  "date": "1100-10-27",
+  "language": "ukr",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/sbsukraine/~3/F-bXeyPMfeo/ukrainian_151027_449155.mp3",
+    "http://mirror.widelanguageindex.org/ukr/ukr-7cee7af9448458f526f999e20f4eeadb.mp3"
+  ],
+  "source_name": "SBS Ukranian",
+  "source_url": "http://feedproxy.google.com/~r/sbsukraine/~3/F-bXeyPMfeo/ukrainian_151027_449155.mp3",
+  "title": "WHAT CHALLENGES AND OPPORTUNITIES WILL AUSTRALIAN JOBS FACE OVER THE NEXT 40 YEARS?"
+}

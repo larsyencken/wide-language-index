@@ -1,0 +1,36 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "11a7a560a3b713cd3f96f44260804427",
+  "date": "1100-10-20",
+  "language": "ukr",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/sbsukraine/~3/7GLqFQUU7gc/ukrainian_151020_447629.mp3",
+    "http://mirror.widelanguageindex.org/ukr/ukr-11a7a560a3b713cd3f96f44260804427.mp3"
+  ],
+  "source_name": "SBS Ukranian",
+  "source_url": "http://feedproxy.google.com/~r/sbsukraine/~3/7GLqFQUU7gc/ukrainian_151020_447629.mp3",
+  "title": "ANDRIJ KOHUT ABOUT THE ROYAL MELBOURNE SHOW AND HIS  BLUE BAY CHEESE"
+}

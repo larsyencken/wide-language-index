@@ -1,0 +1,36 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 40,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 420,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "f8d849b31ad71a3520367dc28cf817fe",
+  "date": "1100-10-27",
+  "language": "ukr",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/sbsukraine/~3/eUnERv5Rfz4/ukrainian_151027_449159.mp3",
+    "http://mirror.widelanguageindex.org/ukr/ukr-f8d849b31ad71a3520367dc28cf817fe.mp3"
+  ],
+  "source_name": "SBS Ukranian",
+  "source_url": "http://feedproxy.google.com/~r/sbsukraine/~3/eUnERv5Rfz4/ukrainian_151027_449159.mp3",
+  "title": "DNISTER: TODAY AND TOMORROW"
+}
