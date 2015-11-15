@@ -17,6 +17,7 @@ import hashlib
 import tempfile
 import json
 import subprocess as sp
+import shutil
 
 import sh
 
@@ -36,11 +37,25 @@ TEMPLATE = {
 
 
 def add_sample(language, source_url):
-    sample = download_sample(source_url)
+    if is_url(source_url):
+        sample = download_sample(source_url)
+    else:
+        sample = copy_sample(source_url)
+
     checksum = checksum_sample(sample)
     file_sample(language, checksum, sample)
     filename = make_stub_record(language, checksum, source_url)
     return filename
+
+
+def copy_sample(source_file):
+    t = tempfile.NamedTemporaryFile(delete=False)
+    shutil.copy(source_file, t.name)
+    return t
+
+
+def is_url(source_url):
+    return source_url.startswith('http')
 
 
 def download_sample(source_url):
