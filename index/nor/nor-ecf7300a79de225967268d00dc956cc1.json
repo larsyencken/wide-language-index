@@ -9,14 +9,24 @@
       "offset": 640,
       "problems": [],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 820,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "ecf7300a79de225967268d00dc956cc1",
   "date": "2009-08-01",
-  "language": "nno",
+  "language": "nor",
   "media_urls": [
     "http://www.archive.org/download/human_rights_02_0908_librivox/human_rights_un_nno_be.mp3",
-    "http://mirror.widelanguageindex.org/nno/nno-ecf7300a79de225967268d00dc956cc1.mp3"
+    "http://mirror.widelanguageindex.org/nor/nor-ecf7300a79de225967268d00dc956cc1.mp3"
   ],
   "source_name": "United Nations",
   "source_url": "https://librivox.org/universal-declaration-of-human-rights-by-united-nations-volume-02/",
