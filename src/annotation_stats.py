@@ -30,10 +30,10 @@ TEMPLATE_PAGE = '''# Annotation statistics
 
 ## By language
 
+```
 {per_language_stats}
+```
 '''  # noqa
-
-TEMPLATE_LANGUAGE = '- [{code}] {name}: {good_annotations} good/{total_annotations} total'  # noqa
 
 
 @click.command()
@@ -71,7 +71,7 @@ def generate_summary(metadata, languages):
     per_language = per_language_stats(metadata, languages)
 
     per_language_markdown = '\n'.join(
-        TEMPLATE_LANGUAGE.format(**record)
+        '{} {}'.format(record['code'], '*' * record['good_annotations'])
         for record in per_language
     )
     stats['per_language_stats'] = per_language_markdown
@@ -109,9 +109,7 @@ def per_language_stats(metadata, code_to_name):
     for lang, samples in metadata.items():
         record = {
             'code': lang,
-            'name': code_to_name[lang],
             'good_annotations': count_lang_annotations(samples, 'good'),
-            'total_annotations': count_lang_annotations(samples),
         }
         stats.append(record)
 
