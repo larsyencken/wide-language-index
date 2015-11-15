@@ -3,7 +3,8 @@
   "date": "2015-11-10",
   "language": "dan",
   "media_urls": [
-    "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/apropos-2015-11-10.mp3?highestBitrate=True&podcastDownload=True"
+    "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/apropos-2015-11-10.mp3?highestBitrate=True&podcastDownload=True",
+    "http://mirror.widelanguageindex.org/dan/dan-fe8e6d9d5f5563fa6f470ec543c17315.mp3"
   ],
   "source_name": "DR - Apropos",
   "source_url": "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/apropos-2015-11-10.mp3?highestBitrate=True&podcastDownload=True",

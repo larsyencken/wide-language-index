@@ -3,7 +3,8 @@
   "date": "2012-12-23",
   "language": "dan",
   "media_urls": [
-    "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/agenda-47.mp3?highestBitrate=True&podcastDownload=True"
+    "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/agenda-47.mp3?highestBitrate=True&podcastDownload=True",
+    "http://mirror.widelanguageindex.org/dan/dan-b160c1f08153e09038d33988ef05fd90.mp3"
   ],
   "source_name": "DR - Agenda",
   "source_url": "http://www.dr.dk/mu/MediaRedirector/WithFileExtension/agenda-47.mp3?highestBitrate=True&podcastDownload=True",
