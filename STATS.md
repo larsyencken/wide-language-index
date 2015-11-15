@@ -2,103 +2,105 @@
 
 ## Overall
 
-- Annotations: 322 good + 252 bad = 574 total
+- Annotations: 351 good + 266 bad = 617 total
 - Time annotated: 3 hours
 - Languages:
     - 91 with >=1 annotations
-    - 20 with >=5 annotations
-    - 20 with >=10 annotations
+    - 24 with >=5 annotations
+    - 24 with >=10 annotations
 
 ## By language
 
-- [arb] Standard Arabic: 10 good/16 total
-- [ben] Bengali: 10 good/30 total
-- [cmn] Mandarin Chinese: 10 good/24 total
-- [deu] German: 10 good/12 total
-- [eng] English: 10 good/15 total
-- [fra] French: 10 good/16 total
-- [hin] Hindi: 10 good/13 total
-- [jav] Javanese: 10 good/41 total
-- [jpn] Japanese: 10 good/11 total
-- [kor] Korean: 10 good/12 total
-- [mar] Marathi: 10 good/13 total
-- [por] Portuguese: 10 good/16 total
-- [rus] Russian: 10 good/11 total
-- [spa] Spanish: 10 good/17 total
-- [tam] Tamil: 10 good/14 total
-- [tel] Telugu: 10 good/25 total
-- [tur] Turkish: 10 good/21 total
-- [urd] Urdu: 10 good/18 total
-- [vie] Vietnamese: 10 good/19 total
-- [wuu] Wu Chinese: 10 good/14 total
-- [nor] Norwegian: 4 good/4 total
-- [ron] Romanian: 3 good/4 total
-- [afr] Afrikaans: 2 good/2 total
-- [aii] Assyrian Neo-Aramaic: 2 good/5 total
-- [aln] Gheg Albanian: 2 good/5 total
-- [amh] Amharic: 2 good/3 total
-- [ban] Balinese: 2 good/5 total
-- [bug] Buginese: 2 good/2 total
-- [bul] Bulgarian: 2 good/2 total
-- [cat] Valencian: 2 good/2 total
-- [ces] Czech: 2 good/3 total
-- [dan] Danish: 2 good/3 total
-- [dik] Southwestern Dinka: 2 good/3 total
-- [ell] Modern Greek (1453-): 2 good/2 total
-- [fao] Faroese: 2 good/2 total
-- [fij] Fijian: 2 good/3 total
-- [fin] Finnish: 2 good/3 total
-- [fry] Western Frisian: 2 good/2 total
-- [hat] Haitian Creole: 2 good/3 total
-- [hau] Hausa: 2 good/3 total
-- [hrv] Croatian: 2 good/2 total
-- [hun] Hungarian: 2 good/3 total
-- [hye] Armenian: 2 good/2 total
-- [ind] Indonesian: 2 good/7 total
-- [kan] Kannada: 2 good/2 total
-- [khm] Central Khmer: 2 good/3 total
-- [kmr] Northern Kurdish: 2 good/6 total
-- [lao] Lao: 2 good/3 total
-- [lat] Latin: 2 good/2 total
-- [lvs] Standard Latvian: 2 good/2 total
-- [mal] Malayalam: 2 good/2 total
-- [min] Minangkabau: 2 good/2 total
-- [mkd] Macedonian: 2 good/3 total
-- [mlt] Maltese: 2 good/5 total
-- [nld] Flemish: 2 good/2 total
-- [oci] Occitan (post 1500): 2 good/2 total
-- [ory] Oriya (individual language): 2 good/2 total
-- [pes] Iranian Persian: 2 good/2 total
-- [srp] Serbian: 2 good/3 total
-- [sun] Sundanese: 2 good/2 total
-- [swe] Swedish: 2 good/6 total
-- [tha] Thai: 2 good/2 total
-- [ton] Tonga (Tonga Islands): 2 good/3 total
-- [ukr] Ukrainian: 2 good/2 total
-- [wln] Walloon: 2 good/2 total
-- [ydd] Eastern Yiddish: 2 good/4 total
-- [yue] Yue Chinese: 2 good/3 total
-- [zlm] Malay (individual language): 2 good/4 total
-- [ace] Achinese: 1 good/4 total
-- [arz] Egyptian Arabic: 1 good/4 total
-- [ekk] Standard Estonian: 1 good/1 total
-- [epo] Esperanto: 1 good/1 total
-- [fil] Pilipino: 1 good/10 total
-- [guj] Gujarati: 1 good/2 total
-- [heb] Hebrew: 1 good/3 total
-- [ita] Italian: 1 good/2 total
-- [ltz] Luxembourgish: 1 good/3 total
-- [mya] Burmese: 1 good/2 total
-- [npi] Nepali (individual language): 1 good/1 total
-- [pam] Pampanga: 1 good/1 total
-- [pnb] Western Panjabi: 1 good/2 total
-- [pol] Polish: 1 good/1 total
-- [prs] Dari: 1 good/1 total
-- [sin] Sinhalese: 1 good/4 total
-- [slk] Slovak: 1 good/1 total
-- [slv] Slovenian: 1 good/8 total
-- [smo] Samoan: 1 good/14 total
-- [som] Somali: 1 good/2 total
-- [swh] Swahili (individual language): 1 good/1 total
-- [tir] Tigrinya: 1 good/3 total
-- [zsm] Standard Malay: 1 good/1 total
+```
+afr **********
+arb **********
+ben **********
+cmn **********
+dan **********
+deu **********
+eng **********
+fra **********
+hin **********
+jav **********
+jpn **********
+kor **********
+mar **********
+nor **********
+por **********
+ron **********
+rus **********
+spa **********
+tam **********
+tel **********
+tur **********
+urd **********
+vie **********
+wuu **********
+aii **
+aln **
+amh **
+ban **
+bug **
+bul **
+cat **
+ces **
+dik **
+ell **
+fao **
+fij **
+fin **
+fry **
+hat **
+hau **
+hrv **
+hun **
+hye **
+ind **
+kan **
+khm **
+kmr **
+lao **
+lat **
+lvs **
+mal **
+min **
+mkd **
+mlt **
+nld **
+oci **
+ory **
+pes **
+srp **
+sun **
+swe **
+tha **
+ton **
+ukr **
+wln **
+ydd **
+yue **
+zlm **
+ace *
+arz *
+ekk *
+epo *
+fil *
+guj *
+heb *
+ita *
+ltz *
+mya *
+npi *
+pam *
+pnb *
+pol *
+prs *
+sin *
+slk *
+slv *
+smo *
+som *
+swh *
+tir *
+zsm *
+```
