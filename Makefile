@@ -36,7 +36,8 @@ normalize:
 	$(PY) src/normalize.py
 
 annotate:
-	$(PY) src/annotate.py
+	$(PY) src/annotate.py || :
+	make stats
 
 stats:
 	$(PY) src/annotation_stats.py STATS.md
