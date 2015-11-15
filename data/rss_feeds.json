@@ -71,6 +71,21 @@
     "source_name": "Voice of America Chinese"
   },
   {
+    "language": "dan",
+    "rss_url": "http://www.dr.dk/mu/Feed/agenda?format=podcast&limit=500",
+    "source_name": "DR - Agenda"
+  },
+  {
+    "language": "dan",
+    "rss_url": "http://www.dr.dk/mu/Feed/apropos?format=podcast&limit=500",
+    "source_name": "DR - Apropos"
+  },
+  {
+    "language": "dan",
+    "rss_url": "http://www.dr.dk/mu/Feed/eksistens-radio?format=podcast&limit=500",
+    "source_name": "DR - Eksistens"
+  },
+  {
     "language": "deu",
     "rss_url": "http://feeds.feedburner.com/german",
     "source_name": "SBS German"
@@ -231,6 +246,26 @@
     "source_name": "Burmese News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "nor",
+    "rss_url": "http://podkast.nrk.no/program/dagsnytt.rss",
+    "source_name": "NRK - Dagsnytt"
+  },
+  {
+    "language": "nor",
+    "rss_url": "http://podkast.nrk.no/program/friluftsmagasinet.rss",
+    "source_name": "NRK - Friluftsmagasinet"
+  },
+  {
+    "language": "nor",
+    "rss_url": "http://podkast.nrk.no/program/her_og_naa.rss",
+    "source_name": "NRK - Her og n\u00e5"
+  },
+  {
+    "language": "nor",
+    "rss_url": "http://feeds.feedburner.com/norwegian",
+    "source_name": "SBS Norwegian"
+  },
+  {
     "language": "por",
     "rss_url": "http://www.voaportugues.com/podcast/?count=20&zoneId=3066",
     "source_name": "Emiss\u00e3o Vespertina - Voz da Am\u00e9rica"
@@ -249,6 +284,11 @@
     "language": "por",
     "rss_url": "http://feeds.feedburner.com/portuguese",
     "source_name": "SBS Portuguese"
+  },
+  {
+    "language": "ron",
+    "rss_url": "http://feeds.feedburner.com/romanian",
+    "source_name": "SBS Romanian"
   },
   {
     "language": "rus",
