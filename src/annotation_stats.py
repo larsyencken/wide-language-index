@@ -14,6 +14,7 @@ import collections
 import glob
 
 import click
+import humanize
 
 
 TEMPLATE_PAGE = '''# Annotation statistics
@@ -21,6 +22,7 @@ TEMPLATE_PAGE = '''# Annotation statistics
 ## Overall
 
 - Annotations: {good_annotations} good + {bad_annotations} bad = {total_annotations} total
+- Time annotated: {time_annotated}
 - Languages:
     - {num_1_annotations} with >=1 annotations
     - {num_5_annotations} with >=5 annotations
@@ -96,6 +98,8 @@ def overall_stats(metadata):
 
         if n_good >= 10:
             num_10_annotations += 1
+
+    time_annotated = humanize.naturaldelta(total_annotations * 20)
 
     return locals()
 
