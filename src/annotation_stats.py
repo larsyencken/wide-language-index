@@ -71,7 +71,11 @@ def generate_summary(metadata, languages):
     per_language = per_language_stats(metadata, languages)
 
     per_language_markdown = '\n'.join(
-        '{} {}'.format(record['code'], '*' * record['good_annotations'])
+        '{:>30s} {} {}'.format(
+            languages[record['code']],
+            record['code'],
+            '*' * record['good_annotations'],
+        )
         for record in per_language
     )
     stats['per_language_stats'] = per_language_markdown
