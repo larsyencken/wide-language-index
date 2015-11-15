@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 660,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "1ab1fd9a9522b8e8d026270e99782379",
+  "date": "2015-11-14",
+  "language": "pol",
+  "media_urls": [
+    "http://external.polskieradio.pl/cf2b90ed-73c1-4de7-9138-46338325f644.mp3",
+    "http://mirror.widelanguageindex.org/pol/pol-1ab1fd9a9522b8e8d026270e99782379.mp3"
+  ],
+  "source_name": "Polish Radio",
+  "source_url": "http://external.polskieradio.pl/18/233/Audio/228947,REDAKCJA-POLSKA-Aktualnosci-20151114",
+  "title": "REDAKCJA POLSKA Aktualno\u015bci 2015-11-14"
+}

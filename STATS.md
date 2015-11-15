@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 402 good + 306 bad = 708 total
-- Time annotated: 3 hours
+- Annotations: 419 good + 312 bad = 731 total
+- Time annotated: 4 hours
 - Languages:
     - 92 with >=1 annotations
-    - 30 with >=5 annotations
-    - 30 with >=10 annotations
+    - 32 with >=5 annotations
+    - 32 with >=10 annotations
 
 ## By language
 
@@ -30,12 +30,14 @@
                        Marathi mar **********
                      Norwegian nor **********
                        Ossetic oss **********
+                        Polish pol **********
                     Portuguese por **********
                       Romanian ron **********
                        Russian rus **********
                        Spanish spa **********
                          Tamil tam **********
                         Telugu tel **********
+                          Thai tha **********
                        Turkish tur **********
                      Ukrainian ukr **********
                           Urdu urd **********
@@ -77,7 +79,6 @@
                        Serbian srp **
                      Sundanese sun **
                        Swedish swe **
-                          Thai tha **
          Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
@@ -94,7 +95,6 @@
   Nepali (individual language) npi *
                       Pampanga pam *
                Western Panjabi pnb *
-                        Polish pol *
                           Dari prs *
                      Sinhalese sin *
                         Slovak slk *

@@ -276,6 +276,16 @@
     "source_name": "SBS Norwegian"
   },
   {
+    "language": "pol",
+    "rss_url": "http://external.polskieradio.pl/Podcast/a60e4845-a85e-444f-a6ef-4f80279a0318",
+    "source_name": "Polish Radio"
+  },
+  {
+    "language": "pol",
+    "rss_url": "http://feeds.feedburner.com/polish",
+    "source_name": "SBS Polish"
+  },
+  {
     "language": "por",
     "rss_url": "http://www.voaportugues.com/podcast/?count=20&zoneId=3066",
     "source_name": "Emiss\u00e3o Vespertina - Voz da Am\u00e9rica"

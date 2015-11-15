@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 0,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "079c9b0c98e999955c841cfa9b0cd9a6",
+  "date": "1100-11-10",
+  "language": "pol",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/polish/~3/y5smLb6Z8W8/polish_151110_452329.mp3",
+    "http://mirror.widelanguageindex.org/pol/pol-079c9b0c98e999955c841cfa9b0cd9a6.mp3"
+  ],
+  "source_name": "SBS Polish",
+  "source_url": "http://feedproxy.google.com/~r/polish/~3/y5smLb6Z8W8/polish_151110_452329.mp3",
+  "title": "PolArt 2015: Almanach literatury polonijnej"
+}

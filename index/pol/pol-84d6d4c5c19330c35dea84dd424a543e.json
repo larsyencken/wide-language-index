@@ -1,0 +1,26 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 620,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 2
+    }
+  ],
+  "checksum": "84d6d4c5c19330c35dea84dd424a543e",
+  "date": "1100-11-10",
+  "language": "pol",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/polish/~3/pI1_ksoaD5E/polish_151110_452199.mp3",
+    "http://mirror.widelanguageindex.org/pol/pol-84d6d4c5c19330c35dea84dd424a543e.mp3"
+  ],
+  "source_name": "SBS Polish",
+  "source_url": "http://feedproxy.google.com/~r/polish/~3/pI1_ksoaD5E/polish_151110_452199.mp3",
+  "title": "The Future of Money"
+}
