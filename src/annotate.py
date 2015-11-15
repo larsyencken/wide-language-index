@@ -100,6 +100,7 @@ Press "q" to continue.
 DEFAULT_DURATION_S = 20
 SAMPLE_DIR = 'samples'
 INDEX_DIR = 'index'
+MAX_PER_SAMPLE = 2
 
 
 @click.command()
@@ -119,7 +120,8 @@ def main(language_set=None):
     ui.clear_screen()
     ui.pause('Beginning annotation, press ENTER to hear the first clip...')
 
-    for segment in RandomSampler(metadata, DEFAULT_DURATION_S):
+    for segment in RandomSampler(metadata, DEFAULT_DURATION_S,
+                                 MAX_PER_SAMPLE):
         ann, quit = annotate(segment, session.user, metadata)
 
         if ann is not None:
@@ -251,9 +253,10 @@ class RandomSampler(object):
     with fewer samples, samples with fewer annotations, and segments which
     haven't been annotated before.
     """
-    def __init__(self, metadata, duration):
+    def __init__(self, metadata, duration, max_per_sample):
         self.metadata = metadata
         self.duration = duration
+        self.max_per_sample = max_per_sample
         self.queue = self.build_queue()
 
     def build_queue(self):
@@ -281,7 +284,13 @@ class RandomSampler(object):
     def __iter__(self):
         while True:
             l = self.pop()
-            yield self.find_segment(l)
+            segment = self.find_segment(l)
+
+            if not segment:
+                print('Skipping {}: need more samples'.format(l))
+                continue
+
+            yield segment
             self.push(l)
 
     def find_segment(self, l):
@@ -299,6 +308,7 @@ class RandomSampler(object):
              random.random(),
              s)
             for s in samples.values()
+            if sample_annotation_count(s) < self.max_per_sample
         ]
         s_by_annotations.sort()
 
