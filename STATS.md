@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 368 good + 280 bad = 648 total
+- Annotations: 376 good + 282 bad = 658 total
 - Time annotated: 3 hours
 - Languages:
     - 91 with >=1 annotations
-    - 26 with >=5 annotations
-    - 26 with >=10 annotations
+    - 27 with >=5 annotations
+    - 27 with >=10 annotations
 
 ## By language
 
@@ -20,6 +20,7 @@
                         German deu **********
                        English eng **********
                         French fra **********
+                         Hausa hau **********
                          Hindi hin **********
                        Italian ita **********
                       Javanese jav **********
@@ -53,7 +54,6 @@
                        Finnish fin **
                Western Frisian fry **
                 Haitian Creole hat **
-                         Hausa hau **
                       Croatian hrv **
                      Hungarian hun **
                       Armenian hye **
