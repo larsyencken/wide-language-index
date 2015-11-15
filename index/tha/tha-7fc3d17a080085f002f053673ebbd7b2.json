@@ -1,0 +1,38 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 320,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "7fc3d17a080085f002f053673ebbd7b2",
+  "date": "1100-11-10",
+  "language": "tha",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/thai/~3/OslMnWBL9DY/thai_151110_452345.mp3",
+    "http://mirror.widelanguageindex.org/tha/tha-7fc3d17a080085f002f053673ebbd7b2.mp3"
+  ],
+  "source_name": "SBS Thai",
+  "source_url": "http://feedproxy.google.com/~r/thai/~3/OslMnWBL9DY/thai_151110_452345.mp3",
+  "title": "Fruitpicker's death prompts calls for better protection of migrant workers"
+}

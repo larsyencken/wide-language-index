@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 280,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "911d7102d2686373d8e8a345c23246c9",
+  "date": "1100-11-10",
+  "language": "tha",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/thai/~3/i0x5xChT23g/thai_151110_452333.mp3",
+    "http://mirror.widelanguageindex.org/tha/tha-911d7102d2686373d8e8a345c23246c9.mp3"
+  ],
+  "source_name": "SBS Thai",
+  "source_url": "http://feedproxy.google.com/~r/thai/~3/i0x5xChT23g/thai_151110_452333.mp3",
+  "title": "Living with Lupus"
+}

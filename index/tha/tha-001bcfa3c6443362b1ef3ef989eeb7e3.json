@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 260,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "001bcfa3c6443362b1ef3ef989eeb7e3",
+  "date": "2015-11-15",
+  "language": "tha",
+  "media_urls": [
+    "http://www3.nhk.or.jp/rj/podcast/mp3/20151115203100_1_thai.mp3",
+    "http://mirror.widelanguageindex.org/tha/tha-001bcfa3c6443362b1ef3ef989eeb7e3.mp3"
+  ],
+  "source_name": "Thai News - NHK WORLD RADIO JAPAN",
+  "source_url": "http://www3.nhk.or.jp/rj/podcast/mp3/20151115203100_1_thai.mp3",
+  "title": "NHK WORLD RADIO JAPAN - Thai News at 20:31 (JST), November 15"
+}
