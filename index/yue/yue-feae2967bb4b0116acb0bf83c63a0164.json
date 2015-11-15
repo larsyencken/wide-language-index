@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 640,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "feae2967bb4b0116acb0bf83c63a0164",
+  "date": "1100-11-15",
+  "language": "yue",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/cantonese/~3/PjUuwGTlzD0/cantonese_151115_453405.mp3",
+    "http://mirror.widelanguageindex.org/yue/yue-feae2967bb4b0116acb0bf83c63a0164.mp3"
+  ],
+  "source_name": "SBS Cantonese",
+  "source_url": "http://feedproxy.google.com/~r/cantonese/~3/PjUuwGTlzD0/cantonese_151115_453405.mp3",
+  "title": "Stella Chow - Buying Knives and Chopping Boards"
+}

@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 386 good + 297 bad = 683 total
+- Annotations: 394 good + 302 bad = 696 total
 - Time annotated: 3 hours
 - Languages:
     - 92 with >=1 annotations
-    - 28 with >=5 annotations
-    - 28 with >=10 annotations
+    - 29 with >=5 annotations
+    - 29 with >=10 annotations
 
 ## By language
 
@@ -40,6 +40,7 @@
                           Urdu urd **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
+                   Yue Chinese yue **********
           Assyrian Neo-Aramaic aii **
                  Gheg Albanian aln **
                        Amharic amh **
@@ -80,7 +81,6 @@
          Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
-                   Yue Chinese yue **
    Malay (individual language) zlm **
                       Achinese ace *
                Egyptian Arabic arz *

@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "64cd4a65294a8e4da193630ffb95d939",
+  "date": "1100-11-15",
+  "language": "yue",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/cantonese/~3/1QMY5yArWow/cantonese_151115_453389.mp3",
+    "http://mirror.widelanguageindex.org/yue/yue-64cd4a65294a8e4da193630ffb95d939.mp3"
+  ],
+  "source_name": "SBS Cantonese",
+  "source_url": "http://feedproxy.google.com/~r/cantonese/~3/1QMY5yArWow/cantonese_151115_453389.mp3",
+  "title": "Happy Map: Family cruised in Bundaberg, Queensland"
+}
