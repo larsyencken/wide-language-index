@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 376 good + 282 bad = 658 total
+- Annotations: 386 good + 297 bad = 683 total
 - Time annotated: 3 hours
 - Languages:
-    - 91 with >=1 annotations
-    - 27 with >=5 annotations
-    - 27 with >=10 annotations
+    - 92 with >=1 annotations
+    - 28 with >=5 annotations
+    - 28 with >=10 annotations
 
 ## By language
 
@@ -28,6 +28,7 @@
                         Korean kor **********
                        Marathi mar **********
                      Norwegian nor **********
+                       Ossetic oss **********
                     Portuguese por **********
                       Romanian ron **********
                        Russian rus **********
