@@ -11,6 +11,16 @@
         "language or place reference"
       ],
       "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 4240,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "dce2aa32dc45d0593f9fe81aef44bb6c",

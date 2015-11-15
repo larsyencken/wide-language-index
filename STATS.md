@@ -2,105 +2,105 @@
 
 ## Overall
 
-- Annotations: 359 good + 271 bad = 630 total
+- Annotations: 368 good + 280 bad = 648 total
 - Time annotated: 3 hours
 - Languages:
     - 91 with >=1 annotations
-    - 25 with >=5 annotations
-    - 25 with >=10 annotations
+    - 26 with >=5 annotations
+    - 26 with >=10 annotations
 
 ## By language
 
 ```
-afr **********
-arb **********
-ben **********
-cmn **********
-dan **********
-deu **********
-eng **********
-fra **********
-hin **********
-jav **********
-jpn **********
-kor **********
-mar **********
-nor **********
-por **********
-ron **********
-rus **********
-spa **********
-tam **********
-tel **********
-tur **********
-ukr **********
-urd **********
-vie **********
-wuu **********
-aii **
-aln **
-amh **
-ban **
-bug **
-bul **
-cat **
-ces **
-dik **
-ell **
-fao **
-fij **
-fin **
-fry **
-hat **
-hau **
-hrv **
-hun **
-hye **
-ind **
-kan **
-khm **
-kmr **
-lao **
-lat **
-lvs **
-mal **
-min **
-mkd **
-mlt **
-nld **
-oci **
-ory **
-pes **
-srp **
-sun **
-swe **
-tha **
-ton **
-wln **
-ydd **
-yue **
-zlm **
-ace *
-arz *
-ekk *
-epo *
-fil *
-guj *
-heb *
-ita *
-ltz *
-mya *
-npi *
-pam *
-pnb *
-pol *
-prs *
-sin *
-slk *
-slv *
-smo *
-som *
-swh *
-tir *
-zsm *
+                     Afrikaans afr **********
+               Standard Arabic arb **********
+                       Bengali ben **********
+              Mandarin Chinese cmn **********
+                        Danish dan **********
+                        German deu **********
+                       English eng **********
+                        French fra **********
+                         Hindi hin **********
+                       Italian ita **********
+                      Javanese jav **********
+                      Japanese jpn **********
+                        Korean kor **********
+                       Marathi mar **********
+                     Norwegian nor **********
+                    Portuguese por **********
+                      Romanian ron **********
+                       Russian rus **********
+                       Spanish spa **********
+                         Tamil tam **********
+                        Telugu tel **********
+                       Turkish tur **********
+                     Ukrainian ukr **********
+                          Urdu urd **********
+                    Vietnamese vie **********
+                    Wu Chinese wuu **********
+          Assyrian Neo-Aramaic aii **
+                 Gheg Albanian aln **
+                       Amharic amh **
+                      Balinese ban **
+                      Buginese bug **
+                     Bulgarian bul **
+                     Valencian cat **
+                         Czech ces **
+            Southwestern Dinka dik **
+          Modern Greek (1453-) ell **
+                       Faroese fao **
+                        Fijian fij **
+                       Finnish fin **
+               Western Frisian fry **
+                Haitian Creole hat **
+                         Hausa hau **
+                      Croatian hrv **
+                     Hungarian hun **
+                      Armenian hye **
+                    Indonesian ind **
+                       Kannada kan **
+                 Central Khmer khm **
+              Northern Kurdish kmr **
+                           Lao lao **
+                         Latin lat **
+              Standard Latvian lvs **
+                     Malayalam mal **
+                   Minangkabau min **
+                    Macedonian mkd **
+                       Maltese mlt **
+                       Flemish nld **
+           Occitan (post 1500) oci **
+   Oriya (individual language) ory **
+               Iranian Persian pes **
+                       Serbian srp **
+                     Sundanese sun **
+                       Swedish swe **
+                          Thai tha **
+         Tonga (Tonga Islands) ton **
+                       Walloon wln **
+               Eastern Yiddish ydd **
+                   Yue Chinese yue **
+   Malay (individual language) zlm **
+                      Achinese ace *
+               Egyptian Arabic arz *
+             Standard Estonian ekk *
+                     Esperanto epo *
+                      Pilipino fil *
+                      Gujarati guj *
+                        Hebrew heb *
+                 Luxembourgish ltz *
+                       Burmese mya *
+  Nepali (individual language) npi *
+                      Pampanga pam *
+               Western Panjabi pnb *
+                        Polish pol *
+                          Dari prs *
+                     Sinhalese sin *
+                        Slovak slk *
+                     Slovenian slv *
+                        Samoan smo *
+                        Somali som *
+ Swahili (individual language) swh *
+                      Tigrinya tir *
+                Standard Malay zsm *
 ```
