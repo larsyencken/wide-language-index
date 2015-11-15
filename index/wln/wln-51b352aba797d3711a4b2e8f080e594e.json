@@ -9,6 +9,16 @@
       "offset": 640,
       "problems": [],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 720,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "51b352aba797d3711a4b2e8f080e594e",

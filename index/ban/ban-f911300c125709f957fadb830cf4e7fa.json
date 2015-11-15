@@ -9,6 +9,53 @@
       "offset": 580,
       "problems": [],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 880,
+      "problems": [
+        "noise",
+        "pauses"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 680,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 1300,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 80,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "f911300c125709f957fadb830cf4e7fa",

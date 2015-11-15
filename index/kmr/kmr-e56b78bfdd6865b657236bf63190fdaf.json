@@ -11,6 +11,18 @@
         "excess loan words"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-15",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 140,
+      "problems": [
+        "excess loan words"
+      ],
+      "speakers": 1
     }
   ],
   "checksum": "e56b78bfdd6865b657236bf63190fdaf",
