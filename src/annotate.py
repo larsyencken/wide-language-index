@@ -141,7 +141,11 @@ def main(language_set=None):
 
 
 def _validate_language_set(language_set):
-    if language_set is not None and language_set not in SETS:
+    if language_set is None or language_set.startswith('@'):
+        # fine, don't check these cases
+        return
+
+    if language_set not in SETS:
         print('ERROR: language set "{0}" not one of: {1}'.format(
             language_set, ', '.join(sorted(SETS.keys()))
         ), file=sys.stderr)
@@ -229,12 +233,7 @@ class User(object):
 
 
 def load_metadata(language_set=None):
-    # we might be looking at only a subset of languages
-    if language_set is None:
-        include_language = lambda l: True
-    else:
-        include_language = SETS[language_set].__contains__
-
+    include_language = generate_language_filter(language_set)
     metadata = collections.defaultdict(dict)
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
@@ -245,6 +244,22 @@ def load_metadata(language_set=None):
                 metadata[lang][checksum] = rec
 
     return metadata
+
+
+def generate_language_filter(language_set=None):
+    """
+    Support some filtering options, like "global-top-20" or "=nor,swe,fra".
+    """
+    if language_set is None:
+        # all languages
+        return lambda l: True
+
+    elif language_set.startswith('@'):
+        # a specific set of codes
+        codes = language_set.lstrip('@').split(',')
+        return set(codes).__contains__
+
+    return SETS[language_set].__contains__
 
 
 class RandomSampler(object):
