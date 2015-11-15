@@ -38,6 +38,9 @@ normalize:
 annotate:
 	$(PY) src/annotate.py
 
+stats:
+	$(PY) src/annotation_stats.py STATS.md
+
 mirror:
 	$(PY) src/mirror.py
 
