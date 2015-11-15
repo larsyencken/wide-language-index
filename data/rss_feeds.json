@@ -1,5 +1,15 @@
 [
   {
+    "language": "afr",
+    "rss_url": "http://www.rsg.co.za/podcast.asp?id=55",
+    "source_name": "RSG - Hoe verklaar jy dit?"
+  },
+  {
+    "language": "afr",
+    "rss_url": "http://www.rsg.co.za/podcast.asp?id=48",
+    "source_name": "RSG - Die tale wat ons praat"
+  },
+  {
     "language": "amh",
     "rss_url": "http://feeds.feedburner.com/amharic",
     "source_name": "SBS Amharic"
