@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 429 good + 321 bad = 750 total
+- Annotations: 437 good + 321 bad = 758 total
 - Time annotated: 4 hours
 - Languages:
     - 92 with >=1 annotations
     - 34 with >=5 annotations
-    - 32 with >=10 annotations
+    - 34 with >=10 annotations
 
 ## By language
 
@@ -19,6 +19,7 @@
                         Danish dan **********
                         German deu **********
                        English eng **********
+                       Finnish fin **********
                         French fra **********
                 Haitian Creole hat **********
                          Hausa hau **********
@@ -35,6 +36,7 @@
                       Romanian ron **********
                        Russian rus **********
                        Spanish spa **********
+                       Swedish swe **********
                          Tamil tam **********
                         Telugu tel **********
                           Thai tha **********
@@ -44,8 +46,6 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                    Yue Chinese yue **********
-                       Finnish fin *******
-                       Swedish swe *****
           Assyrian Neo-Aramaic aii **
                  Gheg Albanian aln **
                        Amharic amh **

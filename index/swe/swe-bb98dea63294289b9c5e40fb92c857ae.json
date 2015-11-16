@@ -4,12 +4,10 @@
       "annotator": "Lars Yencken <lars@yencken.org>",
       "date": "2015-11-16",
       "duration": 20,
-      "genders": "mixed",
-      "label": "bad",
-      "offset": 660,
-      "problems": [
-        "language or place reference"
-      ],
+      "genders": "male",
+      "label": "good",
+      "offset": 840,
+      "problems": [],
       "speakers": 2
     }
   ],
@@ -17,7 +15,8 @@
   "date": "2015-11-16",
   "language": "swe",
   "media_urls": [
-    "http://sverigesradio.se/topsy/ljudfil/5520025.mp3"
+    "http://sverigesradio.se/topsy/ljudfil/5520025.mp3",
+    "http://mirror.widelanguageindex.org/swe/swe-bb98dea63294289b9c5e40fb92c857ae.mp3"
   ],
   "source_name": "Sveriges Radio - Ekot Nyheter",
   "source_url": "http://sverigesradio.se/topsy/ljudfil/5520025.mp3",
