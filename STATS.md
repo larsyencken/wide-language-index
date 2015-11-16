@@ -2,11 +2,11 @@
 
 ## Overall
 
-- Annotations: 419 good + 312 bad = 731 total
+- Annotations: 429 good + 321 bad = 750 total
 - Time annotated: 4 hours
 - Languages:
     - 92 with >=1 annotations
-    - 32 with >=5 annotations
+    - 34 with >=5 annotations
     - 32 with >=10 annotations
 
 ## By language
@@ -44,6 +44,8 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                    Yue Chinese yue **********
+                       Finnish fin *******
+                       Swedish swe *****
           Assyrian Neo-Aramaic aii **
                  Gheg Albanian aln **
                        Amharic amh **
@@ -56,7 +58,6 @@
           Modern Greek (1453-) ell **
                        Faroese fao **
                         Fijian fij **
-                       Finnish fin **
                Western Frisian fry **
                       Croatian hrv **
                      Hungarian hun **
@@ -75,10 +76,11 @@
                        Flemish nld **
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
+                      Pampanga pam **
                Iranian Persian pes **
+                        Slovak slk **
                        Serbian srp **
                      Sundanese sun **
-                       Swedish swe **
          Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
@@ -93,15 +95,14 @@
                  Luxembourgish ltz *
                        Burmese mya *
   Nepali (individual language) npi *
-                      Pampanga pam *
                Western Panjabi pnb *
                           Dari prs *
                      Sinhalese sin *
-                        Slovak slk *
                      Slovenian slv *
                         Samoan smo *
                         Somali som *
  Swahili (individual language) swh *
                       Tigrinya tir *
                 Standard Malay zsm *
+                Northern Uzbek uzn 
 ```
