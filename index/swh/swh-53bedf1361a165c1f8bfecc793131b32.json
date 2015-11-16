@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 260,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "53bedf1361a165c1f8bfecc793131b32",
+  "date": "2015-11-12",
+  "language": "swh",
+  "media_urls": [
+    "http://av.voanews.com/clips/VSW/2015/11/12/20151112-133000-VSW070-program.mp3",
+    "http://mirror.widelanguageindex.org/swh/swh-53bedf1361a165c1f8bfecc793131b32.mp3"
+  ],
+  "source_name": "VOA Express - Voice of America",
+  "source_url": "http://www.voaswahili.com/audio/3027329.html",
+  "title": "VOA Express - Novemba 12, 2015"
+}

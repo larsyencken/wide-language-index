@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 1380,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "3312ebd80b4c1d85febdac9c7edee494",
+  "date": "2015-11-11",
+  "language": "swh",
+  "media_urls": [
+    "http://av.voanews.com/clips/VSW/2015/11/11/20151111-030000-VSW070-program.mp3",
+    "http://mirror.widelanguageindex.org/swh/swh-3312ebd80b4c1d85febdac9c7edee494.mp3"
+  ],
+  "source_name": "Alfajiri - Voice of America",
+  "source_url": "http://www.voaswahili.com/audio/3025552.html",
+  "title": "Alfajiri - Novemba 11, 2015"
+}

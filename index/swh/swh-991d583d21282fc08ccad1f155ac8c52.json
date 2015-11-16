@@ -1,0 +1,26 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 3
+    }
+  ],
+  "checksum": "991d583d21282fc08ccad1f155ac8c52",
+  "date": "2015-11-11",
+  "language": "swh",
+  "media_urls": [
+    "http://av.voanews.com/clips/VSW/2015/11/11/bc48a8de-c3dd-4344-a89f-2b37ef9eaf21.mp3",
+    "http://mirror.widelanguageindex.org/swh/swh-991d583d21282fc08ccad1f155ac8c52.mp3"
+  ],
+  "source_name": "VOA Express - Voice of America",
+  "source_url": "http://www.voaswahili.com/audio/3053081.html",
+  "title": "Mwandishi wa Kenya aachiwa - Novemba 11, 2015"
+}

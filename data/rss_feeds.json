@@ -436,6 +436,16 @@
     "source_name": "Swahili News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "swh",
+    "rss_url": "http://www.voaswahili.com/podcast/?count=20&zoneId=3036",
+    "source_name": "Alfajiri - Voice of America"
+  },
+  {
+    "language": "swh",
+    "rss_url": "http://www.voaswahili.com/podcast/?count=20&zoneId=4224",
+    "source_name": "VOA Express - Voice of America"
+  },
+  {
     "language": "tam",
     "rss_url": "http://feeds.feedburner.com/sbstamil",
     "source_name": "SBS Tamil"

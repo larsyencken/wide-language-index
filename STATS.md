@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 447 good + 330 bad = 777 total
+- Annotations: 456 good + 335 bad = 791 total
 - Time annotated: 4 hours
 - Languages:
     - 93 with >=1 annotations
-    - 35 with >=5 annotations
-    - 35 with >=10 annotations
+    - 36 with >=5 annotations
+    - 36 with >=10 annotations
 
 ## By language
 
@@ -37,6 +37,7 @@
                        Russian rus **********
                        Spanish spa **********
                        Swedish swe **********
+ Swahili (individual language) swh **********
                          Tamil tam **********
                         Telugu tel **********
                           Thai tha **********
@@ -102,7 +103,7 @@
                      Slovenian slv *
                         Samoan smo *
                         Somali som *
- Swahili (individual language) swh *
                       Tigrinya tir *
                 Standard Malay zsm *
+                      Albanian sqi 
 ```
