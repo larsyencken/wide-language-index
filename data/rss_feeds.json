@@ -306,6 +306,11 @@
     "source_name": "Burmese News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "mya",
+    "rss_url": "http://feeds.feedburner.com/burmese",
+    "source_name": "SBS Burmese"
+  },
+  {
     "language": "nor",
     "rss_url": "http://podkast.nrk.no/program/dagsnytt.rss",
     "source_name": "NRK - Dagsnytt"
