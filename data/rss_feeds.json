@@ -211,6 +211,16 @@
     "source_name": "Indonesian News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "ita",
+    "rss_url": "http://feeds.feedburner.com/italian",
+    "source_name": "SBS Italian"
+  },
+  {
+    "language": "ita",
+    "rss_url": "http://www.radio24.ilsole24ore.com/podcast/24mattino.xml",
+    "source_name": "24 Mattino"
+  },
+  {
     "language": "jav",
     "rss_url": "http://feeds.feedburner.com/JAVBN_VOH",
     "source_name": "AWR: Javanese / Basa Jawa"
@@ -434,16 +444,6 @@
     "language": "vie",
     "rss_url": "http://www.voatiengviet.com/podcast/?count=20&zoneId=1813",
     "source_name": "Vi\u1ec7t Nam - VOA"
-  },
-  {
-    "language": "ita",
-    "rss_url": "http://feeds.feedburner.com/italian",
-    "source_name": "SBS Italian"
-  },
-  {
-    "language": "ita",
-    "rss_url": "http://www.radio24.ilsole24ore.com/podcast/24mattino.xml",
-    "source_name": "24 Mattino"
   },
   {
     "language": "ukr",
