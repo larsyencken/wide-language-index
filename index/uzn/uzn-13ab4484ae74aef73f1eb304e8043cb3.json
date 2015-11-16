@@ -1,0 +1,60 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 140,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 20,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 4
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 40,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 0,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "13ab4484ae74aef73f1eb304e8043cb3",
+  "date": "2015-11-11",
+  "language": "uzn",
+  "media_urls": [
+    "http://av.voanews.com/clips/VUZ/2015/11/11/04ab8892-9e2b-48f9-829e-a8d4a59cc51e.mp3",
+    "http://mirror.widelanguageindex.org/uzn/uzn-13ab4484ae74aef73f1eb304e8043cb3.mp3"
+  ],
+  "source_name": "Amerika Ovozi Radiosi - Voice of America",
+  "source_url": "http://www.amerikaovozi.com/audio/3053272.html",
+  "title": "Respublikachilardan prezidentlikka da'vogarlar Miluokida bahs qildi - noyabr 11, 2015"
+}

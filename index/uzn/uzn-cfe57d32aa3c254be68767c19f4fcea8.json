@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 220,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "cfe57d32aa3c254be68767c19f4fcea8",
+  "date": "2015-11-16",
+  "language": "uzn",
+  "media_urls": [
+    "http://av.voanews.com/clips/VUZ/2015/11/16/20151116-150000-VUZ071-program.mp3",
+    "http://mirror.widelanguageindex.org/uzn/uzn-cfe57d32aa3c254be68767c19f4fcea8.mp3"
+  ],
+  "source_name": "Amerika Ovozi Radiosi - Voice of America",
+  "source_url": "http://www.amerikaovozi.com/audio/3032417.html",
+  "title": "Kundalik eshittirish - noyabr 16, 2015"
+}

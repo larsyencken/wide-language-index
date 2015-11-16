@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 437 good + 321 bad = 758 total
+- Annotations: 447 good + 330 bad = 777 total
 - Time annotated: 4 hours
 - Languages:
-    - 92 with >=1 annotations
-    - 34 with >=5 annotations
-    - 34 with >=10 annotations
+    - 93 with >=1 annotations
+    - 35 with >=5 annotations
+    - 35 with >=10 annotations
 
 ## By language
 
@@ -43,6 +43,7 @@
                        Turkish tur **********
                      Ukrainian ukr **********
                           Urdu urd **********
+                Northern Uzbek uzn **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                    Yue Chinese yue **********
@@ -104,5 +105,4 @@
  Swahili (individual language) swh *
                       Tigrinya tir *
                 Standard Malay zsm *
-                Northern Uzbek uzn 
 ```
