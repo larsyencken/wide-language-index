@@ -1,0 +1,25 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 2080,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 2
+    }
+  ],
+  "checksum": "ab9bf0e3afa950f11d247061f637576e",
+  "date": "2015-10-22",
+  "language": "swe",
+  "media_urls": [
+    "http://sverigesradio.se/topsy/ljudfil/5495313.mp3"
+  ],
+  "source_name": "Sveriges Radio - P3 Dokument\u00e4r",
+  "source_url": "http://sverigesradio.se/topsy/ljudfil/5495313.mp3",
+  "title": "Fallet Thomas Quick"
+}

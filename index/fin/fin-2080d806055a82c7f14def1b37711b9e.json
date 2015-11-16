@@ -1,0 +1,23 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 1580,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "2080d806055a82c7f14def1b37711b9e",
+  "date": "2015-11-03",
+  "language": "fin",
+  "media_urls": [
+    "http://areena-pdl-world.edgesuite.net/c3/c39d66a19bb84d5b8e441a4dc183ef03.mp3"
+  ],
+  "source_name": "YLE - Tiedeykk\u00f6nen",
+  "source_url": "http://areena.yle.fi/1-3018427",
+  "title": "Tiedeykk\u00f6nen: Narkissos kaupungilla: 03.11.2015 13.30"
+}

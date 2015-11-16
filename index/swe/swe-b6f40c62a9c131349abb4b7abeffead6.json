@@ -1,0 +1,25 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 960,
+      "problems": [
+        "language or place reference"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "b6f40c62a9c131349abb4b7abeffead6",
+  "date": "2015-11-15",
+  "language": "swe",
+  "media_urls": [
+    "http://sverigesradio.se/topsy/ljudfil/5519760.mp3"
+  ],
+  "source_name": "Sveriges Radio - P3 Dokument\u00e4r",
+  "source_url": "http://sverigesradio.se/topsy/ljudfil/5519760.mp3",
+  "title": "Terrord\u00e5den i Paris - nyhetsspecial"
+}

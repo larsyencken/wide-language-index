@@ -1,0 +1,23 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 3020,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "43e952e13c4cc2d939774a6bfee011c5",
+  "date": "2015-10-29",
+  "language": "swe",
+  "media_urls": [
+    "http://sverigesradio.se/topsy/ljudfil/5501636.mp3"
+  ],
+  "source_name": "Sveriges Radio - P3 Dokument\u00e4r",
+  "source_url": "http://sverigesradio.se/topsy/ljudfil/5501636.mp3",
+  "title": "Utvisningen av familjerna Sincari"
+}

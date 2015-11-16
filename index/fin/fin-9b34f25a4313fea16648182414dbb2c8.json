@@ -1,0 +1,23 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2015-11-16",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 440,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "9b34f25a4313fea16648182414dbb2c8",
+  "date": "2015-11-13",
+  "language": "fin",
+  "media_urls": [
+    "http://areena-pdl-world.edgesuite.net/4f/4fdc637d75dd4f6e99736d6d67bdfe24.mp3"
+  ],
+  "source_name": "YLE - P\u00e4iv\u00e4 tunnissa",
+  "source_url": "http://areena.yle.fi/1-3075383",
+  "title": "P\u00e4iv\u00e4 tunnissa: 13.11.2015 21.03"
+}
