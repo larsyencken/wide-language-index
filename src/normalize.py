@@ -11,23 +11,39 @@ Reformat every JSON record so that they're all formatted consistently.
 import json
 import glob
 
+import click
 
-def normalize_json():
+
+@click.command()
+def normalize_json_files():
+    """
+    Make sure all JSON is identically formatted.
+    """
     n = 0
     for f in glob.glob('index/*/*.json') + ["data/rss_feeds.json"]:
-        s = open(f).read()
-        data = json.loads(s)
-        s_norm = json.dumps(data, indent=2, sort_keys=True)
-
-        if s != s_norm:
-            print(f)
-            with open(f, 'w') as ostream:
-                ostream.write(s_norm)
-
-            n += 1
+        n += normalize_file(f)
 
     print(n, 'records changed')
 
 
+def normalize_file(f):
+    s = open(f).read()
+    data = json.loads(s)
+
+    if isinstance(data, list):
+        data.sort(key=lambda r: r['language'])
+
+    s_norm = json.dumps(data, indent=2, sort_keys=True)
+
+    if s != s_norm:
+        print(f)
+        with open(f, 'w') as ostream:
+            ostream.write(s_norm)
+
+        return True
+
+    return False
+
+
 if __name__ == '__main__':
-    normalize_json()
+    normalize_json_files()

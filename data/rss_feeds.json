@@ -141,11 +141,6 @@
     "source_name": "NPR: Morning Edition"
   },
   {
-    "language": "pes",
-    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/persian.xml",
-    "source_name": "Persian News - NHK WORLD RADIO JAPAN"
-  },
-  {
     "language": "fij",
     "rss_url": "http://feeds.feedburner.com/fijian",
     "source_name": "SBS Fijian"
@@ -286,6 +281,11 @@
     "source_name": "SBS Norwegian"
   },
   {
+    "language": "pes",
+    "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/persian.xml",
+    "source_name": "Persian News - NHK WORLD RADIO JAPAN"
+  },
+  {
     "language": "pol",
     "rss_url": "http://external.polskieradio.pl/Podcast/a60e4845-a85e-444f-a6ef-4f80279a0318",
     "source_name": "Polish Radio"
@@ -411,6 +411,11 @@
     "source_name": "Kay\u0131t Ba\u015flad\u0131"
   },
   {
+    "language": "ukr",
+    "rss_url": "http://feeds.feedburner.com/sbsukraine",
+    "source_name": "SBS Ukranian"
+  },
+  {
     "language": "urd",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/urdu.xml",
     "source_name": "Urdu News - NHK WORLD RADIO JAPAN"
@@ -444,11 +449,6 @@
     "language": "vie",
     "rss_url": "http://www.voatiengviet.com/podcast/?count=20&zoneId=1813",
     "source_name": "Vi\u1ec7t Nam - VOA"
-  },
-  {
-    "language": "ukr",
-    "rss_url": "http://feeds.feedburner.com/sbsukraine",
-    "source_name": "SBS Ukranian"
   },
   {
     "language": "yue",
