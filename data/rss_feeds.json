@@ -146,6 +146,26 @@
     "source_name": "SBS Fijian"
   },
   {
+    "language": "fin",
+    "rss_url": "http://api.sr.se/api/rss/pod/4899",
+    "source_name": "Sveriges Radio - Sisuradio Uutiset"
+  },
+  {
+    "language": "fin",
+    "rss_url": "http://feeds.feedburner.com/finnish",
+    "source_name": "SBS Finnish"
+  },
+  {
+    "language": "fin",
+    "rss_url": "http://feeds.yle.fi/areena/v1/series/1-2269602.rss?lang=fi&downloadable=true",
+    "source_name": "YLE - P\u00e4iv\u00e4 tunnissa"
+  },
+  {
+    "language": "fin",
+    "rss_url": "http://feeds.yle.fi/areena/v1/series/1-1403833.rss?lang=fi&downloadable=true",
+    "source_name": "YLE - Tiedeykk\u00f6nen"
+  },
+  {
     "language": "fra",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/french.xml",
     "source_name": "French News - NHK WORLD RADIO JAPAN"
