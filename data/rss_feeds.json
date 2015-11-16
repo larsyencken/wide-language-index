@@ -20,6 +20,11 @@
     "source_name": "\u12a8\u121d\u123d\u1271 \u1226\u1235\u1275 \u1230\u12d3\u1275 \u12e8\u12a0\u121b\u122d\u129b \u12dc\u1293 - \u12e8\u12a0\u121c\u122a\u12ab \u12f5\u121d\u1345"
   },
   {
+    "language": "amh",
+    "rss_url": "http://feeds.feedburner.com/amharic",
+    "source_name": "SBS Amharic"
+  },
+  {
     "language": "arb",
     "rss_url": "http://downloads.bbc.co.uk/podcasts/worldservice/xtra/rss.xml",
     "source_name": "BBC Xtra"
@@ -121,6 +126,11 @@
     "source_name": "\u00d61 Kultur aktuell"
   },
   {
+    "language": "ell",
+    "rss_url": "http://feeds.feedburner.com/greek",
+    "source_name": "SBS Greek"
+  },
+  {
     "language": "eng",
     "rss_url": "http://www.abc.net.au/newsradio/podcast/THEWEEKLYPOST.xml",
     "source_name": "ABC News Radio"
@@ -191,6 +201,11 @@
     "source_name": "Histoires d'objets"
   },
   {
+    "language": "guj",
+    "rss_url": "http://feeds.feedburner.com/gujarati",
+    "source_name": "SBS Gujarati"
+  },
+  {
     "language": "hat",
     "rss_url": "http://www.voanouvel.com/podcast/?count=20&zoneId=429",
     "source_name": "Pwogram maten an - Lavwadlamerik"
@@ -224,6 +239,11 @@
     "language": "ind",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/indonesian.xml",
     "source_name": "Indonesian News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "ind",
+    "rss_url": "http://feeds.feedburner.com/indonesian",
+    "source_name": "SBS Indonesian"
   },
   {
     "language": "ita",
@@ -269,6 +289,11 @@
     "language": "kor",
     "rss_url": "http://www.voakorea.com/podcast/?count=20&zoneId=2721",
     "source_name": "VOA \ub274\uc2a4 \ud22c\ub370\uc774 - Voice of America"
+  },
+  {
+    "language": "lao",
+    "rss_url": "http://feeds.feedburner.com/lao",
+    "source_name": "SBS Lao"
   },
   {
     "language": "mar",
@@ -386,6 +411,11 @@
     "source_name": "Spanish News - NHK WORLD RADIO JAPAN"
   },
   {
+    "language": "sqi",
+    "rss_url": "http://feeds.feedburner.com/albanian",
+    "source_name": "SBS Albanian"
+  },
+  {
     "language": "swe",
     "rss_url": "http://feeds.feedburner.com/swedish",
     "source_name": "SBS Swedish"
@@ -429,6 +459,11 @@
     "language": "tha",
     "rss_url": "http://feeds.feedburner.com/thai",
     "source_name": "SBS Thai"
+  },
+  {
+    "language": "tir",
+    "rss_url": "http://feeds.feedburner.com/tigrinya",
+    "source_name": "SBS Tigrinya"
   },
   {
     "language": "ton",
