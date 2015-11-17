@@ -19,6 +19,7 @@ help:
 	@echo '  make annotate   start an annotation session'
 	@echo '  make mirror     mirror samples to s3'
 	@echo '  make rss        scrape rss feeds for new audio samples'
+	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
 env/: requirements.pip
@@ -47,3 +48,7 @@ mirror:
 
 rss:
 	$(PY) src/fetch_rss_feed.py
+
+clips: fetch
+	mkdir -p samples/_annotated
+	$(PY) src/generate_clips.py
