@@ -1,10 +1,10 @@
 {
   "checksum": "e94e03e28df5d8d4151f7406f90a0e73",
   "date": "2015-03-16",
-  "language": "cmn",
+  "language": "yue",
   "media_urls": [
     "http://wsodprogrf.bbc.co.uk/zhongwen/simp/dps/2015/03/150314coc_150316_cant_coc_audio_au_bb.mp3",
-    "http://mirror.widelanguageindex.org/cmn/cmn-e94e03e28df5d8d4151f7406f90a0e73.mp3"
+    "http://mirror.widelanguageindex.org/yue/yue-e94e03e28df5d8d4151f7406f90a0e73.mp3"
   ],
   "source_name": "BBC Chinese",
   "source_url": "http://www.bbc.co.uk/zhongwen/simp/multimedia/2015/03/150316_cant_coc_audio",

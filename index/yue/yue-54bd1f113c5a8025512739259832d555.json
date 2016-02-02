@@ -1,10 +1,10 @@
 {
   "checksum": "54bd1f113c5a8025512739259832d555",
   "date": "2015-03-16",
-  "language": "cmn",
+  "language": "yue",
   "media_urls": [
     "http://wsodprogrf.bbc.co.uk/zhongwen/simp/dps/2015/03/150314scitech_150316_cant_scitech_audio_au_bb.mp3",
-    "http://mirror.widelanguageindex.org/cmn/cmn-54bd1f113c5a8025512739259832d555.mp3"
+    "http://mirror.widelanguageindex.org/yue/yue-54bd1f113c5a8025512739259832d555.mp3"
   ],
   "source_name": "BBC Chinese",
   "source_url": "http://www.bbc.co.uk/zhongwen/simp/multimedia/2015/03/150316_cant_scitech_audio",
