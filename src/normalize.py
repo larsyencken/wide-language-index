@@ -30,6 +30,9 @@ def normalize_file(f):
     s = open(f).read()
     data = json.loads(s)
 
+    if 'media_urls' in data:
+        data['media_urls'] = remove_duplicates(data['media_urls'])
+
     if isinstance(data, list):
         data.sort(key=lambda r: r['language'])
 
@@ -43,6 +46,17 @@ def normalize_file(f):
         return True
 
     return False
+
+
+def remove_duplicates(xs):
+    seen = set()
+    ys = []
+    for x in xs:
+        if x not in seen:
+            seen.add(x)
+            ys.append(x)
+
+    return ys
 
 
 if __name__ == '__main__':
