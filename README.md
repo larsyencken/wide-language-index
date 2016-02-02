@@ -40,6 +40,14 @@ It may also contain the optional fields:
 
 Each sample's file is named as `<language>/<language>-<checksum>.json`.
 
+## Fixing a sample
+
+A helper script exists for fixing samples, but it will only work with access to the underlying S3 bucket.
+
+```bash
+python src/recode_sample.py index/<language>/<language>-<checksum>.json <new-language>
+```
+
 ## License
 
 This index is provided under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). In short, you are free to use this data non-commercially as long as you provide a reference back to this project. If you have a use case where this would be onerous, please send me an email.

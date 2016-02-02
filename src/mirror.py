@@ -139,5 +139,12 @@ def file_size(filename):
     return '%.01fM' % (os.stat(filename).st_size / 2**20)
 
 
+def unmirror(suffix):
+    print('Deleting s3://{}/{}'.format(BUCKET, suffix))
+    s3 = boto.connect_s3()
+    bucket = s3.get_bucket(BUCKET)
+    bucket.delete_key(suffix)
+
+
 if __name__ == '__main__':
     main()
