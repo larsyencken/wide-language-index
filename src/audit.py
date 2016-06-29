@@ -107,7 +107,7 @@ def make_test(f, i, schema):
         self.assertEqual(parent_dir, language)
 
         # it is pretty-printed
-        pretty_blob = json.dumps(data, indent=2, sort_keys=True)
+        pretty_blob = json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False)
         assert blob == pretty_blob, f
 
     name = 'test_doc_{0}'.format(i)

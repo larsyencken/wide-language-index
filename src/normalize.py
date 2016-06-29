@@ -36,7 +36,7 @@ def normalize_file(f):
     if isinstance(data, list):
         data.sort(key=lambda r: r['language'])
 
-    s_norm = json.dumps(data, indent=2, sort_keys=True)
+    s_norm = json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False)
 
     if s != s_norm:
         print(f)
