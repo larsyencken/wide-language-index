@@ -196,6 +196,16 @@
     "source_name": "Histoires d'objets"
   },
   {
+    "language": "fra",
+    "rss_url": "http://www.rtl.fr/podcast/trois-minutes-pour-comprendre.xml",
+    "source_name": "RTL - 3 minutes pour comprendre"
+  },
+  {
+    "language": "fra",
+    "rss_url": "http://www.rtl.fr/podcast/rtl-matin.xml",
+    "source_name": "RTL Matin"
+  },
+  {
     "language": "guj",
     "rss_url": "http://feeds.feedburner.com/gujarati",
     "source_name": "SBS Gujarati"
