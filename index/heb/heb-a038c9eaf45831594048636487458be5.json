@@ -11,6 +11,16 @@
         "multiple languages"
       ],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "a038c9eaf45831594048636487458be5",
@@ -22,5 +32,5 @@
   ],
   "source_name": "SBS Hebrew",
   "source_url": "http://www.sbs.com.au/yourlanguage/hebrew/highlight/page/id/282198/t/Election-Feature-PM-Kevin-Rudd-Profile-11-August-2013",
-  "title": "ראש הממשלה קווין ראד קווים לדמותו"
+  "title": "\u05e8\u05d0\u05e9 \u05d4\u05de\u05de\u05e9\u05dc\u05d4 \u05e7\u05d5\u05d5\u05d9\u05df \u05e8\u05d0\u05d3 \u05e7\u05d5\u05d5\u05d9\u05dd \u05dc\u05d3\u05de\u05d5\u05ea\u05d5"
 }

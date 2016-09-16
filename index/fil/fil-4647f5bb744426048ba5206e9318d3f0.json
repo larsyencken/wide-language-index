@@ -48,6 +48,18 @@
         "wrong language"
       ],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 2
     }
   ],
   "checksum": "4647f5bb744426048ba5206e9318d3f0",

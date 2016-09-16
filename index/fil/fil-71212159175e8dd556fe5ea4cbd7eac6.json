@@ -35,6 +35,30 @@
         "multiple languages"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 420,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 560,
+      "problems": [
+        "multiple languages"
+      ],
+      "speakers": 2
     }
   ],
   "checksum": "71212159175e8dd556fe5ea4cbd7eac6",

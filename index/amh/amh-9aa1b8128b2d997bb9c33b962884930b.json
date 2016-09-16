@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "9aa1b8128b2d997bb9c33b962884930b",
   "date": "2015-04-10",
   "language": "amh",
@@ -8,5 +20,5 @@
   ],
   "source_name": "SBS Amharic",
   "source_url": "http://feedproxy.google.com/~r/amharic/~3/P8YZAodrImQ/amharic_150410_404311.mp3",
-  "title": "Interview with Tesfaye Beljige – Pt 2"
+  "title": "Interview with Tesfaye Beljige \u2013 Pt 2"
 }
