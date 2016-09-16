@@ -251,6 +251,11 @@
     "source_name": "SBS Indonesian"
   },
   {
+    "language": "ind",
+    "rss_url": "http://www.bbc.co.uk/programmes/p02pc9v6/episodes/downloads.rss",
+    "source_name": "BBC Indonesia - Dunia Pagi Ini"
+  },
+  {
     "language": "ita",
     "rss_url": "http://feeds.feedburner.com/italian",
     "source_name": "SBS Italian"
@@ -316,6 +321,11 @@
     "source_name": "SBS Burmese"
   },
   {
+    "language": "mya",
+    "rss_url": "http://www.bbc.co.uk/programmes/p02p9f6q/episodes/downloads.rss",
+    "source_name": "BBC Burmese Morning Broadcast"
+  },
+  {
     "language": "nor",
     "rss_url": "http://podkast.nrk.no/program/dagsnytt.rss",
     "source_name": "NRK - Dagsnytt"
@@ -339,6 +349,11 @@
     "language": "pes",
     "rss_url": "http://www3.nhk.or.jp/rj/podcast/rss/persian.xml",
     "source_name": "Persian News - NHK WORLD RADIO JAPAN"
+  },
+  {
+    "language": "pes",
+    "rss_url": "http://www.bbc.co.uk/programmes/p02pc9mc/episodes/downloads.rss",
+    "source_name": "BBC Persian Radio - چشم انداز بامدادی"
   },
   {
     "language": "pol",
@@ -374,6 +389,11 @@
     "language": "ron",
     "rss_url": "http://feeds.feedburner.com/romanian",
     "source_name": "SBS Romanian"
+  },
+  {
+    "language": "rus",
+    "rss_url": "http://www.bbc.co.uk/programmes/p02pc9rh/episodes/downloads.rss",
+    "source_name": "BBC Russian - Пятый этаж"
   },
   {
     "language": "rus",
