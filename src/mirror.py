@@ -120,7 +120,7 @@ def mirror_sample(record, bucket):
 def save_record(record):
     filename = 'index/{language}/{language}-{checksum}.json'.format(**record)
 
-    s = json.dumps(record, indent=2, sort_keys=True)
+    s = json.dumps(record, indent=2, sort_keys=True, ensure_ascii=False)
     with open(filename, 'w') as ostream:
         ostream.write(s)
 
