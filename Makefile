@@ -22,7 +22,7 @@ help:
 	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
-env/: requirements.pip
+env: requirements.pip
 	test -d $(ENV) || virtualenv $(ENV)
 	$(PIP) install -r requirements.pip
 
