@@ -38,6 +38,10 @@ SETS = {
         'cmn', 'hin', 'arb', 'ben', 'jpn', 'spa', 'eng', 'por', 'rus', 'deu',
         'smo', 'fij', 'ton', 'mri', 'med',
     ]),
+    'issue-31': set([
+        'pol', 'fin', 'swe', 'tha', 'lao', 'ces', 'hrv', 'heb', 'prs', 'ell',
+        'fil', 'mya', 'slo', 'amh'
+    ]),
 }
 
 Segment = collections.namedtuple('Segment', 'sample offset duration')
