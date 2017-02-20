@@ -22,33 +22,34 @@ help:
 	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
-env/: requirements.pip
-	test -d $(ENV) || virtualenv $(ENV)
+env: requirements.pip
+	test -d $(ENV) || python -m venv $(ENV)
 	$(PIP) install -r requirements.pip
+	touch env
 
-audit:
+audit: env
 	$(PY) src/audit.py
 
-fetch:
+fetch: env
 	mkdir -p samples
 	$(PY) src/fetch_index.py
 
-normalize:
+normalize: env
 	$(PY) src/normalize.py
 
-annotate:
+annotate: env
 	$(PY) src/annotate.py || :
 	make stats
 
-stats:
+stats: env
 	$(PY) src/annotation_stats.py STATS.md
 
-mirror:
+mirror: env
 	$(PY) src/mirror.py
 
-rss:
+rss: env
 	$(PY) src/fetch_rss_feed.py
 
-clips: fetch
+clips: fetch env
 	mkdir -p samples/_annotated
 	$(PY) src/generate_clips.py
