@@ -22,9 +22,9 @@ help:
 	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
-env: requirements.pip
+env: requirements.lock
 	test -d $(ENV) || python -m venv $(ENV)
-	$(PIP) install -r requirements.pip
+	$(PIP) install -r requirements.lock
 	touch env
 
 audit: env

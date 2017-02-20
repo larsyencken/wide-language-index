@@ -1,0 +1,13 @@
+aiohttp
+aiofiles
+pyquery
+sh
+pydub
+numpy
+requests
+jsonschema
+humanize
+feedparser
+boto
+click
+clint
