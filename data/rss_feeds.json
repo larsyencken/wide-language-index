@@ -151,6 +151,11 @@
     "source_name": "SBS Fijian"
   },
   {
+    "language": "fil",
+    "rss_url": "http://feeds.feedburner.com/filipino",
+    "source_name": "SBS Filipino"
+  },
+  {
     "language": "fin",
     "rss_url": "http://api.sr.se/api/rss/pod/4899",
     "source_name": "Sveriges Radio - Sisuradio Uutiset"
