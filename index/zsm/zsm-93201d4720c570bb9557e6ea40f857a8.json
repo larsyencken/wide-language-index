@@ -21,6 +21,16 @@
         "pauses"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2016-09-16",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 420,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "93201d4720c570bb9557e6ea40f857a8",

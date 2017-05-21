@@ -1,0 +1,26 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-02-20",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "wrong language"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "e20b7e7d1300f159ebbb09b72b605db7",
+  "date": "2017-02-20",
+  "language": "fil",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/filipino/~3/gnR5ZfpMJBU/filipino_170220_634813.mp3",
+    "http://mirror.widelanguageindex.org/fil/fil-e20b7e7d1300f159ebbb09b72b605db7.mp3"
+  ],
+  "source_name": "SBS Filipino",
+  "source_url": "http://feedproxy.google.com/~r/filipino/~3/gnR5ZfpMJBU/filipino_170220_634813.mp3",
+  "title": "Xenophon under fire over savings policy position"
+}

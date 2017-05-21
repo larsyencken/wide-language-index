@@ -1,0 +1,27 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-02-20",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 120,
+      "problems": [
+        "excess loan words",
+        "multiple languages"
+      ],
+      "speakers": 2
+    }
+  ],
+  "checksum": "e7518b91eef8d38c4142a9a792e3c87d",
+  "date": "2017-02-20",
+  "language": "fil",
+  "media_urls": [
+    "http://feedproxy.google.com/~r/filipino/~3/yF1QYA8FZ-0/filipino_170220_634763.mp3",
+    "http://mirror.widelanguageindex.org/fil/fil-e7518b91eef8d38c4142a9a792e3c87d.mp3"
+  ],
+  "source_name": "SBS Filipino",
+  "source_url": "http://feedproxy.google.com/~r/filipino/~3/yF1QYA8FZ-0/filipino_170220_634763.mp3",
+  "title": "Business success? Take care of your employees"
+}

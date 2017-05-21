@@ -2,20 +2,20 @@
 
 ## Overall
 
-- Annotations: 456 good + 335 bad = 791 total
+- Annotations: 477 good + 353 bad = 830 total
 - Time annotated: 4 hours
 - Languages:
-    - 93 with >=1 annotations
+    - 94 with >=1 annotations
     - 36 with >=5 annotations
-    - 36 with >=10 annotations
+    - 35 with >=10 annotations
 
 ## By language
 
 ```
+                   Yue Chinese yue *************
                      Afrikaans afr **********
                Standard Arabic arb **********
                        Bengali ben **********
-              Mandarin Chinese cmn **********
                         Danish dan **********
                         German deu **********
                        English eng **********
@@ -47,28 +47,35 @@
                 Northern Uzbek uzn **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
-                   Yue Chinese yue **********
+              Mandarin Chinese cmn *******
+                       Amharic amh ***
+                         Czech ces ***
+          Modern Greek (1453-) ell ***
+                        Hebrew heb ***
+                      Croatian hrv ***
+                           Lao lao ***
+                       Burmese mya ***
+                          Dari prs ***
           Assyrian Neo-Aramaic aii **
                  Gheg Albanian aln **
-                       Amharic amh **
                       Balinese ban **
                       Buginese bug **
                      Bulgarian bul **
                      Valencian cat **
-                         Czech ces **
             Southwestern Dinka dik **
-          Modern Greek (1453-) ell **
+             Standard Estonian ekk **
+                     Esperanto epo **
                        Faroese fao **
                         Fijian fij **
+                      Pilipino fil **
                Western Frisian fry **
-                      Croatian hrv **
+                      Gujarati guj **
                      Hungarian hun **
                       Armenian hye **
                     Indonesian ind **
                        Kannada kan **
                  Central Khmer khm **
               Northern Kurdish kmr **
-                           Lao lao **
                          Latin lat **
               Standard Latvian lvs **
                      Malayalam mal **
@@ -76,34 +83,27 @@
                     Macedonian mkd **
                        Maltese mlt **
                        Flemish nld **
+  Nepali (individual language) npi **
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
                       Pampanga pam **
                Iranian Persian pes **
+               Western Panjabi pnb **
                         Slovak slk **
+                        Samoan smo **
                        Serbian srp **
                      Sundanese sun **
+                      Tigrinya tir **
          Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
    Malay (individual language) zlm **
+                Standard Malay zsm **
                       Achinese ace *
                Egyptian Arabic arz *
-             Standard Estonian ekk *
-                     Esperanto epo *
-                      Pilipino fil *
-                      Gujarati guj *
-                        Hebrew heb *
                  Luxembourgish ltz *
-                       Burmese mya *
-  Nepali (individual language) npi *
-               Western Panjabi pnb *
-                          Dari prs *
                      Sinhalese sin *
                      Slovenian slv *
-                        Samoan smo *
                         Somali som *
-                      Tigrinya tir *
-                Standard Malay zsm *
-                      Albanian sqi 
+                      Albanian sqi *
 ```
