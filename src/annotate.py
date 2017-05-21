@@ -105,11 +105,15 @@ DEFAULT_DURATION_S = 20
 SAMPLE_DIR = 'samples'
 INDEX_DIR = 'index'
 MAX_PER_SAMPLE = 2
+MAX_PER_LANGUAGE = 10
 
 
 @click.command()
 @click.option('--language-set',
               help='Only annotate a particular set of langauges.')
+@click.option('--strategy',
+              default='worst',
+              help='How to pick the next language to annotate ([worst]/greedy)')
 def main(language_set=None):
     """
     Begin an interactive annotation session, where you are played snippets of
@@ -124,8 +128,11 @@ def main(language_set=None):
     ui.clear_screen()
     ui.pause('Beginning annotation, press ENTER to hear the first clip...')
 
-    for segment in RandomSampler(metadata, DEFAULT_DURATION_S,
-                                 MAX_PER_SAMPLE):
+    sampler = (GreedySampler(metadata, DEFAULT_DURATION_S)
+               if strategy == 'greedy'
+               else RandomSampler(metadata, DEFAULT_DURATION_S))
+
+    for segment in sampler:
         ann, quit = annotate(segment, session.user, metadata)
 
         if ann is not None:
@@ -266,12 +273,7 @@ def generate_language_filter(language_set=None):
     return SETS[language_set].__contains__
 
 
-class RandomSampler(object):
-    """
-    Provides an ordering over unannotated segments which prefers: languages
-    with fewer samples, samples with fewer annotations, and segments which
-    haven't been annotated before.
-    """
+class AbstractSampler(object):
     def __init__(self, metadata, duration, max_per_sample):
         self.metadata = metadata
         self.duration = duration
@@ -279,14 +281,7 @@ class RandomSampler(object):
         self.queue = self.build_queue()
 
     def build_queue(self):
-        queue = [
-            (lang_annotation_count(l, self.metadata),
-             random.random(),  # don't sort by name
-             l)
-            for l in self.metadata.keys()
-        ]
-        heapq.heapify(queue)
-        return queue
+        raise Exception('please implement this method')
 
     def pop(self):
         _, _, l = heapq.heappop(self.queue)
@@ -294,11 +289,6 @@ class RandomSampler(object):
 
     def push(self, l):
         heapq.heappush(self.queue, self.gen_key(l))
-
-    def gen_key(self, l):
-        return (lang_annotation_count(l, self.metadata),
-                random.random(),  # randomly break ties
-                l)
 
     def __iter__(self):
         while True:
@@ -354,6 +344,41 @@ class RandomSampler(object):
                 continue
 
             yield Segment(sample, offset, self.duration)
+
+    def build_queue(self):
+        queue = [self.gen_key(l)
+                 for l in self.metadata.keys()]
+        heapq.heapify(queue)
+        return queue
+
+
+class GreedySampler(AbstractSampler):
+    """
+    Prefer languages that are closer to being ready for release.
+    """
+    def gen_key(self, l):
+        c = lang_annotation_count(l, self.metadata)
+
+        if c < MAX_PER_LANGUAGE:
+            # prefer those with more annotations
+            c *= -1
+
+        return (c,
+                random.random(),  # randomly break ties
+                l)
+
+
+class RandomSampler(AbstractSampler):
+    """
+    Provides an ordering over unannotated segments which prefers: languages
+    with fewer samples, samples with fewer annotations, and segments which
+    haven't been annotated before.
+    """
+    def gen_key(self, l):
+        return (lang_annotation_count(l, self.metadata),
+                random.random(),  # randomly break ties
+                l)
+
 
 
 def sample_duration(sample):
