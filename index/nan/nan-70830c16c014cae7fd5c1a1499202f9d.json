@@ -1,0 +1,33 @@
+{
+  "annotations": [
+    {
+      "annotator": "Toncih Page <dxu814@aucklanduni.ac.nz>",
+      "date": "2017-05-23",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 80,
+      "problems": [],
+      "speakers": 1
+    },
+    {
+      "annotator": "Toncih Page <dxu814@aucklanduni.ac.nz>",
+      "date": "2017-05-23",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 60,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "70830c16c014cae7fd5c1a1499202f9d",
+  "date": "2013-04-20",
+  "language": "nan",
+  "media_urls": [
+    "http://phonemica.net/files/543743f42bd553f90382aacd/1.mp3"
+  ],
+  "source_name": "Phonemica",
+  "source_url": "http://phonemica.net/entry?mid=543743f42bd553f90382aacd&story=1",
+  "title": "台南的一个故事"
+}
