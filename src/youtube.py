@@ -12,11 +12,11 @@ import tempfile
 from typing import Dict
 from urllib.parse import urlparse, parse_qs
 
-import youtube_dl
-from dateparse.parser import parse as parse_date
+from dateutil.parser import parse as parse_date
 from apiclient.discovery import build
 
-from types import AudioSample
+from audio import AudioSample
+from sh import youtube_dl
 
 
 YOUTUBE_API_SERVICE_NAME = 'youtube'
@@ -31,22 +31,13 @@ def download_youtube_sample(source_url: str) -> AudioSample:
     "Download and transcode a YouTube video to audio."
     metadata = fetch_youtube_metadata(source_url)
 
-    t = tempfile.NamedTemporaryFile(delete=False)
+    t = tempfile.NamedTemporaryFile(delete=False, suffix='.mp3')
 
-    opts = {
-        'outtmpl': t.name,
-        'format': 'bestaudio/best',
-        'postprocessors': [{
-            'key': 'FFmpegExtractAudio',
-            'preferredcodec': 'mp3',
-            'preferredquality': '192',
-        }],
-    }
+    output_template = os.path.splitext(t.name)[0] + '.%(ext)s'
+    youtube_dl('-x', '--audio-format=mp3', '--output={}'.format(output_template),
+               source_url)
 
-    with youtube_dl.YoutubeDL(opts) as ydl:
-        ydl.download([source_url])
-
-    return AudioSample(t, metadata)
+    return AudioSample(tempfile=t, metadata=metadata)
 
 
 def fetch_youtube_metadata(source_url: str) -> Dict[str, str]:
@@ -56,20 +47,20 @@ def fetch_youtube_metadata(source_url: str) -> Dict[str, str]:
                         YOUTUBE_API_VERSION,
                         developerKey=os.environ['YOUTUBE_API_KEY'])
 
-    response = youtube_api.search().list(part='snippet',
-                                         relatedToVideoId=youtube_id,
-                                         type='video').execute()
+    response = youtube_api.videos().list(part='snippet',
+                                         id=youtube_id).execute()
 
-    item, = response.json()['items']
+    item, = response['items']
     snippet = item['snippet']
 
     title = snippet['localized']['title']
     author = snippet['channelTitle']
-    date = parse_date(snippet['publisedAt']).date()
+    date = str(parse_date(snippet['publishedAt']).date())
 
     return {'title': title,
             'author': author,
             'source_url': source_url,
+            'source_name': 'YouTube',
             'date': date}
 
 

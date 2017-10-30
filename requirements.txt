@@ -13,3 +13,5 @@ click
 clint
 youtube-dl
 google-api-python-client
+characteristic
+python-dateutil

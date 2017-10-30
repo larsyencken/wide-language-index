@@ -21,7 +21,7 @@ import shutil
 import sh
 import click
 
-from types import AudioSample
+from audio import AudioSample
 import youtube
 
 
@@ -63,7 +63,7 @@ def add_sample(language: str, source_url: str) -> str:
     sample = fetch_sample(source_url)
     checksum = checksum_sample(sample)
     file_sample(language, checksum, sample)
-    filename = make_stub_record(language, checksum, source_url)
+    filename = make_stub_record(language, checksum, source_url, sample.metadata)
     return filename
 
 
@@ -122,7 +122,8 @@ def file_sample(language: str, checksum: str, sample: AudioSample) -> None:
     sh.mv(sample.filename, dest_file)
 
 
-def make_stub_record(language: str, checksum: str, url: str) -> str:
+def make_stub_record(language: str, checksum: str, url: str,
+                     metadata: dict) -> str:
     parent_dir = path.join(INDEX_DIR, language)
     if not path.isdir(parent_dir):
         os.mkdir(parent_dir)
@@ -135,6 +136,10 @@ def make_stub_record(language: str, checksum: str, url: str) -> str:
     record['language'] = language
     record['checksum'] = checksum
     record['media_urls'] = [url]
+    record['title'] = metadata.get('title', '')
+    record['date'] = metadata.get('date', '')
+    record['source_name'] = metadata.get('source_name', '')
+    record['source_url'] = metadata.get('source_url', '')
 
     with open(record_file, 'w') as ostream:
         json.dump(record, ostream, indent=2, sort_keys=True)
