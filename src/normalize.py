@@ -19,8 +19,13 @@ def normalize_json_files():
     """
     Make sure all JSON is identically formatted.
     """
+    json_files = []
+    json_files.extend(glob.glob('data/*.json'))
+    json_files.extend(glob.glob('ext/*.json'))
+    json_files.extend(glob.glob('index/*/*.json'))
+
     n = 0
-    for f in glob.glob('index/*/*.json') + ["data/rss_feeds.json"]:
+    for f in json_files:
         n += normalize_file(f)
 
     print(n, 'records changed')
@@ -33,7 +38,7 @@ def normalize_file(f):
     if 'media_urls' in data:
         data['media_urls'] = remove_duplicates(data['media_urls'])
 
-    if isinstance(data, list):
+    if 'data' in f:
         data.sort(key=lambda r: r['language'])
 
     s_norm = json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False)
