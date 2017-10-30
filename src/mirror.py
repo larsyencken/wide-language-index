@@ -14,6 +14,7 @@ import os
 import sys
 
 import boto
+from boto.s3.connection import OrdinaryCallingFormat
 import click
 
 
@@ -34,7 +35,7 @@ def main(language=None, only=None):
 
 
 def mirror(language=None, only=None):
-    s3 = boto.connect_s3()
+    s3 = boto.connect_s3(calling_format=OrdinaryCallingFormat())
     bucket = s3.get_bucket(BUCKET)
 
     print('Scanning records...')
