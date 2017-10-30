@@ -11,6 +11,7 @@ Audio manipulation utilities.
 import contextlib
 import tempfile
 
+from characteristic import attributes, Attribute
 import numpy as np
 import pydub
 from sh import afplay, mp3gain
@@ -67,3 +68,17 @@ def play_mp3(mp3_file):
         return False
 
     return True
+
+
+@attributes([
+    "tempfile",
+    Attribute("metadata", default_factory=dict)
+])
+class AudioSample:
+    """
+    An audio sample that's ready to ingest, along with optional metadata that we
+    might have depending on its source.
+    """
+    @property
+    def filename(self):
+        return self.tempfile.name

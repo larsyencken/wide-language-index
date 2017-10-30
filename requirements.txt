@@ -11,3 +11,7 @@ feedparser
 boto
 click
 clint
+youtube-dl
+google-api-python-client
+characteristic
+python-dateutil
