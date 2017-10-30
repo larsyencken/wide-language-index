@@ -14,6 +14,7 @@ from urllib.parse import urlparse, parse_qs
 
 from dateutil.parser import parse as parse_date
 from apiclient.discovery import build
+import requests
 
 from audio import AudioSample
 from sh import youtube_dl
@@ -24,11 +25,20 @@ YOUTUBE_API_VERSION = 'v3'
 
 
 def is_youtube_url(source_url: str) -> bool:
-    return source_url.startswith('https://www.youtube.com/watch')
+    return (source_url.startswith('https://www.youtube.com/watch')
+            or is_short_url(source_url))
+
+
+def is_short_url(url: str) -> bool:
+    return url.startswith('https://youtu.be/')
 
 
 def download_youtube_sample(source_url: str) -> AudioSample:
     "Download and transcode a YouTube video to audio."
+    if is_short_url(source_url):
+        short_url = source_url
+        source_url = get_origin_url(short_url)
+
     metadata = fetch_youtube_metadata(source_url)
 
     t = tempfile.NamedTemporaryFile(delete=False, suffix='.mp3')
@@ -38,6 +48,14 @@ def download_youtube_sample(source_url: str) -> AudioSample:
                source_url)
 
     return AudioSample(tempfile=t, metadata=metadata)
+
+
+def get_origin_url(short_url: str) -> str:
+    resp = requests.head(short_url)
+    if resp.status_code != 302:
+        raise Exception('got status {} when unpacking youtube url'.format(resp.status_code))
+
+    return resp.headers['Location']
 
 
 def fetch_youtube_metadata(source_url: str) -> Dict[str, str]:
