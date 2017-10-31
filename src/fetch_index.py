@@ -17,6 +17,7 @@ import glob
 import hashlib
 import json
 import os
+from typing import Dict, Any, Iterator, List
 
 import aiohttp
 import aiofiles
@@ -24,11 +25,14 @@ import click
 import queue
 
 
+Record = Dict[str, Any]
+
+
 INDEX_DIR = path.normpath(path.join(path.dirname(__file__),
                                     '..', 'index'))
 SAMPLE_DIR = path.normpath(path.join(path.dirname(__file__),
                                      '..', 'samples'))
-TOMBSTONE = None
+TOMBSTONE = object()
 
 
 @click.command()
@@ -56,15 +60,18 @@ def fetch_index(index_dir=INDEX_DIR, output_dir=SAMPLE_DIR, language=None,
 
 
 async def enqueue_missing(records, q):
+    """
+    Feed a queue of records that must be downloaded..
+    """
     print('Checking for missing samples...')
     pending = []
 
     for r in records:
-        lang = r['language']
         checksum = r['checksum']
         dest_file = r['dest_file']
 
         if not os.path.exists(dest_file):
+            # no audio file, schedule it for download
             q.put(r)
             continue
 
@@ -76,25 +83,34 @@ async def enqueue_missing(records, q):
             file_has_checksum(r['dest_file'], checksum)
         )
         f.add_done_callback(
-            lambda x: on_checksum_complete(x, dest_file, q, pending)
+            lambda x: on_checksum_complete(x, r, q, pending)
         )
 
     while pending:
         await asyncio.sleep(0.1)
 
 
-def on_checksum_complete(f, dest_file, q, pending):
+def on_checksum_complete(f: asyncio.Future, r: Record, q: queue.Queue,
+                         pending_checksums: List[Record]):
     if not f.result():
+        # the checksum didn't match the record, re-download
         q.put(r)
 
-    pending.pop()
+    # decrease pending by one in size
+    pending_checksums.pop()
 
 
-async def fetch_missing(q, prefer_mirrors=False):
+async def fetch_missing(q: queue.Queue, prefer_mirrors: bool=False, n_workers: int=20) -> None:
+    """
+    Fetch in parallel the missins samples from the queue.
+    """
     print('Fetching missing samples...')
-    pending = asyncio.Semaphore(20)
-    while not q.empty():
+    pending = asyncio.Semaphore(n_workers)
+
+    while True:
         r = q.get()
+        if r is TOMBSTONE:
+            break
 
         print('{:5s} {}'.format('FETCH', r['dest_file']))
         await pending.acquire()
@@ -107,7 +123,7 @@ async def fetch_missing(q, prefer_mirrors=False):
         await asyncio.sleep(0.1)
 
 
-async def fetch_with_retry(r, prefer_mirrors=False):
+async def fetch_with_retry(r: Record, prefer_mirrors: bool=False) -> None:
     checksum = r['checksum']
     dest_file = r['dest_file']
     media_urls = r['media_urls'][:]
@@ -127,7 +143,7 @@ async def fetch_with_retry(r, prefer_mirrors=False):
     print('{:5s} {}'.format('FAIL', dest_file))
 
 
-def iter_records(index_dir, output_dir, language=None):
+def iter_records(index_dir: str, output_dir: str, language: str=None) -> Iterator[Record]:
     if language is None:
         pattern = '{0}/*/*.json'.format(index_dir)
     else:
@@ -152,9 +168,12 @@ class DownloadError(Exception):
     pass
 
 
-async def file_has_checksum(filename, checksum):
+async def file_has_checksum(filename: str, checksum: str) -> bool:
+    """
+    Return True if the filename matches the checksum, else False.
+    """
     if not os.path.exists(filename):
-        return False
+        return None
 
     istream = await aiofiles.open(filename, 'rb')
     try:

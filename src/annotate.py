@@ -114,7 +114,7 @@ MAX_PER_LANGUAGE = 10
 @click.option('--strategy',
               default='worst',
               help='How to pick the next language to annotate ([worst]/greedy)')
-def main(language_set=None):
+def main(language_set=None, strategy=None):
     """
     Begin an interactive annotation session, where you are played snippets of
     audio in different languages and you have to mark whether or not they are
@@ -280,9 +280,6 @@ class AbstractSampler(object):
         self.max_per_sample = max_per_sample
         self.queue = self.build_queue()
 
-    def build_queue(self):
-        raise Exception('please implement this method')
-
     def pop(self):
         _, _, l = heapq.heappop(self.queue)
         return l
@@ -378,7 +375,6 @@ class RandomSampler(AbstractSampler):
         return (lang_annotation_count(l, self.metadata),
                 random.random(),  # randomly break ties
                 l)
-
 
 
 def sample_duration(sample):

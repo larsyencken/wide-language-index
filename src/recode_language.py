@@ -74,8 +74,9 @@ def remirror_files(from_code, to_code):
     records = [(f, json.load(open(f.as_posix())))
                for f in (pathlib.Path('index') / to_code).glob('*.json')]
 
-    is_bad_mirror = lambda url: ('/mirror.' in url
-                                 and '/{0}/{0}-'.format(from_code) in url)
+    def is_bad_mirror(url):
+        return ('/mirror.' in url
+                and '/{0}/{0}-'.format(from_code) in url)
 
     to_remirror = [(f, r) for (f, r) in records
                    if any(is_bad_mirror(u) for u in r['media_urls'])]

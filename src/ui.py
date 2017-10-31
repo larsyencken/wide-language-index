@@ -11,6 +11,7 @@ Helpers for writing interactive console scripts.
 import re
 import os
 
+
 def input_bool(query):
     bool_query = query + '? (y/n)> '
 
@@ -68,6 +69,7 @@ def input_single_option(title, options):
 
 
 EMAIL_REGEX = '^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,6}$'
+
 
 def input_email():
     while True:
