@@ -3,8 +3,12 @@
 language: python
 
 python:
-  - "3.5"
+    - "3.6"
 
-install: pip install -r requirements.lock
+install:
+    - pip install -r requirements.lock
+    - pip install flake8
 
-script: python src/audit.py
+script:
+    - flake8 src
+    - python src/audit.py
