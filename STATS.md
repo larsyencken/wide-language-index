@@ -2,12 +2,12 @@
 
 ## Overall
 
-- Annotations: 477 good + 353 bad = 830 total
+- Annotations: 477 good + 354 bad = 831 total
 - Time annotated: 4 hours
 - Languages:
-    - 94 with >=1 annotations
+    - 95 with >=1 annotations
     - 36 with >=5 annotations
-    - 35 with >=10 annotations
+    - 33 with >=10 annotations
 
 ## By language
 
@@ -31,7 +31,6 @@
                        Marathi mar **********
                      Norwegian nor **********
                        Ossetic oss **********
-                        Polish pol **********
                     Portuguese por **********
                       Romanian ron **********
                        Russian rus **********
@@ -44,9 +43,10 @@
                        Turkish tur **********
                      Ukrainian ukr **********
                           Urdu urd **********
-                Northern Uzbek uzn **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
+                        Polish pol *********
+                Northern Uzbek uzn *********
               Mandarin Chinese cmn *******
                        Amharic amh ***
                          Czech ces ***
@@ -82,6 +82,7 @@
                    Minangkabau min **
                     Macedonian mkd **
                        Maltese mlt **
+               Min Nan Chinese nan **
                        Flemish nld **
   Nepali (individual language) npi **
            Occitan (post 1500) oci **
@@ -106,4 +107,7 @@
                      Slovenian slv *
                         Somali som *
                       Albanian sqi *
+                  Ainu (Japan) ain 
+                     Mongolian mon 
+                         Xhosa xho 
 ```
