@@ -83,7 +83,7 @@ def fetch_sample(source_url: str) -> AudioSample:
 def copy_sample(source_file: str) -> AudioSample:
     t = tempfile.NamedTemporaryFile(delete=False)
     shutil.copy(source_file, t.name)
-    return AudioSample(t)
+    return AudioSample(tempfile=t)
 
 
 def is_url(source_url: str) -> bool:
@@ -103,7 +103,7 @@ def download_sample(source_url: str) -> AudioSample:
     sh.wget('-O', t.name, source_url, _out=open('/dev/stdout', 'wb'),
             _err=open('/dev/stderr', 'wb'))
 
-    return AudioSample(t, metadata)
+    return AudioSample(tempfile=t, metadata=metadata)
 
 
 def checksum_sample(sample: AudioSample) -> str:
