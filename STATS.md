@@ -2,20 +2,22 @@
 
 ## Annotation summary
 
-- Annotations: 477 good + 354 bad = 831 total
+- Annotations: 501 good + 382 bad = 883 total
 - Time annotated: 4 hours
 - Languages:
-    - 95 with >=1 annotations
-    - 36 with >=5 annotations
-    - 33 with >=10 annotations
+    - 97 with >=1 annotations
+    - 38 with >=5 annotations
+    - 38 with >=10 annotations
 
 ## Annotations by language
 
 ```
                    Yue Chinese yue *************
                      Afrikaans afr **********
+                       Amharic amh **********
                Standard Arabic arb **********
                        Bengali ben **********
+              Mandarin Chinese cmn **********
                         Danish dan **********
                         German deu **********
                        English eng **********
@@ -31,7 +33,9 @@
                        Marathi mar **********
                      Norwegian nor **********
                        Ossetic oss **********
+                        Polish pol **********
                     Portuguese por **********
+                       Quechua que **********
                       Romanian ron **********
                        Russian rus **********
                        Spanish spa **********
@@ -43,12 +47,9 @@
                        Turkish tur **********
                      Ukrainian ukr **********
                           Urdu urd **********
+                Northern Uzbek uzn **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
-                        Polish pol *********
-                Northern Uzbek uzn *********
-              Mandarin Chinese cmn *******
-                       Amharic amh ***
                          Czech ces ***
           Modern Greek (1453-) ell ***
                         Hebrew heb ***
@@ -57,6 +58,7 @@
                        Burmese mya ***
                           Dari prs ***
           Assyrian Neo-Aramaic aii **
+                  Ainu (Japan) ain **
                  Gheg Albanian aln **
                       Balinese ban **
                       Buginese bug **
@@ -107,7 +109,6 @@
                      Slovenian slv *
                         Somali som *
                       Albanian sqi *
-                  Ainu (Japan) ain 
                      Mongolian mon 
                          Xhosa xho 
 ```
@@ -118,7 +119,7 @@
                       Achinese ace   1
                      Afrikaans afr  21
           Assyrian Neo-Aramaic aii   3
-                  Ainu (Japan) ain   2
+                  Ainu (Japan) ain   3
                  Gheg Albanian aln   3
                        Amharic amh  42
                Standard Arabic arb  50
@@ -183,6 +184,7 @@
                         Polish pol  24
                     Portuguese por  50
                           Dari prs   3
+                       Quechua que   6
                       Romanian ron  17
                        Russian rus  50
                      Sinhalese sin   3
