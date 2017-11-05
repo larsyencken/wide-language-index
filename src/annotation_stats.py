@@ -17,9 +17,9 @@ import click
 import humanize
 
 
-TEMPLATE_PAGE = '''# Annotation statistics
+TEMPLATE_PAGE = '''# Audio statistics
 
-## Overall
+## Annotation summary
 
 - Annotations: {good_annotations} good + {bad_annotations} bad = {total_annotations} total
 - Time annotated: {time_annotated}
@@ -28,10 +28,16 @@ TEMPLATE_PAGE = '''# Annotation statistics
     - {num_5_annotations} with >=5 annotations
     - {num_10_annotations} with >=10 annotations
 
-## By language
+## Annotations by language
 
 ```
 {per_language_stats}
+```
+
+## Samples by language
+
+```
+{per_language_samples}
 ```
 '''  # noqa
 
@@ -79,6 +85,16 @@ def generate_summary(metadata, languages):
         for record in per_language
     )
     stats['per_language_stats'] = per_language_markdown
+
+    stats['per_language_samples'] = '\n'.join(
+        '{:>30s} {} {:>3d}'.format(
+            languages[code],
+            code,
+            samples,
+        )
+        for code, samples in stats['samples'].items()
+    )
+
     return TEMPLATE_PAGE.format(**stats)
 
 
@@ -104,6 +120,8 @@ def overall_stats(metadata):
             num_10_annotations += 1
 
     time_annotated = humanize.naturaldelta(total_annotations * 20)
+
+    samples = {lang: len(xs) for lang, xs in metadata.items()}
 
     return locals()
 
