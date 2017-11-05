@@ -114,15 +114,21 @@ MAX_PER_LANGUAGE = 10
 @click.option('--strategy',
               default='worst',
               help='How to pick the next language to annotate ([worst]/greedy)')
-def main(language_set=None, strategy=None):
+@click.option('--only',
+              help='Only annotate a single language')
+def main(language_set=None, strategy=None, only=None):
     """
     Begin an interactive annotation session, where you are played snippets of
     audio in different languages and you have to mark whether or not they are
     representative samples.
     """
-    _validate_language_set(language_set)
+    if only:
+        is_language_included = set([only]).__contains__
+    else:
+        _validate_language_set(language_set)
+        is_language_included = generate_language_filter(language_set)
 
-    metadata = load_metadata(language_set=language_set)
+    metadata = load_metadata(is_language_included)
     session = Session()
 
     ui.clear_screen()
@@ -243,14 +249,13 @@ class User(object):
         return cls(name, email)
 
 
-def load_metadata(language_set=None):
-    include_language = generate_language_filter(language_set)
+def load_metadata(is_language_included):
     metadata = collections.defaultdict(dict)
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
             rec = json.load(istream)
             lang = rec['language']
-            if include_language(lang):
+            if is_language_included(lang):
                 checksum = rec['checksum']
                 metadata[lang][checksum] = rec
 
@@ -280,9 +285,6 @@ class AbstractSampler(object):
         self.max_per_sample = max_per_sample
         self.queue = self.build_queue()
 
-    def build_queue(self):
-        raise Exception('please implement this method')
-
     def pop(self):
         return heapq.heappop(self.queue)[-1]
 
@@ -291,15 +293,15 @@ class AbstractSampler(object):
 
     def __iter__(self):
         while True:
-            l = self.pop()
-            segment = self.find_segment(l)
+            lang = self.pop()
+            segment = self.find_segment(lang)
 
             if not segment:
-                print('Skipping {}: need more samples'.format(l))
+                print('Skipping {}: need more samples'.format(lang))
                 continue
 
             yield segment
-            self.push(l)
+            self.push(lang)
 
     def find_segment(self, l):
         for sample in self.iter_samples(l):
@@ -382,7 +384,6 @@ class RandomSampler(AbstractSampler):
         return (lang_annotation_count(l, self.metadata),
                 random.random(),  # randomly break ties
                 l)
-
 
 
 def sample_duration(sample):
