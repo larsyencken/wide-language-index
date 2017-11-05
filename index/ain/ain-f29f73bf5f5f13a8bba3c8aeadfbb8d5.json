@@ -1,0 +1,24 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 340,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "f29f73bf5f5f13a8bba3c8aeadfbb8d5",
+  "date": "2016-08-02",
+  "language": "ain",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=-Phjm_69Zxw",
+    "http://mirror.widelanguageindex.org/ain/ain-f29f73bf5f5f13a8bba3c8aeadfbb8d5.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=-Phjm_69Zxw",
+  "title": "[Ainu language] アイヌ語で喋ってみた [Aynu itak]"
+}
