@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 2740,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
   "checksum": "30e77d1d4ffd06ecc526840e732ad422",
   "date": "2015-03-20",
   "language": "amh",
@@ -6,7 +18,7 @@
     "http://av.voanews.com/clips/VAM/2015/03/20/20150320-180000-VAM-program.mp3",
     "http://mirror.widelanguageindex.org/amh/amh-30e77d1d4ffd06ecc526840e732ad422.mp3"
   ],
-  "source_name": "ከምሽቱ ሦስት ሰዓት የአማርኛ ዜና - የአሜሪካ ድምፅ",
+  "source_name": "\u12a8\u121d\u123d\u1271 \u1226\u1235\u1275 \u1230\u12d3\u1275 \u12e8\u12a0\u121b\u122d\u129b \u12dc\u1293 - \u12e8\u12a0\u121c\u122a\u12ab \u12f5\u121d\u1345",
   "source_url": "http://amharic.voanews.com/audio/2669573.html",
-  "title": "ከምሽቱ ሦስት ሰዓት የአማርኛ ዜና - ማርች 20, 2015"
+  "title": "\u12a8\u121d\u123d\u1271 \u1226\u1235\u1275 \u1230\u12d3\u1275 \u12e8\u12a0\u121b\u122d\u129b \u12dc\u1293 - \u121b\u122d\u127d 20, 2015"
 }
