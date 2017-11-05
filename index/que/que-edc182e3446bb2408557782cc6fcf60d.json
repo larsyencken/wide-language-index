@@ -1,0 +1,70 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 300,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 440,
+      "problems": [],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 980,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 1220,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "edc182e3446bb2408557782cc6fcf60d",
+  "date": "2017-10-16",
+  "language": "que",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=JdhD-vtP--Q",
+    "http://mirror.widelanguageindex.org/que/que-edc182e3446bb2408557782cc6fcf60d.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=JdhD-vtP--Q",
+  "title": "\u00d1uqanchik - 16/10/2017"
+}

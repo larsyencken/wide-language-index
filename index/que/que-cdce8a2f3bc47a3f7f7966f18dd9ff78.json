@@ -1,0 +1,95 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 980,
+      "problems": [
+        "noise",
+        "wrong language"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 480,
+      "problems": [
+        "pauses"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 220,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 180,
+      "problems": [],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 260,
+      "problems": [],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 40,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    }
+  ],
+  "checksum": "cdce8a2f3bc47a3f7f7966f18dd9ff78",
+  "date": "2017-07-31",
+  "language": "que",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=m4HRBBV8fF0",
+    "http://mirror.widelanguageindex.org/que/que-cdce8a2f3bc47a3f7f7966f18dd9ff78.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=m4HRBBV8fF0",
+  "title": "\u00d1uqanchik - 31/07/2017"
+}

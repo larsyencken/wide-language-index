@@ -1,0 +1,106 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 1480,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 1060,
+      "problems": [],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 1100,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 1300,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "female",
+      "label": "bad",
+      "offset": 600,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 1260,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "bad",
+      "offset": 120,
+      "problems": [
+        "noise"
+      ],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 660,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "a1f842b7a745609b1e48aec754854121",
+  "date": "2017-10-06",
+  "language": "que",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=nvMhmJz1hNo",
+    "http://mirror.widelanguageindex.org/que/que-a1f842b7a745609b1e48aec754854121.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=nvMhmJz1hNo",
+  "title": "\u00d1uqanchik - 06/10/2017"
+}

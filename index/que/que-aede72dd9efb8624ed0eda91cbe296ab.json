@@ -1,0 +1,47 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 960,
+      "problems": [],
+      "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "bad",
+      "offset": 120,
+      "problems": [
+        "noise",
+        "pauses"
+      ],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-05",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 780,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "aede72dd9efb8624ed0eda91cbe296ab",
+  "date": "2017-10-24",
+  "language": "que",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=ceBhO6Qv68U",
+    "http://mirror.widelanguageindex.org/que/que-aede72dd9efb8624ed0eda91cbe296ab.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=ceBhO6Qv68U",
+  "title": "\u00d1uqanchik - 24/10/2017"
+}
