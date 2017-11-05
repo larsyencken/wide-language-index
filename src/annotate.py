@@ -114,7 +114,7 @@ MAX_PER_LANGUAGE = 10
 @click.option('--strategy',
               default='worst',
               help='How to pick the next language to annotate ([worst]/greedy)')
-def main(language_set=None):
+def main(language_set=None, strategy=None):
     """
     Begin an interactive annotation session, where you are played snippets of
     audio in different languages and you have to mark whether or not they are
@@ -128,9 +128,9 @@ def main(language_set=None):
     ui.clear_screen()
     ui.pause('Beginning annotation, press ENTER to hear the first clip...')
 
-    sampler = (GreedySampler(metadata, DEFAULT_DURATION_S)
+    sampler = (GreedySampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE)
                if strategy == 'greedy'
-               else RandomSampler(metadata, DEFAULT_DURATION_S))
+               else RandomSampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE))
 
     for segment in sampler:
         ann, quit = annotate(segment, session.user, metadata)
@@ -284,8 +284,7 @@ class AbstractSampler(object):
         raise Exception('please implement this method')
 
     def pop(self):
-        _, _, l = heapq.heappop(self.queue)
-        return l
+        return heapq.heappop(self.queue)[-1]
 
     def push(self, l):
         heapq.heappush(self.queue, self.gen_key(l))
@@ -360,10 +359,15 @@ class GreedySampler(AbstractSampler):
         c = lang_annotation_count(l, self.metadata)
 
         if c < MAX_PER_LANGUAGE:
-            # prefer those with more annotations
+            # put those with more annotations at the front, and those with enough annotations at
+            # the end
             c *= -1
 
+        # prefer those with many samples
+        n_samples = len(self.metadata[l])
+
         return (c,
+                -n_samples,
                 random.random(),  # randomly break ties
                 l)
 

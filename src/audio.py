@@ -15,6 +15,7 @@ from characteristic import attributes, Attribute
 import numpy as np
 import pydub
 from sh import afplay, mp3gain
+import sh
 
 MS_PER_S = 1000
 
@@ -62,7 +63,7 @@ def play_mp3(mp3_file):
     try:
         p.wait()
         print('done>')
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, sh.SignalException_SIGTERM) as e:
         p.terminate()
         print('cancelled>')
         return False
