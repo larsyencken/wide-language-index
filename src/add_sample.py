@@ -130,7 +130,7 @@ def make_stub_record(language: str, checksum: str, url: str,
 
     record_file = path.join(parent_dir,
                             '{language}-{checksum}.json'.format(**locals()))
-    print(record_file)
+    print(relative_path(record_file))
 
     record = TEMPLATE.copy()
     record['language'] = language
@@ -151,6 +151,16 @@ def open_in_editor(filename: str) -> None:
     editor = os.environ.get('EDITOR', 'vim')
     p = sp.Popen([editor, filename])
     p.wait()
+
+
+def relative_path(filename: str) -> str:
+    "Attempt to convert the filename into just the path suffix from here."
+    here = os.path.abspath('.')
+    filename = os.path.abspath(filename)
+    if filename.startswith(here):
+        return filename[len(here):].lstrip('/')
+
+    return filename
 
 
 if __name__ == '__main__':
