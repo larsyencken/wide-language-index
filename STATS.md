@@ -135,7 +135,7 @@
                         German deu  69
             Southwestern Dinka dik   3
              Standard Estonian ekk   3
-          Modern Greek (1453-) ell  14
+          Modern Greek (1453-) ell  24
                        English eng  50
                      Esperanto epo   1
                        Faroese fao   1
