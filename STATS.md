@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 511 good + 405 bad = 916 total
+- Annotations: 520 good + 410 bad = 930 total
 - Time annotated: 5 hours
 - Languages:
     - 98 with >=1 annotations
-    - 39 with >=5 annotations
-    - 39 with >=10 annotations
+    - 40 with >=5 annotations
+    - 40 with >=10 annotations
 
 ## Annotations by language
 
@@ -16,6 +16,7 @@
                      Afrikaans afr **********
                        Amharic amh **********
                Standard Arabic arb **********
+               Egyptian Arabic arz **********
                        Bengali ben **********
               Mandarin Chinese cmn **********
                         Danish dan **********
@@ -104,7 +105,6 @@
    Malay (individual language) zlm **
                 Standard Malay zsm **
                       Achinese ace *
-               Egyptian Arabic arz *
                  Luxembourgish ltz *
                      Sinhalese sin *
                      Slovenian slv *
@@ -146,7 +146,7 @@
                         Samoan smo  21
             Southwestern Dinka dik   3
                      Norwegian nor  42
-               Egyptian Arabic arz  54
+               Egyptian Arabic arz  12
                 Standard Malay zsm   1
                         Somali som   4
                         Danish dan  28
