@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 501 good + 382 bad = 883 total
-- Time annotated: 4 hours
+- Annotations: 511 good + 405 bad = 916 total
+- Time annotated: 5 hours
 - Languages:
-    - 97 with >=1 annotations
-    - 38 with >=5 annotations
-    - 38 with >=10 annotations
+    - 98 with >=1 annotations
+    - 39 with >=5 annotations
+    - 39 with >=10 annotations
 
 ## Annotations by language
 
@@ -50,6 +50,7 @@
                 Northern Uzbek uzn **********
                     Vietnamese vie **********
                     Wu Chinese wuu **********
+                         Xhosa xho **********
                          Czech ces ***
           Modern Greek (1453-) ell ***
                         Hebrew heb ***
@@ -110,109 +111,108 @@
                         Somali som *
                       Albanian sqi *
                      Mongolian mon 
-                         Xhosa xho 
 ```
 
 ## Samples by language
 
 ```
-                      Achinese ace   1
-                     Afrikaans afr  21
-          Assyrian Neo-Aramaic aii   3
-                  Ainu (Japan) ain   3
-                 Gheg Albanian aln   3
-                       Amharic amh  42
-               Standard Arabic arb  50
-               Egyptian Arabic arz  43
-                      Balinese ban   1
-                       Bengali ben  50
-                      Buginese bug   1
-                     Bulgarian bul   4
-                     Valencian cat   1
-                         Czech ces   4
-              Mandarin Chinese cmn  50
-                        Danish dan  28
-                        German deu  69
-            Southwestern Dinka dik   3
-             Standard Estonian ekk   3
-          Modern Greek (1453-) ell  24
+                       Quechua que   6
+                 Central Khmer khm   3
                        English eng  50
-                     Esperanto epo   1
-                       Faroese fao   1
-                        Fijian fij  19
-                      Pilipino fil   9
-                       Finnish fin  44
+                    Wu Chinese wuu  21
+                     Valencian cat   1
+                        Telugu tel  50
+                      Romanian ron  17
+              Northern Kurdish kmr   3
+                      Tigrinya tir  13
+                Northern Uzbek uzn  15
+                       Marathi mar  30
+                     Sundanese sun   1
+   Malay (individual language) zlm   3
+                    Vietnamese vie  50
+                        Polish pol  24
+                    Indonesian ind  21
+                       Amharic amh  42
+             Standard Estonian ekk   3
                         French fra  50
-               Western Frisian fry   1
+                       Burmese mya  23
+                          Dari prs   3
                       Gujarati guj  12
-                Haitian Creole hat  40
-                         Hausa hau  40
+                       Finnish fin  44
+                     Ukrainian ukr  18
                         Hebrew heb   4
                          Hindi hin  35
-                      Croatian hrv   3
-                     Hungarian hun  25
-                      Armenian hye   3
-                    Indonesian ind  21
-                       Italian ita  22
-                      Javanese jav  28
-                      Japanese jpn  49
-                       Kannada kan   2
-                 Central Khmer khm   3
-              Northern Kurdish kmr   3
-                        Korean kor  50
-                           Lao lao  13
-                         Latin lat   2
-                 Luxembourgish ltz   1
-              Standard Latvian lvs   4
-                     Malayalam mal  22
-                       Marathi mar  30
-                   Minangkabau min   1
-                    Macedonian mkd   3
-                       Maltese mlt   1
-                     Mongolian mon   8
-                       Burmese mya  23
-               Min Nan Chinese nan   1
-                       Flemish nld   5
+                        German deu  69
+                        Samoan smo  21
+            Southwestern Dinka dik   3
                      Norwegian nor  42
-  Nepali (individual language) npi   9
-           Occitan (post 1500) oci   1
-   Oriya (individual language) ory   1
-                       Ossetic oss  11
-                      Pampanga pam   1
-               Iranian Persian pes  11
-               Western Panjabi pnb   2
-                        Polish pol  24
-                    Portuguese por  50
-                          Dari prs   3
-                       Quechua que   6
-                      Romanian ron  17
-                       Russian rus  50
-                     Sinhalese sin   3
+               Egyptian Arabic arz  54
+                Standard Malay zsm   1
+                        Somali som   4
+                        Danish dan  28
+                       Turkish tur  34
+               Min Nan Chinese nan   1
                         Slovak slk   4
                      Slovenian slv   3
-                        Samoan smo  21
-                        Somali som   4
-                       Spanish spa  53
+                       Italian ita  22
+                     Sinhalese sin   3
                       Albanian sqi  10
-                       Serbian srp   2
-                     Sundanese sun   1
-                       Swedish swe  35
- Swahili (individual language) swh  29
+              Standard Latvian lvs   4
                          Tamil tam  49
-                        Telugu tel  50
-                          Thai tha  23
-                      Tigrinya tir  13
-         Tonga (Tonga Islands) ton  24
-                       Turkish tur  34
-                     Ukrainian ukr  18
+  Nepali (individual language) npi   9
+           Occitan (post 1500) oci   1
+                       Swedish swe  35
                           Urdu urd  48
-                Northern Uzbek uzn  15
-                    Vietnamese vie  50
-                       Walloon wln   1
-                    Wu Chinese wuu  21
-                         Xhosa xho  11
-               Eastern Yiddish ydd   3
+                       Maltese mlt   1
+                     Hungarian hun  25
+                      Armenian hye   3
+                      Buginese bug   1
+                         Xhosa xho  14
+                         Czech ces   4
+                      Pampanga pam   1
+          Modern Greek (1453-) ell  24
+                      Japanese jpn  49
+          Assyrian Neo-Aramaic aii   3
+                     Mongolian mon   8
+                  Ainu (Japan) ain   3
+                    Portuguese por  50
+                       Spanish spa  53
+                 Luxembourgish ltz   1
+              Mandarin Chinese cmn  50
+                    Macedonian mkd   3
                    Yue Chinese yue  43
-   Malay (individual language) zlm   3
-                Standard Malay zsm   1
+         Tonga (Tonga Islands) ton  24
+                       Kannada kan   2
+                      Croatian hrv   3
+                     Malayalam mal  22
+               Iranian Persian pes  11
+               Western Frisian fry   1
+                        Fijian fij  19
+                       Flemish nld   5
+                       Ossetic oss  11
+                       Bengali ben  50
+                     Esperanto epo   1
+               Eastern Yiddish ydd   3
+                      Pilipino fil   9
+                Haitian Creole hat  40
+               Standard Arabic arb  50
+                       Walloon wln   1
+                       Russian rus  50
+   Oriya (individual language) ory   1
+                       Faroese fao   1
+                      Javanese jav  28
+                           Lao lao  13
+                         Hausa hau  40
+                      Balinese ban   1
+                         Latin lat   2
+                          Thai tha  23
+ Swahili (individual language) swh  29
+               Western Panjabi pnb   2
+                        Korean kor  50
+                       Serbian srp   2
+                   Minangkabau min   1
+                     Bulgarian bul   4
+                      Achinese ace   1
+                 Gheg Albanian aln   3
+                     Afrikaans afr  21
 ```

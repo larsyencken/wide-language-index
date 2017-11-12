@@ -1,0 +1,34 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 3
+    }
+  ],
+  "checksum": "cc035072462ab4424918811073ecb481",
+  "date": "2017-03-29",
+  "language": "xho",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=RekN9ZHr5BM",
+    "http://mirror.widelanguageindex.org/xho/xho-cc035072462ab4424918811073ecb481.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=RekN9ZHr5BM",
+  "title": "The Xhosa Version Of The Regular Show! !"
+}

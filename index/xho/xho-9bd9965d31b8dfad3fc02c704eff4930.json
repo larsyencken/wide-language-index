@@ -1,4 +1,56 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 1420,
+      "problems": [
+        "multiple languages"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 620,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 1120,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 600,
+      "problems": [
+        "noise"
+      ]
+    }
+  ],
   "checksum": "9bd9965d31b8dfad3fc02c704eff4930",
   "date": "2016-12-02",
   "language": "xho",

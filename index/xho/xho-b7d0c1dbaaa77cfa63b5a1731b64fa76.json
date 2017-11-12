@@ -1,0 +1,34 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 20,
+      "problems": [
+        "pauses"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 0,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "b7d0c1dbaaa77cfa63b5a1731b64fa76",
+  "date": "2017-06-14",
+  "language": "xho",
+  "media_urls": [
+    "https://www.youtube.com/watch?v=L3U98paUDY8",
+    "http://mirror.widelanguageindex.org/xho/xho-b7d0c1dbaaa77cfa63b5a1731b64fa76.mp3"
+  ],
+  "source_name": "YouTube",
+  "source_url": "https://www.youtube.com/watch?v=L3U98paUDY8",
+  "title": "Regular show in xhosa"
+}

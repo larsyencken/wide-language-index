@@ -1,4 +1,66 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 320,
+      "problems": [
+        "wrong language"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 560,
+      "problems": [
+        "wrong language"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 160,
+      "problems": [
+        "multiple languages"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 240,
+      "problems": [
+        "multiple languages"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 120,
+      "problems": [
+        "multiple languages"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 460,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "9d2f31f45a794cbbedb11c7282004b43",
   "date": "2011-02-03",
   "language": "xho",
