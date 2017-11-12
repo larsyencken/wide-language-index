@@ -499,38 +499,46 @@ class AnnotateCmd(cmd.Cmd):
             return audio.play_mp3(clip)
 
     def _edit(self):
+        annotation = {
+            'date': str(date.today()),
+            'offset': self.segment.offset,
+            'duration': self.segment.duration,
+            'annotator': str(self.user)
+        }
+
         try:
             ok = ui.input_bool('Is the sample ok')
-            if not ok:
-                problems = ui.input_multi_options(
+            if ok:
+                speakers = ui.input_number('speakers', minimum=0, maximum=10)
+                if speakers > 0:
+                    genders = ui.input_single_option(
+                        'Gender of speakers',
+                        ['male', 'female', 'mixed', 'unclear'],
+                    )
+                else:
+                    genders = 'unclear'
+
+                annotation.update({
+                    'problems': [],
+                    'speakers': speakers,
+                    'genders': genders,
+                    'label': 'good',
+                })
+
+            else:
+                problem = ui.input_single_option(
                     'Problems with the sample',
                     ['noise', 'wrong language',
                      'multiple languages', 'excess loan words',
                      'language or place reference', 'pauses',
                      'volume'],
                 )
-            else:
-                problems = []
+                annotation.update({
+                    'problems': [problem],
+                    'label': 'bad',
+                })
 
-            speakers = ui.input_number('speakers', minimum=0, maximum=10)
-            if speakers > 0:
-                genders = ui.input_single_option(
-                    'Gender of speakers',
-                    ['male', 'female', 'mixed', 'unclear'],
-                )
-            else:
-                genders = 'unclear'
-
-            self.annotation = {
-                'problems': sorted(problems),
-                'speakers': speakers,
-                'genders': genders,
-                'label': 'good' if ok else 'bad',
-                'date': str(date.today()),
-                'offset': self.segment.offset,
-                'duration': self.segment.duration,
-                'annotator': str(self.user)
-            }
+            self.annotation = annotation
 
         except KeyboardInterrupt:
             pass

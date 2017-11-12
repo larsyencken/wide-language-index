@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Language sample",
+    "description": "An audio sample tagged as containing a language of interest. It describes the sample's language, where it can be downloaded from, and its provenance.",
+    "type": "object",
+    "properties": {
+        "annotator": {"type": "string", "description": "The person listening to and annotating this segment of the sample"},
+        "offset": {"type": "number", "description": "How many seconds into the sample this segment begins"},
+        "duration": {"type": "number", "description": "The length of the annotated audio segment in seconds"},
+        "label": {"enum": ["good", "bad"], "description": "Whether or not this segment is considered a good example of the garget language"},
+        "problems": {
+            "type": "array",
+            "items": {
+                "enum": ["noise", "multiple languages", "wrong language", "excess loan words", "language or place reference", "pauses", "volume"]
+            },
+            "description": "Reasons why the segment may be considered a poor example of the target language"
+        },
+        "genders": {
+            "type": "string",
+            "pattern": "^(male|female|mixed|unclear)$",
+            "description": "The genders of the speakers (in bulk), as determined by the annotator"
+        },
+        "speakers": {"type": "number", "description": "The number of different speakers, as determined by the annotator"},
+        "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "The date the annotation took place"}
+    },
+    "required": [
+        "annotator",
+        "offset",
+        "duration",
+        "label",
+        "speakers",
+        "genders"
+    ],
+    "oneOf": [
+        {"properties": {"label": {"enum": ["good"]}, "required": ["speakers", "genders"]}},
+        {"properties": {"label": {"enum": ["bad"]}, "required": ["problems"]}}
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Language sample",
+    "description": "An audio sample tagged as containing a language of interest. It describes the sample's language, where it can be downloaded from, and its provenance.",
+	"type": "object",
+	"properties": {
+		"language": {"type": "string"},
+		"title": {"type": "string"},
+		"source_name": {"type": "string"},
+		"source_url": {"type": "string"},
+		"media_urls": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"minItems": 1,
+				"uniqueItems": true
+			}
+		},
+		"checksum": {"type": "string"},
+		"origin_checksum": {"type": "string"},
+		"pregain": {"type": "string"},
+		"date": {"type": "string"},
+		"annotations": {
+            "type": "array",
+            "items": {"$ref": "annotation.schema.json"}
+		}
+	},
+	"required": [
+		"language",
+		"title",
+		"source_name",
+		"source_url",
+		"media_urls",
+		"date",
+		"checksum"
+	]
+}

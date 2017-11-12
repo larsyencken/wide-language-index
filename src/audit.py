@@ -21,6 +21,7 @@ import hashlib
 import json
 import os
 import unittest
+from typing import Callable
 
 from clint.textui.colored import blue
 import click
@@ -38,6 +39,8 @@ MACRO_LANGUAGES = set(
 
 OK_MACRO_LANGUAGES = set([
     'nor',
+    'sqi',
+    'que',  # Quechua has many dialects, it's hard to get examples for one in particular
 ])
 
 
@@ -58,18 +61,31 @@ def main(skip_audio=False):
 
 def audit_index():
     print(blue('Auditing index...'))
-    schema = json.load(open('index/schema.json'))
 
     class IndexTestCase(unittest.TestCase):
         pass
 
+    validator = make_validator()
     for i, f in enumerate(glob.glob('index/*/*.json')):
-        t = make_test(f, i, schema)
+        t = make_test(f, i, validator)
         assert not hasattr(IndexTestCase, t.__name__)
         setattr(IndexTestCase, t.__name__, t)
 
     unittest.TextTestRunner().run(unittest.makeSuite(IndexTestCase))
     print()
+
+
+def make_validator() -> Callable[[dict], None]:
+    "Make a function that can validate sample records."
+    sample_schema = json.load(open('index/sample.schema.json'))
+    base_uri = 'file://' + os.path.abspath('index') + '/'
+    resolver = jsonschema.RefResolver(
+        referrer=sample_schema,
+        base_uri=base_uri,
+    )
+    validator = jsonschema.Draft4Validator(sample_schema, resolver=resolver)
+
+    return validator.validate
 
 
 def audit_samples():
@@ -88,11 +104,11 @@ def audit_samples():
     print()
 
 
-def make_test(f, i, schema):
+def make_test(f, i, validate):
     def t(self):
         blob = open(f).read()
         data = json.loads(blob)
-        jsonschema.validate(data, schema)
+        validate(data)
 
         # the language code is a valid ISO 693-3 code
         language = data.get('language')
