@@ -111,6 +111,8 @@
                         Somali som *
                       Albanian sqi *
                      Mongolian mon 
+                        Pushto pus 
+                        Yoruba yor 
 ```
 
 ## Samples by language
@@ -146,6 +148,7 @@
                         Samoan smo  21
             Southwestern Dinka dik   3
                      Norwegian nor  42
+                        Pushto pus   6
                Egyptian Arabic arz  12
                 Standard Malay zsm   1
                         Somali som   4
@@ -196,6 +199,7 @@
                       Pilipino fil   9
                 Haitian Creole hat  40
                Standard Arabic arb  50
+                        Yoruba yor   3
                        Walloon wln   1
                        Russian rus  50
    Oriya (individual language) ory   1
