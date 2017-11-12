@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "noise"
+      ]
+    }
+  ],
   "checksum": "58dbbb018356d18de0672513e1f0ba18",
   "date": "2016-12-08",
   "language": "arz",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=-aQQOyHqixY",
-  "title": "رمضان صبحى يحكى موقف كوميدى مع فتاه تركن العربيه امامه"
+  "title": "\u0631\u0645\u0636\u0627\u0646 \u0635\u0628\u062d\u0649 \u064a\u062d\u0643\u0649 \u0645\u0648\u0642\u0641 \u0643\u0648\u0645\u064a\u062f\u0649 \u0645\u0639 \u0641\u062a\u0627\u0647 \u062a\u0631\u0643\u0646 \u0627\u0644\u0639\u0631\u0628\u064a\u0647 \u0627\u0645\u0627\u0645\u0647"
 }

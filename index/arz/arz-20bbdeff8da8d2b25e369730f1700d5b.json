@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2017-11-12",
+      "duration": 20,
+      "genders": "unclear",
+      "label": "good",
+      "offset": 60,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "20bbdeff8da8d2b25e369730f1700d5b",
   "date": "2015-04-26",
   "language": "arz",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=9QVWo9u2fIw",
-  "title": "نشيد الأنشاد 01 باللهجة العامية المصرية Song of songs 01 in slang Egyptian accent"
+  "title": "\u0646\u0634\u064a\u062f \u0627\u0644\u0623\u0646\u0634\u0627\u062f 01 \u0628\u0627\u0644\u0644\u0647\u062c\u0629 \u0627\u0644\u0639\u0627\u0645\u064a\u0629 \u0627\u0644\u0645\u0635\u0631\u064a\u0629 Song of songs 01 in slang Egyptian accent"
 }
