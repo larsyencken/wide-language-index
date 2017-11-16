@@ -12,6 +12,7 @@ Generate a markdown document of annotation statistics.
 import json
 import collections
 import glob
+from typing import Dict, List, Any, Optional, Iterable
 
 import click
 import humanize
@@ -42,9 +43,14 @@ TEMPLATE_PAGE = '''# Audio statistics
 '''  # noqa
 
 
+Record = Dict[str, Any]
+Annotation = Dict[str, Any]
+LanguageIndex = Dict[str, List[Record]]
+
+
 @click.command()
 @click.argument('output_file')
-def annotation_stats(output_file):
+def annotation_stats(output_file: str) -> None:
     """
     Generate a summary of annotation statistics for each language in Markdown.
     """
@@ -55,7 +61,7 @@ def annotation_stats(output_file):
     write_summary(summary, output_file)
 
 
-def load_metadata():
+def load_metadata() -> LanguageIndex:
     metadata = collections.defaultdict(list)
     for f in glob.glob('index/*/*.json'):
         with open(f) as istream:
@@ -66,13 +72,13 @@ def load_metadata():
     return metadata
 
 
-def load_language_names():
+def load_language_names() -> Dict[str, str]:
     name_index = json.load(open('ext/name_index_20140320.json'))
     return {r['id']: r['print_name']
             for r in name_index}
 
 
-def generate_summary(metadata, languages):
+def generate_summary(metadata: LanguageIndex, languages: Dict[str, str]) -> str:
     stats = overall_stats(metadata)
     per_language = per_language_stats(metadata, languages)
 
@@ -98,7 +104,7 @@ def generate_summary(metadata, languages):
     return TEMPLATE_PAGE.format(**stats)
 
 
-def overall_stats(metadata):
+def overall_stats(metadata: LanguageIndex) -> Dict[str, Any]:
     good_annotations = count_annotations(metadata, 'good')
     bad_annotations = count_annotations(metadata, 'bad')
     total_annotations = good_annotations + bad_annotations
@@ -126,7 +132,8 @@ def overall_stats(metadata):
     return locals()
 
 
-def per_language_stats(metadata, code_to_name):
+def per_language_stats(metadata: LanguageIndex,
+                       code_to_name: Dict[str, str]) -> List[Dict[str, Any]]:
     stats = []
     for lang, samples in metadata.items():
         record = {
@@ -139,24 +146,24 @@ def per_language_stats(metadata, code_to_name):
     return stats
 
 
-def count_lang_annotations(samples, label=None):
+def count_lang_annotations(samples: List[Record], label: Optional[str]=None) -> int:
     return sum(label is None or a['label'] == label
                for sample in samples
                for a in sample.get('annotations', []))
 
 
-def count_annotations(metadata, label=None):
+def count_annotations(metadata: LanguageIndex, label: Optional[str]=None) -> int:
     return sum(count_lang_annotations(samples, label)
                for samples in metadata.values())
 
 
-def iter_annotations(metadata):
+def iter_annotations(metadata: LanguageIndex) -> Iterable[Annotation]:
     for samples in metadata.values():
         for sample in samples:
             yield from sample.get('annotations', [])
 
 
-def write_summary(content, filename):
+def write_summary(content: str, filename: str):
     with open(filename, 'w') as ostream:
         ostream.write(content)
 

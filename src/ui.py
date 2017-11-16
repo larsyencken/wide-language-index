@@ -10,8 +10,10 @@ Helpers for writing interactive console scripts.
 
 import re
 import os
+from typing import List, Set, Optional
 
-def input_bool(query):
+
+def input_bool(query: str) -> bool:
     bool_query = query + '? (y/n)> '
 
     while True:
@@ -24,12 +26,12 @@ def input_bool(query):
     return v == 'y'
 
 
-def input_number(query, minimum=None, maximum=None):
+def input_number(query: str, minimum: Optional[int]=None, maximum: Optional[int]=None) -> int:
     number_query = query + '> '
     while True:
-        v = input(number_query)
+        r = input(number_query)
         try:
-            v = int(v)
+            v = int(r)
             if ((minimum is None or minimum <= v)
                     and (maximum is None or maximum >= v)):
                 return v
@@ -40,36 +42,26 @@ def input_number(query, minimum=None, maximum=None):
             print('ERROR: please enter a number')
 
 
-def _is_int(v):
-    try:
-        int(v)
-        return True
-    except ValueError:
-        return False
-
-
-def input_multi_options(title, options):
+def input_multi_options(title: str, options: List[str]) -> Set[str]:
     print(title)
     selected = set([o for o in options if input_bool('  ' + o)])
     return selected
 
 
-def input_single_option(title, options):
-    while True:
-        print(title)
-        for i, o in enumerate(options):
-            print('  {0}. {1}'.format(i + 1, o))
+def input_single_option(title: str, options: List[str]) -> str:
+    print(title)
+    for i, o in enumerate(options):
+        print('  {0}. {1}'.format(i + 1, o))
 
-        v = input_number('pick one')
-        if 1 <= v <= len(options):
-            return options[v - 1]
+    v = input_number('pick one', minimum=1, maximum=len(options))
 
-        print('ERROR: you must pick one of the options')
+    return options[v - 1]
 
 
 EMAIL_REGEX = '^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,6}$'
 
-def input_email():
+
+def input_email() -> str:
     while True:
         v = input('email address> ')
         if re.match(EMAIL_REGEX, v, re.IGNORECASE):
@@ -78,7 +70,7 @@ def input_email():
         print('ERROR: please enter a valid email address')
 
 
-def input_string(query, allow_empty=False):
+def input_string(query: str, allow_empty: bool=False) -> str:
     while True:
         v = input(query + '> ').strip()
         if allow_empty or v:
@@ -87,9 +79,9 @@ def input_string(query, allow_empty=False):
         print('ERROR: cannot be left empty')
 
 
-def pause(message='Press ENTER to continue...'):
+def pause(message: str='Press ENTER to continue...') -> None:
     input(message)
 
 
-def clear_screen():
+def clear_screen() -> None:
     os.system('clear')
