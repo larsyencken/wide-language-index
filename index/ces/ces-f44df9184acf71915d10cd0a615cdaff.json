@@ -9,6 +9,18 @@
       "offset": 660,
       "problems": [],
       "speakers": 1
+    },
+    {
+      "annotator": "Jakub Maruš <marusjakub@gmail.com>",
+      "date": "2018-05-16",
+      "duration": 834,
+      "genders": "male",
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "accent"
+      ],
+      "speakers": 1
     }
   ],
   "checksum": "f44df9184acf71915d10cd0a615cdaff",
