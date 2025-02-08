@@ -29,7 +29,7 @@ audit: .env
 
 fetch: .env
 	mkdir -p samples
-	$(PY) src/fetch_index.py
+	$(PY) src/fetch_index.py --prefer-mirrors
 
 normalize: .env
 	$(PY) src/normalize.py
