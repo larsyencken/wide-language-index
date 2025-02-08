@@ -2,9 +2,7 @@
 #  Makefile
 #
 
-ENV = env
-PIP = $(ENV)/bin/pip
-PY = $(ENV)/bin/python
+PY = uv run
 
 default: help
 
@@ -12,7 +10,7 @@ help:
 	@echo
 	@echo 'Commands for working with the index'
 	@echo
-	@echo '  make env        build the sandbox required for other commands'
+	@echo '  make .env        build the sandbox required for other commands'
 	@echo '  make audit      check that annotations are all valid'
 	@echo '  make fetch      fetch all audio samples in the index'
 	@echo '  make normalize  reformat all json records to a standard form'
@@ -22,34 +20,33 @@ help:
 	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
-env: requirements.lock
-	test -d $(ENV) || python -m venv $(ENV)
-	$(PIP) install -r requirements.lock
-	touch env
+.env: pyproject.toml uv.lock
+	uv sync
+	touch $@
 
-audit: env
+audit: .env
 	$(PY) src/audit.py
 
-fetch: env
+fetch: .env
 	mkdir -p samples
 	$(PY) src/fetch_index.py
 
-normalize: env
+normalize: .env
 	$(PY) src/normalize.py
 
-annotate: env
+annotate: .env
 	$(PY) src/annotate.py || :
 	make stats
 
-stats: env
+stats: .env
 	$(PY) src/annotation_stats.py STATS.md
 
-mirror: env
+mirror: .env
 	$(PY) src/mirror.py
 
-rss: env
+rss: .env
 	$(PY) src/fetch_rss_feed.py
 
-clips: fetch env
+clips: fetch .env
 	mkdir -p samples/_annotated
 	$(PY) src/generate_clips.py

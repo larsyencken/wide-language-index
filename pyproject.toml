@@ -1,0 +1,25 @@
+[project]
+name = "wide-language-index"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "aiohttp",
+  "aiofiles",
+  "pyquery",
+  "sh",
+  "pydub",
+  "numpy",
+  "requests",
+  "jsonschema",
+  "humanize",
+  "feedparser",
+  "boto",
+  "click",
+  "clint",
+  "youtube-dl",
+  "google-api-python-client",
+  "characteristic",
+  "python-dateutil",
+]
