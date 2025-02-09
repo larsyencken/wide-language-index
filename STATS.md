@@ -2,10 +2,10 @@
 
 ## Annotation summary
 
-- Annotations: 520 good + 410 bad = 930 total
+- Annotations: 520 good + 411 bad = 931 total
 - Time annotated: 5 hours
 - Languages:
-    - 98 with >=1 annotations
+    - 97 with >=1 annotations
     - 40 with >=5 annotations
     - 40 with >=10 annotations
 
@@ -52,6 +52,7 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                          Xhosa xho **********
+                Standard Malay zsm ****
                          Czech ces ***
           Modern Greek (1453-) ell ***
                         Hebrew heb ***
@@ -102,8 +103,6 @@
          Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
-   Malay (individual language) zlm **
-                Standard Malay zsm **
                       Achinese ace *
                  Luxembourgish ltz *
                      Sinhalese sin *
@@ -111,7 +110,7 @@
                         Somali som *
                       Albanian sqi *
                      Mongolian mon 
-                        Pushto pus 
+                Central Pashto pst 
                         Yoruba yor 
 ```
 
@@ -130,7 +129,6 @@
                 Northern Uzbek uzn  15
                        Marathi mar  30
                      Sundanese sun   1
-   Malay (individual language) zlm   3
                     Vietnamese vie  50
                         Polish pol  24
                     Indonesian ind  21
@@ -148,9 +146,8 @@
                         Samoan smo  21
             Southwestern Dinka dik   3
                      Norwegian nor  42
-                        Pushto pus   6
                Egyptian Arabic arz  12
-                Standard Malay zsm   1
+                Standard Malay zsm   4
                         Somali som   4
                         Danish dan  28
                        Turkish tur  34
@@ -206,6 +203,7 @@
                        Faroese fao   1
                       Javanese jav  28
                            Lao lao  13
+                Central Pashto pst   6
                          Hausa hau  40
                       Balinese ban   1
                          Latin lat   2
