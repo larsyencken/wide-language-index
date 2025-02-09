@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 80,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "c1b104661527db4a128f0a765e4c7b55",
   "date": "2016-11-02",
   "language": "ell",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=XFVKsghoUEQ&feature=youtu.be",
-  "title": "Γιώτης Χεριστανίδης, προπονητής Ελληνορωμαϊκής Πάλης"
+  "title": "\u0393\u03b9\u03ce\u03c4\u03b7\u03c2 \u03a7\u03b5\u03c1\u03b9\u03c3\u03c4\u03b1\u03bd\u03af\u03b4\u03b7\u03c2, \u03c0\u03c1\u03bf\u03c0\u03bf\u03bd\u03b7\u03c4\u03ae\u03c2 \u0395\u03bb\u03bb\u03b7\u03bd\u03bf\u03c1\u03c9\u03bc\u03b1\u03ca\u03ba\u03ae\u03c2 \u03a0\u03ac\u03bb\u03b7\u03c2"
 }

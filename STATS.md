@@ -2,10 +2,10 @@
 
 ## Annotation summary
 
-- Annotations: 520 good + 411 bad = 931 total
+- Annotations: 523 good + 412 bad = 935 total
 - Time annotated: 5 hours
 - Languages:
-    - 97 with >=1 annotations
+    - 100 with >=1 annotations
     - 40 with >=5 annotations
     - 40 with >=10 annotations
 
@@ -105,13 +105,13 @@
                Eastern Yiddish ydd **
                       Achinese ace *
                  Luxembourgish ltz *
+                     Mongolian mon *
+                Central Pashto pst *
                      Sinhalese sin *
                      Slovenian slv *
                         Somali som *
                       Albanian sqi *
-                     Mongolian mon 
-                Central Pashto pst 
-                        Yoruba yor 
+                        Yoruba yor *
 ```
 
 ## Samples by language
@@ -167,7 +167,7 @@
                      Hungarian hun  25
                       Armenian hye   3
                       Buginese bug   1
-                         Xhosa xho  14
+                         Xhosa xho  16
                          Czech ces   4
                       Pampanga pam   1
           Modern Greek (1453-) ell  24

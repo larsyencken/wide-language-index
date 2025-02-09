@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 780,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "58aaa6f278f16dfa68e6edf84c4b0830",
   "date": "2015-04-29",
   "language": "ell",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=9FwbsfTslR8&feature=youtu.be",
-  "title": "ΠΡΩΙΝΗ ΠΡΟΣΕΥΧΗ"
+  "title": "\u03a0\u03a1\u03a9\u0399\u039d\u0397 \u03a0\u03a1\u039f\u03a3\u0395\u03a5\u03a7\u0397"
 }

@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 1160,
+      "problems": [
+        "noise"
+      ]
+    }
+  ],
   "checksum": "e253ae58a5808d68343105c18129e75c",
   "date": "2017-03-20",
   "language": "mon",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=SGEKKr-TMfU&feature=youtu.be&t=55s",
-  "title": "Загвар өмсөгч  БАЛЖИДМАА News agency ярилцлага"
+  "title": "\u0417\u0430\u0433\u0432\u0430\u0440 \u04e9\u043c\u0441\u04e9\u0433\u0447  \u0411\u0410\u041b\u0416\u0418\u0414\u041c\u0410\u0410 News agency \u044f\u0440\u0438\u043b\u0446\u043b\u0430\u0433\u0430"
 }

@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 220,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "36afa1675774063f654cf9bb5630268e",
   "date": "2013-01-12",
   "language": "mon",
@@ -8,5 +20,5 @@
   ],
   "source_name": "YouTube",
   "source_url": "https://www.youtube.com/watch?v=UNgUdFtcT4k&feature=youtu.be",
-  "title": "Үхэл мөнх бусын тухай (Батцэнгэл шашны дээд сургууль)"
+  "title": "\u04ae\u0445\u044d\u043b \u043c\u04e9\u043d\u0445 \u0431\u0443\u0441\u044b\u043d \u0442\u0443\u0445\u0430\u0439 (\u0411\u0430\u0442\u0446\u044d\u043d\u0433\u044d\u043b \u0448\u0430\u0448\u043d\u044b \u0434\u044d\u044d\u0434 \u0441\u0443\u0440\u0433\u0443\u0443\u043b\u044c)"
 }
