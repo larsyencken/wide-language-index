@@ -15,13 +15,14 @@ dependencies = [
   "jsonschema",
   "humanize",
   "feedparser",
-  "boto",
   "click",
   "clint",
   "youtube-dl",
   "google-api-python-client",
   "characteristic",
   "python-dateutil",
+  "boto3>=1.36.16",
+  "python-dotenv>=1.0.1",
 ]
 
 [dependency-groups]
