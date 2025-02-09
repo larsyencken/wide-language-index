@@ -47,7 +47,6 @@ async def enqueue_missing(records, q: Queue) -> None:
     pending = []
 
     for r in records:
-        lang = r["language"]
         checksum = r["checksum"]
         dest_file = r["dest_file"]
 

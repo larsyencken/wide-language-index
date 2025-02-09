@@ -59,3 +59,5 @@ lint: .env
 
 format: .env
 	uv run ruff format src
+
+test: lint
