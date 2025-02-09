@@ -16,11 +16,13 @@ from os import path
 from typing import Any, Dict
 
 import click
+import dotenv
 import sh
 
 import youtube
 from audio import AudioSample
 
+dotenv.load_dotenv()
 BASE_DIR = path.abspath(path.join(path.dirname(__file__), ".."))
 INDEX_DIR = path.join(BASE_DIR, "index")
 SAMPLE_DIR = path.join(BASE_DIR, "samples")
