@@ -23,3 +23,9 @@ dependencies = [
   "characteristic",
   "python-dateutil",
 ]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.393",
+    "ruff>=0.9.5",
+]

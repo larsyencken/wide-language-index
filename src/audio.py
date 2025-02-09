@@ -23,17 +23,17 @@ MS_PER_S = 1000
 @contextlib.contextmanager
 def cropped(mp3_file, offset, duration, adjust_volume=True):
     whole_clip = pydub.AudioSegment.from_mp3(mp3_file)
-    selected = whole_clip[offset * MS_PER_S:(offset + duration) * MS_PER_S]
+    selected = whole_clip[offset * MS_PER_S : (offset + duration) * MS_PER_S]
 
     if is_bad_mono(selected):
         selected = selected.set_channels(1)
 
-    with tempfile.NamedTemporaryFile(suffix='.mp3') as t:
-        selected.export(t, format='mp3')
+    with tempfile.NamedTemporaryFile(suffix=".mp3") as t:
+        selected.export(t, format="mp3")
 
         # normalize the sample's volume
         if adjust_volume:
-            mp3gain('-r', '-k', '-t', '-s', 'r', t.name)
+            mp3gain("-r", "-k", "-t", "-s", "r", t.name)
 
         yield t.name
 
@@ -58,28 +58,26 @@ def is_bad_mono(segment):
 
 
 def play_mp3(mp3_file):
-    print('<playing...', end='', flush=True)
+    print("<playing...", end="", flush=True)
     p = afplay(mp3_file, _bg=True)
     try:
         p.wait()
-        print('done>')
+        print("done>")
     except (KeyboardInterrupt, sh.SignalException_SIGTERM) as e:
         p.terminate()
-        print('cancelled>')
+        print("cancelled>")
         return False
 
     return True
 
 
-@attributes([
-    "tempfile",
-    Attribute("metadata", default_factory=dict)
-])
+@attributes(["tempfile", Attribute("metadata", default_factory=dict)])
 class AudioSample:
     """
     An audio sample that's ready to ingest, along with optional metadata that we
     might have depending on its source.
     """
+
     @property
     def filename(self):
         return self.tempfile.name

@@ -11,9 +11,9 @@ import audio
 
 
 @click.command()
-@click.argument('path', type=click.Path(exists=True))
-@click.argument('offset', type=int)
-@click.argument('duration', type=int)
+@click.argument("path", type=click.Path(exists=True))
+@click.argument("offset", type=int)
+@click.argument("duration", type=int)
 def play_offset_cmd(path, offset, duration):
     """
     Play the given audio file at the given offset, for the specified duration.
@@ -31,5 +31,5 @@ def play_offset(path, offset, duration):
         return audio.play_mp3(clip)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     play_offset_cmd()

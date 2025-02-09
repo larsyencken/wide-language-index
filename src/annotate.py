@@ -23,28 +23,124 @@ import audio
 import ui
 
 SETS = {
-    'global-top-20': set([
-        'cmn', 'spa', 'eng', 'hin', 'arb', 'por', 'ben', 'rus', 'jpn', 'jav',
-        'deu', 'wuu', 'kor', 'fra', 'tel', 'mar', 'tur', 'tam', 'vie', 'urd',
-    ]),
-    'global-top-40': set([
-        'cmn', 'spa', 'eng', 'hin', 'arb', 'por', 'ben', 'rus', 'jpn', 'jav',
-        'deu', 'wuu', 'kor', 'fra', 'tel', 'mar', 'tur', 'tam', 'vie', 'urd',
-        'ita', 'pnb', 'yue', 'arz', 'pes', 'guj', 'nan', 'cjy', 'bho', 'pol',
-        'kan', 'ukr', 'hsn', 'sun', 'mai', 'mal', 'ory', 'hak', 'pan', 'arq',
-    ]),
-    'region-top-5': set([
-        'arz', 'arq', 'hau', 'amh', 'ary', 'hat', 'hrx', 'gug', 'lou', 'jam',
-        'cmn', 'hin', 'arb', 'ben', 'jpn', 'spa', 'eng', 'por', 'rus', 'deu',
-        'smo', 'fij', 'ton', 'mri', 'med',
-    ]),
-    'issue-31': set([
-        'pol', 'fin', 'swe', 'tha', 'lao', 'ces', 'hrv', 'heb', 'prs', 'ell',
-        'fil', 'mya', 'slo', 'amh'
-    ]),
+    "global-top-20": set(
+        [
+            "cmn",
+            "spa",
+            "eng",
+            "hin",
+            "arb",
+            "por",
+            "ben",
+            "rus",
+            "jpn",
+            "jav",
+            "deu",
+            "wuu",
+            "kor",
+            "fra",
+            "tel",
+            "mar",
+            "tur",
+            "tam",
+            "vie",
+            "urd",
+        ]
+    ),
+    "global-top-40": set(
+        [
+            "cmn",
+            "spa",
+            "eng",
+            "hin",
+            "arb",
+            "por",
+            "ben",
+            "rus",
+            "jpn",
+            "jav",
+            "deu",
+            "wuu",
+            "kor",
+            "fra",
+            "tel",
+            "mar",
+            "tur",
+            "tam",
+            "vie",
+            "urd",
+            "ita",
+            "pnb",
+            "yue",
+            "arz",
+            "pes",
+            "guj",
+            "nan",
+            "cjy",
+            "bho",
+            "pol",
+            "kan",
+            "ukr",
+            "hsn",
+            "sun",
+            "mai",
+            "mal",
+            "ory",
+            "hak",
+            "pan",
+            "arq",
+        ]
+    ),
+    "region-top-5": set(
+        [
+            "arz",
+            "arq",
+            "hau",
+            "amh",
+            "ary",
+            "hat",
+            "hrx",
+            "gug",
+            "lou",
+            "jam",
+            "cmn",
+            "hin",
+            "arb",
+            "ben",
+            "jpn",
+            "spa",
+            "eng",
+            "por",
+            "rus",
+            "deu",
+            "smo",
+            "fij",
+            "ton",
+            "mri",
+            "med",
+        ]
+    ),
+    "issue-31": set(
+        [
+            "pol",
+            "fin",
+            "swe",
+            "tha",
+            "lao",
+            "ces",
+            "hrv",
+            "heb",
+            "prs",
+            "ell",
+            "fil",
+            "mya",
+            "slo",
+            "amh",
+        ]
+    ),
 }
 
-Segment = collections.namedtuple('Segment', 'sample offset duration')
+Segment = collections.namedtuple("Segment", "sample offset duration")
 
 GUIDELINE_VERSION = 3
 GUIDELINES = """
@@ -102,20 +198,20 @@ Press "q" to continue.
 
 
 DEFAULT_DURATION_S = 20
-SAMPLE_DIR = 'samples'
-INDEX_DIR = 'index'
+SAMPLE_DIR = "samples"
+INDEX_DIR = "index"
 MAX_PER_SAMPLE = 2
 MAX_PER_LANGUAGE = 10
 
 
 @click.command()
-@click.option('--language-set',
-              help='Only annotate a particular set of langauges.')
-@click.option('--strategy',
-              default='worst',
-              help='How to pick the next language to annotate ([worst]/greedy)')
-@click.option('--only',
-              help='Only annotate a single language')
+@click.option("--language-set", help="Only annotate a particular set of langauges.")
+@click.option(
+    "--strategy",
+    default="worst",
+    help="How to pick the next language to annotate ([worst]/greedy)",
+)
+@click.option("--only", help="Only annotate a single language")
 def main(language_set=None, strategy=None, only=None):
     """
     Begin an interactive annotation session, where you are played snippets of
@@ -132,11 +228,13 @@ def main(language_set=None, strategy=None, only=None):
     session = Session()
 
     ui.clear_screen()
-    ui.pause('Beginning annotation, press ENTER to hear the first clip...')
+    ui.pause("Beginning annotation, press ENTER to hear the first clip...")
 
-    sampler = (GreedySampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE)
-               if strategy == 'greedy'
-               else RandomSampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE))
+    sampler = (
+        GreedySampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE)
+        if strategy == "greedy"
+        else RandomSampler(metadata, DEFAULT_DURATION_S, MAX_PER_SAMPLE)
+    )
 
     for segment in sampler:
         ann, quit = annotate(segment, session.user, metadata)
@@ -146,7 +244,7 @@ def main(language_set=None, strategy=None, only=None):
             session.annotated += 1
 
         else:
-            print('Skipping...')
+            print("Skipping...")
             session.skipped += 1
 
         print()
@@ -158,28 +256,32 @@ def main(language_set=None, strategy=None, only=None):
 
 
 def _validate_language_set(language_set):
-    if language_set is None or language_set.startswith('@'):
+    if language_set is None or language_set.startswith("@"):
         # fine, don't check these cases
         return
 
     if language_set not in SETS:
-        print('ERROR: language set "{0}" not one of: {1}'.format(
-            language_set, ', '.join(sorted(SETS.keys()))
-        ), file=sys.stderr)
+        print(
+            'ERROR: language set "{0}" not one of: {1}'.format(
+                language_set, ", ".join(sorted(SETS.keys()))
+            ),
+            file=sys.stderr,
+        )
         sys.exit(1)
 
 
 class Session(object):
     "Statistics for an annotation session."
+
     def __init__(self):
         self.annotated = 0
         self.skipped = 0
         self.user = User.identify()
 
     def summarize(self):
-        print('listened: {0}'.format(self.annotated + self.skipped))
-        print('annotated: {0}'.format(self.annotated))
-        print('skipped: {0}'.format(self.skipped))
+        print("listened: {0}".format(self.annotated + self.skipped))
+        print("annotated: {0}".format(self.annotated))
+        print("skipped: {0}".format(self.skipped))
 
 
 class User(object):
@@ -187,6 +289,7 @@ class User(object):
     Keep track of a user's name, email address and the last version of the
     annotation guidelines that they've seen.
     """
+
     def __init__(self, name, email, seen_guidelines=None):
         self.name = name
         self.email = email
@@ -201,16 +304,21 @@ class User(object):
 
     @staticmethod
     def settings_path():
-        return path.expanduser('~/.widelanguageindex')
+        return path.expanduser("~/.widelanguageindex")
 
     def save(self):
-        with open(self.settings_path(), 'w') as ostream:
-            json.dump({'name': self.name,
-                       'email': self.email,
-                       'seen_guidelines': self.seen_guidelines}, ostream)
+        with open(self.settings_path(), "w") as ostream:
+            json.dump(
+                {
+                    "name": self.name,
+                    "email": self.email,
+                    "seen_guidelines": self.seen_guidelines,
+                },
+                ostream,
+            )
 
     def __str__(self):
-        return '{0} <{1}>'.format(self.name, self.email)
+        return "{0} <{1}>".format(self.name, self.email)
 
     @classmethod
     def identify(cls):
@@ -219,13 +327,11 @@ class User(object):
             user = cls.identify_interactive()
 
         if user.seen_guidelines is None:
-            user.show_guidelines(
-                'Please read the guidelines below before you start.'
-            )
+            user.show_guidelines("Please read the guidelines below before you start.")
         elif user.seen_guidelines != GUIDELINE_VERSION:
             user.show_guidelines(
-                'The annotation guidelines have changed, please read the '
-                'new guidelines \nbefore continuing.'
+                "The annotation guidelines have changed, please read the "
+                "new guidelines \nbefore continuing."
             )
 
         return user
@@ -244,19 +350,19 @@ class User(object):
             "This is your first time annotating. We ask for your name and\n"
             "email in order to contact you about any of your annotations.\n"
         )
-        name = ui.input_string('name')
+        name = ui.input_string("name")
         email = ui.input_email()
         return cls(name, email)
 
 
 def load_metadata(is_language_included):
     metadata = collections.defaultdict(dict)
-    for f in glob.glob('index/*/*.json'):
+    for f in glob.glob("index/*/*.json"):
         with open(f) as istream:
             rec = json.load(istream)
-            lang = rec['language']
+            lang = rec["language"]
             if is_language_included(lang):
-                checksum = rec['checksum']
+                checksum = rec["checksum"]
                 metadata[lang][checksum] = rec
 
     return metadata
@@ -270,9 +376,9 @@ def generate_language_filter(language_set=None):
         # all languages
         return lambda l: True
 
-    elif language_set.startswith('@'):
+    elif language_set.startswith("@"):
         # a specific set of codes
-        codes = language_set.lstrip('@').split(',')
+        codes = language_set.lstrip("@").split(",")
         return set(codes).__contains__
 
     return SETS[language_set].__contains__
@@ -297,7 +403,7 @@ class AbstractSampler(object):
             segment = self.find_segment(lang)
 
             if not segment:
-                print('Skipping {}: need more samples'.format(lang))
+                print("Skipping {}: need more samples".format(lang))
                 continue
 
             yield segment
@@ -313,10 +419,12 @@ class AbstractSampler(object):
         samples = self.metadata[l]
 
         s_by_annotations = [
-            (sample_annotation_count(s),
-             sample_annotation_count(s, include_all=True),
-             random.random(),
-             s)
+            (
+                sample_annotation_count(s),
+                sample_annotation_count(s, include_all=True),
+                random.random(),
+                s,
+            )
             for s in samples.values()
             if sample_annotation_count(s) < self.max_per_sample
         ]
@@ -333,9 +441,13 @@ class AbstractSampler(object):
         segment_ids = list(range(n_segments))
         random.shuffle(segment_ids)
 
-        seen = set([a['offset']
-                    for a in sample.get('annotations', ())
-                    if int(a['duration']) == self.duration])
+        seen = set(
+            [
+                a["offset"]
+                for a in sample.get("annotations", ())
+                if int(a["duration"]) == self.duration
+            ]
+        )
 
         for segment_id in segment_ids:
             offset = segment_id * self.duration
@@ -347,8 +459,7 @@ class AbstractSampler(object):
             yield Segment(sample, offset, self.duration)
 
     def build_queue(self):
-        queue = [self.gen_key(l)
-                 for l in self.metadata.keys()]
+        queue = [self.gen_key(l) for l in self.metadata.keys()]
         heapq.heapify(queue)
         return queue
 
@@ -357,6 +468,7 @@ class GreedySampler(AbstractSampler):
     """
     Prefer languages that are closer to being ready for release.
     """
+
     def gen_key(self, l):
         c = lang_annotation_count(l, self.metadata)
 
@@ -368,10 +480,12 @@ class GreedySampler(AbstractSampler):
         # prefer those with many samples
         n_samples = len(self.metadata[l])
 
-        return (c,
-                -n_samples,
-                random.random(),  # randomly break ties
-                l)
+        return (
+            c,
+            -n_samples,
+            random.random(),  # randomly break ties
+            l,
+        )
 
 
 class RandomSampler(AbstractSampler):
@@ -380,10 +494,13 @@ class RandomSampler(AbstractSampler):
     with fewer samples, samples with fewer annotations, and segments which
     haven't been annotated before.
     """
+
     def gen_key(self, l):
-        return (lang_annotation_count(l, self.metadata),
-                random.random(),  # randomly break ties
-                l)
+        return (
+            lang_annotation_count(l, self.metadata),
+            random.random(),  # randomly break ties
+            l,
+        )
 
 
 def sample_duration(sample):
@@ -403,9 +520,9 @@ def iter_segments(sample, segment_duration):
         offset += segment_duration
 
     # eliminate annotated segments
-    for annotation in sample.get('annotations', ()):
-        offset = int(annotation['offset'])
-        duration = int(annotation['duration'])
+    for annotation in sample.get("annotations", ()):
+        offset = int(annotation["offset"])
+        duration = int(annotation["duration"])
         unannotated.remove((offset, duration))
 
     unannotated = list(unannotated)
@@ -416,51 +533,47 @@ def iter_segments(sample, segment_duration):
 
 
 def sample_filename(sample):
-    return '{sample_dir}/{language}/{language}-{checksum}.mp3'.format(
+    return "{sample_dir}/{language}/{language}-{checksum}.mp3".format(
         sample_dir=SAMPLE_DIR,
-        language=sample['language'],
-        checksum=sample['checksum'],
+        language=sample["language"],
+        checksum=sample["checksum"],
     )
 
 
 def save_annotation(sample, annotation, metadata):
-    lang = sample['language']
+    lang = sample["language"]
     c_before = lang_annotation_count(lang, metadata)
 
     # add this annotation
-    sample.setdefault('annotations', []).append(annotation)
+    sample.setdefault("annotations", []).append(annotation)
 
     metadata_file = metadata_filename(sample)
     s_norm = json.dumps(sample, indent=2, sort_keys=True)
-    with open(metadata_file, 'w') as ostream:
+    with open(metadata_file, "w") as ostream:
         ostream.write(s_norm)
 
     # give a status update for this language
     c_after = lang_annotation_count(lang, metadata)
 
-    print('{0}: {1} -> {2}'.format(lang, c_before, c_after))
+    print("{0}: {1} -> {2}".format(lang, c_before, c_after))
 
 
 def lang_annotation_count(language, metadata):
-    return sum(
-        sample_annotation_count(s)
-        for s in metadata[language].values()
-    )
+    return sum(sample_annotation_count(s) for s in metadata[language].values())
 
 
 def sample_annotation_count(sample, include_all=False):
     if include_all:
-        return len(sample.get('annotations', ()))
+        return len(sample.get("annotations", ()))
 
-    return sum(a['label'] == 'good'
-               for a in sample.get('annotations', ()))
+    return sum(a["label"] == "good" for a in sample.get("annotations", ()))
 
 
 def metadata_filename(sample):
-    return '{index_dir}/{language}/{language}-{checksum}.json'.format(
+    return "{index_dir}/{language}/{language}-{checksum}.json".format(
         index_dir=INDEX_DIR,
-        language=sample['language'],
-        checksum=sample['checksum'],
+        language=sample["language"],
+        checksum=sample["checksum"],
     )
 
 
@@ -488,55 +601,66 @@ class AnnotateCmd(cmd.Cmd):
         s = self.segment
         filename = sample_filename(s.sample)
         basename = path.basename(filename)
-        print('{0} ({1} at {2} -> {3})'.format(
-            self.language_names[s.sample['language']],
-            basename,
-            s.offset,
-            s.offset + s.duration,
-        ))
+        print(
+            "{0} ({1} at {2} -> {3})".format(
+                self.language_names[s.sample["language"]],
+                basename,
+                s.offset,
+                s.offset + s.duration,
+            )
+        )
 
         with audio.cropped(filename, s.offset, s.duration) as clip:
             return audio.play_mp3(clip)
 
     def _edit(self):
         annotation = {
-            'date': str(date.today()),
-            'offset': self.segment.offset,
-            'duration': self.segment.duration,
-            'annotator': str(self.user)
+            "date": str(date.today()),
+            "offset": self.segment.offset,
+            "duration": self.segment.duration,
+            "annotator": str(self.user),
         }
 
         try:
-            ok = ui.input_bool('Is the sample ok')
+            ok = ui.input_bool("Is the sample ok")
             if ok:
-                speakers = ui.input_number('speakers', minimum=0, maximum=10)
+                speakers = ui.input_number("speakers", minimum=0, maximum=10)
                 if speakers > 0:
                     genders = ui.input_single_option(
-                        'Gender of speakers',
-                        ['male', 'female', 'mixed', 'unclear'],
+                        "Gender of speakers",
+                        ["male", "female", "mixed", "unclear"],
                     )
                 else:
-                    genders = 'unclear'
+                    genders = "unclear"
 
-                annotation.update({
-                    'problems': [],
-                    'speakers': speakers,
-                    'genders': genders,
-                    'label': 'good',
-                })
+                annotation.update(
+                    {
+                        "problems": [],
+                        "speakers": speakers,
+                        "genders": genders,
+                        "label": "good",
+                    }
+                )
 
             else:
                 problem = ui.input_single_option(
-                    'Problems with the sample',
-                    ['noise', 'wrong language',
-                     'multiple languages', 'excess loan words',
-                     'language or place reference', 'pauses',
-                     'volume'],
+                    "Problems with the sample",
+                    [
+                        "noise",
+                        "wrong language",
+                        "multiple languages",
+                        "excess loan words",
+                        "language or place reference",
+                        "pauses",
+                        "volume",
+                    ],
                 )
-                annotation.update({
-                    'problems': [problem],
-                    'label': 'bad',
-                })
+                annotation.update(
+                    {
+                        "problems": [problem],
+                        "label": "bad",
+                    }
+                )
 
             self.annotation = annotation
 
@@ -547,7 +671,7 @@ class AnnotateCmd(cmd.Cmd):
         self._play()
 
     def help_play(self):
-        print('Play the sample again')
+        print("Play the sample again")
 
     def do_p(self, line):
         return self.do_play(line)
@@ -559,7 +683,7 @@ class AnnotateCmd(cmd.Cmd):
             pass
 
     def help_edit(self):
-        print('Redo the annotation for this sample')
+        print("Redo the annotation for this sample")
 
     def do_e(self, line):
         return self.do_edit(line)
@@ -568,7 +692,7 @@ class AnnotateCmd(cmd.Cmd):
         return True
 
     def help_next(self, line):
-        print('Continue to the next sample')
+        print("Continue to the next sample")
 
     def do_n(self, line):
         return self.do_next(line)
@@ -578,7 +702,7 @@ class AnnotateCmd(cmd.Cmd):
         return True
 
     def help_quit(self):
-        print('Quit and save the current annotation')
+        print("Quit and save the current annotation")
 
     def do_q(self, line):
         return self.do_quit(line)
@@ -588,7 +712,7 @@ class AnnotateCmd(cmd.Cmd):
         return self.do_quit(line)
 
     def help_abort(self):
-        print('Quit without saving the current example')
+        print("Quit without saving the current example")
 
     def do_a(self, line):
         return self.do_abort(line)
@@ -604,12 +728,13 @@ class AnnotateCmd(cmd.Cmd):
 
     def do_stats(self, line):
         per_lang = collections.Counter(
-            {lang: lang_annotation_count(lang, self.metadata)
-             for lang in self.metadata.keys()}
+            {
+                lang: lang_annotation_count(lang, self.metadata)
+                for lang in self.metadata.keys()
+            }
         )
 
-        content = '\n'.join('{0} {1}'.format(l, c)
-                            for (l, c) in per_lang.most_common())
+        content = "\n".join("{0} {1}".format(l, c) for (l, c) in per_lang.most_common())
         page(content)
 
     def do_s(self, line):
@@ -620,10 +745,12 @@ def page(content):
     "Print the string through less."
     try:
         # args stolen fron git source, see `man less`
-        pager = subprocess.Popen(['less', '-F', '-R', '-S', '-X', '-K'],
-                                 stdin=subprocess.PIPE,
-                                 stdout=sys.stdout)
-        pager.stdin.write(content.encode('utf8'))
+        pager = subprocess.Popen(
+            ["less", "-F", "-R", "-S", "-X", "-K"],
+            stdin=subprocess.PIPE,
+            stdout=sys.stdout,
+        )
+        pager.stdin.write(content.encode("utf8"))
         pager.stdin.close()
         pager.wait()
     except KeyboardInterrupt:
@@ -632,12 +759,11 @@ def page(content):
 
 
 def load_language_names():
-    name_index = json.load(open('ext/name_index_20140320.json'))
-    return {r['id']: r['print_name']
-            for r in name_index}
+    name_index = json.load(open("ext/name_index_20140320.json"))
+    return {r["id"]: r["print_name"] for r in name_index}
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:

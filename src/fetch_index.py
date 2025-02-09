@@ -113,7 +113,7 @@ async def fetch_with_retry(r: Dict, prefer_mirrors: bool = False) -> None:
 
 
 def iter_records(
-    index_dir: str, output_dir: str, language: str = None
+    index_dir: str, output_dir: str, language: str | None = None
 ) -> AsyncIterator[Dict]:
     if language is None:
         pattern = "{0}/*/*.json".format(index_dir)

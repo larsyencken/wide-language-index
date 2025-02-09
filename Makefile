@@ -37,7 +37,7 @@ normalize: .env
 annotate: .env
 	$(PY) src/annotate.py || :
 	make stats
-
+ 
 stats: .env
 	$(PY) src/annotation_stats.py STATS.md
 
@@ -50,3 +50,12 @@ rss: .env
 clips: fetch .env
 	mkdir -p samples/_annotated
 	$(PY) src/generate_clips.py
+
+prompt:
+	uv tool run files-to-prompt Makefile src README.md STATS.md pyproject.toml data | pbcopy
+
+lint: .env
+	uv run ruff check src
+
+format: .env
+	uv run ruff format src
