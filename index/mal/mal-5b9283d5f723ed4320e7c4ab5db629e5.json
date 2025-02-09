@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 40,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
   "checksum": "5b9283d5f723ed4320e7c4ab5db629e5",
   "date": "2013-08-09",
   "language": "mal",
@@ -8,5 +20,5 @@
   ],
   "source_name": "SBS Malayalam",
   "source_url": "http://www.sbs.com.au/yourlanguage/malayalam/highlight/page/id/281792/t/Are-You-in-the-Electoral-Roll",
-  "title": "വോട്ടര്‍പട്ടികയില്‍ പേരു ചേര്‍ക്കൂ..."
+  "title": "\u0d35\u0d4b\u0d1f\u0d4d\u0d1f\u0d30\u0d4d\u200d\u0d2a\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d2f\u0d3f\u0d32\u0d4d\u200d \u0d2a\u0d47\u0d30\u0d41 \u0d1a\u0d47\u0d30\u0d4d\u200d\u0d15\u0d4d\u0d15\u0d42..."
 }

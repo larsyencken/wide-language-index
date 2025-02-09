@@ -35,7 +35,7 @@ normalize: .env
 	$(PY) src/normalize.py
 
 annotate: .env
-	$(PY) src/annotate.py || :
+	$(PY) src/annotate.py --language-set global-top-40 --strategy greedy || :
 	make stats
  
 stats: .env

@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 523 good + 412 bad = 935 total
+- Annotations: 553 good + 426 bad = 979 total
 - Time annotated: 5 hours
 - Languages:
     - 100 with >=1 annotations
-    - 40 with >=5 annotations
-    - 40 with >=10 annotations
+    - 45 with >=5 annotations
+    - 43 with >=10 annotations
 
 ## Annotations by language
 
@@ -21,9 +21,11 @@
               Mandarin Chinese cmn **********
                         Danish dan **********
                         German deu **********
+          Modern Greek (1453-) ell **********
                        English eng **********
                        Finnish fin **********
                         French fra **********
+                      Gujarati guj **********
                 Haitian Creole hat **********
                          Hausa hau **********
                          Hindi hin **********
@@ -31,6 +33,7 @@
                       Javanese jav **********
                       Japanese jpn **********
                         Korean kor **********
+                     Malayalam mal **********
                        Marathi mar **********
                      Norwegian nor **********
                        Ossetic oss **********
@@ -52,13 +55,12 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                          Xhosa xho **********
-                Standard Malay zsm ****
+                Standard Malay zsm ********
+                       Burmese mya ******
                          Czech ces ***
-          Modern Greek (1453-) ell ***
                         Hebrew heb ***
                       Croatian hrv ***
                            Lao lao ***
-                       Burmese mya ***
                           Dari prs ***
           Assyrian Neo-Aramaic aii **
                   Ainu (Japan) ain **
@@ -74,7 +76,6 @@
                         Fijian fij **
                       Pilipino fil **
                Western Frisian fry **
-                      Gujarati guj **
                      Hungarian hun **
                       Armenian hye **
                     Indonesian ind **
@@ -83,7 +84,6 @@
               Northern Kurdish kmr **
                          Latin lat **
               Standard Latvian lvs **
-                     Malayalam mal **
                    Minangkabau min **
                     Macedonian mkd **
                        Maltese mlt **

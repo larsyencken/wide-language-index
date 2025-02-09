@@ -11,6 +11,26 @@
         "excess loan words"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 460,
+      "problems": [
+        "excess loan words"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 600,
+      "problems": [
+        "multiple languages"
+      ]
     }
   ],
   "checksum": "9ca500d9fbc06be7b6e4a2fa452e08ce",
