@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 553 good + 426 bad = 979 total
+- Annotations: 563 good + 432 bad = 995 total
 - Time annotated: 5 hours
 - Languages:
     - 100 with >=1 annotations
-    - 45 with >=5 annotations
-    - 43 with >=10 annotations
+    - 46 with >=5 annotations
+    - 44 with >=10 annotations
 
 ## Annotations by language
 
@@ -37,6 +37,7 @@
                        Marathi mar **********
                      Norwegian nor **********
                        Ossetic oss **********
+               Iranian Persian pes **********
                         Polish pol **********
                     Portuguese por **********
                        Quechua que **********
@@ -57,6 +58,7 @@
                          Xhosa xho **********
                 Standard Malay zsm ********
                        Burmese mya ******
+               Western Panjabi pnb ****
                          Czech ces ***
                         Hebrew heb ***
                       Croatian hrv ***
@@ -93,8 +95,6 @@
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
                       Pampanga pam **
-               Iranian Persian pes **
-               Western Panjabi pnb **
                         Slovak slk **
                         Samoan smo **
                        Serbian srp **
