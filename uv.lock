@@ -895,7 +895,7 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "requests" },
     { name = "sh" },
-    { name = "youtube-dl" },
+    { name = "yt-dlp" },
 ]
 
 [package.dev-dependencies]
@@ -923,7 +923,7 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "requests" },
     { name = "sh" },
-    { name = "youtube-dl" },
+    { name = "yt-dlp", specifier = ">=2025.1.26" },
 ]
 
 [package.metadata.requires-dev]
@@ -979,10 +979,10 @@ wheels = [
 ]
 
 [[package]]
-name = "youtube-dl"
-version = "2021.12.17"
+name = "yt-dlp"
+version = "2025.1.26"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/01/4f/ab0d0806f4d818168d0ec833df14078c9d1ddddb5c42fa7bfb6f15ecbfa7/youtube_dl-2021.12.17.tar.gz", hash = "sha256:bc59e86c5d15d887ac590454511f08ce2c47698d5a82c27bfe27b5d814bbaed2", size = 1555640 }
+sdist = { url = "https://files.pythonhosted.org/packages/0e/8c/b8b04d88f2d3f579fb5fcb65bdf66abbec3e1d22a3b982e3d2f63301ef2e/yt_dlp-2025.1.26.tar.gz", hash = "sha256:1c9738266921ad43c568ad01ac3362fb7c7af549276fbec92bd72f140da16240", size = 2922241 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/40/93/65c208f51895f74bbfea1423974c54fff1d1c4e9a97ebee1011b021554b8/youtube_dl-2021.12.17-py2.py3-none-any.whl", hash = "sha256:f1336d5de68647e0364a47b3c0712578e59ec76f02048ff5c50ef1c69d79cd55", size = 1902317 },
+    { url = "https://files.pythonhosted.org/packages/33/9b/1b28a179fb4e1c751ab2a3d39c82606a9754a0d4521d7a9b7579e08aa5f8/yt_dlp-2025.1.26-py3-none-any.whl", hash = "sha256:3e76bd896b9f96601021ca192ca0fbdd195e3c3dcc28302a3a34c9bc4979da7b", size = 3181256 },
 ]

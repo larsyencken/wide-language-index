@@ -1,94 +1,107 @@
 # -*- coding: utf-8 -*-
-#
-#  youtube.py
-#  wide-language-index
-#
-
-""" """
-
 import os
+import re
 import tempfile
-from typing import Dict
-from urllib.parse import urlparse, parse_qs
+import urllib.parse
+from datetime import datetime
+from typing import Dict, Optional
 
-from dateutil.parser import parse as parse_date
-from apiclient.discovery import build
-import requests
+import yt_dlp
 
 from audio import AudioSample
-from sh import youtube_dl
 
 
-YOUTUBE_API_SERVICE_NAME = "youtube"
-YOUTUBE_API_VERSION = "v3"
+class YouTubeError(Exception):
+    """Base exception for YouTube-related errors."""
+
+    pass
 
 
-def is_youtube_url(source_url: str) -> bool:
-    return source_url.startswith("https://www.youtube.com/watch") or is_short_url(
-        source_url
-    )
+def is_youtube_url(url: str) -> bool:
+    """Check if a URL is a YouTube video URL."""
+    patterns = [
+        r"^https?://(?:www\.)?youtube\.com/watch\?.*v=[\w-]+",
+        r"^https?://youtu\.be/[\w-]+",
+        r"^https?://(?:www\.)?youtube\.com/shorts/[\w-]+",
+    ]
+    return any(re.match(pattern, url) for pattern in patterns)
 
 
-def is_short_url(url: str) -> bool:
-    return url.startswith("https://youtu.be/")
+def get_video_id(url: str) -> str:
+    """Extract the video ID from a YouTube URL."""
+    if "youtube.com/watch" in url:
+        query = urllib.parse.urlparse(url).query
+        params = urllib.parse.parse_qs(query)
+        return params["v"][0]
+    elif "youtu.be/" in url:
+        return url.split("/")[-1].split("?")[0]
+    elif "youtube.com/shorts/" in url:
+        return url.split("/")[-1].split("?")[0]
+    raise YouTubeError(f"Could not extract video ID from URL: {url}")
 
 
-def download_youtube_sample(source_url: str) -> AudioSample:
-    "Download and transcode a YouTube video to audio."
-    if is_short_url(source_url):
-        short_url = source_url
-        source_url = get_origin_url(short_url)
+def download_youtube_sample(url: str) -> AudioSample:
+    """Download a YouTube video's audio track and return it as an AudioSample."""
+    # First get the metadata
+    metadata = fetch_youtube_metadata(url)
 
-    metadata = fetch_youtube_metadata(source_url)
+    # Create a temporary file for the audio
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+    temp_file.close()
 
-    t = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
-
-    output_template = os.path.splitext(t.name)[0] + ".%(ext)s"
-    youtube_dl(
-        "-x", "--audio-format=mp3", "--output={}".format(output_template), source_url
-    )
-
-    return AudioSample(tempfile=t, metadata=metadata)
-
-
-def get_origin_url(short_url: str) -> str:
-    resp = requests.head(short_url)
-    if resp.status_code != 302:
-        raise Exception(
-            "got status {} when unpacking youtube url".format(resp.status_code)
-        )
-
-    return resp.headers["Location"]
-
-
-def fetch_youtube_metadata(source_url: str) -> Dict[str, str]:
-    youtube_id = get_video_id(source_url)
-
-    youtube_api = build(
-        YOUTUBE_API_SERVICE_NAME,
-        YOUTUBE_API_VERSION,
-        developerKey=os.environ["YOUTUBE_API_KEY"],
-    )
-
-    response = youtube_api.videos().list(part="snippet", id=youtube_id).execute()
-
-    (item,) = response["items"]
-    snippet = item["snippet"]
-
-    title = snippet["localized"]["title"]
-    author = snippet["channelTitle"]
-    date = str(parse_date(snippet["publishedAt"]).date())
-
-    return {
-        "title": title,
-        "author": author,
-        "source_url": source_url,
-        "source_name": "YouTube",
-        "date": date,
+    # Configure yt-dlp options
+    ydl_opts = {
+        "format": "bestaudio/best",
+        "outtmpl": temp_file.name,
+        "postprocessors": [
+            {
+                "key": "FFmpegExtractAudio",
+                "preferredcodec": "mp3",
+                "preferredquality": "192",
+            }
+        ],
+        "quiet": True,
+        "no_warnings": True,
     }
 
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([url])
+    except Exception as e:
+        if os.path.exists(temp_file.name):
+            os.unlink(temp_file.name)
+        raise YouTubeError(f"Failed to download audio: {str(e)}")
 
-def get_video_id(source_url):
-    query = urlparse(source_url).query
-    (youtube_id,) = parse_qs(query)["v"]
-    return youtube_id
+    # Reopen the temp file for the AudioSample
+    return AudioSample(
+        tempfile=tempfile.NamedTemporaryFile(delete=False), metadata=metadata
+    )
+
+
+def fetch_youtube_metadata(url: str) -> Dict[str, str]:
+    """Fetch metadata for a YouTube video using yt-dlp."""
+    ydl_opts = {
+        "quiet": True,
+        "no_warnings": True,
+    }
+
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+
+            # Convert upload date to ISO format
+            upload_date = info.get("upload_date")
+            if upload_date:
+                date = datetime.strptime(upload_date, "%Y%m%d").date().isoformat()
+            else:
+                date = datetime.now().date().isoformat()
+
+            return {
+                "title": info.get("title", ""),
+                "author": info.get("uploader", ""),
+                "source_url": url,
+                "source_name": "YouTube",
+                "date": date,
+            }
+    except Exception as e:
+        raise YouTubeError(f"Failed to fetch metadata: {str(e)}")

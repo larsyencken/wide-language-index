@@ -17,12 +17,12 @@ dependencies = [
   "feedparser",
   "click",
   "clint",
-  "youtube-dl",
   "google-api-python-client",
   "characteristic",
   "python-dateutil",
   "boto3>=1.36.16",
   "python-dotenv>=1.0.1",
+  "yt-dlp>=2025.1.26",
 ]
 
 [dependency-groups]
