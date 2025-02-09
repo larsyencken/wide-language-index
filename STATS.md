@@ -2,17 +2,18 @@
 
 ## Annotation summary
 
-- Annotations: 563 good + 432 bad = 995 total
+- Annotations: 574 good + 442 bad = 1016 total
 - Time annotated: 5 hours
 - Languages:
     - 100 with >=1 annotations
-    - 46 with >=5 annotations
-    - 44 with >=10 annotations
+    - 47 with >=5 annotations
+    - 45 with >=10 annotations
 
 ## Annotations by language
 
 ```
                    Yue Chinese yue *************
+                        German deu ***********
                      Afrikaans afr **********
                        Amharic amh **********
                Standard Arabic arb **********
@@ -20,7 +21,6 @@
                        Bengali ben **********
               Mandarin Chinese cmn **********
                         Danish dan **********
-                        German deu **********
           Modern Greek (1453-) ell **********
                        English eng **********
                        Finnish fin **********
@@ -29,6 +29,7 @@
                 Haitian Creole hat **********
                          Hausa hau **********
                          Hindi hin **********
+                    Indonesian ind **********
                        Italian ita **********
                       Javanese jav **********
                       Japanese jpn **********
@@ -58,6 +59,7 @@
                          Xhosa xho **********
                 Standard Malay zsm ********
                        Burmese mya ******
+                       Kannada kan ****
                Western Panjabi pnb ****
                          Czech ces ***
                         Hebrew heb ***
@@ -80,8 +82,6 @@
                Western Frisian fry **
                      Hungarian hun **
                       Armenian hye **
-                    Indonesian ind **
-                       Kannada kan **
                  Central Khmer khm **
               Northern Kurdish kmr **
                          Latin lat **
@@ -112,6 +112,7 @@
                         Somali som *
                       Albanian sqi *
                         Yoruba yor *
+               Nigerian Pidgin pcm 
 ```
 
 ## Samples by language
@@ -186,6 +187,7 @@
                       Croatian hrv   3
                      Malayalam mal  22
                Iranian Persian pes  11
+               Nigerian Pidgin pcm   1
                Western Frisian fry   1
                         Fijian fij  19
                        Flemish nld   5
