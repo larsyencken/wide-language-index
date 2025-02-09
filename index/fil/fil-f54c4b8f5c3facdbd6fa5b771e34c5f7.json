@@ -11,6 +11,46 @@
         "noise"
       ],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 260,
+      "problems": [
+        "language or place reference"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 240,
+      "problems": [
+        "wrong language"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "multiple languages"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 140,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "f54c4b8f5c3facdbd6fa5b771e34c5f7",

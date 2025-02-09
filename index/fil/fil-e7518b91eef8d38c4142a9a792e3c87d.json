@@ -12,6 +12,46 @@
         "multiple languages"
       ],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 200,
+      "problems": [
+        "language or place reference"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 0,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 80,
+      "problems": [
+        "excess loan words"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-09",
+      "duration": 20,
+      "label": "bad",
+      "offset": 180,
+      "problems": [
+        "language or place reference"
+      ]
     }
   ],
   "checksum": "e7518b91eef8d38c4142a9a792e3c87d",

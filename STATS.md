@@ -2,7 +2,7 @@
 
 ## Annotation summary
 
-- Annotations: 574 good + 442 bad = 1016 total
+- Annotations: 576 good + 461 bad = 1037 total
 - Time annotated: 5 hours
 - Languages:
     - 100 with >=1 annotations
@@ -59,6 +59,7 @@
                          Xhosa xho **********
                 Standard Malay zsm ********
                        Burmese mya ******
+                      Pilipino fil ****
                        Kannada kan ****
                Western Panjabi pnb ****
                          Czech ces ***
@@ -78,7 +79,6 @@
                      Esperanto epo **
                        Faroese fao **
                         Fijian fij **
-                      Pilipino fil **
                Western Frisian fry **
                      Hungarian hun **
                       Armenian hye **
