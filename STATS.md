@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 576 good + 461 bad = 1037 total
-- Time annotated: 5 hours
+- Annotations: 587 good + 531 bad = 1118 total
+- Time annotated: 6 hours
 - Languages:
-    - 100 with >=1 annotations
-    - 47 with >=5 annotations
-    - 45 with >=10 annotations
+    - 101 with >=1 annotations
+    - 48 with >=5 annotations
+    - 46 with >=10 annotations
 
 ## Annotations by language
 
@@ -36,6 +36,7 @@
                         Korean kor **********
                      Malayalam mal **********
                        Marathi mar **********
+                       Burmese mya **********
                      Norwegian nor **********
                        Ossetic oss **********
                Iranian Persian pes **********
@@ -57,15 +58,15 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                          Xhosa xho **********
+                      Pilipino fil ********
                 Standard Malay zsm ********
-                       Burmese mya ******
-                      Pilipino fil ****
                        Kannada kan ****
                Western Panjabi pnb ****
                          Czech ces ***
                         Hebrew heb ***
                       Croatian hrv ***
                            Lao lao ***
+               Nigerian Pidgin pcm ***
                           Dari prs ***
           Assyrian Neo-Aramaic aii **
                   Ainu (Japan) ain **
@@ -112,7 +113,6 @@
                         Somali som *
                       Albanian sqi *
                         Yoruba yor *
-               Nigerian Pidgin pcm 
 ```
 
 ## Samples by language
@@ -187,7 +187,7 @@
                       Croatian hrv   3
                      Malayalam mal  22
                Iranian Persian pes  11
-               Nigerian Pidgin pcm   1
+               Nigerian Pidgin pcm   4
                Western Frisian fry   1
                         Fijian fij  19
                        Flemish nld   5

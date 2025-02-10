@@ -1,0 +1,29 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 80,
+      "problems": ["multiple languages"]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "8f305e9bc8aaa1d56bd9554041dade6f",
+  "date": "2025-01-22",
+  "language": "pcm",
+  "media_urls": [],
+  "source_name": "BBC News Pidgin",
+  "source_url": "https://www.bbc.com/pidgin/articles/cz9eyn9z35ko",
+  "title": "Meet 'Madam Rice' di Nigerian local rice miller wey her tori dey ginger pipo"
+}

@@ -1,0 +1,31 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 80,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "4eb6b67333e8042164b9eb0a3d31925a",
+  "date": "2025-01-27",
+  "language": "pcm",
+  "media_urls": [],
+  "source_name": "BBC News Pidgin",
+  "source_url": "https://www.bbc.com/pidgin/articles/cgq03pw2d5do",
+  "title": "'My eye don see sometin becos I get one breast' - Woman wey dey live wit Poland syndrome"
+}
