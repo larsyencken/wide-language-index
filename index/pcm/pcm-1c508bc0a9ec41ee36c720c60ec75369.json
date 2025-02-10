@@ -74,7 +74,9 @@
   "checksum": "1c508bc0a9ec41ee36c720c60ec75369",
   "date": "2025-01-13",
   "language": "pcm",
-  "media_urls": [],
+  "media_urls": [
+    "http://mirror.widelanguageindex.org/pcm/pcm-1c508bc0a9ec41ee36c720c60ec75369.mp3"
+  ],
   "source_name": "BBC News Pidgin",
   "source_url": "https://www.bbc.com/pidgin/articles/c75zlnyydq0o",
   "title": "'Dis my height don deprive me of so many tins for life'"

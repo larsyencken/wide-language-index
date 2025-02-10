@@ -24,7 +24,9 @@
   "checksum": "4eb6b67333e8042164b9eb0a3d31925a",
   "date": "2025-01-27",
   "language": "pcm",
-  "media_urls": [],
+  "media_urls": [
+    "http://mirror.widelanguageindex.org/pcm/pcm-4eb6b67333e8042164b9eb0a3d31925a.mp3"
+  ],
   "source_name": "BBC News Pidgin",
   "source_url": "https://www.bbc.com/pidgin/articles/cgq03pw2d5do",
   "title": "'My eye don see sometin becos I get one breast' - Woman wey dey live wit Poland syndrome"
