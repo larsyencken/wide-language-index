@@ -424,15 +424,17 @@ class AbstractSampler(object):
             bad_count = sum(a["label"] == "bad" for a in s.get("annotations", ()))
             if bad_count >= 3:
                 continue
-                
+
             if sample_annotation_count(s) < self.max_per_sample:
-                s_by_annotations.append((
-                    sample_annotation_count(s),
-                    sample_annotation_count(s, include_all=True),
-                    random.random(),
-                    s
-                ))
-        
+                s_by_annotations.append(
+                    (
+                        sample_annotation_count(s),
+                        sample_annotation_count(s, include_all=True),
+                        random.random(),
+                        s,
+                    )
+                )
+
         s_by_annotations.sort()
 
         for _, _, _, s in s_by_annotations:
