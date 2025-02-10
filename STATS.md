@@ -2,11 +2,11 @@
 
 ## Annotation summary
 
-- Annotations: 587 good + 531 bad = 1118 total
+- Annotations: 591 good + 538 bad = 1129 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
-    - 48 with >=5 annotations
+    - 49 with >=5 annotations
     - 46 with >=10 annotations
 
 ## Annotations by language
@@ -60,13 +60,13 @@
                          Xhosa xho **********
                       Pilipino fil ********
                 Standard Malay zsm ********
+               Nigerian Pidgin pcm *******
                        Kannada kan ****
                Western Panjabi pnb ****
                          Czech ces ***
                         Hebrew heb ***
                       Croatian hrv ***
                            Lao lao ***
-               Nigerian Pidgin pcm ***
                           Dari prs ***
           Assyrian Neo-Aramaic aii **
                   Ainu (Japan) ain **
@@ -187,7 +187,7 @@
                       Croatian hrv   3
                      Malayalam mal  22
                Iranian Persian pes  11
-               Nigerian Pidgin pcm   4
+               Nigerian Pidgin pcm   6
                Western Frisian fry   1
                         Fijian fij  19
                        Flemish nld   5

@@ -19,6 +19,26 @@
       "offset": 20,
       "problems": [],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "wrong language"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "genders": "unclear",
+      "label": "good",
+      "offset": 100,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "8f305e9bc8aaa1d56bd9554041dade6f",
