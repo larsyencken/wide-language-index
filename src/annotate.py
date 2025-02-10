@@ -5,8 +5,6 @@
 #  wide-language-index
 #
 
-from datetime import date
-from os import path
 import cmd
 import collections
 import glob
@@ -15,6 +13,8 @@ import json
 import random
 import subprocess
 import sys
+from datetime import date
+from os import path
 
 import click
 import pydub
@@ -201,7 +201,7 @@ DEFAULT_DURATION_S = 20
 SAMPLE_DIR = "samples"
 INDEX_DIR = "index"
 MAX_PER_SAMPLE = 2
-MAX_PER_LANGUAGE = 10
+MAX_PER_LANGUAGE = 4
 
 
 @click.command()

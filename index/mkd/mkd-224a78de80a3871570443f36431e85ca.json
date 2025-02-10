@@ -11,6 +11,16 @@
         "multiple languages"
       ],
       "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "genders": "female",
+      "label": "good",
+      "offset": 60,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "224a78de80a3871570443f36431e85ca",

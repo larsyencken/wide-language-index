@@ -66,7 +66,7 @@ def play_mp3(mp3_file):
     except (KeyboardInterrupt, sh.SignalException_SIGINT):
         p.terminate()
         print("cancelled>")
-        return False
+        return True
 
     return True
 

@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "excess loan words"
+      ]
+    }
+  ],
   "checksum": "e67ee62ae52022007af83652c4352fe5",
   "date": "2015-03-18",
   "language": "smo",

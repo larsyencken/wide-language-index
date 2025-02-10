@@ -11,6 +11,26 @@
         "noise"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 60,
+      "problems": [
+        "noise"
+      ]
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-10",
+      "duration": 20,
+      "label": "bad",
+      "offset": 220,
+      "problems": [
+        "noise"
+      ]
     }
   ],
   "checksum": "3ea120b079f4d0249a865b6bbe299128",
