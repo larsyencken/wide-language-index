@@ -2,7 +2,7 @@
 
 ## Annotation summary
 
-- Annotations: 622 good + 545 bad = 1167 total
+- Annotations: 647 good + 552 bad = 1199 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
@@ -14,6 +14,7 @@
 ```
                    Yue Chinese yue *************
                         German deu ***********
+                       Spanish spa ***********
                      Afrikaans afr **********
                        Amharic amh **********
                Standard Arabic arb **********
@@ -47,7 +48,6 @@
                        Quechua que **********
                       Romanian ron **********
                        Russian rus **********
-                       Spanish spa **********
                        Swedish swe **********
  Swahili (individual language) swh **********
                          Tamil tam **********
@@ -67,41 +67,41 @@
                         Hebrew heb ******
                       Croatian hrv ******
                           Dari prs ******
+                  Ainu (Japan) ain ****
+                     Bulgarian bul ****
+             Standard Estonian ekk ****
+                        Fijian fij ****
                        Kannada kan ****
+                 Central Khmer khm ****
+              Standard Latvian lvs ****
+                    Macedonian mkd ****
+                       Flemish nld ****
+  Nepali (individual language) npi ****
                Western Panjabi pnb ****
+                        Slovak slk ****
+                        Samoan smo ****
+                      Tigrinya tir ****
          Tonga (Tonga Islands) ton ****
           Assyrian Neo-Aramaic aii **
-                  Ainu (Japan) ain **
                  Gheg Albanian aln **
                       Balinese ban **
                       Buginese bug **
-                     Bulgarian bul **
                      Valencian cat **
             Southwestern Dinka dik **
-             Standard Estonian ekk **
                      Esperanto epo **
                        Faroese fao **
-                        Fijian fij **
                Western Frisian fry **
                       Armenian hye **
-                 Central Khmer khm **
               Northern Kurdish kmr **
                          Latin lat **
-              Standard Latvian lvs **
                    Minangkabau min **
-                    Macedonian mkd **
                        Maltese mlt **
                Min Nan Chinese nan **
-                       Flemish nld **
-  Nepali (individual language) npi **
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
                       Pampanga pam **
-                        Slovak slk **
-                        Samoan smo **
                        Serbian srp **
                      Sundanese sun **
-                      Tigrinya tir **
                        Walloon wln **
                Eastern Yiddish ydd **
                       Achinese ace *
