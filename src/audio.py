@@ -11,11 +11,11 @@ Audio manipulation utilities.
 import contextlib
 import tempfile
 
-from characteristic import attributes, Attribute
 import numpy as np
 import pydub
-from sh import afplay, mp3gain
 import sh
+from characteristic import Attribute, attributes
+from sh import afplay, mp3gain
 
 MS_PER_S = 1000
 
@@ -59,8 +59,8 @@ def is_bad_mono(segment):
 
 def play_mp3(mp3_file):
     print("<playing...", end="", flush=True)
-    p = afplay(mp3_file, _bg=True)
     try:
+        p = afplay(mp3_file, _bg=True, _bg_exc=False)
         p.wait()
         print("done>")
     except (KeyboardInterrupt, sh.SignalException_SIGINT):

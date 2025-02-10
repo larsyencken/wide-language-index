@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 591 good + 538 bad = 1129 total
+- Annotations: 622 good + 545 bad = 1167 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
-    - 49 with >=5 annotations
-    - 46 with >=10 annotations
+    - 55 with >=5 annotations
+    - 48 with >=10 annotations
 
 ## Annotations by language
 
@@ -29,11 +29,13 @@
                 Haitian Creole hat **********
                          Hausa hau **********
                          Hindi hin **********
+                     Hungarian hun **********
                     Indonesian ind **********
                        Italian ita **********
                       Javanese jav **********
                       Japanese jpn **********
                         Korean kor **********
+                           Lao lao **********
                      Malayalam mal **********
                        Marathi mar **********
                        Burmese mya **********
@@ -58,16 +60,16 @@
                     Vietnamese vie **********
                     Wu Chinese wuu **********
                          Xhosa xho **********
+                         Czech ces ********
                       Pilipino fil ********
                 Standard Malay zsm ********
                Nigerian Pidgin pcm *******
+                        Hebrew heb ******
+                      Croatian hrv ******
+                          Dari prs ******
                        Kannada kan ****
                Western Panjabi pnb ****
-                         Czech ces ***
-                        Hebrew heb ***
-                      Croatian hrv ***
-                           Lao lao ***
-                          Dari prs ***
+         Tonga (Tonga Islands) ton ****
           Assyrian Neo-Aramaic aii **
                   Ainu (Japan) ain **
                  Gheg Albanian aln **
@@ -81,7 +83,6 @@
                        Faroese fao **
                         Fijian fij **
                Western Frisian fry **
-                     Hungarian hun **
                       Armenian hye **
                  Central Khmer khm **
               Northern Kurdish kmr **
@@ -101,7 +102,6 @@
                        Serbian srp **
                      Sundanese sun **
                       Tigrinya tir **
-         Tonga (Tonga Islands) ton **
                        Walloon wln **
                Eastern Yiddish ydd **
                       Achinese ace *
