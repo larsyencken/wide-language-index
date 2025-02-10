@@ -4,7 +4,7 @@ import re
 import tempfile
 import urllib.parse
 from datetime import datetime
-from typing import Dict, Optional
+from typing import Dict
 
 import yt_dlp
 
