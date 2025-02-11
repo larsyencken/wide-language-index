@@ -57,7 +57,7 @@ prompt:
 lint: .env
 	uv run ruff check src
 
-format: .env
+format: .env normalize
 	uv run ruff format src
 
 test: lint

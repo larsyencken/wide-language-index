@@ -2,7 +2,7 @@
 
 ## Annotation summary
 
-- Annotations: 647 good + 552 bad = 1199 total
+- Annotations: 656 good + 559 bad = 1215 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
@@ -67,10 +67,13 @@
                         Hebrew heb ******
                       Croatian hrv ******
                           Dari prs ******
+          Assyrian Neo-Aramaic aii ****
                   Ainu (Japan) ain ****
+                 Gheg Albanian aln ****
                      Bulgarian bul ****
              Standard Estonian ekk ****
                         Fijian fij ****
+                      Armenian hye ****
                        Kannada kan ****
                  Central Khmer khm ****
               Standard Latvian lvs ****
@@ -82,8 +85,8 @@
                         Samoan smo ****
                       Tigrinya tir ****
          Tonga (Tonga Islands) ton ****
-          Assyrian Neo-Aramaic aii **
-                 Gheg Albanian aln **
+               Eastern Yiddish ydd ****
+              Northern Kurdish kmr ***
                       Balinese ban **
                       Buginese bug **
                      Valencian cat **
@@ -91,8 +94,6 @@
                      Esperanto epo **
                        Faroese fao **
                Western Frisian fry **
-                      Armenian hye **
-              Northern Kurdish kmr **
                          Latin lat **
                    Minangkabau min **
                        Maltese mlt **
@@ -103,7 +104,6 @@
                        Serbian srp **
                      Sundanese sun **
                        Walloon wln **
-               Eastern Yiddish ydd **
                       Achinese ace *
                  Luxembourgish ltz *
                      Mongolian mon *
