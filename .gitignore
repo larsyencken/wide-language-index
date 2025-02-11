@@ -11,3 +11,4 @@ __pycache__
 *.pyo
 .mypy_cache
 .env
+src/wide_language_index.egg-info
