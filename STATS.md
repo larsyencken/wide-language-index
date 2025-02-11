@@ -2,12 +2,12 @@
 
 ## Annotation summary
 
-- Annotations: 684 good + 569 bad = 1253 total
+- Annotations: 690 good + 569 bad = 1259 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
-    - 56 with >=5 annotations
-    - 48 with >=10 annotations
+    - 57 with >=5 annotations
+    - 49 with >=10 annotations
 
 ## Annotations by language
 
@@ -43,6 +43,7 @@
                      Norwegian nor **********
                        Ossetic oss **********
                Iranian Persian pes **********
+               Western Panjabi pnb **********
                         Polish pol **********
                     Portuguese por **********
                        Quechua que **********
@@ -85,7 +86,6 @@
                Min Nan Chinese nan ****
                        Flemish nld ****
   Nepali (individual language) npi ****
-               Western Panjabi pnb ****
                 Central Pashto pst ****
                      Sinhalese sin ****
                         Slovak slk ****
@@ -211,7 +211,7 @@
                          Latin lat   2
                           Thai tha  23
  Swahili (individual language) swh  29
-               Western Panjabi pnb   2
+               Western Panjabi pnb   5
                         Korean kor  50
                        Serbian srp   2
                    Minangkabau min   1

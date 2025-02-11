@@ -1,0 +1,33 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 60,
+      "problems": [],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 1
+    }
+  ],
+  "checksum": "f94ad23b87c1f6770cf46a4cdbf36ee1",
+  "date": "2025-02-10",
+  "language": "pnb",
+  "media_urls": [
+    "http://mirror.widelanguageindex.org/pnb/pnb-f94ad23b87c1f6770cf46a4cdbf36ee1.mp3"
+  ],
+  "source_name": "BBC News Pubjabi",
+  "source_url": "https://www.bbc.com/punjabi/articles/ckgyvng7nvxo",
+  "title": "ਪਿਆਰ ਲਈ ਘਰ-ਬਾਰ ਛੱਡਿਆ, 29 ਸਾਲ ਤੋਂ ਟੱਪਰੀਵਾਸ ਦੀ ਜ਼ਿੰਦਗੀ ਕੱਟ ਰਿਹਾ 'ਜੋਰਾ ਜੱਟ' "
+}

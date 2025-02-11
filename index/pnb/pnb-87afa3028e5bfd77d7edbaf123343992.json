@@ -1,0 +1,33 @@
+{
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 20,
+      "problems": [],
+      "speakers": 3
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 240,
+      "problems": [],
+      "speakers": 2
+    }
+  ],
+  "checksum": "87afa3028e5bfd77d7edbaf123343992",
+  "date": "2025-02-06",
+  "language": "pnb",
+  "media_urls": [
+    "http://mirror.widelanguageindex.org/pnb/pnb-87afa3028e5bfd77d7edbaf123343992.mp3"
+  ],
+  "source_name": "BBC News Punjabi",
+  "source_url": "https://www.bbc.com/punjabi/articles/ckg7p7x5ylxo",
+  "title": "'ਮੇਰੇ ਪੁੱਤ ਦੀ ਸਾਰੀ ਜ਼ਮੀਨ ਵਿੱਕ ਗਈ, ਹੁਣ ਉਹ ਬੇਕਾਰ ਹੋ ਗਿਆ' "
+}
