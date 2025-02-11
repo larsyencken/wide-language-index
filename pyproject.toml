@@ -23,6 +23,7 @@ dependencies = [
   "boto3>=1.36.16",
   "python-dotenv>=1.0.1",
   "yt-dlp>=2025.1.26",
+  "llm>=0.21",
 ]
 
 [dependency-groups]

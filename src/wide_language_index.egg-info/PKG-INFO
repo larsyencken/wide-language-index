@@ -22,6 +22,7 @@ Requires-Dist: python-dateutil
 Requires-Dist: boto3>=1.36.16
 Requires-Dist: python-dotenv>=1.0.1
 Requires-Dist: yt-dlp>=2025.1.26
+Requires-Dist: llm>=0.21
 
 # wide-language-index
 

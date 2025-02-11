@@ -1,0 +1,1285 @@
+[
+  {
+    "iso_code": "ace",
+    "name": "Acehnese",
+    "common_name": "Aceh",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "afr",
+    "name": "Afrikaans",
+    "common_name": "Afrikaans",
+    "regions": [
+      "Africa"
+    ],
+    "countries": [
+      "South Africa",
+      "Namibia"
+    ]
+  },
+  {
+    "iso_code": "aii",
+    "name": "Aimaq",
+    "common_name": "Aimaq",
+    "regions": [
+      "Central Asia"
+    ],
+    "countries": [
+      "Afghanistan"
+    ]
+  },
+  {
+    "iso_code": "ain",
+    "name": "Ainu",
+    "common_name": "Ainu",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "Japan"
+    ]
+  },
+  {
+    "iso_code": "aln",
+    "name": "Gheg Albanian",
+    "common_name": "Albanian",
+    "regions": [
+      "Southeastern Europe"
+    ],
+    "countries": [
+      "Albania",
+      "Kosovo",
+      "Montenegro"
+    ]
+  },
+  {
+    "iso_code": "amh",
+    "name": "Amharic",
+    "common_name": "Amharic",
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Ethiopia"
+    ]
+  },
+  {
+    "iso_code": "arb",
+    "name": "Arabic",
+    "common_name": "Arabic",
+    "regions": [
+      "Middle East",
+      "North Africa"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Egypt",
+      "Iraq",
+      "United Arab Emirates",
+      "Jordan"
+    ]
+  },
+  {
+    "iso_code": "arz",
+    "name": "Egyptian Arabic",
+    "common_name": "Masri",
+    "regions": [
+      "North Africa"
+    ],
+    "countries": [
+      "Egypt"
+    ]
+  },
+  {
+    "iso_code": "ban",
+    "name": "Banjarese",
+    "common_name": "Banjarese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "ben",
+    "name": "Bengali",
+    "common_name": "Bangla",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Bangladesh",
+      "India"
+    ]
+  },
+  {
+    "iso_code": "bug",
+    "name": "Buginese",
+    "common_name": "Buginese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "bul",
+    "name": "Bulgarian",
+    "common_name": "Bulgarian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "Bulgaria"
+    ]
+  },
+  {
+    "iso_code": "cat",
+    "name": "Catalan",
+    "common_name": "Catalan",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Spain",
+      "Andorra",
+      "France",
+      "Italy"
+    ]
+  },
+  {
+    "iso_code": "ces",
+    "name": "Czech",
+    "common_name": "Czech",
+    "regions": [
+      "Central Europe"
+    ],
+    "countries": [
+      "Czech Republic"
+    ]
+  },
+  {
+    "iso_code": "cmn",
+    "name": "Mandarin Chinese",
+    "common_name": "Mandarin",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Taiwan",
+      "Singapore"
+    ]
+  },
+  {
+    "iso_code": "dan",
+    "name": "Danish",
+    "common_name": "Danish",
+    "regions": [
+      "Northern Europe"
+    ],
+    "countries": [
+      "Denmark"
+    ]
+  },
+  {
+    "iso_code": "deu",
+    "name": "German",
+    "common_name": "German",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Germany",
+      "Austria",
+      "Switzerland"
+    ]
+  },
+  {
+    "iso_code": "dik",
+    "name": "Dikul",
+    "common_name": "Dik",
+    "regions": [
+      "Africa"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ]
+  },
+  {
+    "iso_code": "ekk",
+    "name": "Estonian",
+    "common_name": "Eesti",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Estonia"
+    ]
+  },
+  {
+    "iso_code": "ell",
+    "name": "Greek",
+    "common_name": "Greek",
+    "regions": [
+      "Southeast Europe",
+      "Eastern Mediterranean"
+    ],
+    "countries": [
+      "Greece",
+      "Cyprus"
+    ]
+  },
+  {
+    "iso_code": "eng",
+    "name": "English",
+    "common_name": "English",
+    "regions": [
+      "North America",
+      "Europe",
+      "Oceania",
+      "Africa",
+      "Asia"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "India"
+    ]
+  },
+  {
+    "iso_code": "epo",
+    "name": "Esperanto",
+    "common_name": "Esperanto",
+    "regions": [
+      "Global"
+    ],
+    "countries": [
+      "International"
+    ]
+  },
+  {
+    "iso_code": "fao",
+    "name": "Faroese",
+    "common_name": "Faroese",
+    "regions": [
+      "Northern Europe"
+    ],
+    "countries": [
+      "Faroe Islands"
+    ]
+  },
+  {
+    "iso_code": "fij",
+    "name": "Fijian",
+    "common_name": "Fijian",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Fiji"
+    ]
+  },
+  {
+    "iso_code": "fil",
+    "name": "Filipino",
+    "common_name": "Tagalog",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Philippines"
+    ]
+  },
+  {
+    "iso_code": "fin",
+    "name": "Finnish",
+    "common_name": "Finnish",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Finland"
+    ]
+  },
+  {
+    "iso_code": "fra",
+    "name": "French",
+    "common_name": "French",
+    "regions": [
+      "Europe",
+      "Africa",
+      "North America",
+      "Oceania",
+      "Asia"
+    ],
+    "countries": [
+      "France",
+      "Canada",
+      "Belgium",
+      "Switzerland",
+      "Luxembourg"
+    ]
+  },
+  {
+    "iso_code": "fry",
+    "name": "Frisian",
+    "common_name": "Frisian",
+    "regions": [
+      "Western Europe"
+    ],
+    "countries": [
+      "Netherlands",
+      "Germany"
+    ]
+  },
+  {
+    "iso_code": "guj",
+    "name": "Gujarati",
+    "common_name": "Gujarati",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ]
+  },
+  {
+    "iso_code": "hat",
+    "name": "Haitian Creole",
+    "common_name": "Kreyòl",
+    "regions": [
+      "Caribbean"
+    ],
+    "countries": [
+      "Haiti"
+    ]
+  },
+  {
+    "iso_code": "hau",
+    "name": "Hausa",
+    "common_name": "Hausa",
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Niger"
+    ]
+  },
+  {
+    "iso_code": "heb",
+    "name": "Hebrew",
+    "common_name": "Hebrew",
+    "regions": [
+      "Middle East"
+    ],
+    "countries": [
+      "Israel"
+    ]
+  },
+  {
+    "iso_code": "hin",
+    "name": "Hindi",
+    "common_name": "Hindi",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India",
+      "Fiji",
+      "Nepal"
+    ]
+  },
+  {
+    "iso_code": "hrv",
+    "name": "Croatian",
+    "common_name": "Croatian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "Croatia"
+    ]
+  },
+  {
+    "iso_code": "hun",
+    "name": "Hungarian",
+    "common_name": "Hungarian",
+    "regions": [
+      "Central Europe"
+    ],
+    "countries": [
+      "Hungary"
+    ]
+  },
+  {
+    "iso_code": "hye",
+    "name": "Armenian",
+    "common_name": "Armenian",
+    "regions": [
+      "Caucasus"
+    ],
+    "countries": [
+      "Armenia"
+    ]
+  },
+  {
+    "iso_code": "ind",
+    "name": "Indonesian",
+    "common_name": "Bahasa Indonesia",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "ita",
+    "name": "Italian",
+    "common_name": "Italian",
+    "regions": [
+      "Southern Europe",
+      "Western Europe"
+    ],
+    "countries": [
+      "Italy",
+      "Switzerland",
+      "San Marino",
+      "Vatican City"
+    ]
+  },
+  {
+    "iso_code": "jav",
+    "name": "Javanese",
+    "common_name": "Javanese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "jpn",
+    "name": "Japanese",
+    "common_name": "Japanese",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "Japan"
+    ]
+  },
+  {
+    "iso_code": "kan",
+    "name": "Kannada",
+    "common_name": "Kannada",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "iso_code": "khm",
+    "name": "Khmer",
+    "common_name": "Cambodian",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Cambodia"
+    ]
+  },
+  {
+    "iso_code": "kmr",
+    "name": "Kurdish, Northern",
+    "common_name": "Kurmanji",
+    "regions": [
+      "Middle East",
+      "Europe"
+    ],
+    "countries": [
+      "Turkey",
+      "Iran",
+      "Iraq",
+      "Syria"
+    ]
+  },
+  {
+    "iso_code": "kor",
+    "name": "Korean",
+    "common_name": "Korean",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "South Korea",
+      "North Korea"
+    ]
+  },
+  {
+    "iso_code": "lao",
+    "name": "Lao",
+    "common_name": "Lao",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Laos"
+    ]
+  },
+  {
+    "iso_code": "lat",
+    "name": "Latin",
+    "common_name": "Latin",
+    "regions": [
+      "Europe",
+      "historically Roman Empire"
+    ],
+    "countries": [
+      "Italy",
+      "Vatican City"
+    ]
+  },
+  {
+    "iso_code": "ltz",
+    "name": "Luxembourgish",
+    "common_name": "Luxembourgish",
+    "regions": [
+      "Western Europe"
+    ],
+    "countries": [
+      "Luxembourg"
+    ]
+  },
+  {
+    "iso_code": "lvs",
+    "name": "Latgalian",
+    "common_name": "Latgalian",
+    "regions": [
+      "Eastern Europe"
+    ],
+    "countries": [
+      "Latvia"
+    ]
+  },
+  {
+    "iso_code": "mal",
+    "name": "Malayalam",
+    "common_name": "Malayalam",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "iso_code": "mar",
+    "name": "Marathi",
+    "common_name": "Marathi",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "iso_code": "min",
+    "name": "Min Chinese",
+    "common_name": "Min",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Taiwan"
+    ]
+  },
+  {
+    "iso_code": "mkd",
+    "name": "Macedonian",
+    "common_name": "Macedonian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "North Macedonia"
+    ]
+  },
+  {
+    "iso_code": "mlt",
+    "name": "Maltese",
+    "common_name": "Maltese",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Malta"
+    ]
+  },
+  {
+    "iso_code": "mon",
+    "name": "Mongolian",
+    "common_name": "Mongolian",
+    "regions": [
+      "Central Asia",
+      "East Asia"
+    ],
+    "countries": [
+      "Mongolia",
+      "China"
+    ]
+  },
+  {
+    "iso_code": "mya",
+    "name": "Burmese",
+    "common_name": "Burmese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Myanmar"
+    ]
+  },
+  {
+    "iso_code": "nan",
+    "name": "Min Nan",
+    "common_name": "Hokkien",
+    "regions": [
+      "East Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "China",
+      "Taiwan",
+      "Singapore",
+      "Malaysia"
+    ]
+  },
+  {
+    "iso_code": "nld",
+    "name": "Dutch",
+    "common_name": "Dutch",
+    "regions": [
+      "Western Europe",
+      "Caribbean"
+    ],
+    "countries": [
+      "Netherlands",
+      "Belgium",
+      "Suriname"
+    ]
+  },
+  {
+    "iso_code": "nno",
+    "name": "Norwegian Nynorsk",
+    "common_name": "Nynorsk",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Norway"
+    ]
+  },
+  {
+    "iso_code": "nor",
+    "name": "Norwegian",
+    "common_name": "Norwegian",
+    "regions": [
+      "Northern Europe"
+    ],
+    "countries": [
+      "Norway"
+    ]
+  },
+  {
+    "iso_code": "npi",
+    "name": "Nepal Bhasa",
+    "common_name": "Newari",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Nepal"
+    ]
+  },
+  {
+    "iso_code": "oci",
+    "name": "Occitan",
+    "common_name": "Occitan",
+    "regions": [
+      "Southern Europe"
+    ],
+    "countries": [
+      "France",
+      "Italy",
+      "Spain"
+    ]
+  },
+  {
+    "iso_code": "ory",
+    "name": "Oriya",
+    "common_name": "Odia",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "iso_code": "oss",
+    "name": "Ossetic",
+    "common_name": "Ossetian",
+    "regions": [
+      "Eurasia"
+    ],
+    "countries": [
+      "Russia",
+      "Georgia"
+    ]
+  },
+  {
+    "iso_code": "pam",
+    "name": "Pampanga",
+    "common_name": "Kapampangan",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Philippines"
+    ]
+  },
+  {
+    "iso_code": "pan",
+    "name": "Panjabi",
+    "common_name": "Punjabi",
+    "regions": [
+      "South Asia",
+      "North America",
+      "Europe"
+    ],
+    "countries": [
+      "India",
+      "Pakistan",
+      "Canada",
+      "United Kingdom"
+    ]
+  },
+  {
+    "iso_code": "pcm",
+    "name": "Nigerian Pidgin",
+    "common_name": "Pidgin English",
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria"
+    ]
+  },
+  {
+    "iso_code": "pes",
+    "name": "Persian (Western)",
+    "common_name": "Farsi",
+    "regions": [
+      "Middle East",
+      "Central Asia"
+    ],
+    "countries": [
+      "Iran",
+      "Afghanistan",
+      "Tajikistan"
+    ]
+  },
+  {
+    "iso_code": "pnb",
+    "name": "Western Punjabi",
+    "common_name": "Punjabi",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Pakistan",
+      "India"
+    ]
+  },
+  {
+    "iso_code": "pol",
+    "name": "Polish",
+    "common_name": "Polish",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Poland"
+    ]
+  },
+  {
+    "iso_code": "por",
+    "name": "Portuguese",
+    "common_name": "Portuguese",
+    "regions": [
+      "Europe",
+      "South America",
+      "Africa",
+      "North America",
+      "Asia"
+    ],
+    "countries": [
+      "Portugal",
+      "Brazil",
+      "Angola",
+      "Mozambique",
+      "Cape Verde"
+    ]
+  },
+  {
+    "iso_code": "prs",
+    "name": "Dari",
+    "common_name": "Dari Persian",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Afghanistan"
+    ]
+  },
+  {
+    "iso_code": "pst",
+    "name": "Pashto",
+    "common_name": "Pashto",
+    "regions": [
+      "South Asia",
+      "Central Asia"
+    ],
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ]
+  },
+  {
+    "iso_code": "pus",
+    "name": "Pashto",
+    "common_name": "Pashto",
+    "regions": [
+      "South Asia",
+      "Central Asia"
+    ],
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ]
+  },
+  {
+    "iso_code": "que",
+    "name": "Quechua",
+    "common_name": "Quechua",
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Peru",
+      "Bolivia",
+      "Ecuador"
+    ]
+  },
+  {
+    "iso_code": "ron",
+    "name": "Romanian",
+    "common_name": "Romanian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "Romania",
+      "Moldova"
+    ]
+  },
+  {
+    "iso_code": "rus",
+    "name": "Russian",
+    "common_name": "Russian",
+    "regions": [
+      "Eastern Europe",
+      "Northern Asia"
+    ],
+    "countries": [
+      "Russia",
+      "Belarus",
+      "Kazakhstan"
+    ]
+  },
+  {
+    "iso_code": "sin",
+    "name": "Sinhala",
+    "common_name": "Sinhalese",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ]
+  },
+  {
+    "iso_code": "slk",
+    "name": "Slovak",
+    "common_name": "Slovak",
+    "regions": [
+      "Central Europe"
+    ],
+    "countries": [
+      "Slovakia"
+    ]
+  },
+  {
+    "iso_code": "slv",
+    "name": "Slovene",
+    "common_name": "Slovene",
+    "regions": [
+      "Europe"
+    ],
+    "countries": [
+      "Slovenia"
+    ]
+  },
+  {
+    "iso_code": "smo",
+    "name": "Samoan",
+    "common_name": "Gagana Samoa",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Samoa",
+      "American Samoa"
+    ]
+  },
+  {
+    "iso_code": "som",
+    "name": "Somali",
+    "common_name": "Somali",
+    "regions": [
+      "East Africa"
+    ],
+    "countries": [
+      "Somalia",
+      "Djibouti",
+      "Ethiopia",
+      "Kenya"
+    ]
+  },
+  {
+    "iso_code": "spa",
+    "name": "Spanish",
+    "common_name": "Spanish",
+    "regions": [
+      "Latin America",
+      "Europe",
+      "United States",
+      "Africa",
+      "Asia"
+    ],
+    "countries": [
+      "Spain",
+      "Mexico",
+      "Colombia",
+      "Argentina",
+      "Peru"
+    ]
+  },
+  {
+    "iso_code": "sqi",
+    "name": "Albanian",
+    "common_name": "Albanian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "Albania",
+      "Kosovo"
+    ]
+  },
+  {
+    "iso_code": "srp",
+    "name": "Serbian",
+    "common_name": "Serbian",
+    "regions": [
+      "Southeast Europe"
+    ],
+    "countries": [
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Montenegro"
+    ]
+  },
+  {
+    "iso_code": "sun",
+    "name": "Sundanese",
+    "common_name": "Sundanese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "swe",
+    "name": "Swedish",
+    "common_name": "Swedish",
+    "regions": [
+      "Northern Europe"
+    ],
+    "countries": [
+      "Sweden",
+      "Finland"
+    ]
+  },
+  {
+    "iso_code": "swh",
+    "name": "Swahili",
+    "common_name": "Swahili",
+    "regions": [
+      "East Africa",
+      "Central Africa"
+    ],
+    "countries": [
+      "Tanzania",
+      "Kenya",
+      "Uganda",
+      "Democratic Republic of the Congo"
+    ]
+  },
+  {
+    "iso_code": "tam",
+    "name": "Tamil",
+    "common_name": "Tamil",
+    "regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "countries": [
+      "India",
+      "Sri Lanka",
+      "Singapore",
+      "Malaysia"
+    ]
+  },
+  {
+    "iso_code": "tel",
+    "name": "Telugu",
+    "common_name": "Telugu",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "India"
+    ]
+  },
+  {
+    "iso_code": "tha",
+    "name": "Thai",
+    "common_name": "Thai",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Thailand"
+    ]
+  },
+  {
+    "iso_code": "tir",
+    "name": "Tigrinya",
+    "common_name": "Tigrinya",
+    "regions": [
+      "Horn of Africa"
+    ],
+    "countries": [
+      "Eritrea",
+      "Ethiopia"
+    ]
+  },
+  {
+    "iso_code": "ton",
+    "name": "Tongan",
+    "common_name": "Tongan",
+    "regions": [
+      "Oceania"
+    ],
+    "countries": [
+      "Tonga"
+    ]
+  },
+  {
+    "iso_code": "tur",
+    "name": "Turkish",
+    "common_name": "Turkish",
+    "regions": [
+      "Europe",
+      "Asia"
+    ],
+    "countries": [
+      "Turkey",
+      "Cyprus"
+    ]
+  },
+  {
+    "iso_code": "ukr",
+    "name": "Ukrainian",
+    "common_name": "Ukrainian",
+    "regions": [
+      "Eastern Europe"
+    ],
+    "countries": [
+      "Ukraine"
+    ]
+  },
+  {
+    "iso_code": "urd",
+    "name": "Urdu",
+    "common_name": "Urdu",
+    "regions": [
+      "South Asia"
+    ],
+    "countries": [
+      "Pakistan",
+      "India"
+    ]
+  },
+  {
+    "iso_code": "uzn",
+    "name": "Uzbek (Northern)",
+    "common_name": "Northern Uzbek",
+    "regions": [
+      "Central Asia"
+    ],
+    "countries": [
+      "Uzbekistan"
+    ]
+  },
+  {
+    "iso_code": "vie",
+    "name": "Vietnamese",
+    "common_name": "Vietnamese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Vietnam"
+    ]
+  },
+  {
+    "iso_code": "wln",
+    "name": "Walloon",
+    "common_name": "Walloon",
+    "regions": [
+      "Western Europe"
+    ],
+    "countries": [
+      "Belgium",
+      "France"
+    ]
+  },
+  {
+    "iso_code": "wuu",
+    "name": "Wu Chinese",
+    "common_name": "Shanghainese",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "iso_code": "xho",
+    "name": "Xhosa",
+    "common_name": "Xhosa",
+    "regions": [
+      "Southern Africa"
+    ],
+    "countries": [
+      "South Africa",
+      "Zimbabwe"
+    ]
+  },
+  {
+    "iso_code": "ydd",
+    "name": "Yahgan",
+    "common_name": "Yahgan",
+    "regions": [
+      "South America"
+    ],
+    "countries": [
+      "Chile",
+      "Argentina"
+    ]
+  },
+  {
+    "iso_code": "yor",
+    "name": "Yoruba",
+    "common_name": "Yoruba",
+    "regions": [
+      "West Africa"
+    ],
+    "countries": [
+      "Nigeria",
+      "Benin",
+      "Togo"
+    ]
+  },
+  {
+    "iso_code": "yue",
+    "name": "Yue Chinese",
+    "common_name": "Cantonese",
+    "regions": [
+      "East Asia"
+    ],
+    "countries": [
+      "China",
+      "Hong Kong",
+      "Macau"
+    ]
+  },
+  {
+    "iso_code": "zlm",
+    "name": "Zimanese",
+    "common_name": "Zimanese",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Indonesia"
+    ]
+  },
+  {
+    "iso_code": "zsm",
+    "name": "Malay",
+    "common_name": "Malay",
+    "regions": [
+      "Southeast Asia"
+    ],
+    "countries": [
+      "Malaysia",
+      "Indonesia",
+      "Brunei"
+    ]
+  }
+]
