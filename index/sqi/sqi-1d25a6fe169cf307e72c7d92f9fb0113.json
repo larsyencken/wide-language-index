@@ -1,4 +1,16 @@
 {
+  "annotations": [
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "label": "bad",
+      "offset": 240,
+      "problems": [
+        "multiple languages"
+      ]
+    }
+  ],
   "checksum": "1d25a6fe169cf307e72c7d92f9fb0113",
   "date": "2016-09-11",
   "language": "sqi",

@@ -2,11 +2,11 @@
 
 ## Annotation summary
 
-- Annotations: 656 good + 559 bad = 1215 total
+- Annotations: 682 good + 569 bad = 1251 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
-    - 55 with >=5 annotations
+    - 56 with >=5 annotations
     - 48 with >=10 annotations
 
 ## Annotations by language
@@ -67,52 +67,52 @@
                         Hebrew heb ******
                       Croatian hrv ******
                           Dari prs ******
+         Tonga (Tonga Islands) ton *****
           Assyrian Neo-Aramaic aii ****
                   Ainu (Japan) ain ****
                  Gheg Albanian aln ****
                      Bulgarian bul ****
+            Southwestern Dinka dik ****
              Standard Estonian ekk ****
                         Fijian fij ****
                       Armenian hye ****
                        Kannada kan ****
                  Central Khmer khm ****
+                         Latin lat ****
               Standard Latvian lvs ****
                     Macedonian mkd ****
+                     Mongolian mon ****
                        Flemish nld ****
   Nepali (individual language) npi ****
                Western Panjabi pnb ****
+                Central Pashto pst ****
+                     Sinhalese sin ****
                         Slovak slk ****
                         Samoan smo ****
+                        Somali som ****
+                      Albanian sqi ****
+                       Serbian srp ****
                       Tigrinya tir ****
-         Tonga (Tonga Islands) ton ****
                Eastern Yiddish ydd ****
+                        Yoruba yor ****
               Northern Kurdish kmr ***
                       Balinese ban **
                       Buginese bug **
                      Valencian cat **
-            Southwestern Dinka dik **
                      Esperanto epo **
                        Faroese fao **
                Western Frisian fry **
-                         Latin lat **
                    Minangkabau min **
                        Maltese mlt **
                Min Nan Chinese nan **
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
                       Pampanga pam **
-                       Serbian srp **
+                     Slovenian slv **
                      Sundanese sun **
                        Walloon wln **
                       Achinese ace *
                  Luxembourgish ltz *
-                     Mongolian mon *
-                Central Pashto pst *
-                     Sinhalese sin *
-                     Slovenian slv *
-                        Somali som *
-                      Albanian sqi *
-                        Yoruba yor *
 ```
 
 ## Samples by language

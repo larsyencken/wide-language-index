@@ -12,6 +12,26 @@
         "noise"
       ],
       "speakers": 1
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "mixed",
+      "label": "good",
+      "offset": 280,
+      "problems": [],
+      "speakers": 2
+    },
+    {
+      "annotator": "Lars Yencken <lars@yencken.org>",
+      "date": "2025-02-11",
+      "duration": 20,
+      "genders": "male",
+      "label": "good",
+      "offset": 620,
+      "problems": [],
+      "speakers": 1
     }
   ],
   "checksum": "f8feefb859b8fa6257f0b3e15e8617d4",
