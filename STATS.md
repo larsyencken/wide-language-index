@@ -2,7 +2,7 @@
 
 ## Annotation summary
 
-- Annotations: 682 good + 569 bad = 1251 total
+- Annotations: 684 good + 569 bad = 1253 total
 - Time annotated: 6 hours
 - Languages:
     - 101 with >=1 annotations
@@ -82,6 +82,7 @@
               Standard Latvian lvs ****
                     Macedonian mkd ****
                      Mongolian mon ****
+               Min Nan Chinese nan ****
                        Flemish nld ****
   Nepali (individual language) npi ****
                Western Panjabi pnb ****
@@ -104,7 +105,6 @@
                Western Frisian fry **
                    Minangkabau min **
                        Maltese mlt **
-               Min Nan Chinese nan **
            Occitan (post 1500) oci **
    Oriya (individual language) ory **
                       Pampanga pam **
@@ -152,7 +152,7 @@
                         Somali som   4
                         Danish dan  28
                        Turkish tur  34
-               Min Nan Chinese nan   1
+               Min Nan Chinese nan   3
                         Slovak slk   4
                      Slovenian slv   3
                        Italian ita  22
