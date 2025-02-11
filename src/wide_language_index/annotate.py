@@ -19,8 +19,7 @@ from os import path
 import click
 import pydub
 
-import audio
-import ui
+from . import audio, ui
 
 SETS = {
     "global-top-20": set(

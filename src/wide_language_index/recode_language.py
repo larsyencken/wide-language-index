@@ -15,7 +15,7 @@ import shutil
 
 import click
 
-import mirror
+from . import mirror
 
 
 @click.command()

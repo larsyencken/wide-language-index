@@ -14,7 +14,7 @@ from typing import Dict, List, Tuple
 
 import click
 
-import audio
+from . import audio
 
 
 @click.command()

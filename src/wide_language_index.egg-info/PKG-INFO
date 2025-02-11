@@ -1,0 +1,84 @@
+Metadata-Version: 2.2
+Name: wide-language-index
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: aiofiles
+Requires-Dist: pyquery
+Requires-Dist: sh
+Requires-Dist: pydub
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: jsonschema
+Requires-Dist: humanize
+Requires-Dist: feedparser
+Requires-Dist: click
+Requires-Dist: clint
+Requires-Dist: google-api-python-client
+Requires-Dist: characteristic
+Requires-Dist: python-dateutil
+Requires-Dist: boto3>=1.36.16
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: yt-dlp>=2025.1.26
+
+# wide-language-index
+
+[![TravisCI](https://travis-ci.org/larsyencken/wide-language-index.svg?branch=master)](https://travis-ci.org/larsyencken/wide-language-index)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/larsyencken/wide-language-index?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+A listing of publicly available audio samples of a large number of different languages.
+
+## Overview
+
+The Wide Language Index is an attempt to curate a set of examples of a wide variety of languages from public podcasts. The index itself contains a listing of samples and information about them. The audio files themselves are not bundled in, but can be downloaded as needed.
+
+The full dataset is meant to be downloaded from OS X or Linux. If your system meets the required dependencies, fetching examples of different languages should be as simple as running: `make env && make fetch`.
+
+## Dependencies
+
+To use the tools that accompany this dataset, your computer should have installed:
+
+- `python3.4`
+- `pip`
+- `virtualenv`
+- `make`
+
+Run `make env && make audit` to check if the tools are working.
+
+## Layout
+
+The `index/` folder contains references to publicly accessible audio samples for which the principal language has been pre-determined. Each sample is represented by a JSON file containing, at minimum:
+
+- `language`: the ISO 693-3 code for the language
+- `media_urls`: the URL of the raw sample file
+- `source_name`: what venue or outlet published the audio file
+- `title`: the title of the podcast or sample
+- `date`: the date of publication of the sample
+- `checksum`: an md5 checksum of the language
+
+It may also contain the optional fields:
+
+- `source_url`: the URL of the page containing the podcast, for context
+- `description`: a description of the contents, in English or in the source language
+
+Each sample's file is named as `<language>/<language>-<checksum>.json`.
+
+## Fixing a sample
+
+A helper script exists for fixing samples, but it will only work with access to the underlying S3 bucket.
+
+```bash
+python src/recode_sample.py index/<language>/<language>-<checksum>.json <new-language>
+```
+
+## License
+
+This index is provided under the [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). In short, you are free to use this data non-commercially as long as you provide a reference back to this project. If you have a use case where this would be onerous, please send me an email.
+
+## Contributing
+
+See [Contributing](https://github.com/larsyencken/wide-language-index/blob/master/CONTRIBUTING.md).
+
+Lars Yencken <lars@yencken.org>

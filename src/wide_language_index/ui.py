@@ -8,9 +8,9 @@
 Helpers for writing interactive console scripts.
 """
 
-import re
 import os
-from typing import List, Set, Optional
+import re
+from typing import List, Optional, Set
 
 
 def input_bool(query: str) -> bool:

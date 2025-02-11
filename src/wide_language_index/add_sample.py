@@ -19,8 +19,8 @@ import click
 import dotenv
 import sh
 
-import youtube
-from audio import AudioSample
+from . import youtube
+from .audio import AudioSample
 
 dotenv.load_dotenv()
 BASE_DIR = path.abspath(path.join(path.dirname(__file__), ".."))

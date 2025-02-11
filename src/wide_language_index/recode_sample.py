@@ -16,7 +16,7 @@ import sys
 
 import click
 
-import mirror
+from . import mirror
 
 
 @click.command()

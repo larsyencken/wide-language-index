@@ -7,7 +7,7 @@
 
 import click
 
-import audio
+from . import audio
 
 
 @click.command()

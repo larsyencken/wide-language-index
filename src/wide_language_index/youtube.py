@@ -4,11 +4,10 @@ import re
 import tempfile
 import urllib.parse
 from datetime import datetime
-from typing import Dict
 
 import yt_dlp
 
-from audio import AudioSample
+from .audio import AudioSample
 
 
 class YouTubeError(Exception):
@@ -78,7 +77,7 @@ def download_youtube_sample(url: str) -> AudioSample:
     )
 
 
-def fetch_youtube_metadata(url: str) -> Dict[str, str]:
+def fetch_youtube_metadata(url: str) -> dict[str, str]:
     """Fetch metadata for a YouTube video using yt-dlp."""
     ydl_opts = {
         "quiet": True,

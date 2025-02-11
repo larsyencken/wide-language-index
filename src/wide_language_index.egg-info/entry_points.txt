@@ -1,0 +1,13 @@
+[console_scripts]
+add-sample = wide_language_index.add_sample:main
+annotate = wide_language_index.annotate:main
+annotation-stats = wide_language_index.annotation_stats:annotation_stats
+audit = wide_language_index.audit:main
+fetch-index = wide_language_index.fetch_index:fetch_index
+fetch-rss = wide_language_index.fetch_rss_feed:main
+generate-clips = wide_language_index.generate_clips:make_clips
+mirror = wide_language_index.mirror:main
+normalize = wide_language_index.normalize:normalize_json_files
+play-offset = wide_language_index.play_offset:play_offset_cmd
+recode-language = wide_language_index.recode_language:main
+recode-sample = wide_language_index.recode_sample:main

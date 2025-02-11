@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/wide_language_index.egg-info/PKG-INFO
+src/wide_language_index.egg-info/SOURCES.txt
+src/wide_language_index.egg-info/dependency_links.txt
+src/wide_language_index.egg-info/entry_points.txt
+src/wide_language_index.egg-info/requires.txt
+src/wide_language_index.egg-info/top_level.txt
