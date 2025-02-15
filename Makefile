@@ -2,15 +2,13 @@
 #  Makefile
 #
 
-PY = uv run
-
 default: help
 
 help:
 	@echo
 	@echo 'Commands for working with the index'
 	@echo
-	@echo '  make .env        build the sandbox required for other commands'
+	@echo '  make .venv      build the sandbox required for other commands'
 	@echo '  make audit      check that annotations are all valid'
 	@echo '  make fetch      fetch all audio samples in the index'
 	@echo '  make normalize  reformat all json records to a standard form'
@@ -20,44 +18,44 @@ help:
 	@echo '  make clips      make short clips for every good annotation'
 	@echo
 
-.env: pyproject.toml uv.lock
+.venv: pyproject.toml uv.lock
 	uv sync
 	touch $@
 
-audit: .env
-	$(PY) src/audit.py
+audit: .venv
+	.venv/bin/audit
 
-fetch: .env
+fetch: .venv
 	mkdir -p samples
-	$(PY) src/fetch_index.py --prefer-mirrors
+	.venv/bin/fetch-index --prefer-mirrors
 
-normalize: .env
-	$(PY) src/normalize.py
+normalize: .venv
+	.venv/bin/normalize
 
-annotate: .env
-	$(PY) src/annotate.py --strategy greedy || :
+annotate: .venv
+	.venv/bin/annotate --strategy greedy || :
 	make stats
  
-stats: .env
-	$(PY) src/annotation_stats.py STATS.md
+stats: .venv
+	.venv/bin/annotation-stats STATS.md
 
-mirror: .env
-	$(PY) src/mirror.py
+mirror: .venv
+	.venv/bin/mirror
 
-rss: .env
-	$(PY) src/fetch_rss_feed.py
+rss: .venv
+	.venv/bin/fetch-rss-feed
 
-clips: fetch .env
+clips: fetch .venv
 	mkdir -p samples/_annotated
-	$(PY) src/generate_clips.py
+	.venv/bin/generate-clips
 
 prompt:
 	uv tool run files-to-prompt Makefile src README.md STATS.md pyproject.toml data | pbcopy
 
-lint: .env
+lint: .venv
 	uv run ruff check src
 
-format: .env normalize
+format: .venv normalize
 	uv run ruff format src
 
 test: lint

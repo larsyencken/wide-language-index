@@ -8,7 +8,6 @@ from pathlib import Path
 from typing import List, Optional, Set
 
 import llm
-import requests
 
 DATA_FILE = Path(__file__).parent.parent.parent / "ext" / "language_data.json"
 MODEL = "gpt-4o-mini"
@@ -18,15 +17,12 @@ MODEL = "gpt-4o-mini"
 class LanguageData:
     iso_code: str
     name: str
-    common_name: Optional[str] = None
-    countries: List[str] = None
-    regions: List[str] = None
-
-    def __post_init__(self):
-        if self.countries is None:
-            self.countries = []
-        if self.regions is None:
-            self.regions = []
+    common_name: Optional[str]
+    countries: List[str]
+    regions: List[str]
+    l1_users: int
+    all_users: int
+    language_family: List[str]
 
 
 def fetch_language_data(iso_code: str) -> Optional[LanguageData]:
@@ -34,7 +30,7 @@ def fetch_language_data(iso_code: str) -> Optional[LanguageData]:
     prompt = f"""
     In what world regions is the language with iso code "{iso_code}" spoken? What is the most common name used for it? 
     Respond only in JSON with no markdown formatting, e.g.
-    {{"iso_code": "yue", "name": "Yue Chinese", "common_name": "Hokkien", "regions": ["East Asia"], "main_countries": ["China"]}}
+    {{"iso_code": "yue", "name": "Yue Chinese", "common_name": "Cantonese", "regions": ["East Asia"], "main_countries": ["China"], "l1_users": 86000000, "all_users": 87000000, "language_family": ["Sino-Tibetan", "Sinitic", "Chinese", "Yue"]}}
     """
     response = json.loads(m.prompt(prompt).json()["content"])
     print(response)
@@ -44,6 +40,9 @@ def fetch_language_data(iso_code: str) -> Optional[LanguageData]:
         common_name=response["common_name"],
         regions=response["regions"],
         countries=response["main_countries"],
+        l1_users=response["l1_users"],
+        all_users=response["all_users"],
+        language_family=response["language_family"],
     )
 
 
@@ -58,6 +57,9 @@ def save_language_data(data: dict[str, LanguageData], filename: str = DATA_FILE)
                 "common_name": lang_data.common_name,
                 "regions": lang_data.regions,
                 "countries": lang_data.countries,
+                "l1_users": lang_data.l1_users,
+                "all_users": lang_data.all_users,
+                "language_family": lang_data.language_family,
             }
         )
     with open(filename, "w", encoding="utf-8") as f:
@@ -89,6 +91,9 @@ def load_language_data(filename: str = DATA_FILE) -> dict[str, LanguageData]:
             common_name=row["common_name"],
             regions=row["regions"],
             countries=row["countries"],
+            l1_users=row["l1_users"],
+            all_users=row["all_users"],
+            language_family=row["language_family"],
         )
         for row in data
     }
