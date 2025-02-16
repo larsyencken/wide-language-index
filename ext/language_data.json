@@ -3,10 +3,10 @@
     "iso_code": "ace",
     "name": "Acehnese",
     "common_name": "Acehnese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 3000000,
-    "all_users": 4000000,
+    "regions": ["Aceh", "Sumatra", "Malaysia"],
+    "main_countries": ["Indonesia", "Malaysia"],
+    "l1_users": 2840000,
+    "all_users": 3370000,
     "language_family": ["Austronesian", "Malayo-Polynesian", "Chamic"]
   },
   {
@@ -14,908 +14,1756 @@
     "name": "Afrikaans",
     "common_name": "Afrikaans",
     "regions": ["Southern Africa"],
-    "countries": ["South Africa", "Namibia"],
-    "l1_users": 7000000,
-    "all_users": 17000000,
-    "language_family": ["Indo-European", "Germanic", "West Germanic"]
+    "main_countries": ["South Africa", "Namibia"],
+    "l1_users": 7200000,
+    "all_users": 10300000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "West Germanic",
+      "Low Franconian",
+      "Dutch"
+    ]
   },
   {
     "iso_code": "aii",
-    "name": "Assyrian Neo-Aramaic",
+    "name": "Suret",
     "common_name": "Assyrian Neo-Aramaic",
-    "regions": ["Middle East"],
-    "countries": ["Iraq", "Syria", "Turkey", "Iran"],
-    "l1_users": 240000,
-    "all_users": 350000,
+    "regions": ["Assyrian heartland", "global diaspora"],
+    "main_countries": ["Iran", "Iraq", "Syria", "Turkey"],
+    "l1_users": 804580,
+    "all_users": 804580,
     "language_family": [
       "Afro-Asiatic",
       "Semitic",
+      "Central Semitic",
       "Northwest Semitic",
-      "Aramaic"
+      "Aramaic",
+      "Eastern Aramaic",
+      "Northeastern Neo-Aramaic"
     ]
   },
   {
     "iso_code": "ain",
-    "name": "Ainu",
+    "name": "Hokkaido Ainu",
     "common_name": "Ainu",
-    "regions": ["East Asia"],
-    "countries": ["Japan"],
-    "l1_users": 10,
-    "all_users": 15,
-    "language_family": ["Language isolate"]
+    "regions": ["Hokkaido"],
+    "main_countries": ["Japan"],
+    "l1_users": 2,
+    "all_users": 671,
+    "language_family": ["Ainu languages", "Paleosiberian"]
   },
   {
     "iso_code": "aln",
-    "name": "Gheg Albanian",
-    "common_name": "Gheg Albanian",
-    "regions": ["Southeast Europe"],
-    "countries": [
+    "name": "Gheg",
+    "common_name": "Geg",
+    "regions": ["Albania", "Kosovo", "North Macedonia", "Montenegro", "Serbia"],
+    "main_countries": [
       "Albania",
       "Kosovo",
       "North Macedonia",
       "Montenegro",
       "Serbia"
     ],
-    "l1_users": 3000000,
-    "all_users": 3500000,
-    "language_family": ["Indo-European", "Albanian"]
+    "l1_users": 4116020,
+    "all_users": 4116020,
+    "language_family": [
+      "Indo-European",
+      "Albanoid",
+      "Albanian",
+      "Proto-Albanian"
+    ]
   },
   {
     "iso_code": "amh",
     "name": "Amharic",
     "common_name": "Amharic",
-    "regions": ["East Africa"],
-    "countries": ["Ethiopia"],
-    "l1_users": 32000000,
-    "all_users": 45000000,
-    "language_family": ["Afro-Asiatic", "Semitic"]
+    "regions": ["Ethiopia"],
+    "main_countries": ["Ethiopia"],
+    "l1_users": 34570000,
+    "all_users": 59687900,
+    "language_family": [
+      "Afro-Asiatic",
+      "Semitic",
+      "West Semitic",
+      "South Semitic",
+      "Ethiopic",
+      "South",
+      "Transversal",
+      "Amharic–Argobba"
+    ]
   },
   {
     "iso_code": "arb",
-    "name": "Arabic",
-    "common_name": "Arabic",
-    "regions": [
-      "Middle East",
-      "North Africa",
-      "Horn of Africa",
-      "Sahel",
-      "Western Sahara"
+    "name": "Modern Standard Arabic",
+    "common_name": "MSA",
+    "regions": ["Arab world", "Middle East", "North Africa"],
+    "main_countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Iraq",
+      "Algeria",
+      "Sudan",
+      "Morocco",
+      "Yemen",
+      "Syria",
+      "Jordan",
+      "Tunisia",
+      "Lebanon",
+      "Oman",
+      "Palestine",
+      "Bahrain",
+      "Kuwait",
+      "Libya",
+      "Qatar"
     ],
-    "countries": ["Saudi Arabia", "Egypt", "Iraq", "Algeria", "Sudan"],
-    "l1_users": 310000000,
-    "all_users": 400000000,
-    "language_family": ["Afro-Asiatic", "Semitic"]
+    "l1_users": 0,
+    "all_users": 332459000,
+    "language_family": [
+      "Afro-Asiatic",
+      "Semitic",
+      "West Semitic",
+      "Central Semitic",
+      "Arabic"
+    ]
   },
   {
     "iso_code": "arz",
     "name": "Egyptian Arabic",
-    "common_name": "Egyptian Arabic",
-    "regions": ["North Africa", "Middle East"],
-    "countries": ["Egypt"],
-    "l1_users": 67000000,
-    "all_users": 80000000,
-    "language_family": ["Afro-Asiatic", "Semitic", "Arabic"]
+    "common_name": "Masri",
+    "regions": ["Egypt"],
+    "main_countries": ["Egypt"],
+    "l1_users": 78409630,
+    "all_users": 103409630,
+    "language_family": [
+      "Afroasiatic",
+      "Semitic languages",
+      "West Semitic languages",
+      "Central Semitic languages",
+      "Arabic"
+    ]
   },
   {
     "iso_code": "ban",
     "name": "Balinese",
-    "common_name": "Balinese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 3300000,
-    "all_users": 3500000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "common_name": "Basa Bali",
+    "regions": [
+      "Indonesia",
+      "Bali",
+      "Nusa Penida",
+      "Lombok",
+      "Southern Sumatra",
+      "Sulawesi"
+    ],
+    "main_countries": ["Indonesia"],
+    "l1_users": 1000000,
+    "all_users": 3300000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Bali–Sasak–Sumbawa"
+    ]
   },
   {
     "iso_code": "ben",
     "name": "Bengali",
-    "common_name": "Bengali",
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["Bangladesh", "India"],
-    "l1_users": 230000000,
-    "all_users": 250000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Indo-Aryan"]
+    "common_name": "Bangla",
+    "regions": [
+      "Bengal",
+      "Assam (Barak valley and Lower division)",
+      "Tripura",
+      "Jharkhand",
+      "Andaman and Nicobar islands"
+    ],
+    "main_countries": ["Bangladesh", "India"],
+    "l1_users": 236862060,
+    "all_users": 278184510,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Eastern Indo-Aryan",
+      "Bengali–Assamese"
+    ]
   },
   {
     "iso_code": "bug",
     "name": "Buginese",
-    "common_name": "Buginese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 4000000,
-    "all_users": 6000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "South Sulawesi"]
+    "common_name": "Bugis",
+    "regions": [
+      "South Sulawesi",
+      "Borneo",
+      "Sumatra",
+      "Maluku",
+      "Papua",
+      "Java",
+      "East Sabah",
+      "Malay Peninsula",
+      "South Philippines"
+    ],
+    "main_countries": ["Indonesia", "Malaysia"],
+    "l1_users": 3527800,
+    "all_users": 4000000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "South Sulawesi",
+      "Bugis-Tamanic",
+      "Bugis"
+    ]
   },
   {
     "iso_code": "bul",
     "name": "Bulgarian",
     "common_name": "Bulgarian",
     "regions": ["Southeast Europe"],
-    "countries": ["Bulgaria"],
-    "l1_users": 7000000,
-    "all_users": 9000000,
-    "language_family": ["Indo-European", "Slavic", "South Slavic"]
+    "main_countries": [
+      "Bulgaria",
+      "North Macedonia",
+      "Ukraine",
+      "Moldova",
+      "Romania",
+      "Hungary",
+      "Serbia",
+      "Kosovo",
+      "Albania",
+      "Greece",
+      "Turkey"
+    ],
+    "l1_users": 7600000,
+    "all_users": 7882250,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "South Slavic",
+      "Eastern South Slavic"
+    ]
   },
   {
     "iso_code": "cat",
     "name": "Catalan",
     "common_name": "Catalan",
-    "regions": ["Southern Europe", "Western Europe"],
-    "countries": ["Spain", "Andorra", "France", "Italy"],
-    "l1_users": 9000000,
-    "all_users": 10000000,
-    "language_family": ["Indo-European", "Romance"]
+    "regions": ["Southern Europe"],
+    "main_countries": ["Andorra", "Spain", "France", "Italy"],
+    "l1_users": 4141310,
+    "all_users": 9241310,
+    "language_family": [
+      "Indo-European",
+      "Italic",
+      "Latino-Faliscan",
+      "Latin",
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
+      "Gallo-Romance",
+      "Occitano-Romance"
+    ]
   },
   {
     "iso_code": "ces",
     "name": "Czech",
-    "common_name": "Czech",
-    "regions": ["Central Europe"],
-    "countries": ["Czech Republic"],
-    "l1_users": 10500000,
-    "all_users": 13000000,
-    "language_family": ["Indo-European", "Slavic", "West Slavic"]
+    "common_name": "čeština",
+    "regions": [
+      "Czech Republic",
+      "European Union",
+      "Austria",
+      "Bosnia and Herzegovina",
+      "Croatia",
+      "Poland",
+      "Romania",
+      "Slovakia"
+    ],
+    "main_countries": ["Czech Republic"],
+    "l1_users": 9612710,
+    "all_users": 12321210,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "West Slavic",
+      "Czech-Slovak"
+    ]
   },
   {
     "iso_code": "cmn",
     "name": "Mandarin Chinese",
     "common_name": "Mandarin",
-    "regions": ["East Asia"],
-    "countries": ["China", "Taiwan", "Singapore"],
-    "l1_users": 900000000,
-    "all_users": 1200000000,
+    "regions": ["North China", "Central China", "Southwestern China"],
+    "main_countries": ["China", "Taiwan", "Singapore"],
+    "l1_users": 940936330,
+    "all_users": 1140361330,
     "language_family": ["Sino-Tibetan", "Sinitic", "Chinese"]
   },
   {
     "iso_code": "dan",
     "name": "Danish",
     "common_name": "Danish",
-    "regions": ["Northern Europe", "Scandinavia"],
-    "countries": ["Denmark"],
-    "l1_users": 5500000,
-    "all_users": 6000000,
-    "language_family": ["Germanic", "North Germanic"]
+    "regions": [
+      "Denmark",
+      "Schleswig-Holstein (Germany)",
+      "Greenland",
+      "Faroe Islands",
+      "Norway",
+      "Sweden",
+      "United States",
+      "Canada",
+      "Brazil",
+      "Argentina"
+    ],
+    "main_countries": ["Denmark", "Germany", "Greenland", "Faroe Islands"],
+    "l1_users": 5970000,
+    "all_users": 6900000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "Northwest Germanic",
+      "North Germanic",
+      "East Scandinavian"
+    ]
   },
   {
     "iso_code": "deu",
     "name": "German",
-    "common_name": "German",
-    "regions": ["Europe", "North America", "Oceania"],
-    "countries": [
+    "common_name": "Deutsch",
+    "regions": ["Western Europe", "Central Europe"],
+    "main_countries": [
       "Germany",
       "Austria",
       "Switzerland",
+      "Liechtenstein",
       "Luxembourg",
-      "Liechtenstein"
+      "Belgium"
     ],
-    "l1_users": 76000000,
-    "all_users": 100000000,
+    "l1_users": 95000000,
+    "all_users": 175000000,
     "language_family": ["Indo-European", "Germanic", "West Germanic"]
   },
   {
-    "iso_code": "dik",
-    "name": "Southwestern Dinka",
-    "common_name": "Dinka (Southwestern)",
-    "regions": ["Northeast Africa"],
-    "countries": ["South Sudan"],
-    "l1_users": 1300000,
-    "all_users": 1300000,
-    "language_family": ["Nilo-Saharan", "Nilotic"]
+    "iso_code": "din",
+    "name": "Dinka",
+    "common_name": "Dinka",
+    "regions": ["South Sudan"],
+    "main_countries": ["South Sudan"],
+    "l1_users": 4238400,
+    "all_users": 4238400,
+    "language_family": [
+      "Nilo-Saharan",
+      "Eastern Sudanic",
+      "Southern Eastern Sudanic",
+      "Nilotic",
+      "Western Nilotic",
+      "Dinka–Nuer"
+    ]
   },
   {
-    "iso_code": "ekk",
+    "iso_code": "est",
     "name": "Estonian",
-    "common_name": "Estonian",
-    "regions": ["Europe"],
-    "countries": ["Estonia"],
-    "l1_users": 900000,
-    "all_users": 1300000,
-    "language_family": ["Uralic", "Finnic"]
+    "common_name": "eesti keel",
+    "regions": ["Estonia", "European Union"],
+    "main_countries": ["Estonia"],
+    "l1_users": 922000,
+    "all_users": 1244850,
+    "language_family": ["Uralic", "Finnic", "Southern Finnic", "Central Finnic"]
   },
   {
     "iso_code": "ell",
     "name": "Modern Greek",
     "common_name": "Greek",
-    "regions": ["Southeastern Europe", "Mediterranean"],
-    "countries": ["Greece", "Cyprus"],
-    "l1_users": 6000000,
-    "all_users": 13000000,
-    "language_family": ["Indo-European", "Hellenic"]
+    "regions": ["Greece", "Cyprus", "Albania", "Turkey", "Italy"],
+    "main_countries": ["Greece", "Cyprus"],
+    "l1_users": 13400000,
+    "all_users": 13400000,
+    "language_family": ["Indo-European", "Hellenic", "Greek"]
   },
   {
     "iso_code": "eng",
     "name": "English",
     "common_name": "English",
-    "regions": ["Worldwide"],
-    "countries": [
-      "United States",
+    "regions": [
+      "The English-speaking world",
+      "North America",
+      "Europe",
+      "Australasia",
+      "Africa",
+      "South Asia"
+    ],
+    "main_countries": [
       "United Kingdom",
+      "United States",
       "Canada",
       "Australia",
+      "Ireland",
       "New Zealand"
     ],
-    "l1_users": 370000000,
-    "all_users": 1500000000,
-    "language_family": ["Indo-European", "Germanic", "West Germanic"]
+    "l1_users": 380000000,
+    "all_users": 1457000000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "West Germanic",
+      "North Sea Germanic",
+      "Anglo-Frisian",
+      "Anglic"
+    ]
   },
   {
     "iso_code": "epo",
     "name": "Esperanto",
-    "common_name": "Esperanto",
-    "regions": ["Worldwide"],
-    "countries": [],
-    "l1_users": 2000,
+    "common_name": "Lingvo Internacia",
+    "regions": ["120 countries worldwide"],
+    "main_countries": [],
+    "l1_users": 1000,
     "all_users": 2000000,
-    "language_family": ["Constructed languages"]
+    "language_family": [
+      "Constructed language",
+      "International auxiliary language"
+    ]
   },
   {
     "iso_code": "fao",
     "name": "Faroese",
-    "common_name": "Faroese",
-    "regions": ["Northern Europe"],
-    "countries": ["Faroe Islands"],
-    "l1_users": 80000,
-    "all_users": 80000,
-    "language_family": ["Indo-European", "Germanic", "North Germanic"]
+    "common_name": "Føroyskt",
+    "regions": ["Faroe Islands"],
+    "main_countries": ["Faroe Islands", "Denmark"],
+    "l1_users": 69150,
+    "all_users": 69150,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "North Germanic",
+      "West Scandinavian",
+      "Insular Scandinavian"
+    ]
   },
   {
     "iso_code": "fij",
     "name": "Fijian",
-    "common_name": "Fijian",
-    "regions": ["Oceania"],
-    "countries": ["Fiji"],
-    "l1_users": 250000,
-    "all_users": 400000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "Oceanic"]
+    "common_name": "Na vosa vaka-Viti",
+    "regions": ["Fiji"],
+    "main_countries": ["Fiji"],
+    "l1_users": 339210,
+    "all_users": 650000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Oceanic",
+      "Central Pacific",
+      "East Central Pacific",
+      "East Fijian"
+    ]
   },
   {
     "iso_code": "fil",
     "name": "Filipino",
-    "common_name": "Filipino",
-    "regions": ["Southeast Asia"],
-    "countries": ["Philippines"],
-    "l1_users": 24000000,
-    "all_users": 82000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "common_name": "Wikang Filipino",
+    "regions": [
+      "Philippines",
+      "Northern Mariana Islands",
+      "United States",
+      "Hong Kong",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ],
+    "main_countries": ["Philippines"],
+    "l1_users": 29211970,
+    "all_users": 83357970,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Philippine",
+      "Greater Central Philippine",
+      "Central Philippine",
+      "Kasiguranin–Tagalog",
+      "Tagalog"
+    ]
   },
   {
     "iso_code": "fin",
     "name": "Finnish",
-    "common_name": "Finnish",
-    "regions": ["Europe"],
-    "countries": ["Finland"],
-    "l1_users": 5000000,
-    "all_users": 6000000,
-    "language_family": ["Uralic", "Finnic"]
+    "common_name": "suomi",
+    "regions": ["Finland", "Sweden", "Norway", "Russia", "United States"],
+    "main_countries": ["Finland"],
+    "l1_users": 4750000,
+    "all_users": 5000000,
+    "language_family": ["Uralic", "Finnic", "Northern Finnic"]
   },
   {
     "iso_code": "fra",
     "name": "French",
-    "common_name": "French",
-    "regions": ["Europe", "North America", "Africa", "Oceania", "Asia"],
-    "countries": [
+    "common_name": "français",
+    "regions": ["Europe", "North America", "Africa", "Asia", "Oceania"],
+    "main_countries": [
       "France",
       "Canada",
       "Belgium",
       "Switzerland",
-      "Democratic Republic of the Congo"
+      "Luxembourg",
+      "Monaco"
     ],
-    "l1_users": 77000000,
-    "all_users": 274000000,
-    "language_family": ["Indo-European", "Romance"]
+    "l1_users": 73746080,
+    "all_users": 311575110,
+    "language_family": [
+      "Indo-European",
+      "Italic languages",
+      "Latino-Faliscan languages",
+      "Latin",
+      "Romance languages",
+      "Italo-Western languages",
+      "Western Romance languages",
+      "Gallo-Romance languages",
+      "Gallo-Rhaetian",
+      "Arpitan",
+      "Langues d'oïl",
+      "Francien",
+      "Old Latin",
+      "Vulgar Latin",
+      "Proto-Romance",
+      "Old Gallo-Romance",
+      "Old French",
+      "Middle French"
+    ]
   },
   {
     "iso_code": "fry",
-    "name": "Western Frisian",
-    "common_name": "Western Frisian",
-    "regions": ["Europe"],
-    "countries": ["Netherlands", "Germany"],
-    "l1_users": 400000,
-    "all_users": 600000,
-    "language_family": ["Germanic", "West Germanic", "Anglo-Frisian"]
+    "name": "West Frisian",
+    "common_name": "Frisian",
+    "regions": ["Friesland"],
+    "main_countries": ["Netherlands"],
+    "l1_users": 354000,
+    "all_users": 467000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "West Germanic",
+      "North Sea Germanic",
+      "Anglo-Frisian",
+      "Frisian",
+      "West Frisian"
+    ]
   },
   {
     "iso_code": "guj",
     "name": "Gujarati",
     "common_name": "Gujarati",
-    "regions": ["South Asia"],
-    "countries": ["India"],
-    "l1_users": 56400000,
-    "all_users": 65000000,
-    "language_family": ["Indo-European", "Indo-Aryan"]
+    "regions": [
+      "India",
+      "East Africa",
+      "North America",
+      "Europe",
+      "Southeast Africa",
+      "Australia",
+      "Middle East"
+    ],
+    "main_countries": [
+      "India",
+      "Pakistan",
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "South Africa"
+    ],
+    "l1_users": 56953120,
+    "all_users": 61000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Western Indo-Aryan",
+      "Gujarati languages"
+    ]
   },
   {
     "iso_code": "hat",
     "name": "Haitian Creole",
-    "common_name": "Haitian Creole",
-    "regions": ["Caribbean"],
-    "countries": ["Haiti"],
-    "l1_users": 8500000,
-    "all_users": 12000000,
-    "language_family": ["Creole"]
+    "common_name": "Kreyòl ayisyen",
+    "regions": [
+      "Haiti",
+      "Bahamas",
+      "Cuba",
+      "Dominican Republic",
+      "Costa Rica",
+      "United States"
+    ],
+    "main_countries": ["Haiti"],
+    "l1_users": 13157800,
+    "all_users": 10000000,
+    "language_family": [
+      "French-based creole languages",
+      "Circum-Caribbean French"
+    ]
   },
   {
     "iso_code": "hau",
     "name": "Hausa",
     "common_name": "Hausa",
-    "regions": ["West Africa", "North Africa"],
-    "countries": ["Nigeria", "Niger", "Ghana", "Cameroon"],
-    "l1_users": 28000000,
-    "all_users": 60000000,
-    "language_family": ["Afro-Asiatic", "Chadic"]
+    "regions": ["West Africa"],
+    "main_countries": [
+      "Nigeria",
+      "Niger",
+      "Ghana",
+      "Cameroon",
+      "Benin",
+      "Togo",
+      "Chad",
+      "Sudan"
+    ],
+    "l1_users": 53829060,
+    "all_users": 88238080,
+    "language_family": [
+      "Afro-Asiatic",
+      "Chadic",
+      "West Chadic",
+      "Hausa–Gwandara (A.1)"
+    ]
   },
   {
     "iso_code": "heb",
     "name": "Hebrew",
-    "common_name": "Hebrew",
-    "regions": ["Middle East"],
-    "countries": ["Israel"],
-    "l1_users": 8000000,
-    "all_users": 9000000,
+    "common_name": "Ivrit",
+    "regions": ["Southern Levant"],
+    "main_countries": ["Israel"],
+    "l1_users": 5000000,
+    "all_users": 20000000,
     "language_family": [
       "Afro-Asiatic",
       "Semitic",
+      "West Semitic",
       "Central Semitic",
       "Northwest Semitic",
-      "Canaanite"
+      "Canaanite",
+      "South Canaan"
     ]
   },
   {
     "iso_code": "hin",
     "name": "Hindi",
-    "common_name": "Hindi",
-    "regions": ["South Asia"],
-    "countries": ["India", "Fiji", "Nepal"],
-    "l1_users": 342000000,
-    "all_users": 600000000,
-    "language_family": ["Indo-European", "Indo-Aryan", "Central Zone"]
+    "common_name": "Modern Standard Hindi",
+    "regions": [
+      "India",
+      "Fiji",
+      "Nepal",
+      "South Africa",
+      "United Arab Emirates"
+    ],
+    "main_countries": ["India", "Fiji"],
+    "l1_users": 345088150,
+    "all_users": 608848150,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Central Indo-Aryan",
+      "Western Hindi",
+      "Hindustani"
+    ]
   },
   {
     "iso_code": "hrv",
     "name": "Croatian",
-    "common_name": "Croatian",
-    "regions": ["Southeastern Europe"],
-    "countries": ["Croatia"],
-    "l1_users": 5000000,
-    "all_users": 6000000,
-    "language_family": ["Indo-European", "Slavic", "South Slavic"]
+    "common_name": "hrvatski",
+    "regions": ["Southeast Europe"],
+    "main_countries": [
+      "Croatia",
+      "Bosnia and Herzegovina",
+      "Hungary",
+      "Montenegro",
+      "Romania",
+      "Serbia",
+      "Kosovo"
+    ],
+    "l1_users": 5121810,
+    "all_users": 6405910,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "South Slavic",
+      "Western South Slavic",
+      "Serbo-Croatian"
+    ]
   },
   {
     "iso_code": "hun",
     "name": "Hungarian",
-    "common_name": "Hungarian",
-    "regions": ["Europe"],
-    "countries": ["Hungary"],
-    "l1_users": 13000000,
-    "all_users": 15000000,
-    "language_family": ["Uralic", "Finno-Ugric"]
+    "common_name": "Magyar",
+    "regions": [
+      "Hungary",
+      "Eastern Austria",
+      "Croatia",
+      "Romania",
+      "Northern Serbia",
+      "Slovakia",
+      "Slovenia",
+      "Western Ukraine"
+    ],
+    "main_countries": [
+      "Hungary",
+      "Romania",
+      "Slovakia",
+      "Serbia",
+      "Austria",
+      "Croatia",
+      "Ukraine"
+    ],
+    "l1_users": 9827875,
+    "all_users": 14000000,
+    "language_family": ["Uralic", "Finno-Ugric", "Ugric"]
   },
   {
     "iso_code": "hye",
     "name": "Armenian",
     "common_name": "Armenian",
-    "regions": ["Western Asia", "Eastern Europe"],
-    "countries": ["Armenia", "Turkey"],
-    "l1_users": 3000000,
-    "all_users": 5000000,
-    "language_family": ["Indo-European", "Armenian"]
+    "regions": [
+      "Abkhazia",
+      "Armenia",
+      "Georgia",
+      "Iran",
+      "Nagorno-Karabakh",
+      "Turkey"
+    ],
+    "main_countries": ["Armenia"],
+    "l1_users": 5281290,
+    "all_users": 7000000,
+    "language_family": [
+      "Indo-European",
+      "Proto-Indo-European",
+      "Proto-Armenian",
+      "Classical Armenian",
+      "Middle Armenian",
+      "Eastern Armenian",
+      "Western Armenian"
+    ]
   },
   {
     "iso_code": "ind",
     "name": "Indonesian",
-    "common_name": "Indonesian",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 43000000,
-    "all_users": 199000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "Indonesian"]
+    "common_name": "Bahasa Indonesia",
+    "regions": [
+      "Southeast Asia",
+      "Australia",
+      "Saudi Arabia",
+      "Taiwan",
+      "Netherlands",
+      "Japan",
+      "South Korea"
+    ],
+    "main_countries": ["Indonesia", "Malaysia", "East Timor", "Singapore"],
+    "l1_users": 71971184,
+    "all_users": 248501974,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Malayo-Chamic",
+      "Malayic",
+      "Malay"
+    ]
   },
   {
     "iso_code": "ita",
     "name": "Italian",
-    "common_name": "Italian",
-    "regions": ["Southern Europe", "Western Europe"],
-    "countries": ["Italy", "Switzerland", "San Marino", "Vatican City"],
-    "l1_users": 64000000,
-    "all_users": 85000000,
+    "common_name": "italiano",
+    "regions": ["Europe", "Americas", "Australia"],
+    "main_countries": [
+      "Italy",
+      "San Marino",
+      "Vatican City",
+      "Switzerland",
+      "Slovenia",
+      "Croatia"
+    ],
+    "l1_users": 67821530,
+    "all_users": 67901630,
     "language_family": [
       "Indo-European",
-      "Romance",
-      "Western Romance",
-      "Italo-Western"
+      "Italic languages",
+      "Latino-Faliscan languages",
+      "Latin",
+      "Romance languages",
+      "Italo-Western languages",
+      "Italo-Dalmatian languages",
+      "Italo-Romance"
     ]
   },
   {
     "iso_code": "jav",
     "name": "Javanese",
-    "common_name": "Javanese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 82000000,
+    "common_name": "Javanese language",
+    "regions": [
+      "Southeast Asia",
+      "Suriname",
+      "New Caledonia",
+      "Malaysia",
+      "Singapore",
+      "Sri Lanka",
+      "Indonesia"
+    ],
+    "main_countries": ["Indonesia", "Malaysia", "Suriname"],
+    "l1_users": 68335000,
     "all_users": 100000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Javanese languages"
+    ]
   },
   {
     "iso_code": "jpn",
     "name": "Japanese",
-    "common_name": "Japanese",
-    "regions": ["East Asia"],
-    "countries": ["Japan"],
-    "l1_users": 125000000,
-    "all_users": 130000000,
-    "language_family": ["Japonic"]
+    "common_name": "Nihongo",
+    "regions": ["Japan", "Japanese diaspora worldwide"],
+    "main_countries": ["Japan", "Palau"],
+    "l1_users": 123427320,
+    "all_users": 123000000,
+    "language_family": [
+      "Altaic",
+      "Japonic",
+      "Proto-Japonic",
+      "Old Japanese",
+      "Early Middle Japanese",
+      "Late Middle Japanese",
+      "Early Modern Japanese"
+    ]
   },
   {
     "iso_code": "kan",
     "name": "Kannada",
     "common_name": "Kannada",
-    "regions": ["South Asia"],
-    "countries": ["India"],
-    "l1_users": 44000000,
-    "all_users": 57000000,
-    "language_family": ["Dravidian"]
+    "regions": ["India", "Karnataka"],
+    "main_countries": ["India"],
+    "l1_users": 43697430,
+    "all_users": 58697430,
+    "language_family": ["Dravidian", "Southern", "Tamil–Kannada"]
   },
   {
     "iso_code": "khm",
     "name": "Khmer",
     "common_name": "Cambodian",
-    "regions": ["Southeast Asia"],
-    "countries": ["Cambodia"],
-    "l1_users": 16000000,
-    "all_users": 16000000,
-    "language_family": ["Austroasiatic", "Mon-Khmer"]
+    "regions": [
+      "Cambodia",
+      "Thailand (East and Isan)",
+      "Vietnam (Mekong Delta and Southeast)"
+    ],
+    "main_countries": ["Cambodia", "Thailand", "Vietnam"],
+    "l1_users": 16595050,
+    "all_users": 20500000,
+    "language_family": [
+      "Austroasiatic languages",
+      "Mon-Khmer languages",
+      "Khmeric"
+    ]
   },
   {
     "iso_code": "kmr",
-    "name": "Kurdish (Northern)",
-    "common_name": "Kurmanji",
-    "regions": ["Middle East", "Western Asia"],
-    "countries": ["Turkey", "Syria", "Iraq", "Iran"],
-    "l1_users": 20000000,
-    "all_users": 38000000,
-    "language_family": ["Indo-European", "Iranian"]
+    "name": "Kurmanji",
+    "common_name": "Northern Kurdish",
+    "regions": ["Kurdistan", "Kurdish diaspora"],
+    "main_countries": [
+      "Turkey",
+      "Iraq",
+      "Iran",
+      "Syria",
+      "Armenia",
+      "Azerbaijan"
+    ],
+    "l1_users": 16485750,
+    "all_users": 16485750,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Western",
+      "Northwestern",
+      "Kurdish"
+    ]
   },
   {
     "iso_code": "kor",
     "name": "Korean",
-    "common_name": "Korean",
-    "regions": ["East Asia"],
-    "countries": ["South Korea", "North Korea"],
-    "l1_users": 78000000,
-    "all_users": 82000000,
-    "language_family": ["Korean"]
+    "common_name": "Korean language",
+    "regions": [
+      "South Korea",
+      "North Korea",
+      "China",
+      "Russia",
+      "Central Asia"
+    ],
+    "main_countries": ["South Korea", "North Korea"],
+    "l1_users": 81000000,
+    "all_users": 81000000,
+    "language_family": [
+      "Altaic",
+      "Koreanic",
+      "Proto-Koreanic",
+      "Old Korean",
+      "Middle Korean",
+      "Early Modern Korean"
+    ]
   },
   {
     "iso_code": "lao",
     "name": "Lao",
-    "common_name": "Lao",
+    "common_name": "Lao language",
     "regions": ["Southeast Asia"],
-    "countries": ["Laos"],
-    "l1_users": 3400000,
-    "all_users": 7000000,
-    "language_family": ["Tai-Kadai", "Southwestern Tai"]
+    "main_countries": ["Laos", "Thailand", "Cambodia", "Vietnam", "China"],
+    "l1_users": 3685170,
+    "all_users": 3700000,
+    "language_family": [
+      "Kra-Dai",
+      "Tai languages",
+      "Southwestern Tai languages",
+      "Lao–Phutai languages"
+    ]
   },
   {
     "iso_code": "lat",
     "name": "Latin",
-    "common_name": "Latin",
-    "regions": ["Europe", "Western Roman Empire"],
-    "countries": ["Vatican City", "Italy"],
+    "common_name": "lingua Latina",
+    "regions": ["Europe", "Vatican City"],
+    "main_countries": ["Italy", "Romania", "France", "Spain", "Portugal"],
     "l1_users": 0,
-    "all_users": 10000,
-    "language_family": ["Indo-European", "Italic", "Latino-Faliscan"]
+    "all_users": 0,
+    "language_family": [
+      "Indo-European",
+      "Italic",
+      "Latino-Faliscan",
+      "Old Latin",
+      "Classical Latin",
+      "Vulgar Latin",
+      "Late Latin",
+      "Medieval Latin",
+      "Neo-Latin"
+    ]
   },
   {
     "iso_code": "ltz",
     "name": "Luxembourgish",
-    "common_name": "Luxembourgish",
-    "regions": ["Western Europe"],
-    "countries": ["Luxembourg"],
-    "l1_users": 400000,
-    "all_users": 500000,
-    "language_family": ["Germanic", "West Germanic", "High German"]
+    "common_name": "Lëtzebuergesch",
+    "regions": [
+      "Luxembourg",
+      "Saarland",
+      "Rhineland-Palatinate",
+      "Germany",
+      "Arelerland",
+      "Saint-Vith district",
+      "Belgium",
+      "Moselle department",
+      "France"
+    ],
+    "main_countries": ["Luxembourg", "Belgium", "Germany", "France"],
+    "l1_users": 300000,
+    "all_users": 300000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "West Germanic",
+      "Central German",
+      "Moselle Franconian"
+    ]
   },
   {
     "iso_code": "lvs",
-    "name": "Latvian",
+    "name": "Latvian language",
     "common_name": "Latvian",
-    "regions": ["Europe"],
-    "countries": ["Latvia"],
-    "l1_users": 1450000,
-    "all_users": 1850000,
-    "language_family": ["Indo-European", "Baltic"]
+    "regions": ["Baltic region"],
+    "main_countries": ["Latvia"],
+    "l1_users": 1400000,
+    "all_users": 2000000,
+    "language_family": ["Indo-European", "Baltic", "Latvian"]
   },
   {
     "iso_code": "mal",
     "name": "Malayalam",
     "common_name": "Malayalam",
-    "regions": ["South Asia"],
-    "countries": ["India"],
-    "l1_users": 38000000,
-    "all_users": 42000000,
-    "language_family": ["Dravidian"]
+    "regions": [
+      "Southern India",
+      "Kerala",
+      "Tamil Nadu",
+      "Puducherry",
+      "Lakshadweep",
+      "Karnataka"
+    ],
+    "main_countries": ["India"],
+    "l1_users": 37027180,
+    "all_users": 34483819,
+    "language_family": [
+      "Dravidian",
+      "Southern",
+      "Southern I",
+      "Tamil-Kannada",
+      "Tamil-Kota",
+      "Tamil-Toda",
+      "Tamil-Irula",
+      "Tamil-Kodava-Urali",
+      "Tamiloid languages",
+      "Malayalamoid languages",
+      "Malayalamoid"
+    ]
   },
   {
     "iso_code": "mar",
     "name": "Marathi",
     "common_name": "Marathi",
-    "regions": ["South Asia"],
-    "countries": ["India"],
+    "regions": ["South India", "Western India"],
+    "main_countries": ["India"],
     "l1_users": 83000000,
-    "all_users": 95000000,
-    "language_family": ["Indo-European", "Indo-Aryan", "Central Indo-Aryan"]
+    "all_users": 99000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Southern",
+      "Marathi-Konkani"
+    ]
   },
   {
     "iso_code": "min",
     "name": "Minangkabau",
-    "common_name": "Minangkabau",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 6500000,
-    "all_users": 7000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "Malayic"]
+    "common_name": "Bahasa Minangkabau",
+    "regions": [
+      "West Sumatra",
+      "Riau",
+      "Jambi",
+      "Bengkulu",
+      "North Sumatra",
+      "Aceh",
+      "Malaysia"
+    ],
+    "main_countries": ["Indonesia", "Malaysia"],
+    "l1_users": 5530000,
+    "all_users": 5530000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Malayo-Sumbawan or Greater North Borneo",
+      "Malayic"
+    ]
   },
   {
     "iso_code": "mkd",
     "name": "Macedonian",
-    "common_name": "Macedonian",
-    "regions": ["Southeast Europe"],
-    "countries": ["North Macedonia"],
-    "l1_users": 1400000,
-    "all_users": 2000000,
-    "language_family": ["Indo-European", "Slavic", "South Slavic"]
+    "common_name": "Macedonian language",
+    "regions": [
+      "North Macedonia",
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Romania",
+      "Serbia"
+    ],
+    "main_countries": [
+      "North Macedonia",
+      "Albania",
+      "Bulgaria",
+      "Greece",
+      "Romania",
+      "Serbia"
+    ],
+    "l1_users": 1600000,
+    "all_users": 3500000,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "South Slavic",
+      "Eastern South Slavic"
+    ]
   },
   {
     "iso_code": "mlt",
     "name": "Maltese",
-    "common_name": "Maltese",
-    "regions": ["Southern Europe"],
-    "countries": ["Malta"],
-    "l1_users": 520000,
-    "all_users": 1000000,
-    "language_family": ["Afro-Asiatic", "Semitic"]
+    "common_name": "Malti",
+    "regions": ["Malta", "Australia", "Tunisia"],
+    "main_countries": ["Malta"],
+    "l1_users": 571460,
+    "all_users": 533280,
+    "language_family": [
+      "Afro-Asiatic",
+      "Semitic",
+      "West Semitic",
+      "Central Semitic",
+      "Arabic",
+      "Maghrebi",
+      "Pre-Hilalian",
+      "Siculo-Arabic"
+    ]
   },
   {
     "iso_code": "mon",
     "name": "Mongolian",
     "common_name": "Mongolian",
-    "regions": ["East Asia", "Central Asia"],
-    "countries": ["Mongolia", "China"],
-    "l1_users": 4000000,
-    "all_users": 6000000,
-    "language_family": ["Mongolic"]
+    "regions": [
+      "Mongolian Plateau",
+      "Northeast China",
+      "Northwestern China",
+      "Southern Siberia",
+      "Issyk-Kul Region in Kyrgyzstan"
+    ],
+    "main_countries": ["Mongolia", "China", "Russia"],
+    "l1_users": 6187570,
+    "all_users": 6187570,
+    "language_family": [
+      "Altaic",
+      "Mongolic languages",
+      "Central Mongolic",
+      "Buryat–Mongolian"
+    ]
   },
   {
     "iso_code": "mya",
     "name": "Burmese",
-    "common_name": "Burmese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Myanmar"],
-    "l1_users": 33000000,
-    "all_users": 48000000,
-    "language_family": ["Sino-Tibetan", "Tibeto-Burman"]
+    "common_name": "Myanmar language",
+    "regions": [
+      "Myanmar",
+      "Thailand",
+      "China (Dehong)",
+      "India (Mizoram, Manipur, Tripura)",
+      "Bangladesh (Chittagong)"
+    ],
+    "main_countries": ["Myanmar", "Bangladesh", "India"],
+    "l1_users": 33163850,
+    "all_users": 42999000,
+    "language_family": [
+      "Sino-Tibetan",
+      "Tibeto-Burman",
+      "Lolo-Burmese",
+      "Burmish"
+    ]
   },
   {
     "iso_code": "nan",
-    "name": "Min Nan",
-    "common_name": "Hokkien",
-    "regions": ["East Asia", "Southeast Asia"],
-    "countries": ["China", "Taiwan", "Singapore", "Malaysia"],
-    "l1_users": 50000000,
-    "all_users": 70000000,
-    "language_family": ["Sino-Tibetan", "Sinitic", "Chinese", "Min"]
+    "name": "Southern Min",
+    "common_name": "Minnan",
+    "regions": [
+      "Fujian",
+      "Guangdong",
+      "Taiwan",
+      "Hainan",
+      "Hong Kong",
+      "Malaysia",
+      "Singapore",
+      "Philippines",
+      "Thailand",
+      "Indonesia",
+      "Brunei",
+      "Cambodia",
+      "Myanmar",
+      "Vietnam"
+    ],
+    "main_countries": [
+      "China",
+      "Taiwan",
+      "Malaysia",
+      "Singapore",
+      "Philippines"
+    ],
+    "l1_users": 50625480,
+    "all_users": 50625480,
+    "language_family": [
+      "Sino-Tibetan",
+      "Sinitic languages",
+      "Chinese",
+      "Min Chinese",
+      "Coastal Min"
+    ]
   },
   {
     "iso_code": "nld",
     "name": "Dutch",
-    "common_name": "Dutch",
-    "regions": ["Western Europe", "Southern Africa"],
-    "countries": ["Netherlands", "Belgium", "Suriname", "South Africa"],
-    "l1_users": 23000000,
-    "all_users": 25000000,
-    "language_family": ["Indo-European", "Germanic", "West Germanic"]
+    "common_name": "Nederlands",
+    "regions": ["The Netherlands", "Belgium", "Suriname", "France (Nord)"],
+    "main_countries": ["The Netherlands", "Belgium", "Suriname"],
+    "l1_users": 25000000,
+    "all_users": 30000000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "West Germanic",
+      "Low Franconian"
+    ]
   },
   {
     "iso_code": "nno",
     "name": "Norwegian Nynorsk",
     "common_name": "Nynorsk",
-    "regions": ["Europe"],
-    "countries": ["Norway"],
-    "l1_users": 250000,
-    "all_users": 600000,
+    "regions": ["Norway"],
+    "main_countries": ["Norway"],
+    "l1_users": 0,
+    "all_users": 0,
     "language_family": [
       "Indo-European",
       "Germanic",
       "North Germanic",
-      "Scandinavian"
+      "West Scandinavian",
+      "Norwegian dialects"
     ]
   },
   {
     "iso_code": "nor",
     "name": "Norwegian",
-    "common_name": "Norwegian",
-    "regions": ["Northern Europe", "Scandinavia"],
-    "countries": ["Norway"],
-    "l1_users": 5000000,
-    "all_users": 7000000,
-    "language_family": ["Germanic", "North Germanic"]
+    "common_name": "norsk",
+    "regions": ["Norway", "North Dakota", "Wisconsin", "Minnesota"],
+    "main_countries": ["Norway"],
+    "l1_users": 4320000,
+    "all_users": 4320000,
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "Northwest Germanic",
+      "North Germanic",
+      "West Scandinavian"
+    ]
   },
   {
     "iso_code": "npi",
-    "name": "Nepali",
+    "name": "Nepali language",
     "common_name": "Nepali",
     "regions": ["South Asia"],
-    "countries": ["Nepal", "India"],
-    "l1_users": 16000000,
-    "all_users": 20000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Eastern Indic"]
+    "main_countries": ["Nepal", "India", "Bhutan"],
+    "l1_users": 17500000,
+    "all_users": 30000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Central Zone",
+      "Eastern Pahari"
+    ]
   },
   {
     "iso_code": "oci",
     "name": "Occitan",
-    "common_name": "Occitan",
-    "regions": ["Southern Europe"],
-    "countries": ["France", "Italy", "Spain"],
-    "l1_users": 2000000,
-    "all_users": 8000000,
-    "language_family": ["Indo-European", "Romance", "Gallo-Romance"]
+    "common_name": "lenga d'òc",
+    "regions": ["France", "Spain", "Italy", "Monaco"],
+    "main_countries": ["France", "Spain", "Italy"],
+    "l1_users": 200000,
+    "all_users": 789000,
+    "language_family": [
+      "Indo-European",
+      "Italic",
+      "Latino-Faliscan",
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
+      "Gallo-Romance",
+      "Occitano-Romance"
+    ]
   },
   {
     "iso_code": "ory",
-    "name": "Oriya",
+    "name": "Odia",
     "common_name": "Odia",
-    "regions": ["South Asia"],
-    "countries": ["India"],
-    "l1_users": 38000000,
-    "all_users": 42000000,
-    "language_family": ["Indo-European", "Indo-Aryan"]
+    "regions": ["India", "Eastern India"],
+    "main_countries": ["India"],
+    "l1_users": 34461520,
+    "all_users": 50000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Eastern Indo-Aryan"
+    ]
   },
   {
     "iso_code": "oss",
-    "name": "Ossetic",
-    "common_name": "Ossetian",
-    "regions": ["Eurasia"],
-    "countries": ["Russia", "North Ossetia-Alania", "South Ossetia"],
-    "l1_users": 600000,
-    "all_users": 800000,
-    "language_family": ["Indo-European", "Iranian"]
+    "name": "Ossetian",
+    "common_name": "Ossetic",
+    "regions": ["Caucasus"],
+    "main_countries": ["Russia", "Georgia"],
+    "l1_users": 487050,
+    "all_users": 614350,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Eastern Iranian",
+      "Scythian",
+      "Alanic"
+    ]
   },
   {
     "iso_code": "pam",
     "name": "Kapampangan",
-    "common_name": "Kapampangan",
-    "regions": ["Southeast Asia"],
-    "countries": ["Philippines"],
-    "l1_users": 800000,
-    "all_users": 1000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "Philippine"]
+    "common_name": "Pampangan",
+    "regions": ["Central Luzon"],
+    "main_countries": ["Philippines"],
+    "l1_users": 2800000,
+    "all_users": 2800000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Philippine",
+      "Central Luzon"
+    ]
   },
   {
     "iso_code": "pan",
-    "name": "Panjabi",
-    "common_name": "Punjabi",
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Pakistan"],
-    "l1_users": 125000000,
-    "all_users": 130000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Central Indo-Aryan"]
+    "name": "Punjabi",
+    "common_name": "Punjabi language",
+    "regions": [
+      "Punjab",
+      "South Asia",
+      "Gulf states",
+      "Canada",
+      "United Kingdom",
+      "United States",
+      "Australia"
+    ],
+    "main_countries": ["India", "Pakistan"],
+    "l1_users": 150000000,
+    "all_users": 150000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Northwestern"
+    ]
   },
   {
     "iso_code": "pcm",
-    "name": "Pidgin",
-    "common_name": "Nigerian Pidgin",
-    "regions": ["West Africa"],
-    "countries": ["Nigeria"],
-    "l1_users": 20000000,
-    "all_users": 30000000,
-    "language_family": ["Creole", "Pidgin"]
+    "name": "Nigerian Pidgin",
+    "common_name": "Pidgin",
+    "regions": ["Nigeria", "West Africa", "Central Africa"],
+    "main_countries": ["Nigeria", "Benin", "Ghana", "Cameroon"],
+    "l1_users": 4650000,
+    "all_users": 11600000,
+    "language_family": [
+      "English-based creole languages",
+      "Atlantic",
+      "West African Pidgin English"
+    ]
   },
   {
     "iso_code": "pes",
-    "name": "Persian (Western)",
-    "common_name": "Farsi",
-    "regions": ["Middle East", "South Asia"],
-    "countries": ["Iran", "Afghanistan", "Tajikistan"],
-    "l1_users": 70000000,
-    "all_users": 110000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Iranian"]
+    "name": "Iranian Persian",
+    "common_name": "Persian",
+    "regions": ["West Asia"],
+    "main_countries": ["Iran"],
+    "l1_users": 61595300,
+    "all_users": 78826300,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Western",
+      "Southwestern Iranian",
+      "Persian"
+    ]
   },
   {
     "iso_code": "pnb",
-    "name": "Western Punjabi",
-    "common_name": "Punjabi",
-    "regions": ["South Asia"],
-    "countries": ["Pakistan", "India"],
-    "l1_users": 60000000,
-    "all_users": 100000000,
-    "language_family": ["Indo-European", "Indo-Aryan"]
+    "name": "Punjabi",
+    "common_name": "Panjabi",
+    "regions": [
+      "Punjab",
+      "India",
+      "Pakistan",
+      "Saudi Arabia",
+      "Canada",
+      "United Kingdom",
+      "United States",
+      "Australia",
+      "United Arab Emirates"
+    ],
+    "main_countries": ["India", "Pakistan"],
+    "l1_users": 150000000,
+    "all_users": 150000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Northwestern"
+    ]
   },
   {
     "iso_code": "pol",
     "name": "Polish",
-    "common_name": "Polish",
-    "regions": ["Central Europe", "Eastern Europe"],
-    "countries": ["Poland"],
-    "l1_users": 45000000,
-    "all_users": 60000000,
-    "language_family": ["Indo-European", "Slavic", "West Slavic"]
+    "common_name": "polski",
+    "regions": [
+      "Poland",
+      "Lithuania",
+      "Germany",
+      "Czech Republic",
+      "Slovakia",
+      "Belarus",
+      "Ukraine",
+      "Brazil",
+      "Hungary",
+      "Romania"
+    ],
+    "main_countries": ["Poland"],
+    "l1_users": 39709620,
+    "all_users": 42629030,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "West Slavic",
+      "Lechitic"
+    ]
   },
   {
     "iso_code": "por",
     "name": "Portuguese",
     "common_name": "Portuguese",
-    "regions": ["Europe", "South America", "Africa", "North America", "Asia"],
-    "countries": ["Portugal", "Brazil", "Angola", "Mozambique", "Cape Verde"],
-    "l1_users": 220000000,
-    "all_users": 260000000,
-    "language_family": ["Indo-European", "Romance"]
+    "regions": [
+      "Portugal",
+      "Brazil",
+      "Lusophone Africa",
+      "East Timor",
+      "Equatorial Guinea",
+      "Macau"
+    ],
+    "main_countries": [
+      "Portugal",
+      "Brazil",
+      "Angola",
+      "Mozambique",
+      "Cape Verde",
+      "Guinea-Bissau",
+      "São Tomé and Príncipe"
+    ],
+    "l1_users": 236460250,
+    "all_users": 263827300,
+    "language_family": [
+      "Indo-European",
+      "Italic languages",
+      "Latino-Faliscan languages",
+      "Latin",
+      "Romance languages",
+      "Italo-Western languages",
+      "Western Romance languages",
+      "Iberian Romance languages",
+      "Iberian Romance",
+      "West Iberian languages",
+      "Galician–Portuguese"
+    ]
   },
   {
     "iso_code": "prs",
     "name": "Dari",
-    "common_name": "Dari",
-    "regions": ["South Asia", "Central Asia"],
-    "countries": ["Afghanistan"],
-    "l1_users": 20000000,
-    "all_users": 30000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Iranian"]
+    "common_name": "Dari Persian",
+    "regions": ["Afghanistan"],
+    "main_countries": ["Afghanistan"],
+    "l1_users": 10382160,
+    "all_users": 29914000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Western Iranian",
+      "Southwestern Iranian",
+      "Persian"
+    ]
   },
   {
     "iso_code": "pst",
-    "name": "Pushto",
+    "name": "Central Pashto",
     "common_name": "Pashto",
-    "regions": ["South Asia", "Central Asia"],
-    "countries": ["Afghanistan", "Pakistan"],
-    "l1_users": 50000000,
-    "all_users": 60000000,
-    "language_family": ["Indo-European", "Iranian"]
+    "regions": ["Pakistan", "Afghanistan"],
+    "main_countries": ["Pakistan", "Afghanistan"],
+    "l1_users": 6370000,
+    "all_users": 6370000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Eastern",
+      "Pashto"
+    ]
   },
   {
     "iso_code": "pus",
     "name": "Pashto",
     "common_name": "Pashto",
-    "regions": ["South Asia", "Central Asia"],
-    "countries": ["Afghanistan", "Pakistan"],
-    "l1_users": 50000000,
-    "all_users": 50000000,
-    "language_family": ["Indo-European", "Iranian"]
+    "regions": ["Afghanistan", "Pakistan"],
+    "main_countries": ["Afghanistan", "Pakistan"],
+    "l1_users": 44195670,
+    "all_users": 60000000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Iranian",
+      "Eastern Iranian"
+    ]
   },
   {
     "iso_code": "que",
-    "name": "Quechua",
+    "name": "Quechuan",
     "common_name": "Quechua",
-    "regions": ["South America"],
-    "countries": ["Peru", "Bolivia", "Ecuador", "Colombia", "Argentina"],
-    "l1_users": 8000000,
-    "all_users": 10000000,
+    "regions": ["Andes Mountains"],
+    "main_countries": [
+      "Argentina",
+      "Bolivia",
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "Peru"
+    ],
+    "l1_users": 7168325,
+    "all_users": 8000000,
     "language_family": ["Quechuan"]
   },
   {
     "iso_code": "ron",
     "name": "Romanian",
-    "common_name": "Romanian",
-    "regions": ["Eastern Europe", "Southeast Europe"],
-    "countries": ["Romania", "Moldova"],
-    "l1_users": 25000000,
-    "all_users": 30000000,
-    "language_family": ["Indo-European", "Romance"]
+    "common_name": "limba română",
+    "regions": ["Central Europe", "Southeastern Europe", "Eastern Europe"],
+    "main_countries": ["Romania", "Moldova"],
+    "l1_users": 25209690,
+    "all_users": 25000000,
+    "language_family": [
+      "Indo-European",
+      "Italic",
+      "Latino-Faliscan",
+      "Latin",
+      "Romance",
+      "Eastern Romance"
+    ]
   },
   {
     "iso_code": "rus",
     "name": "Russian",
-    "common_name": "Russian",
-    "regions": ["Europe", "Central Asia", "Eastern Europe", "North Asia"],
-    "countries": ["Russia", "Belarus", "Kazakhstan", "Ukraine", "Kyrgyzstan"],
-    "l1_users": 154000000,
-    "all_users": 258000000,
-    "language_family": ["Indo-European", "Slavic", "East Slavic"]
+    "common_name": "русский язык",
+    "regions": [
+      "Russia",
+      "CIS countries",
+      "Eastern Europe",
+      "Western Europe",
+      "Central Asia",
+      "Caucasus",
+      "Baltic states",
+      "Israel"
+    ],
+    "main_countries": [
+      "Russia",
+      "Belarus",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Tajikistan"
+    ],
+    "l1_users": 147566020,
+    "all_users": 255392520,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "East Slavic"
+    ]
   },
   {
     "iso_code": "sin",
     "name": "Sinhala",
     "common_name": "Sinhalese",
     "regions": ["South Asia"],
-    "countries": ["Sri Lanka"],
-    "l1_users": 16000000,
-    "all_users": 21000000,
-    "language_family": ["Indo-European", "Indo-Iranian", "Indo-Aryan"]
+    "main_countries": ["Sri Lanka"],
+    "l1_users": 15915890,
+    "all_users": 20111000,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Southern Zone",
+      "Insular Indo-Aryan",
+      "Sinhalese–Maldivian"
+    ]
   },
   {
     "iso_code": "slk",
     "name": "Slovak",
-    "common_name": "Slovak",
-    "regions": ["Central Europe"],
-    "countries": ["Slovakia"],
-    "l1_users": 5000000,
-    "all_users": 6000000,
-    "language_family": ["Indo-European", "Slavic", "West Slavic"]
+    "common_name": "Slovenčina",
+    "regions": [
+      "Slovakia",
+      "Czech Republic",
+      "Hungary",
+      "Carpathian Ruthenia",
+      "Slavonia",
+      "Vojvodina"
+    ],
+    "main_countries": ["Slovakia"],
+    "l1_users": 5388870,
+    "all_users": 2050800,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "West Slavic",
+      "Czech–Slovak"
+    ]
   },
   {
     "iso_code": "slv",
-    "name": "Slovenian",
-    "common_name": "Slovene",
-    "regions": ["Central Europe", "Southeast Europe"],
-    "countries": ["Slovenia"],
-    "l1_users": 2000000,
+    "name": "Slovene",
+    "common_name": "Slovenian",
+    "regions": [
+      "Slovenia",
+      "Italy (Friuli-Venezia Giulia)",
+      "Austria (Carinthia and Styria)",
+      "Hungary (Vas County)"
+    ],
+    "main_countries": ["Slovenia"],
+    "l1_users": 2500000,
     "all_users": 2500000,
-    "language_family": ["Indo-European", "Slavic", "South Slavic"]
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "South Slavic",
+      "Western South Slavic"
+    ]
   },
   {
     "iso_code": "smo",
     "name": "Samoan",
     "common_name": "Samoan",
-    "regions": ["Oceania"],
-    "countries": ["Samoa", "American Samoa"],
-    "l1_users": 370000,
-    "all_users": 500000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "regions": ["Asia-Pacific"],
+    "main_countries": ["Samoa", "American Samoa"],
+    "l1_users": 430000,
+    "all_users": 470000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Central–Eastern Malayo-Polynesian",
+      "Eastern Malayo-Polynesian",
+      "Oceanic",
+      "Central–Eastern Oceanic",
+      "Central Pacific",
+      "East Central Pacific",
+      "Polynesian",
+      "Nuclear Polynesian",
+      "Samoic"
+    ]
   },
   {
     "iso_code": "som",
     "name": "Somali",
-    "common_name": "Somali",
-    "regions": ["Horn of Africa"],
-    "countries": ["Somalia", "Djibouti", "Ethiopia", "Kenya"],
-    "l1_users": 16000000,
-    "all_users": 25000000,
-    "language_family": ["Afro-Asiatic", "Cushitic"]
+    "common_name": "Af Soomaali",
+    "regions": [
+      "Horn of Africa",
+      "Greater Somalia",
+      "Middle East",
+      "North America",
+      "Europe"
+    ],
+    "main_countries": ["Somalia", "Ethiopia", "Djibouti", "Kenya"],
+    "l1_users": 17774850,
+    "all_users": 24000000,
+    "language_family": [
+      "Afro-Asiatic",
+      "Cushitic",
+      "Lowland East Cushitic",
+      "Macro-Somali",
+      "Somali languages"
+    ]
   },
   {
     "iso_code": "spa",
     "name": "Spanish",
-    "common_name": "Spanish",
-    "regions": ["Europe", "Latin America", "North America", "Africa"],
-    "countries": ["Spain", "Mexico", "Argentina", "Colombia"],
-    "l1_users": 460000000,
-    "all_users": 560000000,
-    "language_family": ["Indo-European", "Romance"]
+    "common_name": "Castilian",
+    "regions": ["Europe", "Americas", "Africa", "Asia", "Oceania"],
+    "main_countries": [
+      "Mexico",
+      "Spain",
+      "Colombia",
+      "Argentina",
+      "Venezuela",
+      "Peru",
+      "Chile",
+      "Ecuador",
+      "Guatemala",
+      "Cuba"
+    ],
+    "l1_users": 500000000,
+    "all_users": 601000000,
+    "language_family": [
+      "Indo-European",
+      "Italic languages",
+      "Latino-Faliscan languages",
+      "Latin",
+      "Romance languages",
+      "Italo-Western languages",
+      "Western Romance languages",
+      "Iberian Romance languages",
+      "West Iberian languages",
+      "Castilian languages"
+    ]
   },
   {
     "iso_code": "sqi",
     "name": "Albanian",
-    "common_name": "Albanian",
-    "regions": ["Southeast Europe"],
-    "countries": ["Albania", "Kosovo", "North Macedonia"],
-    "l1_users": 6000000,
-    "all_users": 7000000,
-    "language_family": ["Indo-European", "Albanian"]
+    "common_name": "Shqip",
+    "regions": ["Balkans", "Europe", "Americas", "Asia", "Africa", "Oceania"],
+    "main_countries": [
+      "Albania",
+      "Kosovo",
+      "North Macedonia",
+      "Montenegro",
+      "Greece",
+      "Italy",
+      "Serbia",
+      "Croatia",
+      "Romania"
+    ],
+    "l1_users": 7500000,
+    "all_users": 7500000,
+    "language_family": ["Indo-European", "Albanoid", "Paleo-Balkan languages"]
   },
   {
     "iso_code": "srp",
     "name": "Serbian",
-    "common_name": "Serbian",
+    "common_name": "Srpski",
     "regions": ["Southeastern Europe"],
-    "countries": ["Serbia", "Bosnia and Herzegovina", "Montenegro"],
-    "l1_users": 7000000,
-    "all_users": 8000000,
-    "language_family": ["Indo-European", "Slavic", "South Slavic"]
+    "main_countries": [
+      "Serbia",
+      "Bosnia and Herzegovina",
+      "Montenegro",
+      "Kosovo",
+      "Croatia"
+    ],
+    "l1_users": 5500000,
+    "all_users": 12000000,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "South Slavic",
+      "Serbo-Croatian",
+      "Shtokavian",
+      "Neo-Shtokavian",
+      "Eastern Herzegovinian",
+      "Šumadija–Vojvodina"
+    ]
   },
   {
     "iso_code": "sun",
     "name": "Sundanese",
     "common_name": "Sundanese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia"],
-    "l1_users": 15000000,
-    "all_users": 23000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "regions": ["West Java", "Banten", "Jakarta", "Central Java", "Lampung"],
+    "main_countries": ["Indonesia"],
+    "l1_users": 32400000,
+    "all_users": 32400000,
+    "language_family": ["Austronesian", "Malayo-Polynesian", "Sundanese–Baduy"]
   },
   {
     "iso_code": "swe",
     "name": "Swedish",
-    "common_name": "Swedish",
-    "regions": ["Northern Europe"],
-    "countries": ["Sweden", "Finland"],
-    "l1_users": 10000000,
+    "common_name": "svenska",
+    "regions": ["Sweden", "Finland", "formerly Estonia"],
+    "main_countries": ["Sweden", "Finland"],
+    "l1_users": 9924200,
     "all_users": 13000000,
-    "language_family": ["Indo-European", "Germanic", "North Germanic"]
+    "language_family": [
+      "Indo-European",
+      "Germanic",
+      "North Germanic",
+      "East Scandinavian"
+    ]
   },
   {
     "iso_code": "swh",
-    "name": "Swahili",
+    "name": "Kiswahili",
     "common_name": "Swahili",
     "regions": ["East Africa", "Central Africa"],
-    "countries": [
+    "main_countries": [
       "Tanzania",
       "Kenya",
       "Uganda",
@@ -923,199 +1771,358 @@
     ],
     "l1_users": 16000000,
     "all_users": 200000000,
-    "language_family": ["Niger-Congo", "Bantu"]
+    "language_family": [
+      "Niger-Congo",
+      "Atlantic-Congo",
+      "Benue-Congo",
+      "Bantoid",
+      "Bantu",
+      "Narrow Bantu"
+    ]
   },
   {
     "iso_code": "tam",
     "name": "Tamil",
     "common_name": "Tamil",
-    "regions": ["South Asia", "Southeast Asia"],
-    "countries": ["India", "Sri Lanka", "Singapore", "Malaysia"],
-    "l1_users": 75000000,
-    "all_users": 100000000,
-    "language_family": ["Dravidian"]
+    "regions": [
+      "India",
+      "Sri Lanka",
+      "Malaysia",
+      "Singapore",
+      "Myanmar",
+      "Andaman and Nicobar Islands",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Kerala"
+    ],
+    "main_countries": ["India", "Sri Lanka"],
+    "l1_users": 78671670,
+    "all_users": 80530000,
+    "language_family": [
+      "Dravidian",
+      "Southern",
+      "Southern I",
+      "Tamil–Kannada",
+      "Tamil–Kota",
+      "Tamil–Toda",
+      "Tamil–Irula",
+      "Tamil–Kodava–Urali",
+      "Tamiloid languages",
+      "Tamil–Malayalamoid languages",
+      "Tamiloid"
+    ]
   },
   {
     "iso_code": "tel",
     "name": "Telugu",
     "common_name": "Telugu",
-    "regions": ["South Asia"],
-    "countries": ["India"],
-    "l1_users": 81000000,
-    "all_users": 100000000,
-    "language_family": ["Dravidian"]
+    "regions": ["South Asia", "North America", "Oceania", "Europe"],
+    "main_countries": [
+      "India",
+      "South Africa",
+      "United States",
+      "Australia",
+      "Malaysia",
+      "Mauritius"
+    ],
+    "l1_users": 82966790,
+    "all_users": 96982890,
+    "language_family": ["Dravidian", "Southern", "Southern II"]
   },
   {
     "iso_code": "tha",
     "name": "Thai",
-    "common_name": "Thai",
-    "regions": ["Southeast Asia"],
-    "countries": ["Thailand"],
-    "l1_users": 20000000,
-    "all_users": 35000000,
-    "language_family": ["Tai-Kadai", "Tai"]
+    "common_name": "Central Thai",
+    "regions": ["Thailand", "Cambodia", "Myanmar"],
+    "main_countries": ["Thailand"],
+    "l1_users": 21094020,
+    "all_users": 61100520,
+    "language_family": [
+      "Kra-Dai",
+      "Tai languages",
+      "Southwestern Tai languages",
+      "Chiang Saen",
+      "Sukhothai"
+    ]
   },
   {
     "iso_code": "tir",
     "name": "Tigrinya",
     "common_name": "Tigrinya",
-    "regions": ["East Africa"],
-    "countries": ["Eritrea", "Ethiopia"],
-    "l1_users": 7100000,
-    "all_users": 8300000,
-    "language_family": ["Afro-Asiatic", "Semitic"]
+    "regions": ["Eritrea", "Ethiopia"],
+    "main_countries": ["Eritrea", "Ethiopia"],
+    "l1_users": 9706960,
+    "all_users": 9706960,
+    "language_family": [
+      "Afro-Asiatic",
+      "Semitic",
+      "West Semitic",
+      "South Semitic",
+      "Ethiopian Semitic",
+      "North"
+    ]
   },
   {
     "iso_code": "ton",
     "name": "Tongan",
     "common_name": "Tongan",
-    "regions": ["Oceania"],
-    "countries": ["Tonga"],
-    "l1_users": 100000,
-    "all_users": 100000,
-    "language_family": ["Austronesian", "Oceania", "Polynesian"]
+    "regions": ["Tonga", "New Zealand", "United States", "Australia"],
+    "main_countries": ["Tonga"],
+    "l1_users": 96300,
+    "all_users": 187000,
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Oceanic",
+      "Polynesian",
+      "Tongic"
+    ]
   },
   {
     "iso_code": "tur",
     "name": "Turkish",
-    "common_name": "Turkish",
-    "regions": ["Europe", "Asia"],
-    "countries": ["Turkey", "Cyprus"],
-    "l1_users": 75000000,
-    "all_users": 85000000,
-    "language_family": ["Turkic"]
+    "common_name": "Türkçe",
+    "regions": [
+      "Anatolia",
+      "Balkans",
+      "Cyprus",
+      "Mesopotamia",
+      "Levant",
+      "Transcaucasia"
+    ],
+    "main_countries": [
+      "Turkey",
+      "Northern Cyprus",
+      "Cyprus",
+      "Azerbaijan",
+      "Iraq",
+      "Syria",
+      "Lebanon",
+      "Greece",
+      "Bulgaria",
+      "Romania",
+      "Kosovo",
+      "North Macedonia",
+      "Bosnia and Herzegovina"
+    ],
+    "l1_users": 86141158,
+    "all_users": 100100000,
+    "language_family": ["Altaic", "Turkic", "Common Turkic", "Oghuz", "Western"]
   },
   {
     "iso_code": "ukr",
     "name": "Ukrainian",
-    "common_name": "Ukrainian",
+    "common_name": "Ukrainian language",
     "regions": ["Eastern Europe"],
-    "countries": ["Ukraine"],
-    "l1_users": 30000000,
-    "all_users": 40000000,
-    "language_family": ["Indo-European", "Slavic", "East Slavic"]
+    "main_countries": ["Ukraine"],
+    "l1_users": 32925810,
+    "all_users": 39225810,
+    "language_family": [
+      "Indo-European",
+      "Balto-Slavic",
+      "Slavic",
+      "East Slavic"
+    ]
   },
   {
     "iso_code": "urd",
     "name": "Urdu",
     "common_name": "Urdu",
-    "regions": ["South Asia"],
-    "countries": ["Pakistan", "India"],
-    "l1_users": 75800000,
-    "all_users": 170000000,
-    "language_family": ["Indo-European", "Indo-Aryan"]
+    "regions": [
+      "South Asia",
+      "Pakistan",
+      "India",
+      "Afghanistan",
+      "Nepal",
+      "Bangladesh"
+    ],
+    "main_countries": ["Pakistan", "India"],
+    "l1_users": 69561170,
+    "all_users": 231295440,
+    "language_family": [
+      "Indo-European",
+      "Indo-Iranian",
+      "Indo-Aryan",
+      "Central Zone",
+      "Western Hindi",
+      "Hindustani"
+    ]
   },
   {
     "iso_code": "uzn",
-    "name": "Uzbek",
+    "name": "Northern Uzbek",
     "common_name": "Uzbek",
     "regions": ["Central Asia"],
-    "countries": ["Uzbekistan"],
-    "l1_users": 32000000,
-    "all_users": 35000000,
-    "language_family": ["Turkic", "Karluk", "Uzbek"]
+    "main_countries": ["Uzbekistan"],
+    "l1_users": 0,
+    "all_users": 0,
+    "language_family": [
+      "Altaic",
+      "Turkic",
+      "Common Turkic",
+      "Southeastern Turkic",
+      "Uzbek"
+    ]
   },
   {
     "iso_code": "vie",
     "name": "Vietnamese",
-    "common_name": "Vietnamese",
-    "regions": ["Southeast Asia"],
-    "countries": ["Vietnam"],
-    "l1_users": 86000000,
-    "all_users": 86000000,
-    "language_family": ["Austroasiatic", "Vietic"]
+    "common_name": "Tiếng Việt",
+    "regions": [
+      "Vietnam",
+      "China",
+      "Czech Republic",
+      "Slovakia",
+      "United States",
+      "Australia"
+    ],
+    "main_countries": ["Vietnam", "China"],
+    "l1_users": 85429000,
+    "all_users": 86282000,
+    "language_family": ["Austroasiatic", "Vietic", "Viet-Muong"]
   },
   {
     "iso_code": "wln",
     "name": "Walloon",
-    "common_name": "Walloon",
-    "regions": ["Western Europe"],
-    "countries": ["Belgium"],
-    "l1_users": 600000,
-    "all_users": 700000,
-    "language_family": ["Indo-European", "Romance", "Gallo-Romance"]
+    "common_name": "Walloon language",
+    "regions": [
+      "Wallonia",
+      "Brussels",
+      "northern France",
+      "Door County, Wisconsin"
+    ],
+    "main_countries": ["Belgium", "France", "United States"],
+    "l1_users": 300000,
+    "all_users": 600000,
+    "language_family": [
+      "Indo-European",
+      "Italic languages",
+      "Latino-Faliscan languages",
+      "Latin",
+      "Romance languages",
+      "Italo-Western languages",
+      "Western Romance languages",
+      "Gallo-Iberian",
+      "Gallo-Romance languages",
+      "Gallo-Rhaetian",
+      "Franco-Provençal",
+      "Langues d'oïl"
+    ]
   },
   {
     "iso_code": "wuu",
     "name": "Wu Chinese",
-    "common_name": "Shanghainese",
-    "regions": ["East Asia"],
-    "countries": ["China"],
-    "l1_users": 83000000,
-    "all_users": 100000000,
-    "language_family": ["Sino-Tibetan", "Sinitic", "Chinese", "Wu"]
+    "common_name": "Wu",
+    "regions": [
+      "Shanghai",
+      "Zhejiang",
+      "southern Jiangsu",
+      "parts of Anhui",
+      "parts of Jiangxi"
+    ],
+    "main_countries": ["China"],
+    "l1_users": 83397340,
+    "all_users": 83397340,
+    "language_family": ["Sino-Tibetan", "Sinitic"]
   },
   {
     "iso_code": "xho",
     "name": "Xhosa",
-    "common_name": "Xhosa",
+    "common_name": "isiXhosa",
     "regions": ["Southern Africa"],
-    "countries": ["South Africa", "Zimbabwe"],
-    "l1_users": 19000000,
-    "all_users": 22000000,
-    "language_family": ["Niger-Congo", "Atlantic-Congo", "Benue-Congo", "Bantu"]
+    "main_countries": ["South Africa", "Lesotho", "Zimbabwe"],
+    "l1_users": 8000000,
+    "all_users": 11000000,
+    "language_family": [
+      "Niger-Congo",
+      "Atlantic-Congo",
+      "Volta-Congo",
+      "Benue-Congo",
+      "Bantoid",
+      "Southern Bantoid",
+      "Bantu",
+      "Southern Bantu",
+      "Nguni"
+    ]
   },
   {
     "iso_code": "ydd",
-    "name": "Eastern Yiddish",
-    "common_name": "Yiddish (Eastern)",
-    "regions": ["Eastern Europe", "Worldwide diaspora"],
-    "countries": [
-      "Belarus",
-      "Russia",
-      "Ukraine",
-      "Poland",
-      "Lithuania",
+    "name": "Yiddish",
+    "common_name": "Judaeo-German",
+    "regions": [
+      "Central Europe",
+      "Eastern Europe",
+      "Western Europe",
       "Israel",
-      "United States"
+      "North America",
+      "South America",
+      "other regions with Jewish populations"
     ],
-    "l1_users": 1000000,
-    "all_users": 1500000,
+    "main_countries": [
+      "Russia",
+      "Austria",
+      "Belarus",
+      "Bosnia and Herzegovina",
+      "Germany",
+      "Israel",
+      "Netherlands",
+      "Poland",
+      "Romania",
+      "Sweden",
+      "Ukraine"
+    ],
+    "l1_users": 600000,
+    "all_users": 600000,
     "language_family": [
       "Indo-European",
       "Germanic",
       "West Germanic",
-      "High German"
+      "Elbe Germanic",
+      "High German",
+      "Old High German",
+      "Middle High German"
     ]
   },
   {
     "iso_code": "yor",
     "name": "Yoruba",
-    "common_name": "Yoruba",
-    "regions": ["West Africa"],
-    "countries": ["Nigeria", "Benin", "Togo"],
-    "l1_users": 45000000,
-    "all_users": 50000000,
-    "language_family": ["Niger-Congo", "Defoid", "Yoruba"]
+    "common_name": "Èdè Yorùbá",
+    "regions": ["West Africa", "Yorubaland"],
+    "main_countries": ["Nigeria", "Benin", "Togo"],
+    "l1_users": 45171300,
+    "all_users": 47191300,
+    "language_family": [
+      "Niger-Congo",
+      "Atlantic–Congo",
+      "Volta-Congo",
+      "Volta–Niger",
+      "Yoruboid",
+      "Edekiri"
+    ]
   },
   {
     "iso_code": "yue",
-    "name": "Yue Chinese",
+    "name": "Yue",
     "common_name": "Cantonese",
-    "regions": ["East Asia"],
-    "countries": ["China", "Hong Kong", "Macau"],
-    "l1_users": 86000000,
-    "all_users": 87000000,
-    "language_family": ["Sino-Tibetan", "Sinitic", "Chinese", "Yue"]
-  },
-  {
-    "iso_code": "zlm",
-    "name": "Malay (generic)",
-    "common_name": "Malay",
-    "regions": ["Southeast Asia"],
-    "countries": ["Indonesia", "Malaysia"],
-    "l1_users": 5000000,
-    "all_users": 7000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian", "Malayic"]
+    "regions": ["Guangdong", "Guangxi", "western Hainan", "Hong Kong", "Macau"],
+    "main_countries": ["China", "Hong Kong", "Macau"],
+    "l1_users": 86133890,
+    "all_users": 86646890,
+    "language_family": ["Sino-Tibetan", "Sinitic", "Chinese"]
   },
   {
     "iso_code": "zsm",
-    "name": "Malay",
+    "name": "Standard Malay",
     "common_name": "Malay",
     "regions": ["Southeast Asia"],
-    "countries": ["Malaysia", "Indonesia", "Brunei", "Singapore"],
-    "l1_users": 15000000,
+    "main_countries": ["Malaysia", "Brunei", "Singapore"],
+    "l1_users": 10000000,
     "all_users": 30000000,
-    "language_family": ["Austronesian", "Malayo-Polynesian"]
+    "language_family": [
+      "Austronesian",
+      "Malayo-Polynesian",
+      "Western Malayo-Polynesian",
+      "Malayic"
+    ]
   }
 ]
