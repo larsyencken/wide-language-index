@@ -1,0 +1,632 @@
+[
+  {
+    "is_estimate": 1,
+    "iso_code": "ace",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "afr",
+    "p_recognized": 0.71
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "ain",
+    "p_recognized": 0.4
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "aln",
+    "p_recognized": 0.6
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "arb",
+    "p_recognized": 0.83
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "arz",
+    "p_recognized": 0.8
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "ban",
+    "p_recognized": 0.42
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "bug",
+    "p_recognized": 0.4
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "cat",
+    "p_recognized": 0.8
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "dik",
+    "p_recognized": 0.44
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "eng",
+    "p_recognized": 0.96
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "epo",
+    "p_recognized": 0.6
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "fao",
+    "p_recognized": 0.65
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "fil",
+    "p_recognized": 0.55
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "fry",
+    "p_recognized": 0.66
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "hat",
+    "p_recognized": 0.6
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "jav",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "kmr",
+    "p_recognized": 0.66
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "lat",
+    "p_recognized": 0.72
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "ltz",
+    "p_recognized": 0.68
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "lvs",
+    "p_recognized": 0.63
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "mar",
+    "p_recognized": 0.56
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "min",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "mon",
+    "p_recognized": 0.51
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "nan",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "nno",
+    "p_recognized": 0.74
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "npi",
+    "p_recognized": 0.52
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "oci",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "ory",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "oss",
+    "p_recognized": 0.42
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pam",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pcm",
+    "p_recognized": 0.46
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pes",
+    "p_recognized": 0.56
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pnb",
+    "p_recognized": 0.6
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pst",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "pus",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "que",
+    "p_recognized": 0.47
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "sun",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "swh",
+    "p_recognized": 0.68
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "tel",
+    "p_recognized": 0.55
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "uzn",
+    "p_recognized": 0.48
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "wln",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "wuu",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "xho",
+    "p_recognized": 0.44
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "ydd",
+    "p_recognized": 0.71
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "yor",
+    "p_recognized": 0.46
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "zlm",
+    "p_recognized": 0.51
+  },
+  {
+    "is_estimate": 1,
+    "iso_code": "zsm",
+    "p_recognized": 0.51
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "fra",
+    "p_recognized": 0.94
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "deu",
+    "p_recognized": 0.92
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "spa",
+    "p_recognized": 0.9
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ita",
+    "p_recognized": 0.89
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "rus",
+    "p_recognized": 0.88
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "kor",
+    "p_recognized": 0.87
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "cmn",
+    "p_recognized": 0.86
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "jpn",
+    "p_recognized": 0.86
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "vie",
+    "p_recognized": 0.84
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ara",
+    "p_recognized": 0.83
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "yue",
+    "p_recognized": 0.83
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "tha",
+    "p_recognized": 0.82
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ukr",
+    "p_recognized": 0.81
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ces",
+    "p_recognized": 0.79
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "slk",
+    "p_recognized": 0.78
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "pol",
+    "p_recognized": 0.78
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "heb",
+    "p_recognized": 0.77
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "nor",
+    "p_recognized": 0.76
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "swe",
+    "p_recognized": 0.76
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ron",
+    "p_recognized": 0.76
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "srp",
+    "p_recognized": 0.73
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "slv",
+    "p_recognized": 0.73
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "bod",
+    "p_recognized": 0.73
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "dan",
+    "p_recognized": 0.72
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ell",
+    "p_recognized": 0.72
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "lao",
+    "p_recognized": 0.72
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "nld",
+    "p_recognized": 0.72
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "bul",
+    "p_recognized": 0.71
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "yid",
+    "p_recognized": 0.71
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "por",
+    "p_recognized": 0.7
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "isl",
+    "p_recognized": 0.7
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "fin",
+    "p_recognized": 0.7
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "bos",
+    "p_recognized": 0.69
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "mkd",
+    "p_recognized": 0.69
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "swa",
+    "p_recognized": 0.68
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "est",
+    "p_recognized": 0.67
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "kur",
+    "p_recognized": 0.66
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "hun",
+    "p_recognized": 0.65
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "guj",
+    "p_recognized": 0.65
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "hrv",
+    "p_recognized": 0.65
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "cym",
+    "p_recognized": 0.65
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "sqi",
+    "p_recognized": 0.64
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "hye",
+    "p_recognized": 0.64
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "lav",
+    "p_recognized": 0.63
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "khm",
+    "p_recognized": 0.63
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "aii",
+    "p_recognized": 0.63
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "mya",
+    "p_recognized": 0.62
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "pan",
+    "p_recognized": 0.62
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "tur",
+    "p_recognized": 0.61
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "nde",
+    "p_recognized": 0.6
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "som",
+    "p_recognized": 0.59
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "hin",
+    "p_recognized": 0.58
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "mal",
+    "p_recognized": 0.58
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "gla",
+    "p_recognized": 0.58
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "tam",
+    "p_recognized": 0.57
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "tgl",
+    "p_recognized": 0.57
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "urd",
+    "p_recognized": 0.57
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "fas",
+    "p_recognized": 0.56
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ton",
+    "p_recognized": 0.55
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "eus",
+    "p_recognized": 0.53
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "smo",
+    "p_recognized": 0.53
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "nep",
+    "p_recognized": 0.52
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "sme",
+    "p_recognized": 0.52
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ben",
+    "p_recognized": 0.52
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "msa",
+    "p_recognized": 0.51
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "sin",
+    "p_recognized": 0.51
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "mri",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "ind",
+    "p_recognized": 0.5
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "amh",
+    "p_recognized": 0.49
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "mlt",
+    "p_recognized": 0.48
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "prs",
+    "p_recognized": 0.46
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "erk",
+    "p_recognized": 0.46
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "tir",
+    "p_recognized": 0.46
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "hau",
+    "p_recognized": 0.45
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "sna",
+    "p_recognized": 0.44
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "din",
+    "p_recognized": 0.44
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "fij",
+    "p_recognized": 0.42
+  },
+  {
+    "is_estimate": 0,
+    "iso_code": "kan",
+    "p_recognized": 0.39
+  }
+]

@@ -8,8 +8,8 @@
 Reformat every JSON record so that they're all formatted consistently.
 """
 
-import json
 import glob
+import json
 
 import click
 
@@ -38,8 +38,8 @@ def normalize_file(f):
     if "media_urls" in data:
         data["media_urls"] = remove_duplicates(data["media_urls"])
 
-    if "data" in f:
-        data.sort(key=lambda r: r["language"])
+    # if "data" in f:
+    #     data.sort(key=lambda r: r["language"])
 
     s_norm = json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False)
 
