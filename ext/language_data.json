@@ -15,9 +15,7 @@
     ],
     "name": "Acehnese",
     "regions": [
-      "Aceh",
-      "Sumatra",
-      "Malaysia"
+      "Southeast Asia"
     ]
   },
   {
@@ -63,7 +61,7 @@
     ],
     "name": "Suret",
     "regions": [
-      "Assyrian heartland",
+      "Middle East",
       "global diaspora"
     ]
   },
@@ -81,7 +79,7 @@
     ],
     "name": "Hokkaido Ainu",
     "regions": [
-      "Hokkaido"
+      "East Asia"
     ]
   },
   {
@@ -104,11 +102,7 @@
     ],
     "name": "Gheg",
     "regions": [
-      "Albania",
-      "Kosovo",
-      "North Macedonia",
-      "Montenegro",
-      "Serbia"
+      "The Balkans"
     ]
   },
   {
@@ -131,7 +125,7 @@
     ],
     "name": "Amharic",
     "regions": [
-      "Ethiopia"
+      "Horn of Africa"
     ]
   },
   {
@@ -148,22 +142,22 @@
     ],
     "main_countries": [
       "Egypt",
-      "Saudi Arabia",
-      "Iraq",
       "Algeria",
       "Sudan",
+      "Iraq",
       "Morocco",
+      "Saudi Arabia",
       "Yemen",
       "Syria",
-      "Jordan",
       "Tunisia",
-      "Lebanon",
-      "Oman",
-      "Palestine",
-      "Bahrain",
-      "Kuwait",
+      "Jordan",
       "Libya",
-      "Qatar"
+      "Lebanon",
+      "Palestine",
+      "Oman",
+      "Kuwait",
+      "Qatar",
+      "Bahrain"
     ],
     "name": "Modern Standard Arabic",
     "regions": [
@@ -189,7 +183,7 @@
     ],
     "name": "Egyptian Arabic",
     "regions": [
-      "Egypt"
+      "North Africa"
     ]
   },
   {
@@ -207,12 +201,7 @@
     ],
     "name": "Balinese",
     "regions": [
-      "Indonesia",
-      "Bali",
-      "Nusa Penida",
-      "Lombok",
-      "Southern Sumatra",
-      "Sulawesi"
+      "Southeast Asia"
     ]
   },
   {
@@ -233,11 +222,7 @@
     ],
     "name": "Bengali",
     "regions": [
-      "Bengal",
-      "Assam (Barak valley and Lower division)",
-      "Tripura",
-      "Jharkhand",
-      "Andaman and Nicobar islands"
+      "South Asia"
     ]
   },
   {
@@ -258,15 +243,7 @@
     ],
     "name": "Buginese",
     "regions": [
-      "South Sulawesi",
-      "Borneo",
-      "Sumatra",
-      "Maluku",
-      "Papua",
-      "Java",
-      "East Sabah",
-      "Malay Peninsula",
-      "South Philippines"
+      "Southeast Asia"
     ]
   },
   {
@@ -283,16 +260,16 @@
     ],
     "main_countries": [
       "Bulgaria",
-      "North Macedonia",
+      "Turkey",
       "Ukraine",
       "Moldova",
-      "Romania",
-      "Hungary",
       "Serbia",
-      "Kosovo",
-      "Albania",
+      "North Macedonia",
+      "Romania",
       "Greece",
-      "Turkey"
+      "Hungary",
+      "Kosovo",
+      "Albania"
     ],
     "name": "Bulgarian",
     "regions": [
@@ -316,8 +293,8 @@
       "Occitano-Romance"
     ],
     "main_countries": [
-      "Andorra",
       "Spain",
+      "Andorra",
       "France",
       "Italy"
     ],
@@ -343,14 +320,7 @@
     ],
     "name": "Czech",
     "regions": [
-      "Czech Republic",
-      "European Union",
-      "Austria",
-      "Bosnia and Herzegovina",
-      "Croatia",
-      "Poland",
-      "Romania",
-      "Slovakia"
+      "Europe"
     ]
   },
   {
@@ -370,9 +340,7 @@
     ],
     "name": "Mandarin Chinese",
     "regions": [
-      "North China",
-      "Central China",
-      "Southwestern China"
+      "East Asia"
     ]
   },
   {
@@ -395,16 +363,9 @@
     ],
     "name": "Danish",
     "regions": [
-      "Denmark",
-      "Schleswig-Holstein (Germany)",
-      "Greenland",
-      "Faroe Islands",
-      "Norway",
-      "Sweden",
-      "United States",
-      "Canada",
-      "Brazil",
-      "Argentina"
+      "Northern Europe",
+      "North America",
+      "South America"
     ]
   },
   {
@@ -421,9 +382,9 @@
       "Germany",
       "Austria",
       "Switzerland",
-      "Liechtenstein",
+      "Belgium",
       "Luxembourg",
-      "Belgium"
+      "Liechtenstein"
     ],
     "name": "German",
     "regions": [
@@ -449,7 +410,7 @@
     ],
     "name": "Dinka",
     "regions": [
-      "South Sudan"
+      "East Africa"
     ]
   },
   {
@@ -468,8 +429,7 @@
     ],
     "name": "Estonian",
     "regions": [
-      "Estonia",
-      "European Union"
+      "Northern Europe"
     ]
   },
   {
@@ -488,11 +448,8 @@
     ],
     "name": "Modern Greek",
     "regions": [
-      "Greece",
-      "Cyprus",
-      "Albania",
-      "Turkey",
-      "Italy"
+      "Southeast Europe",
+      "Eastern Mediterranean"
     ]
   },
   {
@@ -509,8 +466,8 @@
       "Anglic"
     ],
     "main_countries": [
-      "United Kingdom",
       "United States",
+      "United Kingdom",
       "Canada",
       "Australia",
       "Ireland",
@@ -518,10 +475,9 @@
     ],
     "name": "English",
     "regions": [
-      "The English-speaking world",
       "North America",
       "Europe",
-      "Australasia",
+      "Oceania",
       "Africa",
       "South Asia"
     ]
@@ -538,7 +494,7 @@
     "main_countries": [],
     "name": "Esperanto",
     "regions": [
-      "120 countries worldwide"
+      "Worldwide"
     ]
   },
   {
@@ -559,7 +515,7 @@
     ],
     "name": "Faroese",
     "regions": [
-      "Faroe Islands"
+      "Northern Europe"
     ]
   },
   {
@@ -580,7 +536,7 @@
     ],
     "name": "Fijian",
     "regions": [
-      "Fiji"
+      "Oceania"
     ]
   },
   {
@@ -602,12 +558,10 @@
     ],
     "name": "Filipino",
     "regions": [
-      "Philippines",
-      "Northern Mariana Islands",
-      "United States",
-      "Hong Kong",
-      "Saudi Arabia",
-      "United Arab Emirates"
+      "Southeast Asia",
+      "East Asia",
+      "Middle East",
+      "North America"
     ]
   },
   {
@@ -625,11 +579,8 @@
     ],
     "name": "Finnish",
     "regions": [
-      "Finland",
-      "Sweden",
-      "Norway",
-      "Russia",
-      "United States"
+      "Northern Europe",
+      "North America"
     ]
   },
   {
@@ -693,7 +644,7 @@
     ],
     "name": "West Frisian",
     "regions": [
-      "Friesland"
+      "Northwestern Europe"
     ]
   },
   {
@@ -712,17 +663,16 @@
       "India",
       "Pakistan",
       "United States",
-      "Canada",
       "United Kingdom",
+      "Canada",
       "South Africa"
     ],
     "name": "Gujarati",
     "regions": [
-      "India",
+      "South Asia",
       "East Africa",
       "North America",
       "Europe",
-      "Southeast Africa",
       "Australia",
       "Middle East"
     ]
@@ -741,12 +691,9 @@
     ],
     "name": "Haitian Creole",
     "regions": [
-      "Haiti",
-      "Bahamas",
-      "Cuba",
-      "Dominican Republic",
-      "Costa Rica",
-      "United States"
+      "Caribbean",
+      "Central America",
+      "North America"
     ]
   },
   {
@@ -763,11 +710,11 @@
     "main_countries": [
       "Nigeria",
       "Niger",
-      "Ghana",
+      "Chad",
       "Cameroon",
+      "Ghana",
       "Benin",
       "Togo",
-      "Chad",
       "Sudan"
     ],
     "name": "Hausa",
@@ -794,7 +741,7 @@
     ],
     "name": "Hebrew",
     "regions": [
-      "Southern Levant"
+      "Middle East"
     ]
   },
   {
@@ -816,11 +763,10 @@
     ],
     "name": "Hindi",
     "regions": [
-      "India",
-      "Fiji",
-      "Nepal",
-      "South Africa",
-      "United Arab Emirates"
+      "South Asia",
+      "Oceania",
+      "Africa",
+      "Middle East"
     ]
   },
   {
@@ -839,10 +785,10 @@
     "main_countries": [
       "Croatia",
       "Bosnia and Herzegovina",
-      "Hungary",
-      "Montenegro",
-      "Romania",
       "Serbia",
+      "Montenegro",
+      "Hungary",
+      "Romania",
       "Kosovo"
     ],
     "name": "Croatian",
@@ -865,20 +811,14 @@
       "Romania",
       "Slovakia",
       "Serbia",
+      "Ukraine",
       "Austria",
-      "Croatia",
-      "Ukraine"
+      "Croatia"
     ],
     "name": "Hungarian",
     "regions": [
-      "Hungary",
-      "Eastern Austria",
-      "Croatia",
-      "Romania",
-      "Northern Serbia",
-      "Slovakia",
-      "Slovenia",
-      "Western Ukraine"
+      "Central Europe",
+      "Eastern Europe"
     ]
   },
   {
@@ -900,12 +840,8 @@
     ],
     "name": "Armenian",
     "regions": [
-      "Abkhazia",
-      "Armenia",
-      "Georgia",
-      "Iran",
-      "Nagorno-Karabakh",
-      "Turkey"
+      "South Caucasus",
+      "Western Asia"
     ]
   },
   {
@@ -923,18 +859,16 @@
     "main_countries": [
       "Indonesia",
       "Malaysia",
-      "East Timor",
-      "Singapore"
+      "Singapore",
+      "East Timor"
     ],
     "name": "Indonesian",
     "regions": [
       "Southeast Asia",
-      "Australia",
-      "Saudi Arabia",
-      "Taiwan",
-      "Netherlands",
-      "Japan",
-      "South Korea"
+      "Oceania",
+      "East Asia",
+      "Europe",
+      "Middle East"
     ]
   },
   {
@@ -954,17 +888,17 @@
     ],
     "main_countries": [
       "Italy",
-      "San Marino",
-      "Vatican City",
       "Switzerland",
+      "Croatia",
       "Slovenia",
-      "Croatia"
+      "San Marino",
+      "Vatican City"
     ],
     "name": "Italian",
     "regions": [
       "Europe",
       "Americas",
-      "Australia"
+      "Oceania"
     ]
   },
   {
@@ -985,12 +919,9 @@
     "name": "Javanese",
     "regions": [
       "Southeast Asia",
-      "Suriname",
-      "New Caledonia",
-      "Malaysia",
-      "Singapore",
-      "Sri Lanka",
-      "Indonesia"
+      "South America",
+      "Oceania",
+      "South Asia"
     ]
   },
   {
@@ -1013,8 +944,8 @@
     ],
     "name": "Japanese",
     "regions": [
-      "Japan",
-      "Japanese diaspora worldwide"
+      "East Asia",
+      "global diaspora"
     ]
   },
   {
@@ -1032,8 +963,7 @@
     ],
     "name": "Kannada",
     "regions": [
-      "India",
-      "Karnataka"
+      "South Asia"
     ]
   },
   {
@@ -1053,9 +983,7 @@
     ],
     "name": "Khmer",
     "regions": [
-      "Cambodia",
-      "Thailand (East and Isan)",
-      "Vietnam (Mekong Delta and Southeast)"
+      "Southeast Asia"
     ]
   },
   {
@@ -1073,15 +1001,15 @@
     ],
     "main_countries": [
       "Turkey",
-      "Iraq",
       "Iran",
+      "Iraq",
       "Syria",
       "Armenia",
       "Azerbaijan"
     ],
     "name": "Kurmanji",
     "regions": [
-      "Kurdistan",
+      "Middle East",
       "Kurdish diaspora"
     ]
   },
@@ -1104,10 +1032,7 @@
     ],
     "name": "Korean",
     "regions": [
-      "South Korea",
-      "North Korea",
-      "China",
-      "Russia",
+      "East Asia",
       "Central Asia"
     ]
   },
@@ -1159,8 +1084,7 @@
     ],
     "name": "Latin",
     "regions": [
-      "Europe",
-      "Vatican City"
+      "Europe"
     ]
   },
   {
@@ -1183,15 +1107,7 @@
     ],
     "name": "Luxembourgish",
     "regions": [
-      "Luxembourg",
-      "Saarland",
-      "Rhineland-Palatinate",
-      "Germany",
-      "Arelerland",
-      "Saint-Vith district",
-      "Belgium",
-      "Moselle department",
-      "France"
+      "Western Europe"
     ]
   },
   {
@@ -1235,12 +1151,7 @@
     ],
     "name": "Malayalam",
     "regions": [
-      "Southern India",
-      "Kerala",
-      "Tamil Nadu",
-      "Puducherry",
-      "Lakshadweep",
-      "Karnataka"
+      "South Asia"
     ]
   },
   {
@@ -1260,8 +1171,7 @@
     ],
     "name": "Marathi",
     "regions": [
-      "South India",
-      "Western India"
+      "South Asia"
     ]
   },
   {
@@ -1281,13 +1191,7 @@
     ],
     "name": "Minangkabau",
     "regions": [
-      "West Sumatra",
-      "Riau",
-      "Jambi",
-      "Bengkulu",
-      "North Sumatra",
-      "Aceh",
-      "Malaysia"
+      "Southeast Asia"
     ]
   },
   {
@@ -1312,12 +1216,7 @@
     ],
     "name": "Macedonian",
     "regions": [
-      "North Macedonia",
-      "Albania",
-      "Bulgaria",
-      "Greece",
-      "Romania",
-      "Serbia"
+      "Southeast Europe"
     ]
   },
   {
@@ -1340,9 +1239,9 @@
     ],
     "name": "Maltese",
     "regions": [
-      "Malta",
-      "Australia",
-      "Tunisia"
+      "Southern Europe",
+      "North Africa",
+      "Oceania"
     ]
   },
   {
@@ -1363,11 +1262,8 @@
     ],
     "name": "Mongolian",
     "regions": [
-      "Mongolian Plateau",
-      "Northeast China",
-      "Northwestern China",
-      "Southern Siberia",
-      "Issyk-Kul Region in Kyrgyzstan"
+      "East Asia",
+      "Central Asia"
     ]
   },
   {
@@ -1388,11 +1284,9 @@
     ],
     "name": "Burmese",
     "regions": [
-      "Myanmar",
-      "Thailand",
-      "China (Dehong)",
-      "India (Mizoram, Manipur, Tripura)",
-      "Bangladesh (Chittagong)"
+      "Southeast Asia",
+      "South Asia",
+      "East Asia"
     ]
   },
   {
@@ -1416,20 +1310,8 @@
     ],
     "name": "Southern Min",
     "regions": [
-      "Fujian",
-      "Guangdong",
-      "Taiwan",
-      "Hainan",
-      "Hong Kong",
-      "Malaysia",
-      "Singapore",
-      "Philippines",
-      "Thailand",
-      "Indonesia",
-      "Brunei",
-      "Cambodia",
-      "Myanmar",
-      "Vietnam"
+      "East Asia",
+      "Southeast Asia"
     ]
   },
   {
@@ -1450,10 +1332,8 @@
     ],
     "name": "Dutch",
     "regions": [
-      "The Netherlands",
-      "Belgium",
-      "Suriname",
-      "France (Nord)"
+      "Northwestern Europe",
+      "South America"
     ]
   },
   {
@@ -1473,7 +1353,7 @@
     ],
     "name": "Norwegian Nynorsk",
     "regions": [
-      "Norway"
+      "Northern Europe"
     ]
   },
   {
@@ -1493,10 +1373,8 @@
     ],
     "name": "Norwegian",
     "regions": [
-      "Norway",
-      "North Dakota",
-      "Wisconsin",
-      "Minnesota"
+      "Northern Europe",
+      "North America"
     ]
   },
   {
@@ -1542,10 +1420,7 @@
     ],
     "name": "Occitan",
     "regions": [
-      "France",
-      "Spain",
-      "Italy",
-      "Monaco"
+      "Southern Europe"
     ]
   },
   {
@@ -1564,8 +1439,7 @@
     ],
     "name": "Odia",
     "regions": [
-      "India",
-      "Eastern India"
+      "South Asia"
     ]
   },
   {
@@ -1606,7 +1480,7 @@
     ],
     "name": "Kapampangan",
     "regions": [
-      "Central Luzon"
+      "Southeast Asia"
     ]
   },
   {
@@ -1621,18 +1495,16 @@
       "Northwestern"
     ],
     "main_countries": [
-      "India",
-      "Pakistan"
+      "Pakistan",
+      "India"
     ],
     "name": "Punjabi",
     "regions": [
-      "Punjab",
       "South Asia",
-      "Gulf states",
-      "Canada",
-      "United Kingdom",
-      "United States",
-      "Australia"
+      "Middle East",
+      "North America",
+      "Europe",
+      "Oceania"
     ]
   },
   {
@@ -1647,13 +1519,12 @@
     ],
     "main_countries": [
       "Nigeria",
-      "Benin",
       "Ghana",
-      "Cameroon"
+      "Cameroon",
+      "Benin"
     ],
     "name": "Nigerian Pidgin",
     "regions": [
-      "Nigeria",
       "West Africa",
       "Central Africa"
     ]
@@ -1691,20 +1562,16 @@
       "Northwestern"
     ],
     "main_countries": [
-      "India",
-      "Pakistan"
+      "Pakistan",
+      "India"
     ],
     "name": "Punjabi",
     "regions": [
-      "Punjab",
-      "India",
-      "Pakistan",
-      "Saudi Arabia",
-      "Canada",
-      "United Kingdom",
-      "United States",
-      "Australia",
-      "United Arab Emirates"
+      "South Asia",
+      "Middle East",
+      "North America",
+      "Europe",
+      "Oceania"
     ]
   },
   {
@@ -1724,16 +1591,9 @@
     ],
     "name": "Polish",
     "regions": [
-      "Poland",
-      "Lithuania",
-      "Germany",
-      "Czech Republic",
-      "Slovakia",
-      "Belarus",
-      "Ukraine",
-      "Brazil",
-      "Hungary",
-      "Romania"
+      "Central Europe",
+      "Eastern Europe",
+      "South America"
     ]
   },
   {
@@ -1750,27 +1610,24 @@
       "Italo-Western languages",
       "Western Romance languages",
       "Iberian Romance languages",
-      "Iberian Romance",
       "West Iberian languages",
       "Galician–Portuguese"
     ],
     "main_countries": [
-      "Portugal",
       "Brazil",
       "Angola",
       "Mozambique",
-      "Cape Verde",
+      "Portugal",
       "Guinea-Bissau",
+      "Cape Verde",
       "São Tomé and Príncipe"
     ],
     "name": "Portuguese",
     "regions": [
-      "Portugal",
-      "Brazil",
-      "Lusophone Africa",
-      "East Timor",
-      "Equatorial Guinea",
-      "Macau"
+      "Europe",
+      "South America",
+      "Africa",
+      "Asia"
     ]
   },
   {
@@ -1791,7 +1648,7 @@
     ],
     "name": "Dari",
     "regions": [
-      "Afghanistan"
+      "South Asia"
     ]
   },
   {
@@ -1812,8 +1669,7 @@
     ],
     "name": "Central Pashto",
     "regions": [
-      "Pakistan",
-      "Afghanistan"
+      "South Asia"
     ]
   },
   {
@@ -1828,13 +1684,12 @@
       "Eastern Iranian"
     ],
     "main_countries": [
-      "Afghanistan",
-      "Pakistan"
+      "Pakistan",
+      "Afghanistan"
     ],
     "name": "Pashto",
     "regions": [
-      "Afghanistan",
-      "Pakistan"
+      "South Asia"
     ]
   },
   {
@@ -1846,16 +1701,16 @@
       "Quechuan"
     ],
     "main_countries": [
-      "Argentina",
+      "Peru",
       "Bolivia",
-      "Chile",
-      "Colombia",
       "Ecuador",
-      "Peru"
+      "Colombia",
+      "Argentina",
+      "Chile"
     ],
     "name": "Quechuan",
     "regions": [
-      "Andes Mountains"
+      "South America"
     ]
   },
   {
@@ -1895,21 +1750,20 @@
     ],
     "main_countries": [
       "Russia",
-      "Belarus",
       "Kazakhstan",
+      "Belarus",
       "Kyrgyzstan",
       "Tajikistan"
     ],
     "name": "Russian",
     "regions": [
-      "Russia",
-      "CIS countries",
       "Eastern Europe",
-      "Western Europe",
+      "Northern Asia",
       "Central Asia",
       "Caucasus",
       "Baltic states",
-      "Israel"
+      "Western Europe",
+      "Middle East"
     ]
   },
   {
@@ -1950,12 +1804,7 @@
     ],
     "name": "Slovak",
     "regions": [
-      "Slovakia",
-      "Czech Republic",
-      "Hungary",
-      "Carpathian Ruthenia",
-      "Slavonia",
-      "Vojvodina"
+      "Central Europe"
     ]
   },
   {
@@ -1975,10 +1824,7 @@
     ],
     "name": "Slovene",
     "regions": [
-      "Slovenia",
-      "Italy (Friuli-Venezia Giulia)",
-      "Austria (Carinthia and Styria)",
-      "Hungary (Vas County)"
+      "Central Europe"
     ]
   },
   {
@@ -2023,13 +1869,12 @@
     "main_countries": [
       "Somalia",
       "Ethiopia",
-      "Djibouti",
-      "Kenya"
+      "Kenya",
+      "Djibouti"
     ],
     "name": "Somali",
     "regions": [
       "Horn of Africa",
-      "Greater Somalia",
       "Middle East",
       "North America",
       "Europe"
@@ -2054,11 +1899,11 @@
     ],
     "main_countries": [
       "Mexico",
-      "Spain",
       "Colombia",
+      "Spain",
       "Argentina",
-      "Venezuela",
       "Peru",
+      "Venezuela",
       "Chile",
       "Ecuador",
       "Guatemala",
@@ -2087,10 +1932,10 @@
       "Albania",
       "Kosovo",
       "North Macedonia",
-      "Montenegro",
       "Greece",
       "Italy",
       "Serbia",
+      "Montenegro",
       "Croatia",
       "Romania"
     ],
@@ -2124,8 +1969,8 @@
       "Serbia",
       "Bosnia and Herzegovina",
       "Montenegro",
-      "Kosovo",
-      "Croatia"
+      "Croatia",
+      "Kosovo"
     ],
     "name": "Serbian",
     "regions": [
@@ -2147,11 +1992,7 @@
     ],
     "name": "Sundanese",
     "regions": [
-      "West Java",
-      "Banten",
-      "Jakarta",
-      "Central Java",
-      "Lampung"
+      "Southeast Asia"
     ]
   },
   {
@@ -2171,9 +2012,7 @@
     ],
     "name": "Swedish",
     "regions": [
-      "Sweden",
-      "Finland",
-      "formerly Estonia"
+      "Northern Europe"
     ]
   },
   {
@@ -2192,8 +2031,8 @@
     "main_countries": [
       "Tanzania",
       "Kenya",
-      "Uganda",
-      "Democratic Republic of the Congo"
+      "Democratic Republic of the Congo",
+      "Uganda"
     ],
     "name": "Kiswahili",
     "regions": [
@@ -2225,15 +2064,8 @@
     ],
     "name": "Tamil",
     "regions": [
-      "India",
-      "Sri Lanka",
-      "Malaysia",
-      "Singapore",
-      "Myanmar",
-      "Andaman and Nicobar Islands",
-      "Karnataka",
-      "Andhra Pradesh",
-      "Kerala"
+      "South Asia",
+      "Southeast Asia"
     ]
   },
   {
@@ -2248,8 +2080,8 @@
     ],
     "main_countries": [
       "India",
-      "South Africa",
       "United States",
+      "South Africa",
       "Australia",
       "Malaysia",
       "Mauritius"
@@ -2279,9 +2111,7 @@
     ],
     "name": "Thai",
     "regions": [
-      "Thailand",
-      "Cambodia",
-      "Myanmar"
+      "Southeast Asia"
     ]
   },
   {
@@ -2303,8 +2133,7 @@
     ],
     "name": "Tigrinya",
     "regions": [
-      "Eritrea",
-      "Ethiopia"
+      "Horn of Africa"
     ]
   },
   {
@@ -2324,10 +2153,8 @@
     ],
     "name": "Tongan",
     "regions": [
-      "Tonga",
-      "New Zealand",
-      "United States",
-      "Australia"
+      "Oceania",
+      "North America"
     ]
   },
   {
@@ -2359,12 +2186,8 @@
     ],
     "name": "Turkish",
     "regions": [
-      "Anatolia",
-      "Balkans",
-      "Cyprus",
-      "Mesopotamia",
-      "Levant",
-      "Transcaucasia"
+      "Southeastern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -2405,12 +2228,7 @@
     ],
     "name": "Urdu",
     "regions": [
-      "South Asia",
-      "Pakistan",
-      "India",
-      "Afghanistan",
-      "Nepal",
-      "Bangladesh"
+      "South Asia"
     ]
   },
   {
@@ -2449,12 +2267,11 @@
     ],
     "name": "Vietnamese",
     "regions": [
-      "Vietnam",
-      "China",
-      "Czech Republic",
-      "Slovakia",
-      "United States",
-      "Australia"
+      "Southeast Asia",
+      "East Asia",
+      "Europe",
+      "North America",
+      "Oceania"
     ]
   },
   {
@@ -2483,10 +2300,8 @@
     ],
     "name": "Walloon",
     "regions": [
-      "Wallonia",
-      "Brussels",
-      "northern France",
-      "Door County, Wisconsin"
+      "Western Europe",
+      "North America"
     ]
   },
   {
@@ -2503,11 +2318,7 @@
     ],
     "name": "Wu Chinese",
     "regions": [
-      "Shanghai",
-      "Zhejiang",
-      "southern Jiangsu",
-      "parts of Anhui",
-      "parts of Jiangxi"
+      "East Asia"
     ]
   },
   {
@@ -2528,8 +2339,8 @@
     ],
     "main_countries": [
       "South Africa",
-      "Lesotho",
-      "Zimbabwe"
+      "Zimbabwe",
+      "Lesotho"
     ],
     "name": "Xhosa",
     "regions": [
@@ -2565,13 +2376,11 @@
     ],
     "name": "Yiddish",
     "regions": [
-      "Central Europe",
-      "Eastern Europe",
-      "Western Europe",
-      "Israel",
+      "Europe",
+      "Middle East",
       "North America",
       "South America",
-      "other regions with Jewish populations"
+      "global diaspora"
     ]
   },
   {
@@ -2594,8 +2403,7 @@
     ],
     "name": "Yoruba",
     "regions": [
-      "West Africa",
-      "Yorubaland"
+      "West Africa"
     ]
   },
   {
@@ -2615,11 +2423,7 @@
     ],
     "name": "Yue",
     "regions": [
-      "Guangdong",
-      "Guangxi",
-      "western Hainan",
-      "Hong Kong",
-      "Macau"
+      "East Asia"
     ]
   },
   {
@@ -2635,8 +2439,8 @@
     ],
     "main_countries": [
       "Malaysia",
-      "Brunei",
-      "Singapore"
+      "Singapore",
+      "Brunei"
     ],
     "name": "Standard Malay",
     "regions": [
