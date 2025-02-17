@@ -129,7 +129,7 @@
     ]
   },
   {
-    "all_users": 332459000,
+    "all_users": 330000000,
     "common_name": "Arabic",
     "iso_code": "arb",
     "l1_users": 0,
@@ -1060,7 +1060,7 @@
     ]
   },
   {
-    "all_users": 0,
+    "all_users": 100000,
     "common_name": "Latin",
     "iso_code": "lat",
     "l1_users": 0,
@@ -2232,10 +2232,10 @@
     ]
   },
   {
-    "all_users": 0,
+    "all_users": 33000000,
     "common_name": "Uzbek",
     "iso_code": "uzn",
-    "l1_users": 0,
+    "l1_users": 33000000,
     "language_family": [
       "Altaic",
       "Turkic",
