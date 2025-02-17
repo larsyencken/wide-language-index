@@ -84,7 +84,7 @@
   },
   {
     "all_users": 4116020,
-    "common_name": "Geg",
+    "common_name": "Gheg",
     "iso_code": "aln",
     "l1_users": 4116020,
     "language_family": [
@@ -130,7 +130,7 @@
   },
   {
     "all_users": 332459000,
-    "common_name": "MSA",
+    "common_name": "Arabic",
     "iso_code": "arb",
     "l1_users": 0,
     "language_family": [
@@ -188,7 +188,7 @@
   },
   {
     "all_users": 3300000,
-    "common_name": "Basa Bali",
+    "common_name": "Balinese",
     "iso_code": "ban",
     "l1_users": 1000000,
     "language_family": [
@@ -227,7 +227,7 @@
   },
   {
     "all_users": 4000000,
-    "common_name": "Bugis",
+    "common_name": "Buginese",
     "iso_code": "bug",
     "l1_users": 3527800,
     "language_family": [
@@ -305,7 +305,7 @@
   },
   {
     "all_users": 12321210,
-    "common_name": "čeština",
+    "common_name": "Czech",
     "iso_code": "ces",
     "l1_users": 9612710,
     "language_family": [
@@ -370,7 +370,7 @@
   },
   {
     "all_users": 175000000,
-    "common_name": "Deutsch",
+    "common_name": "German",
     "iso_code": "deu",
     "l1_users": 95000000,
     "language_family": [
@@ -415,8 +415,8 @@
   },
   {
     "all_users": 1244850,
-    "common_name": "eesti keel",
-    "iso_code": "est",
+    "common_name": "Estonian",
+    "iso_code": "ekk",
     "l1_users": 922000,
     "language_family": [
       "Uralic",
@@ -484,7 +484,7 @@
   },
   {
     "all_users": 2000000,
-    "common_name": "Lingvo Internacia",
+    "common_name": "Esperanto",
     "iso_code": "epo",
     "l1_users": 1000,
     "language_family": [
@@ -499,7 +499,7 @@
   },
   {
     "all_users": 69150,
-    "common_name": "Føroyskt",
+    "common_name": "Faroese",
     "iso_code": "fao",
     "l1_users": 69150,
     "language_family": [
@@ -520,7 +520,7 @@
   },
   {
     "all_users": 650000,
-    "common_name": "Na vosa vaka-Viti",
+    "common_name": "Fijian",
     "iso_code": "fij",
     "l1_users": 339210,
     "language_family": [
@@ -541,7 +541,7 @@
   },
   {
     "all_users": 83357970,
-    "common_name": "Wikang Filipino",
+    "common_name": "Filipino",
     "iso_code": "fil",
     "l1_users": 29211970,
     "language_family": [
@@ -566,7 +566,7 @@
   },
   {
     "all_users": 5000000,
-    "common_name": "suomi",
+    "common_name": "Finnish",
     "iso_code": "fin",
     "l1_users": 4750000,
     "language_family": [
@@ -585,7 +585,7 @@
   },
   {
     "all_users": 311575110,
-    "common_name": "français",
+    "common_name": "French",
     "iso_code": "fra",
     "l1_users": 73746080,
     "language_family": [
@@ -679,7 +679,7 @@
   },
   {
     "all_users": 10000000,
-    "common_name": "Kreyòl ayisyen",
+    "common_name": "Haitian Creole",
     "iso_code": "hat",
     "l1_users": 13157800,
     "language_family": [
@@ -724,7 +724,7 @@
   },
   {
     "all_users": 20000000,
-    "common_name": "Ivrit",
+    "common_name": "Hebrew",
     "iso_code": "heb",
     "l1_users": 5000000,
     "language_family": [
@@ -746,7 +746,7 @@
   },
   {
     "all_users": 608848150,
-    "common_name": "Modern Standard Hindi",
+    "common_name": "Hindi",
     "iso_code": "hin",
     "l1_users": 345088150,
     "language_family": [
@@ -771,7 +771,7 @@
   },
   {
     "all_users": 6405910,
-    "common_name": "hrvatski",
+    "common_name": "Croatian",
     "iso_code": "hrv",
     "l1_users": 5121810,
     "language_family": [
@@ -798,7 +798,7 @@
   },
   {
     "all_users": 14000000,
-    "common_name": "Magyar",
+    "common_name": "Hungarian",
     "iso_code": "hun",
     "l1_users": 9827875,
     "language_family": [
@@ -846,7 +846,7 @@
   },
   {
     "all_users": 248501974,
-    "common_name": "Bahasa Indonesia",
+    "common_name": "Indonesian",
     "iso_code": "ind",
     "l1_users": 71971184,
     "language_family": [
@@ -873,7 +873,7 @@
   },
   {
     "all_users": 67901630,
-    "common_name": "italiano",
+    "common_name": "Italian",
     "iso_code": "ita",
     "l1_users": 67821530,
     "language_family": [
@@ -903,7 +903,7 @@
   },
   {
     "all_users": 100000000,
-    "common_name": "Javanese language",
+    "common_name": "Javanese",
     "iso_code": "jav",
     "l1_users": 68335000,
     "language_family": [
@@ -926,7 +926,7 @@
   },
   {
     "all_users": 123000000,
-    "common_name": "Nihongo",
+    "common_name": "Japanese",
     "iso_code": "jpn",
     "l1_users": 123427320,
     "language_family": [
@@ -988,7 +988,7 @@
   },
   {
     "all_users": 16485750,
-    "common_name": "Northern Kurdish",
+    "common_name": "Kurdish",
     "iso_code": "kmr",
     "l1_users": 16485750,
     "language_family": [
@@ -1015,7 +1015,7 @@
   },
   {
     "all_users": 81000000,
-    "common_name": "Korean language",
+    "common_name": "Korean",
     "iso_code": "kor",
     "l1_users": 81000000,
     "language_family": [
@@ -1038,7 +1038,7 @@
   },
   {
     "all_users": 3700000,
-    "common_name": "Lao language",
+    "common_name": "Lao",
     "iso_code": "lao",
     "l1_users": 3685170,
     "language_family": [
@@ -1061,7 +1061,7 @@
   },
   {
     "all_users": 0,
-    "common_name": "lingua Latina",
+    "common_name": "Latin",
     "iso_code": "lat",
     "l1_users": 0,
     "language_family": [
@@ -1089,7 +1089,7 @@
   },
   {
     "all_users": 300000,
-    "common_name": "Lëtzebuergesch",
+    "common_name": "Luxembourgish",
     "iso_code": "ltz",
     "l1_users": 300000,
     "language_family": [
@@ -1176,7 +1176,7 @@
   },
   {
     "all_users": 5530000,
-    "common_name": "Bahasa Minangkabau",
+    "common_name": "Minangkabau",
     "iso_code": "min",
     "l1_users": 5530000,
     "language_family": [
@@ -1196,7 +1196,7 @@
   },
   {
     "all_users": 3500000,
-    "common_name": "Macedonian language",
+    "common_name": "Macedonian",
     "iso_code": "mkd",
     "l1_users": 1600000,
     "language_family": [
@@ -1221,7 +1221,7 @@
   },
   {
     "all_users": 533280,
-    "common_name": "Malti",
+    "common_name": "Maltese",
     "iso_code": "mlt",
     "l1_users": 571460,
     "language_family": [
@@ -1268,7 +1268,7 @@
   },
   {
     "all_users": 42999000,
-    "common_name": "Myanmar language",
+    "common_name": "Burmese",
     "iso_code": "mya",
     "l1_users": 33163850,
     "language_family": [
@@ -1291,7 +1291,7 @@
   },
   {
     "all_users": 50625480,
-    "common_name": "Minnan",
+    "common_name": "Min Nan Chinese",
     "iso_code": "nan",
     "l1_users": 50625480,
     "language_family": [
@@ -1316,7 +1316,7 @@
   },
   {
     "all_users": 30000000,
-    "common_name": "Nederlands",
+    "common_name": "Dutch",
     "iso_code": "nld",
     "l1_users": 25000000,
     "language_family": [
@@ -1337,10 +1337,10 @@
     ]
   },
   {
-    "all_users": 0,
-    "common_name": "Nynorsk",
+    "all_users": 4320000,
+    "common_name": "Norwegian",
     "iso_code": "nno",
-    "l1_users": 0,
+    "l1_users": 4320000,
     "language_family": [
       "Indo-European",
       "Germanic",
@@ -1358,7 +1358,7 @@
   },
   {
     "all_users": 4320000,
-    "common_name": "norsk",
+    "common_name": "Norwegian",
     "iso_code": "nor",
     "l1_users": 4320000,
     "language_family": [
@@ -1400,7 +1400,7 @@
   },
   {
     "all_users": 789000,
-    "common_name": "lenga d'òc",
+    "common_name": "Occitan",
     "iso_code": "oci",
     "l1_users": 200000,
     "language_family": [
@@ -1425,7 +1425,7 @@
   },
   {
     "all_users": 50000000,
-    "common_name": "Odia",
+    "common_name": "Oriya",
     "iso_code": "ory",
     "l1_users": 34461520,
     "language_family": [
@@ -1437,7 +1437,7 @@
     "main_countries": [
       "India"
     ],
-    "name": "Odia",
+    "name": "Oryia",
     "regions": [
       "South Asia"
     ]
@@ -1466,7 +1466,7 @@
   },
   {
     "all_users": 2800000,
-    "common_name": "Pampangan",
+    "common_name": "Kapampangan",
     "iso_code": "pam",
     "l1_users": 2800000,
     "language_family": [
@@ -1485,7 +1485,7 @@
   },
   {
     "all_users": 150000000,
-    "common_name": "Punjabi language",
+    "common_name": "Panjabi",
     "iso_code": "pan",
     "l1_users": 150000000,
     "language_family": [
@@ -1498,7 +1498,7 @@
       "Pakistan",
       "India"
     ],
-    "name": "Punjabi",
+    "name": "Panjabi",
     "regions": [
       "South Asia",
       "Middle East",
@@ -1509,7 +1509,7 @@
   },
   {
     "all_users": 11600000,
-    "common_name": "Pidgin",
+    "common_name": "Nigerian Pidgin",
     "iso_code": "pcm",
     "l1_users": 4650000,
     "language_family": [
@@ -1576,7 +1576,7 @@
   },
   {
     "all_users": 42629030,
-    "common_name": "polski",
+    "common_name": "Polish",
     "iso_code": "pol",
     "l1_users": 39709620,
     "language_family": [
@@ -1632,7 +1632,7 @@
   },
   {
     "all_users": 29914000,
-    "common_name": "Dari Persian",
+    "common_name": "Dari",
     "iso_code": "prs",
     "l1_users": 10382160,
     "language_family": [
@@ -1715,7 +1715,7 @@
   },
   {
     "all_users": 25000000,
-    "common_name": "limba română",
+    "common_name": "Romanian",
     "iso_code": "ron",
     "l1_users": 25209690,
     "language_family": [
@@ -1739,7 +1739,7 @@
   },
   {
     "all_users": 255392520,
-    "common_name": "русский язык",
+    "common_name": "Russian",
     "iso_code": "rus",
     "l1_users": 147566020,
     "language_family": [
@@ -1768,7 +1768,7 @@
   },
   {
     "all_users": 20111000,
-    "common_name": "Sinhalese",
+    "common_name": "Sinhala",
     "iso_code": "sin",
     "l1_users": 15915890,
     "language_family": [
@@ -1789,7 +1789,7 @@
   },
   {
     "all_users": 2050800,
-    "common_name": "Slovenčina",
+    "common_name": "Slovak",
     "iso_code": "slk",
     "l1_users": 5388870,
     "language_family": [
@@ -1856,7 +1856,7 @@
   },
   {
     "all_users": 24000000,
-    "common_name": "Af Soomaali",
+    "common_name": "Somali",
     "iso_code": "som",
     "l1_users": 17774850,
     "language_family": [
@@ -1882,7 +1882,7 @@
   },
   {
     "all_users": 601000000,
-    "common_name": "Castilian",
+    "common_name": "Spanish",
     "iso_code": "spa",
     "l1_users": 500000000,
     "language_family": [
@@ -1920,7 +1920,7 @@
   },
   {
     "all_users": 7500000,
-    "common_name": "Shqip",
+    "common_name": "Albanian",
     "iso_code": "sqi",
     "l1_users": 7500000,
     "language_family": [
@@ -1951,7 +1951,7 @@
   },
   {
     "all_users": 12000000,
-    "common_name": "Srpski",
+    "common_name": "Serbian",
     "iso_code": "srp",
     "l1_users": 5500000,
     "language_family": [
@@ -1997,7 +1997,7 @@
   },
   {
     "all_users": 13000000,
-    "common_name": "svenska",
+    "common_name": "Swedish",
     "iso_code": "swe",
     "l1_users": 9924200,
     "language_family": [
@@ -2096,7 +2096,7 @@
   },
   {
     "all_users": 61100520,
-    "common_name": "Central Thai",
+    "common_name": "Thai",
     "iso_code": "tha",
     "l1_users": 21094020,
     "language_family": [
@@ -2159,7 +2159,7 @@
   },
   {
     "all_users": 100100000,
-    "common_name": "Türkçe",
+    "common_name": "Turkish",
     "iso_code": "tur",
     "l1_users": 86141158,
     "language_family": [
@@ -2192,7 +2192,7 @@
   },
   {
     "all_users": 39225810,
-    "common_name": "Ukrainian language",
+    "common_name": "Ukrainian",
     "iso_code": "ukr",
     "l1_users": 32925810,
     "language_family": [
@@ -2253,7 +2253,7 @@
   },
   {
     "all_users": 86282000,
-    "common_name": "Tiếng Việt",
+    "common_name": "Vietnamese",
     "iso_code": "vie",
     "l1_users": 85429000,
     "language_family": [
@@ -2276,7 +2276,7 @@
   },
   {
     "all_users": 600000,
-    "common_name": "Walloon language",
+    "common_name": "Walloon",
     "iso_code": "wln",
     "l1_users": 300000,
     "language_family": [
@@ -2306,7 +2306,7 @@
   },
   {
     "all_users": 83397340,
-    "common_name": "Wu",
+    "common_name": "Shanghainese",
     "iso_code": "wuu",
     "l1_users": 83397340,
     "language_family": [
@@ -2323,7 +2323,7 @@
   },
   {
     "all_users": 11000000,
-    "common_name": "isiXhosa",
+    "common_name": "Xhosa",
     "iso_code": "xho",
     "l1_users": 8000000,
     "language_family": [
@@ -2349,7 +2349,7 @@
   },
   {
     "all_users": 600000,
-    "common_name": "Judaeo-German",
+    "common_name": "Yiddish",
     "iso_code": "ydd",
     "l1_users": 600000,
     "language_family": [
@@ -2385,7 +2385,7 @@
   },
   {
     "all_users": 47191300,
-    "common_name": "Èdè Yorùbá",
+    "common_name": "Yoruba",
     "iso_code": "yor",
     "l1_users": 45171300,
     "language_family": [
