@@ -84,7 +84,7 @@
   },
   {
     "all_users": 4116020,
-    "common_name": "Gheg",
+    "common_name": "Gheg Albanian",
     "iso_code": "aln",
     "l1_users": 4116020,
     "language_family": [
@@ -130,7 +130,7 @@
   },
   {
     "all_users": 330000000,
-    "common_name": "Arabic",
+    "common_name": "Modern Standard Arabic",
     "iso_code": "arb",
     "l1_users": 0,
     "language_family": [
@@ -168,14 +168,14 @@
   },
   {
     "all_users": 103409630,
-    "common_name": "Masri",
+    "common_name": "Egyptian Arabic",
     "iso_code": "arz",
     "l1_users": 78409630,
     "language_family": [
-      "Afroasiatic",
-      "Semitic languages",
-      "West Semitic languages",
-      "Central Semitic languages",
+      "Afro-Asiatic",
+      "Semitic",
+      "West Semitic",
+      "Central Semitic",
       "Arabic"
     ],
     "main_countries": [
@@ -183,7 +183,8 @@
     ],
     "name": "Egyptian Arabic",
     "regions": [
-      "North Africa"
+      "North Africa",
+      "Middle East"
     ]
   },
   {
@@ -206,7 +207,7 @@
   },
   {
     "all_users": 278184510,
-    "common_name": "Bangla",
+    "common_name": "Bengali",
     "iso_code": "ben",
     "l1_users": 236862060,
     "language_family": [
@@ -320,7 +321,7 @@
     ],
     "name": "Czech",
     "regions": [
-      "Europe"
+      "Central Europe"
     ]
   },
   {
@@ -340,7 +341,8 @@
     ],
     "name": "Mandarin Chinese",
     "regions": [
-      "East Asia"
+      "East Asia",
+      "Southeast Asia"
     ]
   },
   {
@@ -364,8 +366,7 @@
     "name": "Danish",
     "regions": [
       "Northern Europe",
-      "North America",
-      "South America"
+      "North America"
     ]
   },
   {
@@ -429,7 +430,8 @@
     ],
     "name": "Estonian",
     "regions": [
-      "Northern Europe"
+      "Northern Europe",
+      "Baltic region"
     ]
   },
   {
@@ -479,7 +481,8 @@
       "Europe",
       "Oceania",
       "Africa",
-      "South Asia"
+      "South Asia",
+      "global"
     ]
   },
   {
@@ -590,23 +593,15 @@
     "l1_users": 73746080,
     "language_family": [
       "Indo-European",
-      "Italic languages",
-      "Latino-Faliscan languages",
+      "Italic",
+      "Latino-Faliscan",
       "Latin",
-      "Romance languages",
-      "Italo-Western languages",
-      "Western Romance languages",
-      "Gallo-Romance languages",
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
+      "Gallo-Romance",
       "Gallo-Rhaetian",
-      "Arpitan",
-      "Langues d'oïl",
-      "Francien",
-      "Old Latin",
-      "Vulgar Latin",
-      "Proto-Romance",
-      "Old Gallo-Romance",
-      "Old French",
-      "Middle French"
+      "Langues d'oïl"
     ],
     "main_countries": [
       "France",
@@ -627,7 +622,7 @@
   },
   {
     "all_users": 467000,
-    "common_name": "Frisian",
+    "common_name": "West Frisian",
     "iso_code": "fry",
     "l1_users": 354000,
     "language_family": [
@@ -678,7 +673,7 @@
     ]
   },
   {
-    "all_users": 10000000,
+    "all_users": 14000000,
     "common_name": "Haitian Creole",
     "iso_code": "hat",
     "l1_users": 13157800,
@@ -878,12 +873,12 @@
     "l1_users": 67821530,
     "language_family": [
       "Indo-European",
-      "Italic languages",
-      "Latino-Faliscan languages",
+      "Italic",
+      "Latino-Faliscan",
       "Latin",
-      "Romance languages",
-      "Italo-Western languages",
-      "Italo-Dalmatian languages",
+      "Romance",
+      "Italo-Western",
+      "Italo-Dalmatian",
       "Italo-Romance"
     ],
     "main_countries": [
@@ -925,12 +920,11 @@
     ]
   },
   {
-    "all_users": 123000000,
+    "all_users": 125000000,
     "common_name": "Japanese",
     "iso_code": "jpn",
     "l1_users": 123427320,
     "language_family": [
-      "Altaic",
       "Japonic",
       "Proto-Japonic",
       "Old Japanese",
@@ -968,12 +962,12 @@
   },
   {
     "all_users": 20500000,
-    "common_name": "Cambodian",
+    "common_name": "Khmer",
     "iso_code": "khm",
     "l1_users": 16595050,
     "language_family": [
-      "Austroasiatic languages",
-      "Mon-Khmer languages",
+      "Austroasiatic",
+      "Mon-Khmer",
       "Khmeric"
     ],
     "main_countries": [
@@ -988,7 +982,7 @@
   },
   {
     "all_users": 16485750,
-    "common_name": "Kurdish",
+    "common_name": "Kurmanji",
     "iso_code": "kmr",
     "l1_users": 16485750,
     "language_family": [
@@ -1019,7 +1013,6 @@
     "iso_code": "kor",
     "l1_users": 81000000,
     "language_family": [
-      "Altaic",
       "Koreanic",
       "Proto-Koreanic",
       "Old Korean",
@@ -1043,9 +1036,9 @@
     "l1_users": 3685170,
     "language_family": [
       "Kra-Dai",
-      "Tai languages",
-      "Southwestern Tai languages",
-      "Lao–Phutai languages"
+      "Tai",
+      "Southwestern Tai",
+      "Lao–Phutai"
     ],
     "main_countries": [
       "Laos",
@@ -1076,15 +1069,12 @@
       "Neo-Latin"
     ],
     "main_countries": [
-      "Italy",
-      "Romania",
-      "France",
-      "Spain",
-      "Portugal"
+      "Vatican City"
     ],
     "name": "Latin",
     "regions": [
-      "Europe"
+      "Europe",
+      "Academic use worldwide"
     ]
   },
   {
@@ -1123,13 +1113,14 @@
     "main_countries": [
       "Latvia"
     ],
-    "name": "Latvian language",
+    "name": "Latvian",
     "regions": [
-      "Baltic region"
+      "Baltic region",
+      "Northern Europe"
     ]
   },
   {
-    "all_users": 34483819,
+    "all_users": 38000000,
     "common_name": "Malayalam",
     "iso_code": "mal",
     "l1_users": 37027180,
@@ -1142,8 +1133,7 @@
       "Tamil-Toda",
       "Tamil-Irula",
       "Tamil-Kodava-Urali",
-      "Tamiloid languages",
-      "Malayalamoid languages",
+      "Tamiloid",
       "Malayalamoid"
     ],
     "main_countries": [
@@ -1151,7 +1141,8 @@
     ],
     "name": "Malayalam",
     "regions": [
-      "South Asia"
+      "South Asia",
+      "Middle East"
     ]
   },
   {
@@ -1220,7 +1211,7 @@
     ]
   },
   {
-    "all_users": 533280,
+    "all_users": 600000,
     "common_name": "Maltese",
     "iso_code": "mlt",
     "l1_users": 571460,
@@ -1250,8 +1241,7 @@
     "iso_code": "mon",
     "l1_users": 6187570,
     "language_family": [
-      "Altaic",
-      "Mongolic languages",
+      "Mongolic",
       "Central Mongolic",
       "Buryat–Mongolian"
     ],
@@ -1291,12 +1281,12 @@
   },
   {
     "all_users": 50625480,
-    "common_name": "Hokkien",
+    "common_name": "Southern Min",
     "iso_code": "nan",
     "l1_users": 50625480,
     "language_family": [
       "Sino-Tibetan",
-      "Sinitic languages",
+      "Sinitic",
       "Chinese",
       "Min Chinese",
       "Coastal Min"
@@ -1333,14 +1323,15 @@
     "name": "Dutch",
     "regions": [
       "Northwestern Europe",
-      "South America"
+      "South America",
+      "Caribbean"
     ]
   },
   {
     "all_users": 4320000,
-    "common_name": "Norwegian",
+    "common_name": "Norwegian Nynorsk",
     "iso_code": "nno",
-    "l1_users": 4320000,
+    "l1_users": 600000,
     "language_family": [
       "Indo-European",
       "Germanic",
@@ -1358,7 +1349,7 @@
   },
   {
     "all_users": 4320000,
-    "common_name": "Norwegian",
+    "common_name": "Norwegian Bokmål",
     "iso_code": "nor",
     "l1_users": 4320000,
     "language_family": [
@@ -1385,7 +1376,8 @@
     "language_family": [
       "Indo-European",
       "Indo-Iranian",
-      "Central Zone",
+      "Indo-Aryan",
+      "Northern Zone",
       "Eastern Pahari"
     ],
     "main_countries": [
@@ -1393,7 +1385,7 @@
       "India",
       "Bhutan"
     ],
-    "name": "Nepali language",
+    "name": "Nepali",
     "regions": [
       "South Asia"
     ]
@@ -1425,7 +1417,7 @@
   },
   {
     "all_users": 50000000,
-    "common_name": "Oriya",
+    "common_name": "Odia",
     "iso_code": "ory",
     "l1_users": 34461520,
     "language_family": [
@@ -1437,14 +1429,14 @@
     "main_countries": [
       "India"
     ],
-    "name": "Oryia",
+    "name": "Odia",
     "regions": [
       "South Asia"
     ]
   },
   {
     "all_users": 614350,
-    "common_name": "Ossetic",
+    "common_name": "Ossetian",
     "iso_code": "oss",
     "l1_users": 487050,
     "language_family": [
@@ -1485,9 +1477,9 @@
   },
   {
     "all_users": 150000000,
-    "common_name": "Panjabi",
+    "common_name": "Eastern Punjabi",
     "iso_code": "pan",
-    "l1_users": 150000000,
+    "l1_users": 120000000,
     "language_family": [
       "Indo-European",
       "Indo-Iranian",
@@ -1495,13 +1487,11 @@
       "Northwestern"
     ],
     "main_countries": [
-      "Pakistan",
       "India"
     ],
-    "name": "Panjabi",
+    "name": "Eastern Punjabi",
     "regions": [
       "South Asia",
-      "Middle East",
       "North America",
       "Europe",
       "Oceania"
@@ -1547,14 +1537,15 @@
     ],
     "name": "Iranian Persian",
     "regions": [
-      "West Asia"
+      "West Asia",
+      "Middle East"
     ]
   },
   {
     "all_users": 150000000,
-    "common_name": "Panjabi",
+    "common_name": "Western Punjabi",
     "iso_code": "pnb",
-    "l1_users": 150000000,
+    "l1_users": 130000000,
     "language_family": [
       "Indo-European",
       "Indo-Iranian",
@@ -1562,14 +1553,12 @@
       "Northwestern"
     ],
     "main_countries": [
-      "Pakistan",
-      "India"
+      "Pakistan"
     ],
-    "name": "Punjabi",
+    "name": "Western Punjabi",
     "regions": [
       "South Asia",
       "Middle East",
-      "North America",
       "Europe",
       "Oceania"
     ]
@@ -1593,7 +1582,8 @@
     "regions": [
       "Central Europe",
       "Eastern Europe",
-      "South America"
+      "South America",
+      "North America"
     ]
   },
   {
@@ -1603,14 +1593,14 @@
     "l1_users": 236460250,
     "language_family": [
       "Indo-European",
-      "Italic languages",
-      "Latino-Faliscan languages",
+      "Italic",
+      "Latino-Faliscan",
       "Latin",
-      "Romance languages",
-      "Italo-Western languages",
-      "Western Romance languages",
-      "Iberian Romance languages",
-      "West Iberian languages",
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
+      "Iberian Romance",
+      "West Iberian",
       "Galician–Portuguese"
     ],
     "main_countries": [
@@ -1648,12 +1638,13 @@
     ],
     "name": "Dari",
     "regions": [
-      "South Asia"
+      "South Asia",
+      "Central Asia"
     ]
   },
   {
     "all_users": 6370000,
-    "common_name": "Pashto",
+    "common_name": "Central Pashto",
     "iso_code": "pst",
     "l1_users": 6370000,
     "language_family": [
@@ -1669,7 +1660,8 @@
     ],
     "name": "Central Pashto",
     "regions": [
-      "South Asia"
+      "South Asia",
+      "Central Asia"
     ]
   },
   {
@@ -1689,7 +1681,8 @@
     ],
     "name": "Pashto",
     "regions": [
-      "South Asia"
+      "South Asia",
+      "Central Asia"
     ]
   },
   {
@@ -1710,7 +1703,8 @@
     ],
     "name": "Quechuan",
     "regions": [
-      "South America"
+      "South America",
+      "Andean region"
     ]
   },
   {
@@ -1788,7 +1782,7 @@
     ]
   },
   {
-    "all_users": 2050800,
+    "all_users": 5800000,
     "common_name": "Slovak",
     "iso_code": "slk",
     "l1_users": 5388870,
@@ -1809,7 +1803,7 @@
   },
   {
     "all_users": 2500000,
-    "common_name": "Slovenian",
+    "common_name": "Slovene",
     "iso_code": "slv",
     "l1_users": 2500000,
     "language_family": [
@@ -1851,7 +1845,8 @@
     ],
     "name": "Samoan",
     "regions": [
-      "Asia-Pacific"
+      "Oceania",
+      "Pacific Islands"
     ]
   },
   {
@@ -1887,15 +1882,15 @@
     "l1_users": 500000000,
     "language_family": [
       "Indo-European",
-      "Italic languages",
-      "Latino-Faliscan languages",
+      "Italic",
+      "Latino-Faliscan",
       "Latin",
-      "Romance languages",
-      "Italo-Western languages",
-      "Western Romance languages",
-      "Iberian Romance languages",
-      "West Iberian languages",
-      "Castilian languages"
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
+      "Iberian Romance",
+      "West Iberian",
+      "Castilian"
     ],
     "main_countries": [
       "Mexico",
@@ -2054,13 +2049,15 @@
       "Tamil–Toda",
       "Tamil–Irula",
       "Tamil–Kodava–Urali",
-      "Tamiloid languages",
-      "Tamil–Malayalamoid languages",
+      "Tamiloid",
+      "Tamil–Malayalamoid",
       "Tamiloid"
     ],
     "main_countries": [
       "India",
-      "Sri Lanka"
+      "Sri Lanka",
+      "Singapore",
+      "Malaysia"
     ],
     "name": "Tamil",
     "regions": [
@@ -2101,8 +2098,8 @@
     "l1_users": 21094020,
     "language_family": [
       "Kra-Dai",
-      "Tai languages",
-      "Southwestern Tai languages",
+      "Tai",
+      "Southwestern Tai",
       "Chiang Saen",
       "Sukhothai"
     ],
@@ -2163,7 +2160,6 @@
     "iso_code": "tur",
     "l1_users": 86141158,
     "language_family": [
-      "Altaic",
       "Turkic",
       "Common Turkic",
       "Oghuz",
@@ -2187,7 +2183,8 @@
     "name": "Turkish",
     "regions": [
       "Southeastern Europe",
-      "Western Asia"
+      "Western Asia",
+      "Middle East"
     ]
   },
   {
@@ -2228,7 +2225,10 @@
     ],
     "name": "Urdu",
     "regions": [
-      "South Asia"
+      "South Asia",
+      "Middle East",
+      "Europe",
+      "North America"
     ]
   },
   {
@@ -2237,14 +2237,16 @@
     "iso_code": "uzn",
     "l1_users": 33000000,
     "language_family": [
-      "Altaic",
       "Turkic",
       "Common Turkic",
       "Southeastern Turkic",
       "Uzbek"
     ],
     "main_countries": [
-      "Uzbekistan"
+      "Uzbekistan",
+      "Afghanistan",
+      "Tajikistan",
+      "Kyrgyzstan"
     ],
     "name": "Northern Uzbek",
     "regions": [
@@ -2281,14 +2283,14 @@
     "l1_users": 300000,
     "language_family": [
       "Indo-European",
-      "Italic languages",
-      "Latino-Faliscan languages",
+      "Italic",
+      "Latino-Faliscan",
       "Latin",
-      "Romance languages",
-      "Italo-Western languages",
-      "Western Romance languages",
+      "Romance",
+      "Italo-Western",
+      "Western Romance",
       "Gallo-Iberian",
-      "Gallo-Romance languages",
+      "Gallo-Romance",
       "Gallo-Rhaetian",
       "Franco-Provençal",
       "Langues d'oïl"
@@ -2306,7 +2308,7 @@
   },
   {
     "all_users": 83397340,
-    "common_name": "Shanghainese",
+    "common_name": "Wu Chinese",
     "iso_code": "wuu",
     "l1_users": 83397340,
     "language_family": [
@@ -2362,16 +2364,10 @@
       "Middle High German"
     ],
     "main_countries": [
-      "Russia",
-      "Austria",
-      "Belarus",
-      "Bosnia and Herzegovina",
-      "Germany",
       "Israel",
-      "Netherlands",
-      "Poland",
-      "Romania",
-      "Sweden",
+      "United States",
+      "Russia",
+      "Belarus",
       "Ukraine"
     ],
     "name": "Yiddish",
@@ -2421,9 +2417,10 @@
       "Hong Kong",
       "Macau"
     ],
-    "name": "Yue",
+    "name": "Yue Chinese",
     "regions": [
-      "East Asia"
+      "East Asia",
+      "Southeast Asia"
     ]
   },
   {
